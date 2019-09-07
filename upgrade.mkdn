@@ -1,0 +1,22 @@
+Upgrading
+=======
+Using the Updater app in the ROM isn't always foolproof.  But if your update was blocked, there was a reason for it.
+
+It could be an error in the json update file(s), unofficial device, a device on an incompatible version, or some other problem.
+
+
+Device requirements
+-------------------
+Only officially-maintained CandyRoms devices are supported.
+You can find a list [here](http://candyroms.org/officially-supported-devices).
+
+You can still try to download and install the update manually, if desired.  But beware of dragons if you don't know the prerequisite firmware, vendor requirements, or other specifics.  When having issues, a clean flash is the place to start before any bug reports are sent.
+
+Our official downloads are located at [Sourceforge](https://sourceforge.net/projects/candyroms/files/Official).
+
+Hit us up with all pertinent details and logs in our public Telegram chat [@CandyRoms](https://tinyurl.com/y45d6hl7) if you have issues.
+
+Also, visit our website at [CandyRoms.org](http://CandyRoms.org).
+
+Stay Sweet, Friends!
+"Taste the Sweetness! ™"
