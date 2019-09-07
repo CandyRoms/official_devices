@@ -1,0 +1,17 @@
+[
+    {
+      "device_name": "ONEPLUS 5",
+      "codename": "cheeseburger",
+      "assert": ["oneplus 5"],
+      "datetime":1567803600,
+      "filename": "Candy-cheeseburger-9.0.0-OFFICIAL-20190906-2100.zip",
+      "id": "3a735ab0683393812666766a493b22ab",
+      "romtype": "OFFICIAL",
+      "size":764901360,
+      "url": "https://sourceforge.net/projects/candyroms/files/Official/Pie/cheeseburger/Candy-cheeseburger-9.0.0-OFFICIAL-20190906-2100.zip",
+      "version": "9.0.0",
+      "date": "2019/09/06",
+      "maintainer_name": "NoSpamDan",
+      "xda_thread": "https://forum.xda-developers.com/oneplus-5/development/rom-candy9-0-beta-t3865810"
+    }
+]
