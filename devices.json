@@ -1,5 +1,35 @@
 [
     {
+      "device_name": "ONEPLUS 6T",
+      "codename": "fajita",
+      "assert": ["oneplus 6t"],
+      "datetime":1568212489,
+      "filename": "Candy-fajita-9.0.0-OFFICIAL-20190911-1034.zip",
+      "id": "e7f68bded0aa0401e9d46dc77dc3f295",
+      "romtype": "OFFICIAL",
+      "size":531703919,
+      "url": "https://downloads.sourceforge.net/projects/candyroms/files/Official/Pie/fajita/Candy-fajita-9.0.0-OFFICIAL-20190911-1034.zip",
+      "version": "9.0.0",
+      "date": "2019/09/07",
+      "maintainer_name": "NoSpamDan",
+      "xda_thread": "https://forum.xda-developers.com/oneplus-6t/development/rom-candy9-0-stable-t3924692"
+    },
+    {
+      "device_name": "ONEPLUS 3",
+      "codename": "oneplus3",
+      "assert": ["oneplus3", "oneplus3t", "A"],
+      "datetime":1568218046,
+      "filename": "Candy-oneplus3-9.0.0-OFFICIAL-20190911-1207.zip",
+      "id": "2b3699e2b05b4fd452258101f5c81904",
+      "romtype": "OFFICIAL",
+      "size":646828861,
+      "url": "https://downloads.sourceforge.net/projects/candyroms/files/Official/Pie/oneplus3/Candy-oneplus3-9.0.0-OFFICIAL-20190911-1207.zip",
+      "version": "9.0.0",
+      "date": "2019/09/07",
+      "maintainer_name": "NoSpamDan",
+      "xda_thread": "https://forum.xda-developers.com/oneplus-3/oneplus-3--3t-cross-device-development/rom-candy8-1-alpha-t3743214"
+    },
+    {
       "device_name": "ONEPLUS 5",
       "codename": "cheeseburger",
       "assert": ["oneplus 5"],
@@ -13,5 +43,20 @@
       "date": "2019/09/07",
       "maintainer_name": "NoSpamDan",
       "xda_thread": "https://forum.xda-developers.com/oneplus-5/development/rom-candy9-0-beta-t3865810"
+    },
+    {
+      "device_name": "ONEPLUS 5T",
+      "codename": "dumpling",
+      "assert": ["oneplus 5t"],
+      "datetime":1568205699,
+      "filename": "Candy-dumpling-9.0.0-OFFICIAL-20190911-0842.zip",
+      "id": "7eeecb28e463127f596a997e2c5daedf",
+      "romtype": "OFFICIAL",
+      "size":765148114,
+      "url": "https://downloads.sourceforge.net/projects/candyroms/files/Official/Pie/dumpling/Candy-dumpling-9.0.0-OFFICIAL-20190911-0842.zip",
+      "version": "9.0.0",
+      "date": "2019/09/07",
+      "maintainer_name": "NoSpamDan",
+      "xda_thread": "https://forum.xda-developers.com/oneplus-5t/development/rom-candy9-0-beta-t3865819"
     }
 ]
