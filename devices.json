@@ -58,5 +58,20 @@
       "date": "2019/09/07",
       "maintainer_name": "NoSpamDan",
       "xda_thread": "https://forum.xda-developers.com/oneplus-5t/development/rom-candy9-0-beta-t3865819"
+    },
+    {
+      "device_name": "Redmi Note 7 Pro",
+      "codename": "violet",
+      "assert": ["violet"],
+      "datetime":1568273788,
+      "filename": "Candy-violet-9.0.0-OFFICIAL-20190912-0736.zip",
+      "id": "896afe280ee4fd278ab2bbd1a91180c4",
+      "romtype": "OFFICIAL",
+      "size":877632766,
+      "url": "https://downloads.sourceforge.net/projects/candyroms/files/Official/Pie/violet/Candy-violet-9.0.0-OFFICIAL-20190912-0736.zip",
+      "version": "9.0.0",
+      "date": "2019/09/12",
+      "maintainer_name": "Mourya Baruah",
+      "xda_thread": "https://forum.xda-developers.com/redmi-note-7-pro/development/candy-roms-t3923270"
     }
 ]
