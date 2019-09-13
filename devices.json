@@ -58,5 +58,20 @@
       "date": "2019/09/07",
       "maintainer_name": "NoSpamDan",
       "xda_thread": "https://forum.xda-developers.com/oneplus-5t/development/rom-candy9-0-beta-t3865819"
+    },
+    {
+      "device_name": "Redmi Note 5 pro",
+      "codename": "fWhyred",
+      "assert": ["whyred"],
+      "datetime":1568347543,
+      "filename": "Candy-fajita-9.0.0-OFFICIAL-20190911-1034.zip",
+      "id": "4d3b4ea4475dbe1f5ef02f1ef4bd4c87",
+      "romtype": "OFFICIAL",
+      "size":706750694,
+      "url": "https://downloads.sourceforge.net/projects/candyroms/files/Official/Pie/fajita/Candy-fajita-9.0.0-OFFICIAL-20190911-1034.zip",
+      "version": "9.0.0",
+      "date": "2019/09/13",
+      "maintainer_name": "bhi768",
+      "xda_thread": "https://forum.xda-developers.com/redmi-note-5-pro/development/rom-candyrom-t3930931"
     }
 ]
