@@ -61,7 +61,7 @@
     },
     {
       "device_name": "Redmi Note 5 pro",
-      "codename": "Whyred",
+      "codename": "whyred",
       "assert": ["whyred"],
       "datetime":1568372914,
       "filename": "Candy-whyred-9.0.0-OFFICIAL-20190913-1111.zip",
