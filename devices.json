@@ -73,5 +73,20 @@
       "date": "2019/09/13",
       "maintainer_name": "bhi768",
       "xda_thread": "https://forum.xda-developers.com/redmi-note-5-pro/development/rom-candyrom-t3930931"
+    },
+     {
+      "device_name": "Essential PH-1",
+      "codename": "mata",
+      "assert": ["mata"],
+      "datetime":1568491627,
+      "filename": "Candy-mata-9.0.0-OFFICIAL-20190914-1607.zip",
+      "id": "4a2d98ffeda4f85a6db0f654b1e2cbc0",
+      "romtype": "OFFICIAL",
+      "size":1097336336,
+      "url": "https://downloads.sourceforge.net/projects/candyroms/files/Official/Pie/mata/Candy-mata-9.0.0-OFFICIAL-20190914-1607.zip",
+      "version": "9.0.0",
+      "date": "2019/09/14",
+      "maintainer_name": "candymaker-d",
+      "xda_thread": https://forum.xda-developers.com/essential-phone/development/rom-candyrom-t3930125"
     }
 ]
