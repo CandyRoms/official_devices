@@ -1,12 +1,12 @@
 {
     "response": [
         {
-          "datetime":1568521513,
-          "filename": "Candy-whyred-9.0.0-OFFICIAL-20190915-0427.zip",
-          "id": "cb5b499703927a485a75bbc390de909d",
+          "datetime":1568609162,
+          "filename": "Candy-whyred-9.0.0-OFFICIAL-20190916-0446.zip",
+          "id": "bc4e7e14c60ec1b023b698eebde1a069",
           "romtype": "OFFICIAL",
-          "size":706732634,
-          "url": "https://downloads.sourceforge.net/projects/candyroms/files/Official/Pie/whyred/Candy-whyred-9.0.0-OFFICIAL-20190915-0427.zip",
+          "size":706570523,
+          "url": "https://downloads.sourceforge.net/projects/candyroms/files/Official/Pie/whyred/Candy-whyred-9.0.0-OFFICIAL-20190916-0446.zip",
           "version": "9.0.0"
         }
     ]
