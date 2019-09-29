@@ -88,5 +88,20 @@
       "date": "2019/09/14",
       "maintainer_name": "candymaker-d",
       "xda_thread": "https://forum.xda-developers.com/essential-phone/development/rom-candyrom-t3930125"
+    },
+    {
+      "device_name": "OnePlus 6",
+      "codename": "enchilada",
+      "assert": ["oneplus 6"],
+      "datetime":1569675292,
+      "filename": "Candy-enchilada-9.0.0-OFFICIAL-20190925-1940.zip",
+      "id": "f9055b46fdecbe6887105cdd391c1dd9",
+      "romtype": "OFFICIAL",
+      "size":538879043,
+      "url": "https://sourceforge.net/projects/candyroms/files/Official/Pie/enchilada/Candy-enchilada-9.0.0-OFFICIAL-20190925-1940.zip/download",
+      "version": "9.0.0",
+      "date": "2019/09/25",
+      "maintainer_name": "rajatgupta1998",
+      "xda_thread": "https://forum.xda-developers.com/oneplus-6/development/rom-candyrom-t3929305"
     }
 ]
