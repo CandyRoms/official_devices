@@ -3,14 +3,14 @@
       "device_name": "Lenovo Z2 Plus",
       "codename": "z2_plus",
       "assert": ["z2_plus"],
-      "datetime":1582617444
-      "filename": "Candy-z2_plus-10.Beta.1.0-OFFICIAL-20200225-0758.zip",
-      "id": "80e66bf7dc1efa7ad372876465804803",
+      "datetime": 1582866464,
+      "filename": "Candy-z2_plus-10.Stable.1.0-OFFICIAL-20200228-0508.zip",
+      "id": "947912704",
       "romtype": "OFFICIAL",
       "size":947912704,
-      "url": "https://downloads.sourceforge.net/projects/candyroms/files/Official/ten/z2_plus/Candy-z2_plus-10.Beta.1.0-OFFICIAL-20200225-0758.zip",
-      "version": "10.0.0",
-      "date": "2020/02/25",
+      "url": "https://downloads.sourceforge.net/projects/candyroms/files/Official/ten/z2_plus/Candy-z2_plus-10.Stable.1.0-OFFICIAL-20200228-0508.zip",
+      "version": "10.Stable.1.0",
+      "date": "2020/02/28",
       "maintainer_name": "miju12",
       "xda_thread": "https://forum.xda-developers.com/lenovo-zuk-z2/development/rom-candyroms-t3872319"
     }

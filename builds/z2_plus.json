@@ -1,12 +1,22 @@
 {
     "response": [
          {
-            "datetime":1582617444,
-            "filename": "Candy-z2_plus-10.Beta.1.0-OFFICIAL-20200225-0758.zip",
-            "id": "80e66bf7dc1efa7ad372876465804803",
+            "datetime": 1582866464,
+            "filename": "Candy-z2_plus-10.Stable.1.0-OFFICIAL-20200228-0508.zip",
+            "id": "38cc3560f2b49dd4e3a5843b465257ae",
             "romtype": "OFFICIAL",
-            "size":947912704,
-            "url": "https://sourceforge.net/projects/candyroms/files/Official/ten/z2_plus/Candy-z2_plus-10.Beta.1.0-OFFICIAL-20200225-0758.zip/download",
-            "version": "10.0.0"
+            "size": 947912704,
+            "url": "https://sourceforge.net/projects/candyroms/files/Official/ten/Candy-z2_plus-10.Stable.1.0-OFFICIAL-20200228-0508.zip/download",
+            "version": "10.Stable.1.0"
+        },
+        {
+            "datetime": 1582962287,
+            "filename": "Candy-z2_plus-10.Stable.1.0-OFFICIAL-20200229-0745.zip",
+            "id": "7c532e54ad714cb418b9e7632ef6c1fd",
+            "romtype": "OFFICIAL",
+            "size": 947912704,
+            "url": "https://sourceforge.net/projects/candyroms/files/Official/ten/Candy-z2_plus-10.Stable.1.0-OFFICIAL-20200229-0745.zip/download",
+            "version": "10.Stable.1.0"
         }
+      ]	
 }
