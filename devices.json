@@ -13,5 +13,19 @@
       "date": "2020/02/28",
       "maintainer_name": "miju12",
       "xda_thread": "https://forum.xda-developers.com/lenovo-zuk-z2/development/rom-candyroms-t3872319"
-    }
+    },
+    {
+      "device_name": "Redmi Note 7 Pro",
+      "codename": "violet",
+      "assert": ["violet"],
+      "datetime": 1583215019,
+      "filename": "Candy-violet-10.Stable-OFFICIAL-20200303-0557.zip",
+      "id": "848297984",
+      "romtype": "OFFICIAL",
+      "size": 848297984,
+      "url": "https://downloads.sourceforge.net/projects/candyroms/files/Official/ten/violet/Candy-violet-10.Stable-OFFICIAL-20200303-0557.zip",
+      "version": "10.Stable",
+      "date": "2020/03/02",
+      "maintainer_name": "miju12",
+      "xda_thread": "https://forum.xda-developers.com/redmi-note-7-pro/development/rom-candyroms-t4005795"
 ]
