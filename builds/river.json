@@ -8,6 +8,15 @@
             "size": 559939584,
             "url": "https://sourceforge.net/projects/candyroms/files/Test/ten/river/Candy-river-10-Stable-Official-20200422-1858.zip/download",
             "version": "10.0.0"
+        },
+        {
+            "datetime":1587571734,
+            "filename": "Candy-river-10-Stable-Official-20200422-2140.zip",
+            "id": "559939584",
+            "romtype": "Official",
+            "size": 559939584,
+            "url": "https://sourceforge.net/projects/candyroms/files/Official/ten/river/Candy-river-10-Stable-Official-20200422-2140.zip/download",
+            "version": "10.0.0"
         }
     ]
 }
