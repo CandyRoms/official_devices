@@ -28,5 +28,20 @@
       "date": "2020/03/02",
       "maintainer_name": "miju12",
       "xda_thread": "https://forum.xda-developers.com/redmi-note-7-pro/development/rom-candyroms-t4005795"
+    },
+    {
+      "device_name": "Moto G7",
+      "codename": "river",
+      "assert": ["river"],
+      "datetime": 1587562006,
+      "filename": "Candy-river-10-Stable-Official-20200422-1858.zip",
+      "id": "559939584",
+      "romtype": "Official",
+      "size": 559939584,
+      "url": "https://sourceforge.net/projects/candyroms/files/Test/ten/river/Candy-river-10-Stable-Official-20200422-1858.zip/download",
+      "version": "10-Stable",
+      "date": "2020/04/22",
+      "maintainer_name": "rajatgupta1998",
+      "xda_thread": "https://forum.xda-developers.com/moto-g7/development/romriver-candyrom-t4067347"
     }
 ]
