@@ -35,6 +35,15 @@
             "size": 1288490189,
             "url": "https://sourceforge.net/projects/candyroms/files/Official/ten/violet/Candy-violet-10-Stable-OFFICIAL-20200425-0532.zip",
             "version": "10-Stable"
+	},
+        {
+            "datetime": 1588146819,
+            "filename": "Candy-violet-10-Stable-OFFICIAL-20200429-0754.zip",
+            "id": "1d200eb4c29e2037ab290a72f91bbfc1",
+            "romtype": "OFFICIAL",
+            "size": 1288490189,
+            "url": "https://sourceforge.net/projects/candyroms/files/Official/ten/violet/Candy-violet-10-Stable-OFFICIAL-20200429-0754.zip",
+            "version": "10-Stable"
 	}
       ]	
 }
