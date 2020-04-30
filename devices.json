@@ -38,10 +38,25 @@
       "id": "3b66ae8779365ecd207623c872169906",
       "romtype": "Official",
       "size": 559939584,
-      "url": "https://sourceforge.net/projects/candyroms/files/Test/ten/river/Candy-river-10-Stable-Official-20200422-1858.zip/download",
+      "url": "https://sourceforge.net/projects/candyroms/files/Test/ten/river/Candy-river-10-Stable-Official-20200422-1858.zip",
       "version": "10-Stable",
       "date": "2020/04/22",
       "maintainer_name": "rajatgupta1998",
       "xda_thread": "https://forum.xda-developers.com/moto-g7/development/romriver-candyrom-t4067347"
+    },
+    {
+      "device_name": "Pixel 3a XL",
+      "codename": "bonito",
+      "assert": ["bonito"],
+      "datetime": 1588227300,
+      "filename": "Candy-bonito-10-Stable-OFFICIAL-20200430-1229.zip",
+      "id": "795799424e2a17fa4d46d7f4d2308880",
+      "romtype": "Official",
+      "size": 1028272235,
+      "url": "https://sourceforge.net/projects/candyroms/files/Official/ten/bonito/Candy-bonito-10-Stable-OFFICIAL-20200430-1229.zip",
+      "version": "10-Stable",
+      "date": "2020/04/30",
+      "maintainer_name": "yaznas",
+      "xda_thread": ""
     }
 ]
