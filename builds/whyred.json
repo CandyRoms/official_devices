@@ -1,13 +1,14 @@
 {
     "response": [
         {
-          "datetime":1568609162,
-          "filename": "Candy-whyred-9.0.0-OFFICIAL-20190916-0446.zip",
-          "id": "bc4e7e14c60ec1b023b698eebde1a069",
+          "datetime":1588397989,
+          "filename": "Candy-whyred-10-Stable-OFFICIAL-20200502-0539.zip",
+          "id": "abaee179feaf303d3e5ba3ef0729cd2f",
           "romtype": "OFFICIAL",
-          "size":706570523,
-          "url": "https://downloads.sourceforge.net/projects/candyroms/files/Official/Pie/whyred/Candy-whyred-9.0.0-OFFICIAL-20190916-0446.zip",
-          "version": "9.0.0"
+          "size":744488960,
+          "url": "https://downloads.sourceforge.net/projects/candyroms/files/Official/ten/whyred/Candy-whyred-10-Stable-OFFICIAL-2020050$
+          "version": "10-Stable"
         }
     ]
 }
+

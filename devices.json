@@ -58,5 +58,20 @@
       "date": "2020/04/30",
       "maintainer_name": "yaznas",
       "xda_thread": ""
+    },
+    {
+      "device_name": "Redmi Note 5",
+      "codename": "whyred",
+      "assert": ["whyred"],
+      "datetime": 1588397989,
+      "filename": "Candy-whyred-10-Stable-OFFICIAL-20200502-0539.zip",
+      "id": "abaee179feaf303d3e5ba3ef0729cd2f",
+      "romtype": "Official",
+      "size": 744488960,
+      "url": "https://sourceforge.net/projects/candyroms/files/Official/ten/whyred/Candy-whyred-10-Stable-OFFICIAL-20200502-0539.zip",
+      "version": "10-Stable",
+      "date": "2020/05/02",
+      "maintainer_name": "bhi768",
+      "xda_thread": ""
     }
 ]
