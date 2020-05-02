@@ -1,0 +1,38 @@
+===== CANDYROMS CHANGE LOG =====
+
+🍬 02-May-2020 🍬
+
+🍬 01-May-2020 🍬
+
+* build/make
+aa61871 Update Security String to 2020-04-05 Bug:149240442 (cherry picked from commit d451ad7167dc8dc9f44b35a8dd1f9d3faafa345e) [Paul Scovanner]
+0130009 Version bump to QQ2A.200405.005 [core/build_id.mk] [android-build-team Robot]
+5d439cf Version bump to QQ2A.200405.004 [core/build_id.mk] [android-build-team Robot]
+
+🍬 30-Apr-2020 🍬
+
+🍬 29-Apr-2020 🍬
+
+🍬 28-Apr-2020 🍬
+
+🍬 27-Apr-2020 🍬
+
+🍬 26-Apr-2020 🍬
+
+🍬 25-Apr-2020 🍬
+
+* candy
+f56677d README: Update the gerrit URL [Chad Cormier Roussel]
+
+🍬 24-Apr-2020 🍬
+
+🍬 23-Apr-2020 🍬
+
+🍬 22-Apr-2020 🍬
+
+🍬 21-Apr-2020 🍬
+
+🍬 20-Apr-2020 🍬
+
+🍬 19-Apr-2020 🍬
+
