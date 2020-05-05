@@ -73,5 +73,35 @@
       "date": "2020/05/02",
       "maintainer_name": "bhi768",
       "xda_thread": ""
+    },
+    {
+      "device_name": "OnePlus 6T",
+      "codename": "fajita",
+      "assert": ["fajita"],
+      "datetime": 1588634111,
+      "filename": "Candy-fajita-10-Stable-OFFICIAL-20200504-1916.zip",
+      "id": "0f80b0825d113f8a1c7c9084af1fa7b2",
+      "romtype": "Official",
+      "size": 888143872,
+      "url": "https://sourceforge.net/projects/candyroms/files/Official/ten/fajita/Candy-fajita-10-Stable-OFFICIAL-20200504-1916.zip",
+      "version": "10-Stable",
+      "date": "2020/05/04",
+      "maintainer_name": "nospamdan",
+      "xda_thread": ""
+    },
+    {
+      "device_name": "OnePlus 7T",
+      "codename": "hotdogb",
+      "assert": ["hotdogb"],
+      "datetime": 1588617141,
+      "filename": "Candy-hotdogb-10-Stable-OFFICIAL-20200504-1433.zip",
+      "id": "ec5cc67f142240c282a5d60c5fefa8b9",
+      "romtype": "Official",
+      "size": 1073741824,
+      "url": "https://sourceforge.net/projects/candyroms/files/Official/ten/hotdogb/Candy-hotdogb-10-Stable-OFFICIAL-20200504-1433.zip",
+      "version": "10-Stable",
+      "date": "2020/05/04",
+      "maintainer_name": "nospamdan",
+      "xda_thread": ""
     }
 ]
