@@ -1,13 +1,13 @@
 {
     "response": [
         {
-          "datetime":1568212489,
-          "filename": "Candy-fajita-9.0.0-OFFICIAL-20190911-1034.zip",
-          "id": "e7f68bded0aa0401e9d46dc77dc3f295",
+          "datetime":1588634111,
+          "filename": "Candy-fajita-10-Stable-OFFICIAL-20200504-1916.zip",
+          "id": "0f80b0825d113f8a1c7c9084af1fa7b2",
           "romtype": "OFFICIAL",
-          "size":531703919,
-          "url": "https://downloads.sourceforge.net/projects/candyroms/files/Official/Pie/fajita/Candy-fajita-9.0.0-OFFICIAL-20190911-1034.zip",
-          "version": "9.0.0"
+          "size":888143872,
+          "url": "https://downloads.sourceforge.net/projects/candyroms/files/Official/ten/fajita/Candy-fajita-10-Stable-OFFICIAL-20200504-1916.zip",
+          "version": "10.0.0"
         }
     ]
 }
