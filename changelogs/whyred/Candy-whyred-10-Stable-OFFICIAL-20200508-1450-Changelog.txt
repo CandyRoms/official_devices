@@ -1,0 +1,429 @@
+===== CANDYROMS CHANGE LOG =====
+
+🍬 08-May-2020 🍬
+
+* device/candy/sepolicy
+7652361 sepolicy: Add selinux policy for pocket bridge [Chris Lahaye]
+3ecd955 sepolicy: Add pocket judge selinux policy [Carlo Savignano]
+
+* device/xiaomi/whyred
+69f480e whyred: Always use the schedutil governor [fakeyatogod]
+058fd7e whyred: Switch to userspace LMKD again [fakeyatogod]
+9c0cc14 whyred: Make camera 720p@240fps video capable [fakeyatogod]
+8eaeb32 whyred: Refined early SF configuration for WCG [Jorim Jaggi]
+c2823b2 whyred: Enable Scrolling Boost [fakeyatogod]
+4807a66 whyred: Add props for Data modules [fakeyatogod]
+af2c1bf whyred: Set persist.vendor.radio.multisim_switch_support=true [fakeyatogod]
+d1cb34d whyed: Drop Dirac from our vendor [fakeyatogod]
+077f808 whyred: Add Dirac blobs (as a separate repo) [Naomi Calabretta]
+8ac02e7 whyred: Dirac: add QS tile [HarukeyUA]
+8ecb505 whyred: Update Dirac vector icons to MD2 versions [Stallix]
+20f6cc0 whyred: dirac: Add vector icons to parts [arian]
+7606d80 whyred: parts: dirac: Migrate to androidx [Bruno Martins]
+d74d557 whyred: dirac: Address denials [Henrique Silva]
+81378a7 whyred: dirac: Prevent failures when toggling [Henrique Silva]
+4e53761 whyred: dirac: Only call setEnabled on boot completed [Henrique Silva]
+cf8f785 whyred: parts: Refactor Dirac setup [Harsh Shandilya]
+a20c77e whyred: Dirac fixes [Henrique Silva]
+4f091a7 whyred: parts: Import dirac translations from MIUI [Henrique Silva]
+583516e whyred: parts: Refactor dirac strings [Henrique Silva]
+fc80422 whyed: parts: Add summary for dirac [Henrique Silva]
+c8e15fc whyred: parts: Add DiracSound backend [TheScarastic]
+e26e319 whyred: parts: Introduce Dirac preferences [Joey]
+062f52a whyred: Convert XiaomiDoze into XiaomiParts [Bruno Martins]
+b5ed51d whyred: parts: Add vector icons [arian]
+881bddf whyred: doze: Clean up proguard flags [Bruno Martins]
+61f6295 whyred: doze: Move DozeUtils.checkDozeService in an handler [Luca Stefani]
+0e65b3a Revert "doze: Adjust packagename for Carbon" [fakeyatogod]
+6209d75 whyred: Add Initial support for dirac [Henrique Silva]
+495e908 whyred: init.class_main: Some changes from stock to fix data disconnection [fakeyatogod]
+83aaf36 whyred: init.qcom: Merge changes from LA.UM.8.2.r1-06500-sdm660 [fakeyatogod]
+0d28176 whyred: init.target: Merge changes from LA.UM.8.2.r1-06500-sdm660 [fakeyatogod]
+6cc1f7f whyred: Checkout some rootdir scripts from LA.UM.8.2.r1-06500-sdm660.0 [fakeyatogod]
+
+* frameworks/base
+5cddc3a RESTRICT AUTOMERGE [Linus Tufvesson]
+7e1d350 Update redaction upon profile changes [Lucas Dupin]
+d0bbf3b RESTRICT AUTOMERGE Block TYPE_PRESENTATION windows on default display [Linus Tufvesson]
+0ebe948 DO NOT MERGE - Kill apps outright for API contract violations [Christopher Tate]
+ccbe2ce RESTRICT AUTOMERGE Use consistent calling uid and package in navigateUpTo [Riddle Hsu]
+fa0ae93 Add SafetyNet logging for package names read from config. [Hai Zhang]
+a25ccff RESTRICT AUTOMERGE Update keyguard locked state from TrustManagerService [Rubin Xu]
+3f7790e Call getPackageInfo() with cleared calling identity in ensureSystemPackageName(). [Hai Zhang]
+3266f65 DO NOT MERGE Ensure package names read from config are system packages. [Hai Zhang]
+a4a0ace base: use correct fingerprint to clear cache dirs on update [maxwen]
+2c74d62 pocket: Reduce sleep timeout for pocket lock [RadixCube]
+10418e4 Pocket lock improvements [Henrique Silva]
+863d3c8 pocket: Adjust sleep timeout for pocket lock view to 10 secs [TheStrix]
+04c72f0 pocket: introduce pocket judge [Carlo Savignano]
+e00860f policy: introduce pocket lock [Carlo Savignano]
+
+* official_devices
+81b737d fajita: This should work a little better [Dan Cartier]
+14ddb6c fajita: OTA bump [Dan Cartier]
+
+🍬 07-May-2020 🍬
+
+* build/make
+df353aa Version bump to QQ2A.200501.001.B2 [core/build_id.mk] [android-build-team Robot]
+c11c6db Make change and version bump to QQ2A.200501.001.B1 [android-build-team Robot]
+30ca4e1 Update Security String to 2020-05-05 [Paul Scovanner]
+17a2b2a Make change and version bump to QQ2A.200501.001 [android-build-team Robot]
+a372c8d Update Security String to 2020-05-01 [Paul Scovanner]
+
+* device/xiaomi/whyred
+3dec5f8 whyred: Exclude Snap overlays from RRO [LuK1337]
+8c2c5a3 whyred: Exclude lineage-sdk overlays from RRO [Dan Pasanen]
+566239f whyred: Enforce RRO for all resource overlays [Anton Hansson]
+d79810a whyred: init: Remove imsdata, imsrcs, imsrtp, imsqmi & time_daemon [fakeyatogod]
+
+* frameworks/av
+17b90f4 BnCrypto: fix use-before-init in CREATE_PLUGIN [Robert Shih]
+78df0c0 Camera: Fix possible ExifUtils heap corruption [Emilian Peev]
+
+* kernel/xiaomi/whyred
+1f7ae53 Merge tag 'v4.4.222' of https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into c10 [bhi768]
+
+* official_devices
+f51f5f6 whyred : ota update & changelogs [bhi768]
+
+* packages/apps/Settings
+ff1a76b RESTRICT AUTOMERGE Allow LockScreenPattern to be launched in the pinning screen [Mill Chen]
+412555f DO NOT MERGE - Track framework changes to crashApplication [Christopher Tate]
+
+* packages/services/Telephony
+d6ec5d7 Revert "Check UID in getUiccCardsInfoSecurity" [Paul Scovanner]
+9b2f70e Check UID in getUiccCardsInfoSecurity [Jordan Liu]
+fba35c8 Enforce ACCESS_COARSE_LOCATION on getCellLocation [Hall Liu]
+
+* system/bt
+05c18e0 GattServcer: Check invalid offset [Hansong Zhang]
+8596a1d AAC Decoder: Use osi_free() to free buffers allocated by osi_malloc() [Hansong Zhang]
+
+🍬 06-May-2020 🍬
+
+* frameworks/base
+2b084c3 AndroidManifest: add a permission group for signature spoofing [Vachounet]
+
+* kernel/xiaomi/whyred
+b63f449 Linux 4.4.222 [Greg Kroah-Hartman]
+92b5848 selinux: properly handle multiple messages in selinux_netlink_send() [Paul Moore]
+9e68a66 ipv6: use READ_ONCE() for inet->hdrincl as in ipv4 [Olivier Matz]
+d44ee54 ASoC: imx-spdif: Fix crash on suspend [Lars-Peter Clausen]
+f441c4f ASoC: wm8960: Fix WM8960_SYSCLK_PLL mode [Stuart Henderson]
+af9b55d exynos4-is: fix a format string bug [Rasmus Villemoes]
+399762a perf/x86: Fix uninitialized value usage [Peter Zijlstra]
+2fc6338 powerpc/perf: Remove PPMU_HAS_SSLOT flag for Power8 [Madhavan Srinivasan]
+203598a perf hists: Fix HISTC_MEM_DCACHELINE width setting [Jiri Olsa]
+751ecdc i2c: designware-pci: use IRQF_COND_SUSPEND flag [Andy Shevchenko]
+056e60c dmaengine: dmatest: Fix iteration non-stop logic [Andy Shevchenko]
+170529c nfs: Fix potential posix_acl refcnt leak in nfs3_set_acl [Andreas Gruenbacher]
+d38cb0c ALSA: opti9xx: shut up gcc-10 range warning [Arnd Bergmann]
+ae88829 vfio/type1: Fix VA->PA translation for PFNMAP VMAs in vaddr_get_pfn() [Sean Christopherson]
+c798174 RDMA/mlx4: Initialize ib_spec on the stack [Alaa Hleihel]
+1d8e237 PM: ACPI: Output correct message on target power state [Kai-Heng Feng]
+76088b2 ALSA: pcm: oss: Place the plugin buffer overflow checks correctly [Takashi Iwai]
+e3a63b7 drm/qxl: qxl_release leak in qxl_hw_surface_alloc() [Vasily Averin]
+eb8205b ext4: fix special inode number checks in __ext4_iget() [Theodore Ts'o]
+
+* official_devices
+eeb89a4 fajita: Test for echo [Dan Cartier]
+8867c8e hotdogb: Test for echo [Dan Cartier]
+
+🍬 05-May-2020 🍬
+
+* official_devices
+e709f3c ota: Add OP6T and OP7T initial builds to the main list [Dan Cartier]
+88e6029 ota: Add fajita and hotdogb to the roster [Dan Cartier]
+
+* vendor/candy
+e419f34 changelog: Fix case issue and add extra sed substitution [Dan Cartier]
+
+🍬 04-May-2020 🍬
+
+🍬 03-May-2020 🍬
+
+* device/xiaomi/whyred
+83c49ec whyred: Finetune mediacodec performance values. [Ananthula, Madhu]
+7ebd7f1 sepolicy: Let vendor_toolbox get some files [fakeyatogod]
+14acd22 init.qcom.rc: FR 53051: remove configs for vendor data modules [Subash Abhinov Kasiviswanathan]
+b7de868 init.qcom.rc: FR 53051: remove configs for vendor data ipa modules [Skylar Chang]
+e87ffa4 whyred: power-libperfmgr: Add back powerstats [Subhajeet Muhuri]
+31cb990 whyred: powerhint: increase launch hints duration [Dušan Uverić]
+b6847c5 whyred: powerhint: add GPU launch hints [Dušan Uverić]
+782873a whyred: powerhint: disable audio related hints [Dušan Uverić]
+576c52b whyred: powerhint: add new GPU nodes [Dušan Uverić]
+
+* kernel/xiaomi/whyred
+97012c8 Merge tag 'v4.4.221' of https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into c10 [bhi768]
+54b0e1a Linux 4.4.221 [Greg Kroah-Hartman]
+80e2ed6 propagate_one(): mnt_set_mountpoint() needs mount_lock [Al Viro]
+2cdaf67 ext4: unsigned int compared against zero [Colin Ian King]
+474db4d ext4: fix block validity checks for journal inodes using indirect blocks [Theodore Ts'o]
+571fa68 ext4: don't perform block validity checks on the journal inode [Theodore Ts'o]
+7eff961 ext4: protect journal inode's blocks using block_validity [Theodore Ts'o]
+23abe13 ext4: avoid declaring fs inconsistent due to invalid file handles [Theodore Ts'o]
+266e8fb ext4: convert BUG_ON's to WARN_ON's in mballoc.c [Theodore Ts'o]
+10494cb xen/xenbus: ensure xenbus_map_ring_valloc() returns proper grant status [Juergen Gross]
+d79a2ba scsi: target: fix PR IN / READ FULL STATUS for FC [Bodo Stroesser]
+1d58135 bpf, x86: Fix encoding for lower 8-bit registers in BPF_STX BPF_B [Luke Nelson]
+5cc0ce6 perf/core: fix parent pid/tid in task exit events [Ian Rogers]
+641767a net/cxgb4: Check the return from t4_query_params properly [Jason Gunthorpe]
+256a901 usb: gadget: udc: bdc: Remove unnecessary NULL checks in bdc_req_complete [Nathan Chancellor]
+8660cae mtd: cfi: fix deadloop in cfi_cmdset_0002.c do_write_buffer [Liu Jian]
+d2a2ac2 fuse: fix possibly missed wake-up after abort [Miklos Szeredi]
+ff82cd3 sctp: use right member as the param of list_for_each_entry [Xin Long]
+a706d3f remoteproc: Fix wrong rvring index computation [Clement Leger]
+a9cc048 usb: f_fs: Clear OS Extended descriptor counts to zero in ffs_data_reset() [Udipto Goswami]
+b7461a6 UAS: fix deadlock in error handling and PM flushing work [Oliver Neukum]
+aae0633 UAS: no use logging any details in case of ENODEV [Oliver Neukum]
+bff57f3 staging: vt6656: Power save stop wake_up_count wrap around. [Malcolm Priestley]
+9e13065 staging: vt6656: Fix drivers TBTT timing counter. [Malcolm Priestley]
+ae2a49b staging: comedi: Fix comedi_device refcnt leak in comedi_open [Xiyu Yang]
+6d2c428 staging: comedi: dt2815: fix writing hi byte of analog output [Ian Abbott]
+d2fbbf3 ARM: imx: provide v7_cpu_resume() only on ARM_CPU_SUSPEND=y [Ahmad Fatoum]
+4f04d30 ASoC: dapm: fixup dapm kcontrol widget [Gyeongtaek Lee]
+1a8abec audit: check the length of userspace generated audit records [Paul Moore]
+fda668f usb-storage: Add unusual_devs entry for JMicron JMS566 [Alan Stern]
+7487d50 tty: rocket, avoid OOB access [Jiri Slaby]
+e2b8912 tty: hvc: fix buffer overflow during hvc_alloc(). [Andrew Melnychenko]
+e1e75e5 KVM: VMX: Enable machine check support for 32bit targets [Uros Bizjak]
+2b187ba KVM: Check validity of resolved slot when searching memslots [Sean Christopherson]
+9ef662f ALSA: usb-audio: Filter out unsupported sample rates on Focusrite devices [Alexander Tsoy]
+02f4329 ALSA: usb-audio: Fix usb audio refcnt leak when getting spdif [Xiyu Yang]
+6726d4b ALSA: usx2y: Fix potential NULL dereference [Takashi Iwai]
+2e80fd5 USB: hub: Fix handling of connect changes during sleep [Alan Stern]
+f613d83 USB: core: Fix free-while-in-use bug in the USB S-Glibrary [Alan Stern]
+4aa71d6 drivers: usb: core: Minimize irq disabling in usb_sg_cancel() [David Mosberger]
+ee3326f drivers: usb: core: Don't disable irqs in usb_sg_wait() during URB submit. [David Mosberger]
+414ad94 USB: Add USB_QUIRK_DELAY_CTRL_MSG and USB_QUIRK_DELAY_INIT for Corsair K70 RGB RAPIDFIRE [Jonathan Cox]
+101c65e USB: sisusbvga: Change port variable from signed to unsigned [Changming Liu]
+83354ad fs/namespace.c: fix mountpoint reference counter race [Piotr Krysiuk]
+52ae60c iio: xilinx-xadc: Fix sequencer configuration for aux channels in simultaneous mode [Lars-Peter Clausen]
+dd145d2 iio: xilinx-xadc: Fix clearing interrupt when enabling trigger [Lars-Peter Clausen]
+245fcb9 iio: xilinx-xadc: Fix ADC-B powerdown [Lars-Peter Clausen]
+6aee5c4 ALSA: hda: Remove ASUS ROG Zenith from the blacklist [Takashi Iwai]
+29597cc xfrm: Always set XFRM_TRANSFORMED in xfrm{4,6}_output_finish [David Ahern]
+c4fa7aa team: fix hang in team_mode_get() [Taehee Yoo]
+ec63c6bd tcp: cache line align MAX_TCP_HEADER [Eric Dumazet]
+25765e8 net/x25: Fix x25_neigh refcnt leak when receiving frame [Xiyu Yang]
+5b5407d net: netrom: Fix potential nr_neigh refcnt leak in nr_add_node [Xiyu Yang]
+6ec73a8 macvlan: fix null dereference in macvlan_device_event() [Taehee Yoo]
+59ff94d ipv6: fix restrict IPV6_ADDRFORM operation [John Haxby]
+72ac65d pwm: bcm2835: Dynamically allocate base [Florian Fainelli]
+f95d675 pwm: renesas-tpu: Fix late Runtime PM enablement [Geert Uytterhoeven]
+612812b s390/cio: avoid duplicated 'ADD' uevents [Cornelia Huck]
+05226e8 ipc/util.c: sysvipc_find_ipc() should increase position index [Vasily Averin]
+11271ed kernel/gcov/fs.c: gcov_seq_next() should increase position index [Vasily Averin]
+0d27144 ASoC: Intel: atom: Take the drv->lock mutex before calling sst_send_slot_map() [Hans de Goede]
+d3e6772 scsi: iscsi: Report unbind session event when the target has been removed [Wu Bo]
+20ea00cb2 pwm: rcar: Fix late Runtime PM enablement [Geert Uytterhoeven]
+1e176af ceph: don't skip updating wanted caps when cap is stale [Yan, Zheng]
+2a697f1 ceph: return ceph_mdsc_do_request() errors from __get_parent() [Qiujun Huang]
+ebf16d5 scsi: lpfc: Fix kasan slab-out-of-bounds error in lpfc_unreg_login [James Smart]
+3cb1bbf vti4: removed duplicate log message. [Jeremy Sowden]
+ea2316f crypto: mxs-dcp - make symbols 'sha1_null_hash' and 'sha256_null_hash' static [Wei Yongjun]
+ae5c871 net: ipv4: avoid unused variable warning for sysctl [Arnd Bergmann]
+1a3bb8e net: ipv4: emulate READ_ONCE() on ->hdrincl bit-field in raw_sendmsg() [Nicolai Stange]
+d0cd27b ALSA: hda - Fix incorrect usage of IS_REACHABLE() [Takashi Iwai]
+16fff53 ext4: fix extent_status fragmentation for plain files [Dmitry Monakhov]
+
+* official_devices
+82c5c21 update whyred ota [bhi768]
+
+🍬 02-May-2020 🍬
+
+* candy
+02d2044 Merge "candy: Update to android-10.0.0_r33" into c10 [Dan Cartier]
+
+* device/xiaomi/whyred
+bf432c6 Revert "overlay: Fix status bar padding" [bhi768]
+76b5cb1 whyred: sepolicy: Add more /persist related contexts to toolbox rules [LuK1337]
+137c1cf whyred: sepolicy: Drop unnecessary rule [LuK1337]
+9e82b9a whyred: Force restorecon for /mnt/vendor/persist [Felix]
+4663b4e sepolicy: Label some same-process files [fakeyatogod]
+0acc845 whyred: Run ActivityManager and RenderThread as SCHED_FIFO [elektroschmock]
+7615fbe Revert "whyred: Switch to userspace LMKD" [fakeyatogod]
+
+* frameworks/base
+b4274d9 Merge changes from topic "r33" into c10 [Dan Cartier]
+5ba1ce2 Merge "batterymeter: Add some padding" into c10 [Dan Cartier]
+4e9329d batterymeter: Add some padding [Dan Cartier]
+a7e9189 SystemUI: QS: Add CPUInfo toggle tile [mydongistiny]
+
+* kernel/xiaomi/whyred
+8b85aa9 Revert "qcacld-3.0: Merge tag 'LA.UM.7.2.r1-08700-sdm660.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0 into fakerad" [bhi768]
+749bcd7 net: update wireguard to v1.0.20200413 [Shashank Baghel]
+6cb48a3 Merge tag 'LA.UM.8.2.r2-01300-sdm660.0' of https://source.codeaurora.org/quic/la/kernel/msm-4.4 into kernel-hmp [Shashank Baghel]
+ab89868 qcacld-3.0: Merge tag 'LA.UM.7.2.r3-00900-sdm660.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0 into fakerad [Shashank Baghel]
+062182c qcacld-3.0: Merge tag 'LA.UM.7.2.r1-08700-sdm660.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0 into fakerad [Shashank Baghel]
+58b5c0b qcacld-3.0: Merge tag 'LA.UM.7.2.r3-00700-sdm660.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0 into fakerad [Shashank Baghel]
+3b9da34 Merge tag 'v4.4.220' of https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into c10 [bhi768]
+
+* official_devices
+6ee30a1 Update bonito.json [Sanjay Shrestha]
+58f2271 ota: whyred update [Mourya Baruah]
+41aa28f add whyred to ota support [bhi768]
+f8b449f ota: update bonito [Yaznas]
+
+* packages/apps/Settings
+bae8ce0 Merge changes from topics "ambient-pulse", "customdoze" into c10 [Dan Cartier]
+9d569b1 Ambient music: allow to pulse on new tracks [2/2] [ezio84]
+bf1029e Merge changes from topic "r33" into c10 [Dan Cartier]
+
+🍬 01-May-2020 🍬
+
+* hardware/qcom/display
+7d10f4b msm8084: libhwcomposer fix some warnings [Elektroschmock]
+d20c3f8 Make hwc_vsync thread realtime [Erik Wolsheimer]
+b9bd880 msm8084: Deprecate usage of cutils/log.h [Elektroschmock]
+
+🍬 30-Apr-2020 🍬
+
+* device/xiaomi/whyred
+5891d49 whyred : Add moar device overlays [kubersharma001]
+46becb4 whyred : add doze overlays [bhi768]
+a9b55a9 update candy dependencies [bhi768]
+
+* external/bash
+aeab988 inputrc: Import from Ubuntu [LuK1337]
+
+* frameworks/base
+e01a7cf SystemUI: Fix CPU info overlay text layout [Stefan Berger]
+601a36d SystemUI: Bring back CPU temperature to CPU info overlay [Stefan Berger]
+3cee841 SystemUI: add CPU info overlay [maxwen]
+71239a2 SystemUI: Add Sync QS Tile [Altaf-Mahdi]
+be20245 Add api to take screenshots [Dan Cartier]
+
+* official_devices
+8096206 add bonito to the ota [Yaznas]
+
+* packages/apps/CandyShop
+d94e45c custom doze: Refactor settings [2/2] [Dan Cartier]
+
+* packages/apps/Settings
+dee4b3a custom doze: Refactor settings [1/2] [Dan Cartier]
+
+* packages/apps/Updater
+06449c1 change changelog path [Mourya Baruah]
+
+🍬 29-Apr-2020 🍬
+
+* device/xiaomi/whyred
+26b0d6e whyred: board: compile kernel with clang 10.0.1 [bhi768]
+e670e94 whyred : Bringup Candy [bhi768]
+0e50681 Revert "whyred: Track fork of kernel" [bhi768]
+960b85a Revert "CarrierConfig: Organize" [fakeyatogod]
+
+* frameworks/base
+f497363 SystemUI: Add method for getting estimated battery time [jhenrique09]
+df75385 RecordingService: Fix dupicate and broken import formatting [Dan Cartier]
+5486dc6 SystemUI: block gestural navigation when using partial screenshot [Dan Cartier]
+6a873f2 [DO NOT MERGE] Convert TakeScreenshot finishers Runnables to Consumer<Uri> [James O'Leary]
+2f2eb0b Fix cherry-pick mismerges [Dan Cartier]
+3d7e9e9 strings: Update screenshot strings [Dan Cartier]
+2436ade Add a new screenrecord icon for statusbar [Alex Cruz]
+6f33ccb Screen record: Collapse QS panel when launching dialog [Mazda--]
+9d08433 Screenrecord: Android R dev preview style dialog [Alex]
+bd72ef5 Screenrecord: fix possible SystemUI FC when stopping [ezio84]
+18b9566 Screenrecord dialog: Make it less ugly [Alex]
+94971da Screenrecord: correctly display notification title [Dil3mm4]
+c8d37e0 RecordingService: Use the new statusbar screenrecord icon [Pranav Vashi]
+245c9f3 Screenrecorder: don't show heads up notification [ezio84]
+3dccaae Fix share and delete actions [Beth Thibodeau]
+daf2b7a Update file saving to work with Q changes [Beth Thibodeau]
+6080c54 Screenrecord: remember last recording options [ezio84]
+c8ef435 Screenrecord: start delayed [ezio84]
+606d2b0 ScreenshotSelector: handle rotation issues [Demon000]
+1c89379 CandyUtils: Add StatusBarService method [Dan Cartier]
+3b1bd8a Screenshot: remove white flash if dark mode is enabled [ezio84]
+7889d99 GlobalScreenshot: do not capture multiple screenshots simultaneously [Demon000]
+ad222e9 Partial screenshot: block gestures and heads up when running [Dan Cartier]
+f2668c4 SystemUI: implement better partial screenshot [Demon000]
+7ffbef5 Partial screenshot: Allow BACK action only from right side [ezio84]
+3fe07ed QS: Add partial/full screenshot QS tile [Dan Cartier]
+610abc2 Disable long click for Compass tile [Pranav Vashi]
+a0fb776 SystemUI: QS: Add Compass tile [Dan Cartier]
+28519d3 CompassTile: Add a device supports compass check [Dan Cartier]
+
+* hardware/qcom-caf/sm8150/display
+f22bf10 Merge tag 'LA.UM.8.1.r1-14700-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/display into lineage-17.0-caf-sm8150 [Akash]
+ac31865 Revert "sdm: Implement SetDisplayBrightness,  GetDisplayBrightness" [Akash]
+c02e852 Merge tag 'LA.UM.8.1.r1-14500-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/display into lineage-17.0-caf-sm8150 [Akash]
+e0f4a1c Merge tag 'LA.UM.8.1.r1-14300-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/display into lineage-17.0-caf-sm8150 [Akash]
+f4e394f Merge tag 'LA.UM.8.1.r1-13500-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/display into lineage-17.0-caf-sm8150 [Akash]
+57c0924 Update display-commonsys-intf to LA.UM.8.1.r1-13500-sm8150.0 [Akash]
+a640688 Add C2D_FORMAT_BT601_FULLRANGE to C2D_FORMAT_MODE [Bruno Martins]
+63e03c3 Add C2D_COLOR_FORMAT_420_TP10 to C2D_YUV_FORMAT [LuK1337]
+5554944 Don't build lights module if vendor supplies it [Steve Kondik]
+17d306e display: Use    * pathmap [Ethan Chen]
+
+* official_devices
+ae2c849 ota: violet: merge april securty patch [Mourya Baruah]
+
+* packages/apps/CandyShop
+d5a68e3 Merge "Power menu: allow to trigger partial screenshot on normal click [2/2]" into c10 [Dan Cartier]
+
+* vendor/xiaomi/whyred
+320a77a whyred: Update cnss-daemon from from LA.UM.8.2.r1-06200-sdm660.0 [fakeyatogod]
+9c18765 whyred: Update blobs from LA.UM.8.2.r1-06300-sdm660.0 [sbwml]
+5d7354d whyred: Update ADSP and its modules from LA.UM.8.2.r1-05100-sdm660.0 [fakeyatogod]
+
+🍬 28-Apr-2020 🍬
+
+* device/candy/sepolicy
+84e7c93  sepolicy: Fix OTA on encrypted f2fs. [Mourya Baruah]
+
+* device/xiaomi/whyred
+d23b68b sepolicy: MORE denials [fakeyatogod]
+f719775 sepolicy: Address more denials [fakeyatogod]
+182ddfb sepolicy: blkio denials and proc_dirty [fakeyatogod]
+0896736 sepolicy: Address some encryption denials [fakeyatogod]
+
+🍬 27-Apr-2020 🍬
+
+* packages/apps/CandyShop
+17b861c Merge "quicksettings: Re-enable battery estimate toggle" into c10 [Dan Cartier]
+9664df7 Merge "about: Update gerrit URL" into c10 [Dan Cartier]
+
+🍬 26-Apr-2020 🍬
+
+* device/xiaomi/whyred
+3d6c576 whyred: Build vendor variant of tinymix [Michael Bestas]
+968faaf whyred: use vmpressure events instead of PSI monitors [fakeyatogod]
+
+* frameworks/base
+585967d Power menu: allow to trigger partial screenshot on normal click [1/2] [ezio84]
+4e15499 Power menu: fix Advanced button position on low dpi [SKULSHADY]
+81099c4 Fix merge derp [ezio84]
+4b68481 Clear reference to Global Actions Dialog after it is dismissed [Steve Elliott]
+1067e3d Power menu: move Restart into Advanced [ezio84]
+df6dc19 Powermenu: longpress Screenshot for partial s.s., add ScreenRec toggle [ezio84]
+694e0a8 Power menu: improve longpress action on some buttons [Alex Cruz]
+b1ed251 PowerMenu advanced reboot toggle [ezio84]
+3edf4fb Revert "SystemUI: Global Actions with Advanced Reboot [1/2]" [Dan Cartier]
+
+* kernel/xiaomi/whyred
+27af286 Fix derp [bhi768]
+
+* packages/apps/CandyShop
+dcf2f11 quicksettings: Re-enable battery estimate toggle [Dan Cartier]
+99f92c9 Power menu: allow to trigger partial screenshot on normal click [2/2] [Dan Cartier]
+3cd9442 about: Update gerrit URL [Dan Cartier]
+
+* packages/apps/Settings
+83c29f0 Revert "Settings: Global Actions with Advanced Reboot [2/2]" [Dan Cartier]
+
+🍬 25-Apr-2020 🍬
+
+* candy
+f56677d README: Update the gerrit URL [Chad Cormier Roussel]
+066fc42 candy: Update to android-10.0.0_r33 [Dan Cartier]
+
+* official_devices
+3e2afa2 ota: violet enforcing build [Mourya Baruah]
+ed8ef2b ota: violet [Mourya Baruah]
+
+* packages/apps/CandyShop
+21b0c7e Testing for posterity [Chad Cormier Roussel]
+

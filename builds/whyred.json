@@ -35,6 +35,15 @@
           "size": 739246080,
           "url": "https://downloads.sourceforge.net/projects/candyroms/files/Official/ten/whyred/Candy-whyred-10-Stable-OFFICIAL-20200507-0655.zip",
           "version": "10-Stable"
+        },
+        {
+          "datetime": 1588949431,
+          "filename": "Candy-whyred-10-Stable-OFFICIAL-20200508-1450.zip",
+          "id": "c9a7caff423422c7bfec2d6cd498b024",
+          "romtype": "OFFICIAL",
+          "size": 740294656,
+          "url": "https://downloads.sourceforge.net/projects/candyroms/files/Official/ten/whyred/Candy-whyred-10-Stable-OFFICIAL-20200508-1450.zip",
+          "version": "10-Stable"
         }
     ]
 }
