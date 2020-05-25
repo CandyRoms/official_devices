@@ -7,7 +7,7 @@
           "romtype": "OFFICIAL",
           "size":1073741824,
           "url": "https://downloads.sourceforge.net/projects/candyroms/files/Official/ten/hotdogb/Candy-hotdogb-10-Stable-OFFICIAL-20200505-1445.zip",
-          "version": "10.0.0"
+          "version": "10-Stable"
         },
         {
           "datetime":1588617141,
@@ -16,7 +16,7 @@
           "romtype": "OFFICIAL",
           "size":1073741824,
           "url": "https://downloads.sourceforge.net/projects/candyroms/files/Official/ten/hotdogb/Candy-hotdogb-10-Stable-OFFICIAL-20200504-1433.zip",
-          "version": "10.0.0"
+          "version": "10-Stable"
         }
     ]
 }
