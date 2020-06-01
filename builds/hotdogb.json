@@ -1,21 +1,12 @@
 {
     "response": [
         {
-          "datetime":1588704293,
-          "filename": "Candy-hotdogb-10-Stable-OFFICIAL-20200505-1445.zip",
-          "id": "0c1e327344c0512e1478b1685b5534a0",
+          "datetime":1590895058,
+          "filename": "Candy-hotdogb-10-Stable-OFFICIAL-20200530-2318.zip",
+          "id": "b08593de7feb802bb9de6065e096dcbf",
           "romtype": "OFFICIAL",
-          "size":1073741824,
-          "url": "https://downloads.sourceforge.net/projects/candyroms/files/Official/ten/hotdogb/Candy-hotdogb-10-Stable-OFFICIAL-20200505-1445.zip",
-          "version": "10-Stable"
-        },
-        {
-          "datetime":1588617141,
-          "filename": "Candy-hotdogb-10-Stable-OFFICIAL-20200504-1433.zip",
-          "id": "ec5cc67f142240c282a5d60c5fefa8b9",
-          "romtype": "OFFICIAL",
-          "size":1073741824,
-          "url": "https://downloads.sourceforge.net/projects/candyroms/files/Official/ten/hotdogb/Candy-hotdogb-10-Stable-OFFICIAL-20200504-1433.zip",
+          "size":1065382525,
+          "url": "https://sourceforge.net/projects/CandyRoms/files/Official/ten/hotdogb/Candy-hotdogb-10-Stable-OFFICIAL-20200530-2318.zip",
           "version": "10-Stable"
         }
     ]
