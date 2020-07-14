@@ -1,0 +1,102 @@
+===== CANDYROMS CHANGE LOG =====
+
+🍬 11-Jul-2020 🍬
+
+* device/oneplus/sdm845-common
+bd2fa57 sdm845-common: Disable mask layer hint [Dan Cartier]
+
+* device/oneplus/sm8150-common
+295b0c1 sm8150-common: doze: Switch pickup sensor [Marko Man]
+5c4a5db sm8150-common: Enabling PASR [Piyush Balwani]
+57670b4 sm8150-common: disable mask layer hint [Lup Gabriel]
+e9b4118 sm8150-common: Fix adaptive brightness [gnumdk]
+
+🍬 10-Jul-2020 🍬
+
+🍬 09-Jul-2020 🍬
+
+🍬 08-Jul-2020 🍬
+
+🍬 07-Jul-2020 🍬
+
+🍬 06-Jul-2020 🍬
+
+* device/candy/sepolicy
+e5147c0 recovery: Ignore lineage_recovery_prop [Dan Cartier]
+478af2b sepolicy: recovery: fix neverallows [Alessandro]
+2df98d8 sepolicy: Make recovery permissive [Dan Cartier]
+e91ddd7 lineage: Guard neverallowed policy for system_file with userdebug/eng [Nolen Johnson]
+63f78ce sepolicy: allow recovery to setenforce [Dan Cartier]
+8c037d6 sepolicy: recovery: allow recovery to read battery info [Dan Cartier]
+9cb8c30 sepolicy: recovery: Allow setting sys.usb.config [Michael Bestas]
+4b02c21 Clean-up recovery rules a bit [Luca Stefani]
+9974bbb Revert "sepolicy: update_engine neverallows [2/2]" [Dan Cartier]
+76c9248 Add adb_root rules [Luca Stefani]
+
+* device/oneplus/sdm845-common
+e57ee6d sdm845-common: Remove kernel capability rules [Dan Cartier]
+
+* device/qcom/sepolicy
+fb7fa44 sepolicy: Unlabel aux camera whitelist prop [dianlujitao]
+825cc9c Merge tag 'LA.UM.8.1.r1-14300-sm8150.0' of https://source.codeaurora.org/quic/la/device/qcom/sepolicy into lineage-17.1 [Michael Bestas]
+
+🍬 05-Jul-2020 🍬
+
+🍬 04-Jul-2020 🍬
+
+🍬 03-Jul-2020 🍬
+
+* device/candy/sepolicy
+11c4cad sepolicy: allow settings to read selinux status [maxwen]
+c476181 common: Expose aux camera {black,white}list props [dianlujitao]
+89cd7e7 Revert "Label candy.service.adb.root as system prop" [Dan Cartier]
+32b2ee7 sepolicy: qcom: Label custom FM Radio property [Michael Bestas]
+924580a sepolicy: allow adbroot service to change adb root status [Alessandro Astone]
+46520cd Revert "common: Allow adbd to set a system_prop" [Alessandro Astone]
+b2b4820 lineage: Assign bash the same label as the default shell [Bruno Martins]
+45a435a sepolicy: recovery: fix neverallows [Alessandro]
+5f0acab sepolicy: recovery: allow reading fbe key version [Alessandro]
+b68763a sepolicy: recovery: allow mounting of internal storage [Alessandro]
+d27d1a0 sepolicy: recovery: allow mounting of usb storage [Alessandro Astone]
+d1d30da sepolicy: recovery: Allow volume manager write to /sys/*/uevent [Michael Bestas]
+2c68e40 sepolicy: recovery: Add policy for /dev/block/volmgr [Michael Bestas]
+bd6d259 sepolicy: recovery: Fix the volume manager blkid.tab denial [Adrian DC]
+2adee9b sepolicy: recovery: Allow reading proc_filesystems [Michael Bestas]
+b8cc40f sepolicy: recovery: Add policy for volume manager [Alessandro Astone]
+e5fce3e sepolicy: New type sdcard_posix for labeled filesystems [Tom Marshall]
+
+* external/selinux
+b422686 Don't require seinfo for privapps [Ashwini Oruganti]
+
+🍬 02-Jul-2020 🍬
+
+* device/oneplus/hotdogb
+ff4d0e9 hotdogb: Switch to walleye oreo fingerprint [Anirudh Gupta]
+
+* device/oneplus/sm8150-common
+3a87067 sm8150-common: Remove duplicate fingerprint [Dan Cartier]
+
+🍬 01-Jul-2020 🍬
+
+🍬 30-Jun-2020 🍬
+
+* device/oneplus/sm8150-common
+11ef657 sm8150-common: fod: Fix dim amount [Anushek Prasal]
+3f2fd02 sm8150-common: fod: Clean and update [Hikari-no-Tenshi]
+02d79af sm8150-common: fod: Bump hal to version 1.1 [TheScarastic]
+dd6ad9a sm8150-common: fod: Calculate dim alpha based on real brightness [Hikari-no-Tenshi]
+9312adf sm8150-common: tri-state-key: Add hall sensor calibration support [Hikari-no-Tenshi]
+54f1af1 Revert "sm8150-common: Add tri-state-key calibration daemon" [Dan Cartier]
+aed9f4d sm8150-common: BoardConfig: Use latest clang to compile kernel [Anirudh Gupta]
+6a1f7af sm8150-common: Switch to common usb-in-recovery configuration [LuK1337]
+
+* packages/apps/Updater
+1565186 Don't check version before install [DennySPB]
+60be618 Add storage permission request to local update [DennySPB]
+349a09e Updater: Add privapp permissions xml [Michael Bestas]
+bcb06ff UpdaterService: Update notification content text with install progress [Harsh Shandilya]
+
+🍬 29-Jun-2020 🍬
+
+🍬 28-Jun-2020 🍬
+
