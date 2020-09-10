@@ -1,0 +1,332 @@
+===== CANDYROMS CHANGE LOG =====
+
+🍬 10-Sep-2020 🍬
+
+* device/oneplus/hotdogb
+555cb07 hotdogb: overlay: SystemUI: Set bottom margin of keyguard security for 1080p display [Anirudh Gupta]
+31ffebf hotdog: Leave space for FOD while bouncer is requesting Pattern on PIN [Demon000]
+746d5ed Revert "hotdogb: Set TARGET_USES_FOD_HACK := true" [Dan Cartier]
+4117d89 hotdogb: Add config_physicalDisplayCutout overlay for notch hide [Dan Cartier]
+35879a9 hotdogb: Nuke notch overlays [Dan Cartier]
+6716969 hotdogb: rootdir: Modify fstab to allow f2fs userdata to mount [Anirudh Gupta]
+b86a078 Revert "hotdog: Add device specific camera blobs" [Dan Cartier]
+
+* device/oneplus/sm8150-common
+d532f65 sm8150-common: Add support for single swipe screen-off gestures [Dan Cartier]
+
+* kernel/oneplus/sm8150
+fc983330 input: oneplus_touchscreen: Allow all touch screen gestures [Dan Cartier]
+045da36 Revert "op_touchscreen: Enable gesture support for AOSPA-based ROMs" [Dan Cartier]
+0995310 Revert "BACKPORT: FROMGIT: arm64: Add support for relocating the kernel with RELR relocations" [Dan Cartier]
+41c8c83 Revert "gpu: drm: Force fp pressed if fp mode on" [Dan Cartier]
+03cc094 Revert "gpu: drm: Make sure to set proper dim_status if fp mode on as well" [Dan Cartier]
+153db9a Revert "drm: allow dc dimming code to run" [Dan Cartier]
+
+🍬 09-Sep-2020 🍬
+
+* device/oneplus/fajita
+7259746 fajita: Switch to enchilada build fingerprint [Anirudh Gupta]
+02d3741 fajita: overlay: Update fingerprint dot location [Michael W]
+5d59c84 fajita: Move soong namespaces to device.mk [Luca Stefani]
+8149b91 fajita: Leave space for FOD while bouncer is requesting Pattern on PIN [Demon000]
+
+* device/oneplus/sdm845-common
+2b80f3f sdm845-common: Use EmptyOverlay to bind mount oneplus icons [maxwen]
+
+🍬 08-Sep-2020 🍬
+
+* device/oneplus/sm8150-common
+8fb2db1 Revert "sm8150-common: Telephony: Add telephony_injection file" [Dan Cartier]
+ade9d05 Revert "sm8150-common: Telephony: Move qti-telephony-common to product" [Dan Cartier]
+2d0fb68 Revert "sm8150-common: Telephony: Add inject support for MultiSimSettingController" [Dan Cartier]
+
+🍬 07-Sep-2020 🍬
+
+* frameworks/base
+719f25e Telephony: URI cannot be created with negative subIds [jlask]
+4ed6953 LTE+ indicator not shown when attached to CA network [Rambo Wang]
+184fdee [BACKPORT] Config of LTE signal strength default value remove SNR [SongFerngWang]
+
+* system/bt
+709f498 Bluetooth: Support to know if there is High Def call [Bhakthavatsala Raghavendra]
+
+🍬 06-Sep-2020 🍬
+
+* candy
+ce74fc1 candy: Android 10.0.0_r41 [Dan Cartier]
+e1a8e58 candy: Add our staging remote to manifest [Dan Cartier]
+
+* device/oneplus/fajita
+dab7f5f fajita: Update libfod extension function prototypes [LuK1337]
+ed99cd7 fajita: fod: Reset everything when onShowFODView() is called [LuK1337]
+14fb43c fajita: fod: Set dim mode instead of HBM for fp enrollment [Marko Man]
+9ad6a89 fajita: Switch to libfod extension [Michele Bono]
+
+* device/oneplus/sdm845-common
+2a71386 sdm845-common: Sync boot image header with OOS [LuK1337]
+ae39912 sdm845-common: touch: Add single tap to touch screen gestures [Anirudh Gupta]
+8ec5344 sdm845-common: DeviceSettings: Use VibrationEffect [Ashwin R C]
+5549310 sdm845-common: Address backlight/scsi/thermal related denials in recovery [quark2323]
+8670730 sdm845-common: Move /dev/dri/card0 labeling to sepolicy/vendor [LuK1337]
+913a425 sdm845-common: Pull device/qcom/sepolicy rules for bootctrl/update_engine [quark2323]
+3604ecd sdm845-common: touch: Make sure gesture path exists before advertising it [LuK1337]
+470be7b sdm845-common: Unset BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED [LuK1337]
+46b895b sdm845-common: DeviceSettings: Automatic translation import [Akhil Narang]
+c5f73d9 sdm845-common: Move ro.config.*_vol_steps to /product [LuK1337]
+68ec74e sdm845-common: sepolicy: Label /dev/dri/card0 [LuK1337]
+2533462 sdm845-common: Disable mask layer hint [Dan Cartier]
+67a4507 sdm845-common: Remove kernel capability rules [Dan Cartier]
+
+* frameworks/base
+bf92519 Phone ringtone setting for Multi SIM device [Ting Yu]
+5adc339 Add isApplicationOnUicc API [Hyungjun Park]
+8eb1433 Merge tag 'android-10.0.0_r41' into c10 [Dan Cartier]
+
+* frameworks/opt/telephony
+a0cb895 Failed to show hold call when user click swap and merge simultaneously [rongmei.li]
+19180db Telephony: Add option for using regular poll state for airplane mode [Arne Coucheron]
+a0a63ab Avoid SubscriptionManager#getUriForSubscriptionId calls with invalid subIds [Bruno Martins]
+13e634c Remove setIsoCountryProperty method along with partially dead code [Bruno Martins]
+6357525 Truly fix Classloader crash in com.android.phone [Brian Orr]
+bdb543c Fix ClassLoader crash in com.android.phone [Brian Orr]
+e6a4c2a MSIM: Perform code clean-up [Sandeep Gutta]
+8ee97c3 Enable vendor Telephony plugin [Sneh Bansal]
+c7ed71f Enable vendor Telephony plugin: MSIM Changes [Sneh Bansal]
+
+* packages/services/Telecomm
+aa65fbb Bluetooth: Support to know if there is High Def call [Nivedita Sarkar]
+9a5e351 Phone ringtone setting for Multi SIM device [Ting Yu]
+8388478 Add synchronized lock when set call state ANSWERED [Jiangli Liu]
+
+* packages/services/Telephony
+a05d6cd Explicitly grant START_ACTIVITIES_FROM_BACKGROUND to com.android.phone. [Alan Stokes]
+22d77e0 Revert "VoWifi Emergency Call Notification" [Dan Cartier]
+665f19f Merge tag 'android-10.0.0_r41' into c10 [Dan Cartier]
+4ad72b9 fixup! Add isApplicationOnUicc API [LuK1337]
+baa163d Add isApplicationOnUicc API [Hyungjun Park]
+2e99dd1 Telephony: Add privapp permissions xml [Anirudh Gupta]
+4eef5c2 requestCellInfoUpdate: always check location perms [Hall Liu]
+30b9a98 Used checkPackage to check UID and package [Jordan Liu]
+08e7eef Remove PhoneInterfaceManagerTest [Jordan Liu]
+1b4d8d7 Merge tag 'LA.UM.8.1.r1-14500-sm8150.0' of https://source.codeaurora.org/quic/la/platform/packages/services/Telephony into HEAD [Josh Fox (XlxFoXxlX)]
+
+🍬 05-Sep-2020 🍬
+
+* build/make
+794bb9c Merge tag 'android-10.0.0_r41' into c10 [Dan Cartier]
+
+* device/candy/sepolicy
+b53b2e5 Revert "sepolicy: New type sdcard_posix for labeled filesystems" [Dan Cartier]
+
+* device/oneplus/sm8150-common
+3e2e68a sm8150-common: Update vendor security patch [Scott Warner]
+
+* frameworks/av
+c3f2767 Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/av into HEAD [Dan Cartier]
+
+* frameworks/native
+5fa47f3 Merge tag 'android-10.0.0_r41' into c10 [Dan Cartier]
+
+* packages/apps/Settings
+2f24043 Merge tag 'android-10.0.0_r41' into c10 [Dan Cartier]
+
+* system/sepolicy
+50aedfa Revert "sepolicy: New type sdcard_posix for labeled filesystems" [Dan Cartier]
+
+🍬 04-Sep-2020 🍬
+
+* candy
+a4d75df ingredients: Track LOS external_gptfdisk [Dan Cartier]
+67888f1 ingredients: Track LOS external_e2fsprogs [Dan Cartier]
+686034c candy: Android 10.0.0_r37 [Dan Cartier]
+
+* device/candy/sepolicy
+d1d6e62 sepolicy: New type sdcard_posix for labeled filesystems [Tom Marshall]
+a13cba2 common: Drop private mounton rule [Dan Cartier]
+
+* system/sepolicy
+e724717 sepolicy: Add sdcard_posix_contextmount_type attribute [LuK1337]
+
+🍬 03-Sep-2020 🍬
+
+* device/oneplus/sm8150-common
+2a59e4e sm8150-common: KeyHandler: Use VibrationEffect [Ashwin R C]
+d3299dc sm8150-common: Remove duplicate PASR HAL flag in system prop [Dan Cartier]
+7e7b600 sm8150-common: Move disable_mask_layer_hint flag to vendor prop [Dan Cartier]
+8d569ba sm8150-common: Update fod behavior [Michele Bono]
+71cf566 Revert "sm8150-common: Update USB MTP connection prop" [Dan Cartier]
+261a5cb sm8150-common: Update libfod extension function prototypes [LuK1337]
+463c8e6 sm8150-common: fod: Reset everything when onShowFODView() is called [LuK1337]
+53d4b5a sm8150-common: fod: Set dim mode instead of HBM for fp enrollment [Marko Man]
+ba02dec sm8150-common: Switch to libfod extension [Michele Bono]
+3c1891f Revert "sm8150-common: fod: Calculate dim alpha based on real brightness" [Dan Cartier]
+65fafa5 Revert "sm8150-common: fod: Bump hal to version 1.1" [Dan Cartier]
+70f6234 Revert "sm8150-common: fod: Clean and update" [Dan Cartier]
+f83d51d Revert "sm8150-common: fod: Fix dim amount" [Dan Cartier]
+
+* frameworks/opt/net/wifi
+1be0132 wifi_hal: add slsi wifi hal support [Jan Altensen]
+
+* packages/apps/CandyShop
+1102559 Squashed revert of FOD commits [Dan Cartier]
+
+🍬 02-Sep-2020 🍬
+
+* frameworks/base
+24c95e1 FOD: Move background color to colors.xml [OCD] [Dan Cartier]
+aabcba2 FingerprintService: start FOD after fingerprint HAL success [Jesse Chan]
+819e2da Skip screen on animation when wake and unlock via biometrics [Jesse Chan]
+c67f2b7 FODCircleView: Some clean up [Dan Cartier]
+7c001e5 FODCircleView: Also hide circle on auth error [jhenrique09]
+a417ac0 FODCircleView: Fix position on keyguard if cutout is hidden [Hikari-no-Tenshi]
+b5cdb2e FODCircleView: Fix position if cutout is hidden [jhenrique09]
+
+🍬 01-Sep-2020 🍬
+
+* kernel/oneplus/sm8150
+2e72080 neutrino: Regenerate and savedefconfig (4.14.195) [Adam W. Willis]
+f29fef1 neutrino: Enable Clang SHADOW_CALL_STACK [Adam W. Willis]
+447056f neutrino: Disable CFI_CLANG_SHADOW [Adam W. Willis]
+1a5af9a neutrino: Enable SECURITY_SELINUX_(SIDTAB_HASH_BITS|SID2STR_CACHE_SIZE) [Adam W. Willis]
+2ca80b3 neutrino: Disable ION_FORCE_DMA_SYNC / ION_POOL_(AUTO_REFILL|FILL_MARK) [Adam W. Willis]
+f5dda67 neutrino: Disable SPI_SLAVE [Adam W. Willis]
+ca5b082 neutrino: Disable PCI_SW_QCOM_SWITCH [Adam W. Willis]
+a61aba1 kbuild: use LLVM integrated assembler for assembly files [Adam W. Willis]
+16bbb8b Makefile: Globally disable compound-token-split-by-space warnings for Clang [Adam W. Willis]
+29bd122 lib/string.c: implement stpcpy [Nick Desaulniers]
+184e61d ANDROID: Disable wq fp check in CFI builds [Sami Tolvanen]
+15f9250 ANDROID: kbuild: don't merge .*..compoundliteral in modules [Sami Tolvanen]
+a0f2bb3 kbuild: lto: remove duplicate dependencies from .mod files [Sami Tolvanen]
+ed93f27 arm64: vdso32: Fix '--prefix=' value for newer versions of clang [Nathan Chancellor]
+b9fde95 crypto: arm64/aes-modes - get rid of literal load of addend vector [Ard Biesheuvel]
+3d01fdc crypto: arm64/chacha20 - move kernel mode neon en/disable into loop [Ard Biesheuvel]
+8991071 crypto: arm64/aes-bs - move kernel mode neon en/disable into loop [Ard Biesheuvel]
+6846b13 crypto: arm64/aes-blk - move kernel mode neon en/disable into loop [Ard Biesheuvel]
+f94ba35 crypto: arm64/aes-ce-ccm - move kernel mode neon en/disable into loop [Ard Biesheuvel]
+8cb30b95 scripts/dtc: Update to upstream version v1.4.6-21-g84e414b0b5bc [Rob Herring]
+aa950b7 dtc: checks: drop warning for missing PCI bridge bus-range [Rob Herring]
+09a48c0 kbuild: add dtc as dependency on .dtb files [Rob Herring]
+69a421d scripts/dtc: Update to upstream version v1.4.6-9-gaadd0b65c987 [Rob Herring]
+bcad81a dtc: update warning settings for new bus and node/property name checks [Rob Herring]
+217285c kbuild: Hide CFI shadow option if modules are disabled [Danny Lin]
+be063c5 treewide: Fix string concatenation warnings detected by Clang 12 [Danny Lin]
+30e36cf arm64: dts: sm8150: Add full CPU frequency tables [Danny Lin]
+0ef4061 clk: qcom: clk-cpu-osm: Allow overriding CPU frequency tables in DT [Danny Lin]
+07a6b81 taskstats: Convert from nr_indirectly_reclaimable_bytes to nr_kernel_misc_reclaimable [Danny Lin]
+5bbb907 msm: kgsl: Convert from nr_indirectly_reclaimable_bytes to nr_kernel_misc_reclaimable [Danny Lin]
+aa709e0 selinux: avc: fix build with CONFIG_AUDIT=y [Yaroslav Furman]
+046448f msm: vidc: change cvp buffer add sequence [Vikash Garodia]
+db1e027 FROMLIST: writeback: Avoid skipping inode writeback [Jan Kara]
+
+🍬 31-Aug-2020 🍬
+
+* kernel/oneplus/sm8150
+faa76f2 rcu: Make kfree_rcu() ignore NULL pointers [Paul E. McKenney]
+15d8ca2 VFS: use synchronize_rcu_expedited() in namespace_unlock() [NeilBrown]
+7aeb0b3e5 UPSTREAM: PM / core: Add support to skip power management in device/driver model [Sudeep Holla]
+afae1f0 ion: Improve ION allocation paths [Isaac J. Manjarres]
+11ce767 ANDROID: staging: android: ion: Expose total heap and pool sizes via sysfs [Suren Baghdasaryan]
+f7b1bad UPSTREAM: include/linux/slab.h: fix sparse warning in kmalloc_type() [Vlastimil Babka]
+6ae6229 UPSTREAM: mm, slab: shorten kmalloc cache names for large sizes [Vlastimil Babka]
+d8f72df UPSTREAM: mm, proc: add KReclaimable to /proc/meminfo [Vlastimil Babka]
+5181118 BACKPORT: mm: rename and change semantics of nr_indirectly_reclaimable_bytes [Vlastimil Babka]
+bfb9d48 UPSTREAM: dcache: allocate external names from reclaimable kmalloc caches [Vlastimil Babka]
+cca4fd0 BACKPORT: mm, slab/slub: introduce kmalloc-reclaimable caches [Vlastimil Babka]
+b5a556b UPSTREAM: mm, slab: combine kmalloc_caches and kmalloc_dma_caches [Vlastimil Babka]
+da3055a UPSTREAM: mm/slab: add naive detection of double free [Kees Cook]
+8ba3bf8 BACKPORT: page_alloc: consider highatomic reserve in watermark fast [Jaewon Kim]
+7e66e8b selinux: randomize layout of key structures [Stephen Smalley]
+57292cb31 selinux: remove set but not used variable 'sidtab' [YueHaibing]
+4a9627f selinux: ensure the policy has been loaded before reading the sidtab stats [Paul Moore]
+ddf684e selinux: fix sidtab string cache locking [Ondrej Mosnacek]
+217706f BACKPORT: selinux: cache the SID -> context string translation [Ondrej Mosnacek]
+dd37f9b selinux: remove useless assignments [Ondrej Mosnacek]
+1d3fdb5 selinux: log invalid contexts in AVCs [Ondrej Mosnacek]
+edeb855 BACKPORT: selinux: convert to kvmalloc [Kent Overstreet]
+fc1862a FROMLIST: security: selinux: allow per-file labelling for binderfs [Hridya Valsaraju]
+4ab9876 ANDROID: selinux: modify RTM_GETLINK permission [Jeff Vander Stoep]
+d24dfe3 UPSTREAM: selinux: sidtab reverse lookup hash table [Jeff Vander Stoep]
+d932e20 UPSTREAM: selinux: avoid atomic_t usage in sidtab [Ondrej Mosnacek]
+9213e4d UPSTREAM: selinux: check sidtab limit before adding a new entry [Ondrej Mosnacek]
+09a8c4e UPSTREAM: selinux: fix context string corruption in convert_context() [Ondrej Mosnacek]
+9f050cc BACKPORT: selinux: overhaul sidtab to fix bug and improve performance [Ondrej Mosnacek]
+1441af2 UPSTREAM: selinux: refactor mls_context_to_sid() and make it stricter [Jann Horn]
+6cc285b UPSTREAM: selinux: Cleanup printk logging in services [peter enderborg]
+a4524b4 UPSTREAM: scsi: ilog2: create truly constant version for sparse [Martin Wilck]
+0956968 BACKPORT: selinux: use separate table for initial SID lookup [Ondrej Mosnacek]
+0e2a647 UPSTREAM: selinux: make "selinux_policycap_names[]" const char * [Alexey Dobriyan]
+9b3eb65 UPSTREAM: selinux: refactor sidtab conversion [Ondrej Mosnacek]
+0913c19 BACKPORT: selinux: wrap AVC state [Stephen Smalley]
+f2f5767 UPSTREAM: selinux: wrap selinuxfs state [Stephen Smalley]
+49cd06b UPSTREAM: selinux: rename the {is,set}_enforcing() functions [Paul Moore]
+65935cf BACKPORT: selinux: wrap global selinux state [Stephen Smalley]
+9f3ca23 UPSTREAM: selinux: Use kmem_cache for hashtab_node [Kyeongdon Kim]
+79b9dc1 [PARTIAL] Revert "Makefile: Cleanup and optimize" [Adam W. Willis]
+cba3e6d Revert "scsi: ufshcd: mark IRQ as performance critical" [Adam W. Willis]
+0ce45c0 Revert "clk: qcom: mdss: Omit support for unused PLLs" [Adam W. Willis]
+1b02c94 Revert "FROMLIST: cpu: fix cache warnings when resuming from deep suspend" [Adam W. Willis]
+5392304 Revert "selinux: Don't allocate memory dynamically for file and inode security" [Adam W. Willis]
+f3cc96b Revert "ANDROID: selinux: modify RTM_GETLINK permission" [Adam W. Willis]
+890434a Revert "selinux: use stack on security_sid_to_context() if possible" [Adam W. Willis]
+32f9f5c Revert "scripts: Disable some noisy dtc warnings" [Adam W. Willis]
+04349d2 Revert "scripts: Makefile: add support to use external DTC" [Adam W. Willis]
+780d80b Revert "dtc: add integer overflow checks in fdt header" [Adam W. Willis]
+eb63148 Merge 4.14.195 into neutrino-msm-hotdogb-4.14 [Adam W. Willis]
+e90cdde Merge branch 'kerneltoast/neutrino-msm-hotdogb-4.14' of https://github.com/0ctobot/neutrino-staging into neutrino-msm-hotdogb-4.14 [Adam W. Willis]
+276eeba ext4: Avoid dynamically allocating memory in ext4_ext_remove_space [Sultan Alsawaf]
+c89ebea locking/rwsem: Don't hog RCU read lock while optimistically spinning [Sultan Alsawaf]
+f1dd21e locking/mutex: Don't hog RCU read lock while optimistically spinning [Sultan Alsawaf]
+75c3f81 Reapply e992488 ("iommu: msm: Rewrite to improve clarity and performance") [Sultan Alsawaf]
+db42862 Reapply d3712a4 ("ion: Rewrite for improved clarity and performance") [Sultan Alsawaf]
+ebafdf0 Merge branch 'overflow/neutrino-msm-hotdogb-4.14' of https://github.com/0ctobot/neutrino-staging into neutrino-msm-hotdogb-4.14 [Adam W. Willis]
+01d5a5a treewide: Use array_size() in f2fs_kzalloc() [Kees Cook]
+7a23778 treewide: Use array_size() in sock_kmalloc() [Kees Cook]
+30de150 treewide: Use array_size() in vzalloc_node() [Kees Cook]
+4a1780b treewide: Use array_size() in vzalloc() [Kees Cook]
+1342bc1 treewide: Use array_size() in vmalloc() [Kees Cook]
+d835d35 treewide: devm_kzalloc() -> devm_kcalloc() [Kees Cook]
+1e4985a treewide: devm_kmalloc() -> devm_kmalloc_array() [Kees Cook]
+fcb0963 treewide: kvzalloc() -> kvcalloc() [Kees Cook]
+e1dba3d treewide: kvmalloc() -> kvmalloc_array() [Kees Cook]
+213d442 treewide: kzalloc_node() -> kcalloc_node() [Kees Cook]
+146ad41 treewide: kzalloc() -> kcalloc() [Kees Cook]
+e0320fd treewide: kmalloc() -> kmalloc_array() [Kees Cook]
+2dc5245 treewide: Use struct_size() for devm_kmalloc() and friends [Kees Cook]
+3cebf0a treewide: Use struct_size() for vmalloc()-family [Kees Cook]
+638e709 treewide: Use struct_size() for kmalloc()-family [Kees Cook]
+9533a2d UPSTREAM: mm: Introduce kvcalloc() [Kees Cook]
+5175bbb UPSTREAM: device: Use overflow helpers for devm_kmalloc() [Kees Cook]
+efc4b09 BACKPORT: mm: Use overflow helpers in kvmalloc() [Kees Cook]
+af50a7b UPSTREAM: mm: Use overflow helpers in kmalloc_array*() [Kees Cook]
+56a43a7 UPSTREAM: Convert v4l2 event to struct_size [Matthew Wilcox]
+4c1cf56 UPSTREAM: Convert virtio_console to struct_size [Matthew Wilcox]
+97c86ac UPSTREAM: include/linux/slab.h: add kmalloc_array_node() and kcalloc_node() [Johannes Thumshirn]
+
+🍬 30-Aug-2020 🍬
+
+🍬 29-Aug-2020 🍬
+
+* frameworks/base
+c82d0a9 FODCircleView: Add support for pressed fod layer [TheScarastic]
+43e6f23 FODCircleView: Let us call show() when mIsBouncer() && !isPinOrPattern() [LuK1337]
+b9b5902 FODCircleView: Show while bouncer is requesting Pattern or PIN [TheScarastic]
+140b4c1 FODCircleView: update position of icon before show [Demon000]
+a1d8071 FODCircleView: Squashed revert of previous commits [Dan Cartier]
+
+🍬 28-Aug-2020 🍬
+
+* frameworks/native
+e85bd0d Fix r37 merge [Dan Cartier]
+2b1a0f2 sf: Exclude VDS use of HWC on non-UM platforms [dianlujitao]
+1fbb24d sf: Remove redundant allocateVirtualDisplay. [Yogendra Charya Tangalapally]
+dfc79ef sf: Allow VDS to use HWC [Ramakant Singh]
+0085e61 Remove unsafe cast in Client::createWithSurfaceParent [Vishnu Nair]
+8e0056c SF:Report active config to java framework [Chaojiang Luo]
+7984d7b Correct PowerManager transaction IDs. These transaction IDs must be kept in sync with the method order from IPowerManager.aidl. [Wang Wen]
+
+* kernel/oneplus/sdm845
+122a4c0 Merge android-linux-stable into IllusionKernel [Anirudh Gupta]
+
+* vendor/candy
+7e88779 Export qcom UM hal root to soong [dianlujitao]
+
