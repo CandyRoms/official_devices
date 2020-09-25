@@ -1,0 +1,314 @@
+===== CANDYROMS CHANGE LOG =====
+
+🍬 25-Sep-2020 🍬
+
+* build/make
+24760ab Bump Security String to 2020-09-05 [Kevin F. Haggerty]
+
+* device/xiaomi/sm6150-common
+b3a1c7f fix some derps [Mourya Baruah]
+
+* device/xiaomi/violet
+4868628 track some more repos [Mourya Baruah]
+
+* frameworks/base
+7e789b4 Mark implicit PendingIntents as immutable [Steve Elliott]
+3134fe6 DO NOT MERGE: Remove unused intent in NiNotification [Yu-Han Yang]
+dcf192a Add missing isShellUser check [John Reck]
+cc6c409 Do not set referrerUri on SessionInfo for non-owners [Patrick Baumann]
+635903f Tests no screenshot is copied when user consent timed out [Rhed Jao]
+e5a2cb5 Revert "Ignores protected broadcasts if not priv-app" [Winson Chiu]
+f78c497 Make view intent immutable [Beth Thibodeau]
+03de810 Remove unused intent in NFW notification [Yu-Han Yang]
+33f0e0f Only autoVerify at install for new hosts [Christopher Tate]
+7b7ca25 DO NOT MERGE: Verify INSTALL_PACKAGES permissions when adding installer package [Winson]
+d6a0f68 Revert "Revoke 'always' web handler status when not autoverifying" [Chris Tate]
+
+* frameworks/native
+9be0b1c Call Layer::getLayerDebugInfo from the main thread [Vishnu Nair]
+ce18751 Copy Screenshot to fd if and only if user consent approved [Abhijeet Kaur]
+
+* frameworks/opt/net/wifi
+f3699cd [Passpoint] Remove R2 broadcasts [Hai Shalom]
+
+* frameworks/opt/telephony
+7df7696 Use FLAG_IMMUTABLE for MultiSimSettingController [Shuo Qian]
+4366aa1 Add package checking with Uid in EuiccController#getEid [Shuo Qian]
+eccc509 Use FLAG_IMMUTABLE for InstallCarrierAppUtils [Shuo Qian]
+cae9444 Use FLAG_IMMUTABLE for InboundSmsHandler [Shuo Qian]
+4767a69 Use FLAG_IMMUTABLE for CarrierKeyDownloadManager [Shuo Qian]
+745e857 Use FLAG_IMMUTABLE for CarrierServiceStateTracker [Shuo Qian]
+ef3eff9 Use FLAG_IMMUTABLE for ServiceStateTracker [Shuo Qian]
+995dcc5 Restrict access to the resolution PendingIntent created by EuiccController to EuiccResolutionUiDispatcherActivity [Peter Wang]
+ee999ad Added FLAG_IMMUTABLE flag for security purposes [Jack Yu]
+
+* packages/apps/Bluetooth
+2804283 SAP: Ensure pending intent is immutable [Chienyuan]
+
+* packages/apps/PermissionController
+f62d43a DO NOT MERGE Use permission group definintion if defined in PermissionController [Evan Severson]
+
+* packages/apps/Settings
+951b1b8 Enable the filterTouchesWhenObscured in Special app access [Sunny Shao]
+
+* packages/apps/Snap
+98c4f5b Revert "Revert "Snap: Temp fix build error"" [Mourya Baruah]
+
+* packages/services/Telephony
+15dd0ad Use PendingIntent.FLAG_IMMUTABLE in PendingIntent in NotificationMgr [Shuo Qian]
+93d9a1e Restrict access to the resolution PendingIntent created by EuiccController to EuiccResolutionUiDispatcherActivity [Peter Wang]
+cdfc968 Specify the component for the ACTION_SHOW_ECM_EXIT_DIALOG Intent [Brad Ebinger]
+
+* system/bt
+3d7d6f7 Fix possible OOB when receive gatt read type response data [weichinweng]
+83d6b8c Remove pairing on incoming bond request [Myles Watson]
+b119a1f Enable bitpool sanity checks [Joseph Pirozzo]
+37ff666 Check a2dp packet length is zero [Chris Manton]
+
+* system/core
+69b41a4 libutils: check vsnprintf error [Steven Moreland]
+e882838 String16::remove - avoid overflow [Steven Moreland]
+
+* system/sepolicy
+da0710a Don't give uid-based categories to app_zygote and isolated processes. [Martijn Coenen]
+
+🍬 24-Sep-2020 🍬
+
+* frameworks/av
+5a12c7b candy-ify [Mourya Baruah]
+
+* frameworks/native
+976bc47 candy-ify [Mourya Baruah]
+
+* official_devices
+0e3a620 hotdogb: OTA update 23/09/2020 [NoSpamDan]
+ac638ca fajita: OTA update 23/09/2020 [NoSpamDan]
+
+🍬 23-Sep-2020 🍬
+
+* frameworks/base
+5bb5c5f Merge changes from topic "extra" into c10 [Dan Cartier]
+936d67e Fix build errors [Scott Lobdell]
+c1569f4 Fix BLE transport discovery scan filter [Subramanian Srinivasan]
+556a6ef BT: Relocate A2DP codec strings for translation [dianlujitao]
+ccc68c1 Enable codec change request when mode changes in aptX-adaptive [Naval saini]
+03e9ec3 Keep a null check before accessing the BluetoothA2dpWrapper APIs. [Satheesh Kumar Pallemoni]
+1dde236 Bluetooth: Fix for out of bound exception [pramod kotreshappa]
+302a099 BT Dev: Increase array size for codec selection in Dev Op [Gurpreet Ghai]
+a2cc2aa Keep the BluetoothHeadset finalize() method protected [Diego Wilson]
+131a877 Bluetooth: Fix for Global reference table overflow issue[1/2] [Bandari Ramesh]
+e9fbd7d BT: Add new intent to broadcast IOT device details [Gurpreet Ghai]
+e9dcabc BT_Audio: Updated Check for TWS+ switch [Gurpreet Ghai]
+05b894d TWS_A2DP: Handle active device change between TWS+ earbuds [pramod kotreshappa]
+c1e4e4e audio: Add support for APTX TWSP audio codec [Dhananjay Kumar]
+1c46ab1 audio: Add support for audio extended codecs [Naresh Tanniru]
+574e0f5 Use BluetoothUtils instead of Utils [Diego Wilson]
+baa4b7b GAP: Handle the race condition cases in auto connect logic [Venkata Jagadeesh Garaga]
+c9696ae Obex: Squashed commit of the following [Sravan Kumar V]
+eac94ab Add scan filter for Transport Discovery data [Subramanian Srinivasan]
+0587d36 Support CALLBACK_TYPE_SENSOR_ROUTING [Mingbo Zhang]
+b0baa1c Add support for Transport discovery AD type (1/2) [Subramanian Srinivasan]
+32453ce Bluetooth: TWSP: Support Battery Status information display [Bhakthavatsala Raghavendra]
+2af9d78 GAP: Reset bondingInitiatedLocally flag(1/3) [Venkata Jagadeesh Garaga]
+d7a7709 Bluetooth-TWS: Disable outgoing connection to 2nd earbud [Kiran Kelageri]
+fdc0ac5 Bluetooth-TWS: Disable outgoing connection for 2nd earbud. [Kiran Kelageri]
+b7c180d Bluetooth: Rename bluetooth property to support new P Treble rules [Safoorah Banu Shaik]
+2ca9f0c Bluetooth: Unpair both earbuds on unpair. [Kiran Kelageri]
+28deab4 Bluetooth: Add SDK API support for TWS feature (2) [Bandari Ramesh]
+8394f51 Revert the change: AudioService: remove dead BT code. [Samyak Jain]
+b01b96c TWS-A2DP: Add TWS+ codec to DevUI support [pramod kotreshappa]
+8cf89c4 BT: Adding aptX-Adaptive codec entry to Framework [Gurpreet Ghai]
+484376e Add BluetoothQualityReport class(1/2) [Mingbo Zhang]
+2c46e86 SystemUI: Fix issue with Bluetooth tile [Michael W]
+d4c22d5 Purge unused native memory before Zygote fork events [Chris Wailes]
+32ec641 Fix color mismatch of pointers [xuejianbao]
+fe5c323 Teaches the ProcessCpuTracker about USAPs. [Chris Wailes]
+2a52550 Adds Zygote policy flags to control how applications are launched [Chris Wailes]
+02a0f7b Start process of next activity with top priority in advance [Riddle Hsu]
+e4a068b Fixed an issue Zygote initialization. [Chris Wailes]
+cc8b87b Improved timekeeping logic for USAP Pool refill mechanism. [Chris Wailes]
+097713f Resets the refill action/timing info after a pool fill event. [Chris Wailes]
+059a86f Make the USAP Pool refill delay configurable. [Chris Wailes]
+5258f3b Re-adds a trace  point that was accidentally removed. [Chris Wailes]
+06e8f43 Moved some thread priority changes. [Chris Wailes]
+0a80ac2 Adjust Java Language thread priority in new processes. [Chris Wailes]
+8764e21 Adjusts the USAP pool refill mechanism. [Chris Wailes]
+2806f5f Change USAP name to application name as soon as possible. [Chris Wailes]
+976a19e SystemUI: Use regular global_actions_column layout for layout-sw600dp-land [LuK1337]
+
+🍬 22-Sep-2020 🍬
+
+* hardware/xiaomi
+ede4d68 consumerir: Remove libhwbinder and libhidltransport deps [Mohammad Hasan Keramat J]
+
+🍬 21-Sep-2020 🍬
+
+* packages/apps/Contacts
+f9acb6c Automatic translation import [LineageOS Builder]
+
+🍬 20-Sep-2020 🍬
+
+* candy
+9513d9e  Track QTI BT repos [Mourya Baruah]
+
+* hardware/qcom-caf/msm8998/audio
+ee5f07c Merge tag 'LA.UM.8.4.r1-06000-8x98.0' to msm8998/audio. [Sourajit Karmakar]
+
+* official_devices
+91183b7 ota: violet [Mourya Baruah]
+
+* packages/apps/Bluetooth
+4263343 Stub TWS related APIs [dianlujitao]
+1bb439e GAP: Reset bondingInitiatedLocally flag(2/3) [Venkata Jagadeesh Garaga]
+2ed7041 BT: API to update quiet mode status in Adapter service [1/3] [M Safoorah Banu]
+62e27c0 Bluetooth: Enable Hybrid Audio from App [Srinu Jella]
+e891de7 Add BLE Scan Phy parameter to scan API [Subramanian Srinivasan]
+
+🍬 19-Sep-2020 🍬
+
+* frameworks/native
+42a2213 Revert "InputDispatcher: On keypress, deliver keycode to pokeUserActivity" [Mourya Baruah]
+c5b5e49 Forward port 'Swap volume buttons' (2/3) [nadlabak]
+
+🍬 18-Sep-2020 🍬
+
+* packages/apps/Settings
+a480577 Prevent overlay drawing on top of Bluetooth discovery request dialog [Jakub Pawlowski]
+a660267 Prevent overlay drawing on top of Bluetooth pairing dialog [Jakub Pawlowski]
+086d849 BT: Use translated a2dp codec strings [dianlujitao]
+d86c3fa codec support for DevUI am: f915bd9438 [Naval saini]
+2191b4f BT Settings: Adding aptX Adaptive codec entry in Settings [Gurpreet Ghai]
+d97ce4d Bluetooth-TWS: UI updates based on Filter matched [zhenchao]
+910a37d Bluetooth-TWS: UI updates based on profile connection. [Kiran Kelageri]
+8268229 Fix build error [Jiyong Park]
+a427cce Bluetooth-TWS: Filter TWS devices [Kiran Kelageri]
+7704a50 Bluetooth: Create new catogory for earbuds [Kiran Kelageri]
+
+* vendor/candy
+55de88e vendor: Fix compilation errors with prebuilt kernel [Dyneteve]
+940c3ca vendor: Update and fix apns-conf for better IMS support [Kshitij Gupta]
+
+🍬 17-Sep-2020 🍬
+
+* device/xiaomi/sm6150-common
+7d3c84e violet: Enable USAP [DanGLES3]
+533f578 Say bye bye to G-Contact bug [Aftab Ashrafi]
+1b6e590 L2C and E5B multiband NMEA [Nilesh Gharde]
+6bc346f sm6150-common: Address phoenix elliptic denials [merothh]
+d315115 sm6150-common: BoardConfig.mk: enable cortex-A76 [Kyle Lin]
+657c00e sm6150-common: Add permission to access proc_energy_aware file node [Rick Yiu]
+4d8d63a sm6150-common: use sysctl to control energy aware feature [Rick Yiu]
+c980c1c sm6150-common: init.qcom.rc: adjust thread count and cpuset after setup wizard [Kyle Lin]
+203a84e sm6150-common: Change the weight of blkio background group [Rick Yiu]
+01adac1 sm6150-common: init.qcom.rc: modify the cpuset setting [Kyle Lin]
+f2d23b3 sm6150-common: init.qcom.rc: correct the settings [Kyle Lin]
+29bf0dd sm6150-common: Add property to choose hw codecs in thumbnailer [Mahesh Lanka]
+0372f21 sm6150-common: Decommonize fluence property [Pig]
+025d48b sm6150-common: power-libperfmgr: add an updateHint function for simple hint ops [Jesse Chan]
+93bd216 sm6150-common: power-libperfmgr: add a NOT_INTERACTIVE hint for setInteractive [Jesse Chan]
+072ada1 sm6150-common: power-libperfmgr: remove Google-specific camera and audio hints [Jesse Chan]
+621a2b8 sm6150-common: configs: Remove TelePhony Rx from primary input [Shalini Manjunatha]
+137bb13 sm6150-common: finetune performance xml [Paras Nagda]
+ec8e218 sm6150-common: Decommonize voip properties [Pig]
+3d114f5 sm6150-common: Address camera denials [Pig]
+357f902 sm6150-common: Address ueventd denials [Pig]
+90352c4 sm6150-common: Address denials for violet [Pig]
+
+* device/xiaomi/violet
+cc04fe0 fix derp [Mourya Baruah]
+79800e8 candy-ify [Mourya Baruah]
+
+* packages/apps/CandyShop
+e904831 Changelog: Add left padding [xyyx]
+b494330 Settings: update changelog activity * improve code [dadi11]
+f49f56d Changelog: Fix text selection with dot [xyyx]
+73aa4fe Changelog: clean and make themeable before: https://imgur.com/a/ylSQG after: https://imgur.com/a/GdnPN [xyyx]
+
+* system/bt
+ccfe34f Changed HID_DEV_MTU_SIZE from 64 to 512 [Danny Trunk]
+f8eba92 GAP: Reset bondingInitiatedLocally flag(3/3) [Venkata Jagadeesh Garaga]
+23fb982 Bluetooth: Enable Hybrid Audio from stack [Srinu Jella]
+29bcb4f Add scan filter for Transport Discovery data [Subramanian Srinivasan]
+a1250f4 TWS-A2DP: Add TWS+ codec index [pramod kotreshappa]
+e1cf3cb BT: API to update quiet mode status in Adapter service [3/3] [M Safoorah Banu]
+62d6b50 BT: Adding APTX-Adaptive codec to BT HAL [Gurpreet Ghai]
+21bf336 Add BLE Scan Phy parameter to scan API [Subramanian Srinivasan]
+5798d87 Bluetooth: Add SDK API support for TWS feature (1) [Ramesh Bandari]
+
+🍬 16-Sep-2020 🍬
+
+* candy
+cb504a7 candy: Reset staging branches from r41 testing [Dan Cartier]
+
+* device/candy/sepolicy
+1820053 adbtcp: Remove duplicate adb.network.port definition [Dan Cartier]
+
+* frameworks/base
+e3e1fa7 AdbNetwork: allow to always enable it with persist.adb.tcp.port prop [ezio84]
+168dc11 ADB over network tile: code cleanup [ezio84]
+6ff5f62 Add Adb over Network tile and notification [ezio84]
+1c473b3 Add Adb over Network support [Ricardo Cerqueira]
+d925b95 Gesture nav extended swipe: show a double arrow when almost triggered [Nico]
+d11d5a0 Allow a wider back swipe to trigger actions (instead of timeout) [1/2] [ezio84]
+0f2e29a Add actions to CandyUtils [1/2] [ezio84]
+5be8195 CandyUtils: Add more custom actions [Alex]
+c16883c CandyUtils: Add Expand notifications action [ezio84]
+4a6a119 Move power menu methods to our Utils class [Alex Cruz]
+ef6ed8a CandyUtils: Add custom actions [Alex]
+5e1c891 CandyUtils: Add screen on action [Alex]
+aaa0d29 Allow long back swipe to trigger custom actions/app/activities [1/2] [ezio84]
+24171f8 battery: Increase padding before level text [Dan Cartier]
+43196d4 BatteryMeterView: Readd padding check that was removed in https://github.com/CandyRoms/frameworks_base/commit/5a4e02d36e31a5387eeda1b23fecccf211d889c4 [Dan Cartier]
+28b904b Battery icon: fix signal icon padding when using Hidden style [Ezio Lacandia Bijelkic]
+5c872af Remove DUN requirement for tethering [Dave Daynard]
+56839c3 SystemUI: Nope. This shouldn't be here [Ido Ben-Hur]
+590abee Power flashlight: allow to use it when all ambient/wake options are off [ezio84]
+618f0dd Flashlight toggle API: extend to screenOn state for Elmyra actions [ezio84]
+f7a0904 Power button flashlight toggle: rely on aosp doze sensors check code [ezio84]
+2fa6164 Power button flashlight: allow to skip proximity check per device [ezio84]
+462425d Power button flashlight toggle: add proximity sensor check [ezio84]
+86ca1c0 Allow doubletap/longpress power to toggle torch [1/2] [ezio84]
+069cde3 Flashlight toggle api improvements [ezio84]
+5513d59 Add api to toggle flashlight and check if device has flashlight [ezio84]
+ca8222d Long press QS settings for CandyShop [beanstown106]
+fabebca PWM: Fix volume key skip track [Dan Cartier]
+b84b72e Forward port 'Swap volume buttons' (1/3) [nadlabak]
+9b836a8 Revert "Volume Rocker Wake [1/2]" [Dan Cartier]
+530f767 Revert "Volume wake/skip track: Make it work independently" [Dan Cartier]
+
+* packages/apps/Settings
+ee05605 Allow a wider back swipe to trigger actions (instead of timeout) [2/2] [ezio84]
+2cefc1c Allow long back swipe to trigger custom actions/app/activities [2/2] [ezio84]
+4604809 Allow to doubletap or longpress power to toggle flashlight [2/2] [ezio84]
+f7c6d98 Swap volume buttons' (3/3) [ezio84]
+
+* system/sepolicy
+758f7c5 Revert "sepolicy: New type sdcard_posix for labeled filesystems" [Dan Cartier]
+c9446f1 Add adb over network tile sepolicy [ezio84]
+
+🍬 15-Sep-2020 🍬
+
+🍬 14-Sep-2020 🍬
+
+🍬 13-Sep-2020 🍬
+
+* frameworks/av
+a7d2866 Revert "audio policy: fix regression in USB audio" [jhenrique09]
+
+* hardware/qcom-caf/msm8998/audio
+15ec578 Merge 9a17150ac4a3670d836ac90a1188389e810e87a6 on remote branch [Linux Build Service Account]
+
+* packages/apps/CandyShop
+5f9c05c Revert "Candyshop: Volume Rocker Wake [2/2]" [Dan Cartier]
+
+* packages/apps/Snap
+191f4c0 Automatic translation import [LineageOS Builder]
+
+🍬 12-Sep-2020 🍬
+
+* candy
+74c8403 candy: Android 10.0.0_r41 [Dan Cartier]
+
+* packages/apps/CandyShop
+0faa09b doze: Drop doze vibration feedback [Dan Cartier]
+
