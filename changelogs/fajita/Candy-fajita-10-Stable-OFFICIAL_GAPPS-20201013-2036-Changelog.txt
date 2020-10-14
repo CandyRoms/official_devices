@@ -1,0 +1,294 @@
+===== CANDYROMS CHANGE LOG =====
+
+🍬 13-Oct-2020 🍬
+
+* packages/apps/Updater
+4986c9a Updater: Formatting and layout updates [NoSpamDan]
+
+🍬 12-Oct-2020 🍬
+
+* candy
+bd3f03f candy: Drop LivePicker from remove.xml [NoSpamDan]
+
+* packages/apps/Updater
+f67f93a Updater: Redraw layout on orientation change [NoSpamDan]
+6e2d256 Updater: Remove extra linear layout from update list [NoSpamDan]
+
+🍬 11-Oct-2020 🍬
+
+* device/oneplus/hotdogb
+6dc569d Revert "hotdogb: Build with pixelgapps" [NoSpamDan]
+
+* packages/apps/Updater
+943a754 Updater: Add storage permissions to whitelist [NoSpamDan]
+
+🍬 10-Oct-2020 🍬
+
+* device/oneplus/sdm845-common
+57bb9a5 sdm845-common: Update GCam branch in deps [NoSpamDan]
+
+* vendor/candy
+cf5fcd6 prebuilt: Update Lawnchair launcher [NoSpamDan]
+
+* vendor/google/camera
+358ec3f Gcam: Update for fajita [NoSpamDan]
+343a8d5 GCam: Override Snap [NoSpamDan]
+
+🍬 09-Oct-2020 🍬
+
+* frameworks/base
+b790d54 Themes: Add DU's PitchBlack Theme [1/3] [Alex Cruz]
+bd6e4ba DU-Themes: add 2 New Themes - ChocoX & BakedGreen [1/3] [SuperDroidBond]
+858360c Themes: Add DU themes [1/3] - This adds 'solarized dark' theme [Mourya Baruah]
+1541d7e CandyUtils: Add method to detect whether overlay is enabled [Mazda--]
+a6bd8ef fwb: Add reloadAssets functions [Sipun Ku Mahanta]
+491c618 CandyUtils: Remove shouldSetNavbarHeight() for now [NoSpamDan]
+dd2c3f0 Add kill-app api (with new fresh implementation) [ezio84]
+aecd255 Navbar: Add navigation bar visibility control [maxwen]
+2b761bb input: introduce new navigation bar key event source [Carlo Savignano]
+
+* packages/apps/CandyShop
+fc23199 CandyShop: Add setting to toggle navbar [Alex Cruz]
+
+* packages/apps/Settings
+5b4b434 Themes: Add DU's PitchBlack Theme [3/3] [Alex Cruz]
+aaaac01 DU-Themes: add 2 New Themes - ChocoX & BakedGreen [3/3] [SuperDroidBond]
+757c99d Themes: Add DU themes [3/3] [Mazda--]
+
+* vendor/pixelgapps
+414c4af PixelSetupWizard: Don't prompt for pixel-specific setup on fajita or hotdogb [NoSpamDan]
+
+🍬 08-Oct-2020 🍬
+
+* vendor/candy
+904c6bf Themes: Add DU themes [2/3] Also squash of * https://github.com/Project-Xtended/vendor_xtended/commit/6d2a44a91d2c75171a159503dfb3d65ccddbb688#diff-e90e1cd944414abc1f894bbe43c59cda [Mazda--]
+
+🍬 07-Oct-2020 🍬
+
+* candy
+e07766b Merge "candy: Sync CandyWrappers again" into c10 [Dan Cartier]
+491c4db candy: Sync CandyWrappers again [NoSpamDan]
+
+* device/oneplus/sdm845-common
+a416be2 Revert "sdm845-common: overlay: Prevent cleanup of unused fingerprints" [NoSpamDan]
+1e49b4a sdm845-common: Drop up arrow gesture [NoSpamDan]
+
+* device/oneplus/sm8150-common
+861b7c6 sm8150-common: Drop doze screen brightness to 18 [Dan Cartier]
+08eab65 sm8150-common: Update and expand screen-off gestures [Dan Cartier]
+83c868d Revert "sm8150-common: Telephony: Add telephony_injection file" [Dan Cartier]
+40108e8 Revert "sm8150-common: Telephony: Move qti-telephony-common to product" [Dan Cartier]
+58aa454 Revert "sm8150-common: Telephony: Add inject support for MultiSimSettingController" [Dan Cartier]
+01c512c sm8150-common: Update vendor security patch [Scott Warner]
+3949764 sm8150-common: KeyHandler: Use VibrationEffect [Ashwin R C]
+310f278 sm8150-common: Remove duplicate PASR HAL flag in system prop [Dan Cartier]
+a40d83f sm8150-common: Move disable_mask_layer_hint flag to vendor prop [Dan Cartier]
+866e7ba sm8150-common: Update fod behavior [Michele Bono]
+ef3451d sm8150-common: Update libfod extension function prototypes [LuK1337]
+63d754c sm8150-common: fod: Reset everything when onShowFODView() is called [LuK1337]
+e4cc8c5 sm8150-common: fod: Set dim mode instead of HBM for fp enrollment [Marko Man]
+13923cb sm8150-common: Switch to libfod extension [Michele Bono]
+deadb83 sm8150-common: Add config_haveNotch overlay [Dan Cartier]
+ff8cd26 sm8150-common: Include dtbo in recovery image [LuK1337]
+8cbc017 sm8150-common: Set gesture nav as default [Dan Cartier]
+3e8eaa0 sm8150-common: doze: Switch pickup sensor [Marko Man]
+d237ea2 sm8150-common: Enabling PASR [Piyush Balwani]
+f7dfd3b sm8150-common: disable mask layer hint [Lup Gabriel]
+14ba9db sm8150-common: Fix adaptive brightness [gnumdk]
+62b412a sm8150-common: Remove duplicate fingerprint [Dan Cartier]
+00eb49c sm8150-common: tri-state-key: Add hall sensor calibration support [Hikari-no-Tenshi]
+383768f Revert "sm8150-common: Add tri-state-key calibration daemon" [Dan Cartier]
+1877880 sm8150-common: BoardConfig: Use latest clang to compile kernel [Anirudh Gupta]
+86fa060 sm8150-common: Switch to common usb-in-recovery configuration [LuK1337]
+470250f Automatic translation import [Michael Bestas]
+8d30839 sm8150-common: fingerprint: Sync with hardware/interfaces/biometrics [Dan Cartier]
+230fc1f sm8150-common: Update VENDOR_SECURITY_PATCH [Ashwin R C]
+36ac274 sm8150-common: Restore qfp related blobs [LuK1337]
+001bd4b sm8150-common: Enabling PASR [Piyush Balwani]
+f06e83c sm8150-common: sepolicy: Allow system_app to interact with pasr hal [Hikari-no-Tenshi]
+00b6453 sm8150-common: Split vendor_props into {odm,vendor}.prop [Anirudh Gupta]
+aa823a8 sm8150-common: fod: Hardcode dim amount for hbm mode(670) [Hikari-no-Tenshi]
+3b969dd sm8150-common: overlay: Sync fingerprint dot location with fajita [LuK1337]
+2c7e6be Automatic translation import [Michael Bestas]
+ebbf451 sm8150-common: Add Smart Pixels support [Dan Cartier]
+2655a99 sm8150-common: Add DASH charging support [Dan Cartier]
+77787ad sm8150-common: Pin patched ims to remove HD notification [Anirudh Gupta]
+0accfe4 sm8150-common: Automatic translation import [Akhil Narang]
+0c3a4ba sm8150-common: allow hal_audio_default to read audio_device [Ashwin R C]
+a37a716 Revert "sm8150-common: Decommonise vibrator HAL" [Dan Cartier]
+f33b2dd Revert "sm8150-common: Decommonise vibrator firmware" [Dan Cartier]
+3b81026 sm8150-common: sepolicy: Address hal_camera_default denials [Anirudh Gupta]
+fa82f0c sm8150-common: tri-state-key: Add hall sensor calibration support [Hikari-no-Tenshi]
+f57f04a sm8150-common: tri-state-key: Relocate to /vendor [LuK1337]
+337833f sm8150-common: Drop qfp related blobs [LuK1337]
+fb36e6e sm8150-common: Add missing aptX blob source header [LuK1337]
+39efaad Revert "sdm845-common: fod: Disable DC-Dimming when fod circle is visible" [Dan Cartier]
+24b62e4 Revert "sdm845-common: Set navigation interaction mode to swipe gestures" [Dan Cartier]
+53ec048 sm8150-common: Consolidate DEX preopt flags [Dan Cartier]
+0fc616f sm8150-common: Update CTS fingerprint for 7T [Dan Cartier]
+024bce5 sm8150-common: Disable split A2DP [Mukesh Singh]
+9fd6d2d [DNM] GCam sepolicy [Lup Gabriel]
+3bd2c51 sm8150-common: disable mask layer hint [Lup Gabriel]
+e2c0f06 sm8150-common: Sync gpt-utils with LA.UM.8.1.r1-14500-sm8150.0 [LuK1337]
+baf63ac sm8150-common: allow hal_lineage_fod_sm8150 to read sysfs_dm [Lup Gabriel]
+4fbf421 sm8150-common: Build with Clang 10.0.6 [Dan Cartier]
+38b4e87 Automatic translation import [Akhil Narang]
+b2ff5cf sm8150-common: DeviceSettings: Add left padding to gesture preferences [Anirudh Gupta]
+723ffd7 sm8150-common: Update CAF telephony stack [Christian Oder]
+37e504a sm8150-common: Move soong namespaces to common.mk [NoSpamDan]
+5a2afe2 sm8150-common: camera_helper: Automatic translation import [Michael Bestas]
+727e61a sm8150-common: Relocate dashd to /system/bin [LuK1337]
+66221d9 sm8150-common: touch: Switch down arrow gesture node to up arrow [Anirudh Gupta]
+fb2bb02 sm8150-common: Decommonise some more blobs [Ashwin R C]
+03a55ba sm8150-common: DeviceSettings: Remove refresh rate conditionally [Anirudh Gupta]
+b0c429f sm8150-common: Decommonise camera blobs [Ashwin R C]
+ab26695 sm8150-common: Decommonise vibrator firmware [Ashwin R C]
+3d576bb sm8150-common: Decommonise vibrator HAL [Ashwin R C]
+5855a91 sm8150-common: DeviceSettings: Remove vibrator preference when unsupported [Anirudh Gupta]
+8513cd0 sm8150-common: Add device has wakeup proximity sensor overlay [Dan Cartier]
+f435a2b sm8150-common: Enable doze by default [Dan Cartier]
+79f9307 sm8150-common: Squash revert of in-tree doze and add global doze flags [Dan Cartier]
+ad872ab sm8150-common: Drop safetynet fingerprint [Dan Cartier]
+e7698b0 sm8150-common: Drop custom doze overlay [Dan Cartier]
+40f305e sm8150-common: Add proximity check on wake [Dan Cartier]
+042af4e sm8150-common: doze: Add dozeAfterScreenOff and dozePulsePickup configs [Dan Cartier]
+d554c30 sm8150-common: Clean up overlays [Dan Cartier]
+cd356b8 sdm845-common: Set navigation interaction mode to swipe gestures [Dan Cartier]
+6b9a2b4 sm8150-common: overlay: Define config_customDozePackage [jhenrique09]
+d50f1a7 sm8150-common: Switch to stock hwcomposer [LuK1337]
+ce3f9b9 sm8150-common: overlay: SystemUI: enable config_vibrateOnIconAnimation [Dan Pasanen]
+16209c6 sm8150-common: enable automatic refresh rate switching [Park Ju Hyung]
+46c41a3 sm8150-common: sepolicy: allow appdomain to get persist_camera_prop [LuK1337]
+2764143 sm8150-common: sensors: Switch log header location [Anirudh Gupta]
+536149f sm8150-common: sepolicy: camera HAL is a client of configstore [Jeff Vander Stoep]
+a3b1d92 sm8150-common: Enable Variable refresh rate [Chandra Chaganti]
+af13775 sm8150-common: Add vendor manifest entry for BT HIDL 2.0 [Srinu Jella]
+72a1c13 sm8150-common: Fix A2DP when offload is disabled [Bruno Martins]
+402a5d9 sm8150-common: Add NexusLauncherRelease to PRODUCT_DEXPREOPT_SPEED_APPS [Dyneteve]
+2cab377 sm8150-common: Make display packages inline with CAF [Akash Srivastava]
+54ba06b sm8150-common: Inline Neutrino kernel [Dan Cartier]
+61b5574 sdm845-common: fod: Disable DC-Dimming when fod circle is visible [Hikari-no-Tenshi]
+c55a5ee sm8150-common: lights: Apply cube root to brightness curve [Dan Cartier]
+36bfce5 sm8150-common: sensors: Switch log header location [Anirudh Gupta]
+64f1d0a sm8150-common: Disable intrusive notification LED [Dan Cartier]
+
+* frameworks/base
+56475b4 Merge "Revert "Build Google audio files from Android 10 [2/2]"" into c10 [Dan Cartier]
+
+* vendor/candy
+a540a0b Merge changes from topic "sounds-fix" into c10 [Dan Cartier]
+9f01ea2 Merge "common: Let's get Visible, Visible..." into c10 [Dan Cartier]
+5587559 Merge "dtbtool: Rename to upstream tracked repo name" into c10 [Dan Cartier]
+72c55e2 Merge "packages: Build CandyWrappers" into c10 [Dan Cartier]
+524781b packages: Build CandyWrappers [NoSpamDan]
+
+🍬 06-Oct-2020 🍬
+
+* device/oneplus/fajita
+9d39439 sm8150-common: Update fod behavior [Michele Bono]
+
+🍬 05-Oct-2020 🍬
+
+* packages/apps/Updater
+a24bc8f Updater: Fix naming of privapp permissions module [NoSpamDan]
+
+* vendor/candy
+9602d9b vendor: Squashed commit for inline GApps support [darkobas]
+
+🍬 04-Oct-2020 🍬
+
+🍬 03-Oct-2020 🍬
+
+* device/oneplus/fajita
+66f25fa fajita: Add gapps repo to dependencies [NoSpamDan]
+
+* frameworks/base
+e62b650 Revert "Build Google audio files from Android 10 [2/2]" [NoSpamDan]
+
+* vendor/candy
+49470df sounds: Rework structure and default sounds [NoSpamDan]
+db11fdb [2/2] overlay: Include Google sounds for all [Anirudh Gupta]
+a00fa1b dtbtool: Rename to upstream tracked repo name [NoSpamDan]
+
+* vendor/pixelgapps
+e90d30f Gcam: Only build from GApps for AOSP devices [Dan Cartier]
+
+🍬 02-Oct-2020 🍬
+
+* candy
+b161801 sm8150: Get audio, media and display HALs from lineageOS [Rajat Gupta]
+
+* frameworks/base
+e62b650 Revert "Build Google audio files from Android 10 [2/2]" [NoSpamDan]
+912781a Navbar: Introduce custom key event policy [Carlo Savignano]
+
+* frameworks/native
+1a124e7 Add dalvik-heap device configs for 8/12/16 GiB devices [Simao Gomes Viana]
+
+* vendor/candy
+f4b23e2 common: Let's get Visible, Visible... [NoSpamDan]
+
+🍬 01-Oct-2020 🍬
+
+* device/oneplus/hotdogb
+43b25e9 hotdogb: Use coral fingerprint for CTS again... [NoSpamDan]
+
+* frameworks/av
+62f1fca cameraserver: Fix logic to skip callbacks for non HAL3 devices for vendor listeners. [Jayant Chowdhary]
+818a991 libcameraservice: Don't pass NULL args on setCallbacks call [irii]
+d71d02e cameraserver: filter out non-HAL3 devices from HIDL addListener. [Jayant Chowdhary]
+50371ac Camera: Skip stream size check for whitelisted apps. [Gaoxiang Chen]
+ec77adf audio policy: fix capture policy for HOTWORD source [Eric Laurent]
+5e7c37d Adapt session API for newly added AudioPolicyService code [Luca Stefani]
+4c62dde audio: Needs to invalidate stream when the previous active output doesn't support new device. [Mingshu Pang]
+e2629ae audio: Optimize device switching time for playback [Aniket Kumar Lata]
+9da6c2d audiopolicy: Fixup 7f84dfd and re-sync with CAF [Bruno Martins]
+bac0a74 audiopolicy: support extended feature in audiopolicymanager [Revathi Uddaraju]
+cb8736f audiopolicy: Fixup 7f84dfd and re-sync with CAF [Bruno Martins]
+26c2ee9 audiopolicy: always check exact for 8bit pcm recording [Weiyin Jiang]
+cf11962 APM: stop output if it's still active before being released [Weiyin Jiang]
+71b887f TimeCheck: fix use of uninitialized variable [Mikhail Naganov]
+7d67936 Stagefright: Allow setting high-framerates in CameraSource [Praveen Chavan]
+95a4000 [2/2] av: Remove restrictions for system audio record [jhenrique09]
+d6793f5 Increase max dequeue buffer count only for non-secure decoders [Sungtak Lee]
+0faa181 libstagefright: Fix memory leak due to lock timeout [Priyanka Gujjula]
+f5b0517 media utils: dump audio HAL service before restarting audioserver [Eric Laurent]
+62dd674 Camera: Add support for manual 3A. [Peng Zhu]
+85f8dce camera: allow device to append camera parameters [Konsta]
+512d16a camera: Workaround for GCC-compiled HAL3 drivers [Steve Kondik]
+da196b8 camera: Only link and use vendor.qti.hardware.camera.device if specified [Rashed Abdel-Tawab]
+a7eb4f5 Revert "av: Allow providing camera server and service" [jhenrique09]
+1b32d69 Allow graceful degradation of MediaProfile with broken configuration. [Alex Zhang]
+92ee794 Revert "av: Allow providing camera server and service" [NoSpamDan]
+f1a34da Camera: Make originalDataSpace be const upon stream creation [Shuzhen Wang]
+1073701 avc/hevc: Align 128 everywhere [Wonsik Kim]
+01a6c11 Fix android.media.cts.ImageReaderDecoderTest fail on MT6580    * [Marcus Huang]
+a9452e8 mediaswcodec: Set "default" as preferred service [Pawin Vongmasa]
+d060e51 Codec2Client: Add function to set preferred store [Pawin Vongmasa]
+
+* official_devices
+314dc03 hotdogb: OTA update 30/09/2020 [NoSpamDan]
+
+* packages/apps/Contacts
+b91c460 Automatic translation import [LineageOS Builder]
+
+🍬 30-Sep-2020 🍬
+
+* device/oneplus/sdm845-common
+7c3d3f8 Revert "sdm845-common: system.prop: Set OP6 oreo fingerprint for both OP6 and 6T" [NoSpamDan]
+81a2f5d sdm845-common: Replace libplatformconfig blob with a dummy module [LuK1337]
+
+* official_devices
+7f6ecd7 fajita: OTA update 30/09/2020 [NoSpamDan]
+
+* vendor/candy
+f439f0d vendor: Add back the check for AB or A-only for backuptool [NoSpamDan]
+72d68f0 backuptool_ab: Use mv instead of cp for restore step [razorloves]
+9a386ff backuptool: Fix backup/restore functionality [z3DD3r]
+af2ce7e backuptool: Properly unmount system partition [z3DD3r]
+3f614f6 backuptool: Remove backup blacklist/whitelist [Wang Han]
+66b40c3 prebuilt: backuptool: Drop addond version check on A-only [Davide Garberi]
+b08b85f backuptool: Run check_{black, white}list with proper system path [Davide Garberi]
+19f15d2 prebuilt: backuptool: Implement dynamic system mount for A-only [Davide Garberi]
+e76b6f4 backuptool_ab: Make copy_file preserve file/directory attrs [Luca Stefani]
+

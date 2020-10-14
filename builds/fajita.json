@@ -1,12 +1,12 @@
 {
     "response": [
         {
-          "datetime":,
-          "filename": "Candy-fajita-10-Stable-OFFICIAL-20200930-1153.zip",
-          "id": "7880c3ab54bb91b874c1af1c95df93f3",
-          "romtype": "OFFICIAL",
-          "size":531351291,
-          "url": "https://sourceforge.net/projects/CandyRoms/files/Official/ten/fajita/Candy-fajita-10-Stable-OFFICIAL-20200930-1153.zip",
+          "datetime":1602635742,
+          "filename": "Candy-fajita-10-Stable-OFFICIAL_GAPPS_GAPPS-20201013-2036.zip",
+          "id": "f614e7cf65a34335b3aba4a762dab9dd",
+          "romtype": "OFFICIAL_GAPPS",
+          "size":896743314,
+          "url": "https://sourceforge.net/projects/CandyRoms/files/Official/ten/fajita/Candy-fajita-10-Stable-OFFICIAL_GAPPS-20201013-2036.zip",
           "version": "10-Stable"
         }
     ]
