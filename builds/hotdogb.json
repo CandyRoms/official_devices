@@ -1,12 +1,12 @@
 {
     "response": [
         {
-          "datetime":1602637763,
-          "filename": "Candy-hotdogb-10-Stable-OFFICIAL_GAPPS_GAPPS-20201013-2110.zip",
-          "id": "e4204ffb98168d2608653f7a981001d8",
-          "romtype": "OFFICIAL",
-          "size":1175824911,
-          "url": "https://sourceforge.net/projects/CandyRoms/files/Official/ten/hotdogb/Candy-hotdogb-10-Stable-OFFICIAL_GAPPS-20201013-2110.zip",
+          "datetime":1607384130,
+          "filename": "Candy-hotdogb-10-Stable-OFFICIAL_GAPPS_GAPPS-20201207-1836.zip",
+          "id": "e57b192625c9958216cf3c16db23505d",
+          "romtype": "OFFICIAL_GAPPS",
+          "size":1345519206,
+          "url": "https://sourceforge.net/projects/CandyRoms/files/Official/ten/hotdogb/Candy-hotdogb-10-Stable-OFFICIAL_GAPPS-20201207-1836.zip",
           "version": "10-Stable"
         }
     ]
