@@ -1,77 +1,13 @@
 {
     "response": [
          {
-            "datetime": 1587633513,
-            "filename": "Candy-violet-10.Stable-OFFICIAL-20200303-0557.zip",
-            "id": "5b37f64431acab8ddc26260480fa0e88",
-            "romtype": "OFFICIAL",
-            "size": 1288490189,
-            "url": "https://sourceforge.net/projects/candyroms/files/Official/ten/violet/Candy-violet-10-Stable-OFFICIAL-20200423-0918.zip",
-            "version": "10-Stable"
-        },
-	{
-            "datetime": 1587641864,
-            "filename": "Candy-violet-10-Stable-OFFICIAL-20200423-1138.zip",
-            "id": "ce3a7496bccae2fa3b936339c6c4b11e",
-            "romtype": "OFFICIAL",
-            "size": 1073741824,
-            "url": "https://sourceforge.net/projects/candyroms/files/Official/ten/violet/Candy-violet-10-Stable-OFFICIAL-20200423-1138.zip",
-            "version": "10-Stable"
-	},
-	{
-            "datetime": 1587748888,
-            "filename": "Candy-violet-10-Stable-OFFICIAL-20200424-1722.zip",
-            "id": "f92e03565e93534afe099aef703f50f0",
-            "romtype": "OFFICIAL",
-            "size": 1288490189,
-            "url": "https://sourceforge.net/projects/candyroms/files/Official/ten/violet/Candy-violet-10-Stable-OFFICIAL-20200424-1722.zip",
-            "version": "10-Stable"
-	},
-        {
-            "datetime": 1587792721,
-            "filename": "Candy-violet-10-Stable-OFFICIAL-20200425-0532.zip",
-            "id": "9f64f10367cec394daeff37485eda841",
-            "romtype": "OFFICIAL",
-            "size": 1288490189,
-            "url": "https://sourceforge.net/projects/candyroms/files/Official/ten/violet/Candy-violet-10-Stable-OFFICIAL-20200425-0532.zip",
-            "version": "10-Stable"
-	},
-        {
-            "datetime": 1588146819,
-            "filename": "Candy-violet-10-Stable-OFFICIAL-20200429-0754.zip",
-            "id": "1d200eb4c29e2037ab290a72f91bbfc1",
-            "romtype": "OFFICIAL",
-            "size": 1288490189,
-            "url": "https://sourceforge.net/projects/candyroms/files/Official/ten/violet/Candy-violet-10-Stable-OFFICIAL-20200425-0532.zip",
-            "version": "10-Stable"
-	},
-        {
-            "datetime": 1589206279,
-            "filename": "Candy-violet-10-Stable-OFFICIAL-20200511-1411.zip",
-            "id": "feb202f1ea057d94991fbabac9989095",
-            "romtype": "OFFICIAL",
-            "size": 1288490189,
-            "url": "https://sourceforge.net/projects/candyroms/files/Official/ten/violet/Candy-violet-10-Stable-OFFICIAL-20200511-1411.zip",
-            "version": "10-Stable"
-	},
-	{
-            "datetime": 1600493654,
-            "filename": "Candy-violet-10-Stable-OFFICIAL-20200919-0535.zip",
-            "id": "86105bdf1a50538f127989b855b83ec3",
-            "romtype": "OFFICIAL",
-            "size": 1073741824,
-            "url": "https://sourceforge.net/projects/candyroms/files/Official/ten/violet/Candy-violet-10-Stable-OFFICIAL-20200919-0535.zip",
-            "version": "10-Stable"
-       },
-       {
-            "datetime": 1601012549,
-            "filename": "Candy-violet-10-Stable-OFFICIAL-20200925-0543.zip",
-            "id": "f04d485b259600aae31cec0973f73109",
-            "romtype": "OFFICIAL",
-            "size": 1073741824,
-            "url":  "https://sourceforge.net/projects/candyroms/files/Official/ten/violet/Candy-violet-10-Stable-OFFICIAL-20200925-0543.zip",
-            "version": "10-Stable"
+            "datetime": ,
+            "filename": "",
+            "id": "",
+            "romtype": "",
+            "size": ,
+            "url": "",
+            "version": ""
         }
-
     ]
 }

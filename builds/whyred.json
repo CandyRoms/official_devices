@@ -1,49 +1,13 @@
 {
     "response": [
-        {
-          "datetime": 1588397989,
-          "filename": "Candy-whyred-10-Stable-OFFICIAL-20200502-0539.zip",
-          "id": "abaee179feaf303d3e5ba3ef0729cd2f",
-          "romtype": "OFFICIAL",
-          "size": 744488960,
-          "url": "https://downloads.sourceforge.net/projects/candyroms/files/Official/ten/whyred/Candy-whyred-10-Stable-OFFICIAL-20200502-0539.zip",
-          "version": "10-Stable"
-        },
-	{
-          "datetime": 1588402586,
-          "filename": "Candy-whyred-10-Stable-OFFICIAL-20200502-0656.zip",
-          "id": "28b2b54b05f6ebe30c00b9364c75e4da",
-          "romtype": "OFFICIAL",
-          "size": 744488960,
-          "url": "https://downloads.sourceforge.net/projects/candyroms/files/Official/ten/whyred/Candy-whyred-10-Stable-OFFICIAL-20200502-0656.zip",
-          "version": "10-Stable"
-        },
-        {
-          "datetime": 1588506488,
-          "filename": "Candy-whyred-10-Stable-OFFICIAL-20200503-1149.zip",
-          "id": "bf86214b8a4c0172733bb7e195436e6d",
-          "romtype": "OFFICIAL",
-          "size": 744488960,
-          "url": "https://downloads.sourceforge.net/projects/candyroms/files/Official/ten/whyred/Candy-whyred-10-Stable-OFFICIAL-20200503-1149.zip",
-          "version": "10-Stable"
-        },
-        {
-          "datetime": 1588834523,
-          "filename": "Candy-whyred-10-Stable-OFFICIAL-20200507-0655.zip",
-          "id": "f0de976b6fd692af25d4a1a2e0985dcb",
-          "romtype": "OFFICIAL",
-          "size": 739246080,
-          "url": "https://downloads.sourceforge.net/projects/candyroms/files/Official/ten/whyred/Candy-whyred-10-Stable-OFFICIAL-20200507-0655.zip",
-          "version": "10-Stable"
-        },
-        {
-          "datetime": 1588949431,
-          "filename": "Candy-whyred-10-Stable-OFFICIAL-20200508-1450.zip",
-          "id": "c9a7caff423422c7bfec2d6cd498b024",
-          "romtype": "OFFICIAL",
-          "size": 740294656,
-          "url": "https://downloads.sourceforge.net/projects/candyroms/files/Official/ten/whyred/Candy-whyred-10-Stable-OFFICIAL-20200508-1450.zip",
-          "version": "10-Stable"
+         {
+            "datetime": ,
+            "filename": "",
+            "id": "",
+            "romtype": "",
+            "size": ,
+            "url": "",
+            "version": ""
         }
     ]
 }
