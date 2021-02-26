@@ -2,12 +2,12 @@
     "response": [
         {
             "datetime":1614317411,
-            "filename": "Candy-sunfish-11.0-20210226-20210226-0030.zip",
+            "filename": "Candy-sunfish-11.0-OFFICIAL-20210226-0030.zip",
             "id": "94887b148f3a6ee3ce4c2b749dbc46a5",
-            "romtype": "20210226",
+            "romtype": "OFFICIAL",
             "size":1438747578,
             "url": "https://sourceforge.net/projects/CandyRoms/files/Official/eleven/sunfish/Candy-sunfish-11.0-OFFICIAL-20210226-0030.zip",
-            "version": "11.0-OFFICIAL"
+            "version": "11.0"
         }
     ]
 }

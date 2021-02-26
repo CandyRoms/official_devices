@@ -3,13 +3,13 @@
       "device_name": "Pixel 4a",
       "codename": "sunfish",
       "assert": ["sunfish"],
-      "datetime": 1614272260,
-      "filename": "Candy-sunfish-11-beta-OFFICIAL-20210225-1159.zip",
-      "id": "90fce644ddc25b7643793fbeb434d816",
-      "romtype": "Official",
-      "size": 1503238554,
-      "url": "https://sourceforge.net/projects/candyroms/files/Official/eleven/sunfish/Candy-sunfish-11-beta-OFFICIAL-20210225-1159.zip",
-      "version": "11-beta",
+      "datetime":1614317411,
+      "filename": "Candy-sunfish-11.0-OFFICIAL-20210226-0030.zip",
+      "id": "94887b148f3a6ee3ce4c2b749dbc46a5",
+      "romtype": "OFFICIAL",
+      "size":1438747578,
+      "url": "https://sourceforge.net/projects/CandyRoms/files/Official/eleven/sunfish/Candy-sunfish-11.0-OFFICIAL-20210226-0030.zip",
+      "version": "11.0",
       "date": "2021/02/25",
       "maintainer_name": "nospamdan",
       "xda_thread": ""
@@ -27,6 +27,21 @@
       "version": "11-beta",
       "date": "2021/02/26",
       "maintainer_name": "Mourya",
+      "xda_thread": ""
+    },
+    {
+      "device_name": "OnePlus 6T",
+      "codename": "fajita",
+      "assert": ["fajita"],
+      "datetime": 1614359977,
+      "filename": "Candy-fajita-11.0-OFFICIAL-20210226-1220.zip",
+      "id": "ab9b5b36837554f1cb4fc1bf94e70f61",
+      "romtype": "OFFICIAL",
+      "size": 560988160,
+      "url": "https://sourceforge.net/projects/candyroms/files/Official/eleven/fajita/Candy-fajita-11.0-OFFICIAL-20210226-1220.zip",
+      "version": "11.0",
+      "date": "2021/02/26",
+      "maintainer_name": "nospamdan",
       "xda_thread": ""
     }
 ]

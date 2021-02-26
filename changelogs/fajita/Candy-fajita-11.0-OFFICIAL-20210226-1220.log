@@ -1,5 +1,20 @@
 ===== CANDYROMS CHANGE LOG =====
 
+🍬 26-Feb-2021 🍬
+
+* bootable/recovery
+7c4967d recovery: Modify for Candy version changes [NoSpamDan]
+
+* device/candy/sepolicy
+d31d1df common: Fix private app context for Candy Updater [NoSpamDan]
+
+* system/sepolicy
+ccf3290 Allow Settings to read SELinux status [maxwen]
+
+* vendor/candy
+b881e8e version: Update to 11.0 from 11-beta [NoSpamDan]
+b6399cb vendor: Add changelog in /out and CandyShop [2/3] [NoSpamDan]
+
 🍬 25-Feb-2021 🍬
 
 * candy
@@ -130,9 +145,6 @@ aa8638b Makefile: Updates and fixes [NoSpamDan]
 * packages/apps/Settings/CandyShop
 89e55ea CandyShop: Add changelog in /out and CandyShop [3/3] [Dan Cartier]
 23ca254 CandyShop: Add back some drawables [NoSpamDan]
-
-* vendor/candy
-3b78ebf vendor: Add changelog in /out and CandyShop [2/3] [NoSpamDan]
 
 🍬 23-Feb-2021 🍬
 
@@ -308,11 +320,4 @@ cf27bef Rename package to avoid conflicts with pixelgapps [NoSpamDan]
 
 * vendor/pixelgapps
 76e51a3 Gcam: Add override for GoogleCamera-fajita [NoSpamDan]
-
-🍬 12-Feb-2021 🍬
-
-* system/core
-7382ea5 liblog: Always report as debuggable when building userdebug/eng [Bruno Martins]
-be690e3 Allow remounts with Magisk installed [Bruno Martins]
-731081d Merge tag 'android-11.0.0_r29' into candy/c11 [Kevin F. Haggerty]
 
