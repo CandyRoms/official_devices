@@ -1,0 +1,315 @@
+ #####   ##   ##  ## #####  ##  ##    ##   ##
+##      ####  ### ## ##  ## ##  ##  #### ####
+##     ##  ## ###### ##  ##  ####     ##   ##
+##     ###### ## ### ##  ##   ##      ##   ##
+ ##### ##  ## ##  ## #####    ##      ##   ##
+
+======== Change log for sunfish ========
+
+🍬 27-Feb-2021 🍬
+
+* bootable/recovery
+25da6ff recovery: Make recovery usable on user builds [Christian Oder]
+c4e7efe updater: Don't fail when trying to run set_metadata [jhenrique09]
+
+* frameworks/base
+e8b36ee overlay: Target pixel launcher/pixel themes [Dyneteve]
+
+* system/sepolicy
+ccf3290 Allow Settings to read SELinux status [maxwen]
+
+* vendor/candy
+e92c29c changelog: Add an ASCII header [NoSpamDan]
+8c25bc4 version: Update to 11.0 from 11-beta [NoSpamDan]
+
+* vendor/pixelgapps
+07da1d0 Update to February redfin img [ezio84]
+
+🍬 26-Feb-2021 🍬
+
+* bootable/recovery
+7c4967d recovery: Modify for Candy version changes [NoSpamDan]
+
+* device/candy/sepolicy
+d31d1df common: Fix private app context for Candy Updater [NoSpamDan]
+
+* device/google/sunfish
+f810248 sunfish: Add Candy overlays folder and set maintainer name [NoSpamDan]
+
+🍬 25-Feb-2021 🍬
+
+* candy
+5ea7777 candy: Add back our Updater app [NoSpamDan]
+02c4b7c candy: Track our own system_update_engine [NoSpamDan]
+
+* frameworks/base
+10be4de UpdateEngine: Add perf mode binder interface [Luca Stefani]
+25585a7 Skip screen on animation when wake and unlock via biometrics [Jesse Chan]
+53db5e6 Check UID's process state before restricting its network. [xiamengsen]
+c904acf Pad ime_switcher same as navbar buttons [codingkerensa]
+9225a82 Sharesheet: Set max ranked items to 8 [LuK1337]
+186051e Use the try catch to deal with the StaleDataException. [guofei.xue]
+be5dfbd When the mUri is null,it will happen NullPointerException. [guofei.xue]
+1921e4b Ringtone uri should add type query [wan.li]
+59447f4 fingerprint: handle PerformanceStats NULL pointers [Ícaro Hoff]
+a626c4f Squashed import of adb root patches [LuK1337]
+fe748f9 SystemUIGoogle port: don't override aosp scrim controller [ezio84]
+8ed8cc9 SystemUI: Implement live wallpapers changes from redfin 11 [jhenrique09]
+f336fb5 SystemUI: Implement EnhancedEstimatesGoogleImpl from redfin 11 [jhenrique09]
+62baee6 SystemUI: Implement Smart space from redfin 11 [jhenrique09]
+a0c4b82 Sync StatusBarGoogle with out StatusBar [ezio84]
+2b4e419 Initial import of SystemUIGoogle [jhenrique09]
+a16cda4 base: Grant storage permissions to Google Markup [DennySPB]
+91aea90 base: Grant suspend permission to Wellbeing [Surge Raval]
+24cd339 base: Grant storage permission to ThemePicker [Anushek Prasal]
+c171ba2 Fix Google dialer FC due to missing permissions [Alex Cruz]
+e5739f6 Allow chromium to sign in [spaceman860]
+4846dfb Fix Google Calendar FC [Josh Chasky]
+0d1e0b7 base: correct package names for Launcher/ThemePicker overlays [Anay Wadhera]
+49232a0 base: media_seekbar: make it sexy [vladrevers]
+8bf403e Fix Android 7.0 GApps permisions which were causing F/C [Alex Naidis]
+e33b12c ActivityManagerService: dont be so hectic on cpu battery stats [Simao Gomes Viana]
+7adde1e Enable Binder Proxy Tracking by Uid only on eng builds [dianlujitao]
+3fb19bf SystemUI: Add support for persistent usb drive notification. [Adnan Begovic]
+db6127a SystemUI: Allow snoozing SD card notification unconditionally [LuK1337]
+e0fbc59 Fix bug Device that can't support adoptable storage cannot read the sdcard. [sangho.yoon]
+6d5b4f8 Delay blanking of displays to improve performance [Hampus Wessman]
+2390f28 CandyUtils: Add isAppInstalled [maxwen]
+b7354a1 CandyUtils: Add isAvailableApp method [maxwen]
+e6125ff Ask pin when tapping on Airplane/Cellular tiles if secured [ezio84]
+cff4690 SystemUI: use DOUBLE_TAP_TO_WAKE setting also for wake from aod [maxwen]
+a0e89fe Add colors to assistant animation [paphonb]
+10260a398 SystemUI: Prevent loop with display timeout [Sam Mortimer]
+4fbc358 Check for null callerPackage in getStorageEncryptionStatus [Ethan Chen]
+b79c354 Screenshot: Add delete action chip intent [ganeshi4u]
+b920b21 SystemUI: Fix WiFi icon in inactive state on icon packs [rajadeja]
+ce6c478 SystemUI: Use AOSP bluetooth icon when showing battery level [Kshitij Gupta]
+719caa4 SystemUI: Update Bluetooth battery level assets. [Hernán Castañón Álvarez]
+dc5a2c0 SystemUI: Add more bluetooth device filters [maxwen]
+82aefd6 Add improvments to statusbar Bluetooth battery level [ezio84]
+518d48d SystemUI: Show bluetooth battery level when available [LuK1337]
+cb8ff71 Fix WebView vulnerability by disallowing file access [Chen Xu]
+259a4ab Fix color mismatch of pointers [xuejianbao]
+6fd2b43 Fix CDM.requestNotificationAccess() in profile. [Oasis Feng]
+1836f53 aapt2: silence positional arguments warnings [Park Ju Hyung]
+8e85004 FingerprintManager: return "Try again" by default [Park Ju Hyung]
+0e08686 Apply JNI optimizations to HwParcel [Daniel Colascione]
+f03e85d storage: Set all sdcards to visible [Andreas Schneider]
+e708f1b SystemUI: add caffeine qs tile [Keith Mok]
+930e78c SystemUI: Tiny expanding improvement [BigBrother1984]
+cef06c7 ViewConfiguration: Set scroll friction to 0.012 [Alex Naidis]
+c3f4369 AppStandbyController: Only check user standby setting [Joe Maples]
+2d0dcef SystemUI: add more notification snooze times [Chris]
+53caf34 Allow adjusting screen density to smaller sizes. [Danny Baumann]
+a47a0a1 aapt: Fix compiler warning (clobbered by longjmp) [Christopher R. Palmer]
+e042e55 aapt: add check for untranslatable "string-array"s [Chirayu Desai]
+37aa3af aapt: Use a std::map instead of a SortedVector [Christopher R. Palmer]
+3f4d9bf Guard in short-circuit evaluations for stringSplit methods. [Mohammed Irfan]
+46bf4d8 Camera: Don't throw exceptions when value pairs have spaces in them [Ricardo Cerqueira]
+eeb1e47 audio: Don't play sound effects if stream is muted [Steve Kondik]
+82c5ac7 NotificationManagerService: Disable channel warning toast by default [jhenrique09]
+c70f876 keyguard: Actually kill Fancy Colon [Joe Maples]
+1bdc94a Suppress FingerprintManager logspam [Harsh Shandilya]
+3c74bb9 aapt: Speed up the style pruning [Christopher R. Palmer]
+a596dc8 Speed up Orientation Listener [Chet Kener]
+7895529 Disable statusbar time refresh when screen off [Jun Su]
+332f232 SystemUI: Fix SystemUI Crash [mqi]
+e74b086 display: Don't animate screen brightness when turning the screen on [Sultanxda]
+8dc450d BluetoothAdapter: disable logspew [Alexander Martinz]
+9743245 Reduce log verbosity: Don't spam logcat [fusionjack]
+ec705fa PackageManager: Add configuration to specify vendor platform signatures [Ethan Chen]
+2bd0cd9 fwb: Add vendor platform signature overlay [Ethan Chen]
+c9e8bf8 Dynamically tell the user which vendor image is needed [beanstown106]
+e14b5b5 Show a more descriptive message when vendor.img is out of date [beanstown106]
+18d068a Add support for page theme color to WebView and WebChromeClient. [Danny Baumann]
+8a5d662 Factor out preference-in-storage check to overridable method. [Danny Baumann]
+860d4f6 Camera: Expose Aux camera to apps present in the whitelist [Sauhard Pande]
+c40934b hwui: Fix HWUI_COMPILE_FOR_PERF for non-arm [Joe Maples]
+5c548e4 SystemSensorManager: sensor block per-package [Simao Gomes Viana]
+6f9892e SmoothSpinners: Makes the loading "spinner" animation smoother [Sar Castillo]
+fde02e7 Improve scrolling cache [Pawit Pornkitprasan]
+ec138d0 Status bar notification: Use Material icons for missed calls [XXMrHyde]
+9965190 android.view: Speed things up!! [Mazda]
+43e6524 PixelPropsUtils: Update redfin build fingerprint to February [Shubham Das]
+a50b452 PixelPropsUtils: Set redfin build fingerprint [jhenrique09]
+b75d5b2 PixelPropsUtils: Switch back to Pixel 5 props for all apps [jhenrique09]
+234e58e PixelPropsUtils: Change props to crosshatch [jhenrique09]
+b935c87 base: Force disable ambient music components [jhenrique09]
+094024c PixelPropsUtils: bring back wallpaper collection [Chenyang Zhong]
+dddaa02 PixelPropsUtils: Cleanup apps [jhenrique09]
+8d4946e PixelPropsUtils: Don't set build type/build debug props [jhenrique09]
+7346355 PixelPropsUtils: Override fingerprint for SettingsIntelligence [jhenrique09]
+1354f27 Introduce PixelPropsUtils [jhenrique09]
+
+* packages/apps/Settings
+a9d28ea Remove aosp battery percentage option [ezio84]
+f62678e Network settings: always start expanded [ezio84]
+cdb8b13 Bomb Settings suggestions with napalm - Episode R [ezio84]
+a7d44ea Remove the Automatic ota check option [ezio84]
+
+* system/update_engine
+c4bb12d Don't verify payload signatures in recovery [Alessandro Astone]
+6a9d6f9 update_engine: Run backuptool only in debuggable builds [Luca Stefani]
+e81d35b update_engine: Transition to backuptool domain [Luca Stefani]
+d9b8316 update_engine: Run backuptool script before normal postinstall script [Dan Pasanen]
+e403558 update_engine: Add performance mode [Gabriele M]
+
+🍬 24-Feb-2021 🍬
+
+* build/make
+aa8638b Makefile: Updates and fixes [NoSpamDan]
+60d21aa build: Add changelog in /out and CandyShop [1/3] [NoSpamDan]
+
+* packages/apps/Settings/CandyShop
+89e55ea CandyShop: Add changelog in /out and CandyShop [3/3] [Dan Cartier]
+23ca254 CandyShop: Add back some drawables [NoSpamDan]
+
+* vendor/candy
+3b78ebf vendor: Add changelog in /out and CandyShop [2/3] [NoSpamDan]
+
+🍬 23-Feb-2021 🍬
+
+🍬 22-Feb-2021 🍬
+
+* frameworks/base
+3e79f6a KeyStore: Block key attestation for Google Play Services [Danny Lin]
+
+* packages/apps/Settings/CandyShop
+4b24816 main: Add and update the qs tab icon [Dan Cartier]
+7fa5dfe CandyShop: Remove Navigation tab and add QuickSettings tab [kevin princiotta]
+
+🍬 21-Feb-2021 🍬
+
+* frameworks/base
+b22250b aapt: Default to 0 compression ratio [arter97]
+
+🍬 20-Feb-2021 🍬
+
+* frameworks/base
+39fc62e Grant BIND_WALLPAPER permission to prebuilt wp picker [ezio84]
+f731c06 Update power menu icons [Alex Cruz]
+7fa19de Ask pin for shutdown/reboot on secure lockscreen [DarkJoker360]
+2e40796 PowerMenu advanced reboot toggle - Android 11 [ezio84]
+9e5319d Package installer: show current and new version on apk installation [ezio84]
+
+* packages/apps/Settings
+6795e79 Settings: Use preference category style from Pixel Settings [Danny Lin]
+e64d516 Settings: Redesign PreferenceCategory [rohan]
+b192d3d SearchBar: Add avatar to search bar [Alex]
+ba17947 Settings: Pour in a little Candy... [NoSpamDan]
+0d326bd Allow sorting Applications by size [Roman Royer]
+0c7c511 Settings: disable all bugreport settings [maxwen]
+298d3fe Settings: hide automatic system updates preference [maxwen]
+093ccbf Settings: Show full proc/version information [xoomdev]
+9ef8c29 Settings: add back selinux status in about [NoSpamDan]
+1580a9a Add Candy version and build date to Settings [Chris Soyars]
+63244c3 PowerUsageSummary: Remove advanced battery menu item [Harsh Shandilya]
+0460932 Settings: PowerUsageSummary: open advanced usage on header click [Vachounet]
+3f1b89d flashlight: Fix mismerges from 4ba1a65836 [NoSpamDan]
+
+🍬 19-Feb-2021 🍬
+
+* build/make
+8bae4fe tools: Fix mismerge in make_recovery_patch [NoSpamDan]
+47a2541 tools: Remove duplicate checks in common.py [NoSpamDan]
+0d10c39 build: get rid of the sparse expand stuff [Shareef Ali]
+130067b Revert "Allow longer fingerprint" [NoSpamDan]
+
+* frameworks/base
+6938582 Allow doubletap/longpress power to toggle torch -11- [1/2] [ezio84]
+2ae7231 Add api to toggle flashlight and check if device has flashlight [ezio84]
+
+* packages/apps/Settings
+fe5eee9 Add package name to installed app details [Luca Stefani]
+7577c10 values: Let's make this easier this time around... [NoSpamDan]
+cc46c0f Settings: Show me more than 4 items in the menus! [Dan Cartier]
+4ba1a65 Allow to doubletap or longpress power to toggle flashlight [2/2] [ezio84]
+
+* vendor/candy
+b2ba9bd Use Pixel launcher as default and fix FC [ezio84]
+776e87b Merge changes from topic "wallet" into c11 [Dan Cartier]
+875ad13 Build QuickAccessWallet for Wallet cards power menu integration [ezio84]
+1c69a25 SystemUI: Whitelist QuickAccessWallet plugin [Danny Lin]
+06f71cf prebuilt: Kill permisions with fire [NoSpamDan]
+dd9616e version: Time for beta [NoSpamDan]
+
+🍬 18-Feb-2021 🍬
+
+* build/make
+7bed68d core: Disable vendor restrictions [Luca Stefani]
+
+* build/soong
+7b2bc20 androidmk: Restore code removed accidentally by revert 6f246e34 [NoSpamDan]
+
+* candy
+1b21912 ingredients: Track external/guice from LOS [NoSpamDan]
+
+* development
+fba0f8e privapp_permissions: Check product privapp_permissions [Christian Oder]
+a1b9b98 Revert "privapp_permissions: Check product privapp_permissions" [NoSpamDan]
+
+* device/candy/sepolicy
+a5a7219 sepolicy: Rebase our device_candy_sepolicy [NoSpamDan]
+
+* vendor/candy
+3476950 build: Remove obsolete boot_flash_from_image tool [NoSpamDan]
+5199918 init: Make encryption action an argument to mkdir [Paul Crowley]
+cb11806 backuptool_ab: Make tmp actually tmpfs [Alessandro Astone]
+c321be0 build: Relocate extract utils to tools/extract-utils [Michael Bestas]
+8c9a590 qcom: Add bengal platform [TheMalachite]
+e8e1759 vendor: Fix kernel build errors [Joker-V2]
+0e67db1 vendor: Use $(HOST_PREBUILT_TAG) where possible [Bruno Martins]
+9a092ab vendor: soong: Add back TARGET_USES_PREBUILT_DYNAMIC_PARTITIONS. [Alexander Koskovich]
+5d1cab0 soong: TARGET_KERNEL_HEADERS -> TARGET_KERNEL_SOURCE [NoSpamDan]
+568f020 common: Switch from product to device package overlays [NoSpamDan]
+e943f49 kernel: Use full user defined path to ccache [Rashed Abdel-Tawab]
+5da5988 Revert "Add BOARD_CUSTOM_BOOTIMG_MK support [2/2]" [NoSpamDan]
+0b09cad Revert "make otapackage: switch to toybox md5sum" [NoSpamDan]
+7655e52 Revert "vendor: Switch to Lawnchair" [NoSpamDan]
+b373ae6 pathmap: remove duplicate include-path-for [Ethan Chen]
+
+🍬 17-Feb-2021 🍬
+
+* device/google/sunfish
+2abe02a Update build fingerprint to RQ1A.210205.004 [Josh Chasky]
+3f0d86c typo: init.insmod.sunfish.cfg [Jooyung Han]
+
+🍬 16-Feb-2021 🍬
+
+* bootable/recovery
+6d02801 ui: Candify some recovery theme elements [NoSpamDan]
+1015650 candy:Fix recovery header image [NoSpamDan]
+
+* system/core
+fd555d2 fastboot: Skip super partition update on devices with dynamic prebuilt images. [Alexander Koskovich]
+e42bebe healthd: cover devices that have voltage_max file with value of 0 [maxwen]
+
+🍬 15-Feb-2021 🍬
+
+🍬 14-Feb-2021 🍬
+
+* device/candy/sepolicy
+524e67c sepolicy: Drop Lineage Trust HAL [palaych]
+566110b sepolicy: Drop Lineage LiveDisplay HAL [palaych]
+1ec8ad9 touch: Add IKeySwapper context [Arian]
+53ed86d sepolicy: recovery: fix neverallows [Alessandro]
+d1d12f0 sepolicy: recovery: allow reading fbe key version [Alessandro]
+9a6cf9e sepolicy: recovery: allow mounting of internal storage [Alessandro]
+ce5035e sepolicy: recovery: allow mounting of usb storage [Alessandro Astone]
+a3ab37f sepolicy: recovery: Allow volume manager write to /sys/*/uevent [Michael Bestas]
+afb0a0a sepolicy: recovery: Add policy for /dev/block/volmgr [Michael Bestas]
+ea2558c sepolicy: recovery: Fix the volume manager blkid.tab denial [Adrian DC]
+069984f sepolicy: recovery: Allow reading proc_filesystems [Michael Bestas]
+32c5e2c sepolicy: recovery: Add policy for volume manager [Alessandro Astone]
+761644c Remove adb.network.port label [Bruno Martins]
+95b9547 Revert "Label lineage.service.adb.root as system prop" [Bruno Martins]
+ac791a9 arrow: Assign bash the same label as the default shell [Bruno Martins]
+843eded sepolicy: allow adbroot service to change adb root status [Alessandro Astone]
+1639051 Revert "common: Allow adbd to set a system_prop" [Alessandro Astone]
+c9dc4e9 Move lineage framework service declarations to private [dianlujitao]
+6478cda arrow: Introduce a new flag to exclude fuseblk sepolicy [theimpulson]
+c579107 sepolicy: Nuke sdfat from genfs [Erfan Abdi]
+
+* system/core
+c3db3d5 healthd: allow custom charger images [Scott Mertz]
+
