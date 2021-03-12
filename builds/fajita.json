@@ -1,12 +1,12 @@
 {
     "response": [
         {
-            "datetime":1615553451,
-            "filename": "Candy-fajita-11.0-OFFICIAL-20210312-0752.zip",
-            "id": "28cb77c88d61227fbcab81b6719c9f4c",
-            "romtype": "OFFICIAL",
-            "size":577617741,
-            "url": "https://sourceforge.net/projects/CandyRoms/files/Official/eleven/fajita/Candy-fajita-11.0-OFFICIAL-20210312-0752.zip",
+            "datetime":1615585108,
+            "filename": "Candy-fajita-11.0-OFFICIAL_GAPPS_GAPPS-20210312-1640.zip",
+            "id": "44b77fb54d04d12c5a508bc867bdd44d",
+            "romtype": "OFFICIAL_GAPPS",
+            "size":896268887,
+            "url": "https://sourceforge.net/projects/CandyRoms/files/Official/eleven/fajita/Candy-fajita-11.0-OFFICIAL_GAPPS-20210312-1640.zip",
             "version": "11.0"
         }
     ]
