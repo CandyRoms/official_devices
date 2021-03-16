@@ -1,12 +1,13 @@
 {
     "response": [
         {
-            "datetime":1615822899,
-            "filename": "Candy-violet-11.0-OFFICIAL-20210315-1541.zip",
-            "id": "9ca4cb7338a175198a8788e1924eff49",
+            "datetime":1615866299,
+            "filename": "Candy-violet-11.0-OFFICIAL-20210316-0345.zip",
+            "id": "cd9bed314d900b6cefaa285fdc919f92",
             "romtype": "OFFICIAL",
-            "url": "https://candy.hr83.in/11/violet/Candy-violet-11.0-OFFICIAL-20210315-1541.zip",
-            "size":1494184776,
+            "url": "https://candy.hr83.in/11/violet/Candy-violet-11.0-OFFICIAL-20210316-0345.zip",
+            "size":1503238554,
             "version": "11.0"
         }
     ]
+}
