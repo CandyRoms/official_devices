@@ -1,0 +1,496 @@
+🍬🍬🍬🍬🍬🍬 CANDY 11 🍬🍬🍬🍬🍬🍬
+
+ CandyRoms Changelog for sunfish
+
+🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬
+
+🍬 16-Mar-2021 🍬
+
+* candy
+8e1face candy: Track our own packages_services_Telephony [NoSpamDan]
+d2e746a candy: Track some telephony repos [NoSpamDan]
+
+* frameworks/base
+6cf4af6 Use proper coded alphabet when a contact is written into EF_ADN of USIM. [Umashankar Godachi]
+8711603 Merge commit 'refs/changes/01/4901/1' of ssh://gerrit.candyroms.org:29418/CandyRoms/frameworks_base into c11 [NoSpamDan]
+8a72d4c IMS: Add doAnswer API [Ashit Sood]
+4b8c1cc IMS: Allow VT calls when tty-on [Alvin Dey]
+4c852a0 FR30706: Add a playing tone setting. [qiongz]
+a15c2c8 Add vibrating for outgoing call accepted support [Mengjun Leng]
+6c74207 IMS: Add new carrier config. [Sonalika Paul]
+c809961 IMS: Add new Carrier Config. [Sonalika Paul]
+60ec629 Telephony: Rename VoWiFi Emergency notification intent. [Muhammed Siju]
+40c556b VoWifi notification for emergency calls [Sukanya Rajkhowa]
+2e06730 Ims: Add suppport for "Ims Preferred" WFC Preference [Ravi Paluri]
+45b396c Add ICCID into CarrierIdentifier [Mengjun Leng]
+715a222 IMS: Propagate RTT capability of the called party to UI [Benergy Meenan Ravuri]
+8f54584 Telephony: Add DisconnectCause values for clear code [Qiang Chen]
+701694f IMS: Add UT interface to query CF setting for service class. [pengfeix]
+119a40c IMS: Add flag to control reset UT capability [pengfei xiao]
+63963ca Add config to disable CDMA call forward/waiting [pengfeix]
+c101193 SystemUI: Handle cases that we can't address within FODCircleView [Dil3mm4]
+
+* frameworks/opt/net/ims
+9eff797 Merge tag 'LA.QSSI.11.0.r1-07000-qssi.0' of https://source.codeaurora.org/quic/la/platform/frameworks/opt/net/ims into HEAD [Christian Oder]
+
+* frameworks/opt/telephony
+d1fa5ec Add missing imports. [Anay Wadhera]
+e0a5c8f Revert "SEEMP: framework instrumentation and SMS security" [NoSpamDan]
+08a402d Merge tag 'LA.QSSI.11.0.r1-07000-qssi.0' into telephony. [Christian Oder]
+da0e201 IMS: update ImsPhone to EcbmHandler [Suresh Koleti]
+
+* packages/services/Telephony
+1da2ada Compile fixes after qpr1 merge. [Anay Wadhera]
+3e14046 Telephony: Break qti-telephony-framework dependency [maxwen]
+5abea3c Telephony: Support muting by RIL command [Artem Borisov]
+8833616 Telephony: Add ERI configuration for U.S. Cellular [Arne Coucheron]
+ca6d66f Telephony: Mark enhanced_4g_lte_mode_title_variant as untranslatable [Michael Bestas]
+7dd10f5 Telephony: adaptive icon [Asher Simonds]
+97cb141 Merge tag 'LA.QSSI.11.0.r1-07000-qssi.0' into Telephony. [Christian Oder]
+
+* vendor/candy
+1c5e7ea Prebuilt: Remove old, unused Turbo.apk [NoSpamDan]
+
+* vendor/gapps
+3689c71 Turbo: Remove the craziness for now... [NoSpamDan]
+
+🍬 15-Mar-2021 🍬
+
+* build/soong
+0c05ef9 Merge "cleanbuild: Add .bak, .log and .md5 files to the cleaning" into c11 [Dan Cartier]
+
+* device/oneplus/sdm845-common
+95da355 sdm845-common: Drop fajita-specific Gcam prebuilt for now [NoSpamDan]
+162ee36 Revert "updater: Add overlay to opt out of recovery flash" [NoSpamDan]
+
+* frameworks/base
+32d5a0b FODCircleView: detect touch outside and take action accordingly [Dil3mm4]
+a2cf8b7 fixup! FODCircleView: various improvements. [LuK1337]
+9d7c097 FODCircleView: ensure that when we check for bouncer, we're on keyguard. [Dil3mm4]
+66eb2b1 SystemUI: Don't shift KeyguardSecurityContainer when FOD isn't available [Dil3mm4]
+95199bd FODCircleView: various improvements. [Dil3mm4]
+5fb1878 Don't start fingerprint for FOD devices early [TheScarastic]
+
+* packages/apps/Settings
+533f6f5 manifest: Clean up CandyShop activity [NoSpamDan]
+
+* packages/apps/Settings/CandyShop
+520ed47 system: Remove divider from power save category [NoSpamDan]
+
+* packages/apps/Updater
+2de6270 Utils: Add all java file classes [NoSpamDan]
+
+* vendor/candy
+1093b9a themes: Disable our themes [NoSpamDan]
+538c3d2 common: Let's get Visible, Visible... [NoSpamDan]
+
+🍬 14-Mar-2021 🍬
+
+* frameworks/base
+302f412 core: Add back hardware keys and wake keys configs [NoSpamDan]
+e0cbdf0 Merge "fix derp" into c11 [Dan Cartier]
+6117cb4 Merge "Revert "d2w: fix double tap to wake on ambient"" into c11 [Dan Cartier]
+1ce2233 fix derp [Mourya Baruah]
+d2757a3 Revert "d2w: fix double tap to wake on ambient" [Dan Cartier]
+
+🍬 13-Mar-2021 🍬
+
+* candy
+4654109 Update README.md [Mourya Baruah]
+a16e2a1 candy: Track our own Snap camera [NoSpamDan]
+
+* device/google/sunfish
+cafe05c sunfish: Switch to our new pixel gapps [NoSpamDan]
+
+* device/oneplus/fajita
+eeb5920 fajita: Update to 20210305 Redfin FP [NoSpamDan]
+
+* device/oneplus/sdm845-common
+4178d4d updater: Add overlay to opt out of recovery flash [NoSpamDan]
+a1338d3 sdm845-common: Inline our new GApps [NoSpamDan]
+6ea205e sdm845-common: Disable forced recovery flash in Updater [NoSpamDan]
+891f303 sdm845-common: Add System_ext and vendor image reserved sizes [NoSpamDan]
+
+* frameworks/base
+e6cbc71 Merge changes from topics "aggresive_battery", "legacy_fp", "lockscreen_charging", "march_misc", "media_art", "network_traffic", "notification_headers", "qs", "screenrecord", "swipe_screenshot" into c11 [Dan Cartier]
+d1a7576  FingerprintService: add overlay to prevent cleanup of unused fingerpr… [codeworkx]
+02c9a7f biometrics: Allow posting reset runnable for all clients [LuK1337]
+e490ec0 fix duplicated value after r32 [miju12]
+0534e49 PixelPropsUtils: Update fingerprint to March [miju12]
+
+* packages/apps/Settings
+b8391b1  Remove the About phone avatar [BoredOutOfMyGit]
+
+* packages/apps/Settings/CandyShop
+dd90b08 traffic: Fix array sorting [NoSpamDan]
+bf66a1b lockscreen: Fix tab layout [NoSpamDan]
+0df135f qs: Fix defaults for portrait and landscape [NoSpamDan]
+fb39b39 traffic: Enable orientation when type selected is not default [NoSpamDan]
+
+* packages/apps/Snap
+cd24b63 CameraActivity: Bypass PRIVATE_FLAG_PREVENT_POWER_KEY [NoSpamDan]
+b77e9a4 Snap: Remove lineage sdk dependency [jhenrique09]
+
+* packages/apps/Updater
+5a897ad strings: Update recovery flash warning message [NoSpamDan]
+
+* system/core
+ee13da5 fastboot: Bring back legacy A/B support [LuK1337]
+
+* vendor/candy
+b0299d8 Merge "Revert "prebuilt: Drop otasigcheck script"" into c11 [Dan Cartier]
+6456b92 Merge "Revert "Revert "vendor: Squashed commit for inline GApps support""" into c11 [Dan Cartier]
+
+* vendor/gapps
+9cd6cb0 gapps: Add some overlays from Ezio's pixelgapps [NoSpamDan]
+
+🍬 12-Mar-2021 🍬
+
+* frameworks/base
+6ad194a services: Use real values for aggressive idle [Joe Maples]
+98b6d62 Aggressive Battery: fix auto enable on battery saver [shagbag913]
+e609afb core: Implement Aggressive Battery [1/2] [Joe Maples]
+b621b1f ScreenRecord: Improve low quality screen record [Pranav Vashi]
+4552969 SystemUI: allow to limit the max framerate of built-in screen recorder [nullbytepl]
+19ef9b1 Screenrecord: add blinking stop dot and low quality options [ezio84]
+5df3e7d SystemUI: keyguard show charging watt [maxwen]
+bf5dfd4 LockscreenCharging: squashed (1/3) [xyyx]
+da9ee84 base: SwipeToScreenshot: Import MIUI implementation [Henrique Silva]
+2ed3eb1 base: Improvements for swipe to screenshot [Henrique Silva]
+60f609b base: Add three-fingers-swipe to screenshot [1/2] [ghbhaha]
+40283a5 Add Network Traffic Layout [1/2] [AnkitGourav]
+d5304d6 NetworkTraffic: Set default font size of Single Traffic to 24dp. [Jayant-Deshmukh]
+d8f028c [SQUASHED] Add Combined & Dynamic Network Traffic Mode [1/2] [AnkitGourav]
+63bf787 NetworkTraffic: Set default font size of Single Traffic to 42dp. [spezi77]
+cfc25ac NetworkTraffic: Fix Net Text Getting Cut at DPI Changes [SuperDroidBond]
+37d53e5 NetworkTraffic: Allow user to choose positioning [1/2] [calebcabob]
+088369b Bring back traffic indicator for Notch Devices !!! [Alex Cruz]
+06b12b3 TrafficSB: Pass the animate bool [ganeshi4u]
+32278f0 NetworkTraffic: Fix gravity [xyyx]
+08352e2 Network Traffic: Add Option for Users to select size of Single Traffic (Up/Down) Font Size [SuperDroidBond]
+449401d NetworkTraffic: Show arrows in statusbar [1/2] [Nico60]
+c0f084d Option for Up, Down as well for Network Traffic [1/2] [ezio84]
+84b6670 Add network traffic monitor properly to statusbar icons [SpiritCroc]
+11bb38c Bring back traffic indicator for all! [Alex Cruz]
+eb0aa34 QS tile titles visibility [1/2] [Alex Cruz]
+2cd148e Allow to set QS panel columns and rows [1/2] [ezio84]
+ae101e6 Lockscreen MediaArt: hide if media is not playing [ezio84]
+944eedc Settings.java: fix javadoc comment [Akhil Narang]
+e553286 SystemUI: Allow to enable Lockscreen Media Art [1/2] [beanstown106]
+7a65452 base: Allow hiding notification headers [1/2] [Ido Ben-Hur]
+3804647 screenrecord: Save recordings in ScreenRecords [El Dainosor]
+69b32e2 Add MicroG GmsCore to location providers [lyceris-chan]
+443a843 Support UnifiedNlp (microG) [Simon Polack]
+c0370ba Properly set fonts and icons on keyguard when changing styles [ezio84]
+c1ec441 SystemUI: Properly theme ScreenshotUI buttons [AshutoshSundresh]
+6ebab7d StatusBarIconController: Guard yet another function from cast exception [Ido Ben-Hur]
+171a19b Avoid casting network traffic to StatusBarIconView to prevent crash [SpiritCroc]
+0839f69 Update string for add tiles with one click [mydongistiny]
+be39124 Restore one-click to add/remove tiles after r20 merge [ezio84]
+a4af2c5 Allow user to add/remove QS with one click [Andrzej Ressel]
+4b4c18b SystemUI: Remove QS drag handle [Danny Lin]
+3e286c7 Disable overfling bounce [Danny Lin]
+695afee base: Grant suspend permission to Flipendo [Adithya R]
+6f8161c core: Import back arrow from OOS [HeroBuxx]
+652c975 Keyguard: reduce bottom text size [Marko Man]
+a209951 Zygote: enable zygote preforking (USAP pool) by default [DennySPb]
+8d91826 overlays: Import XiaomiOrange accent [Pranav Vashi]
+dd1d1ef overlays: Add iOS Blue accent [Adithya R]
+f6c9998 base: accents: Add MIUI accent color [00day0]
+8109c56 base: accents: Add new accent colors for R Change-Id: I738ef4eb17483c3c78b84672db08b0e6e102831d [harsh-23]
+1a12c5d base: QS: beautify airplane & mobile data icons [AndroBuddy]
+f53f27e base: Update QS tile icons [AndroBuddy]
+feafc67 Better QS detail clip animation [dongwan0605.kim]
+c5689a8 base: Nice looking black theme [HrX03]
+9daa30d Forward Port: Smoother Upload and Download Animation [Muhammed Nazim]
+7d86fbe base: Introduce the new switchbar [samgrande]
+019f80f Shorten wait time for shutdown time optimization [zljing]
+23f64847 call log limit 500=>5000 [psyafter]
+8f2d1af Calm down attention service logspam [Adhitya Mohan]
+9657f60 base: Cleanup some colors [Anushek Prasal]
+54c1077 Update dark material colors [altan]
+027dd1f Make the UI a bit bolder [Lucchetto]
+a77617c Revert "Add shadow to text on keyguard" [Lucchetto]
+e9ae776 Revert "Remove clock shadows from light mode" [Lucchetto]
+e5524eb ChooserActivity: remove ugly separator [Lucchetto]
+8838293 More rounded corners [Lucchetto]
+a2515ae base: Add Pixel UI [SKULSHADY]
+2bb1f88 core: Defy usage of NGA in Google Assistant [Danny Lin]
+2d4fe5a PixelPropsUtils: Add turboadapter to packages list [Adithya R]
+cf40e12 ViewConfiguration: misc changes (rev) [Simao Gomes Viana]
+544fe98 framework-sysconfig: Add deskclock to whitelist [Qimeng Pan]
+bc2b104 libs: hwui: Build using ThinLTO [mydongistiny]
+de3eb4b DigitalClock: Use system fonts. [spezi77]
+f935da6 TypeClock: adapt to changes in keyguard [rohan]
+f69abaf base: clocks: move more clocks to sysui R package [Adhitya Mohan]
+b4a7734 KeyguardClockPositionAlgorithm: Allow forcing default clockY positioning [Christian Oder]
+2fb8293 SystemUI: custom clock kickoff continued [Ali B]
+8b8a450 SystemUI: custom keyguard clock kick off [maxwen]
+2a11b3f TypeClock: Update Ambient Clock layout [rohan]
+ae024bf d2w: fix double tap to wake on ambient [ezio84]
+81f6030 SystemUI: fix binary clock update [maxwen]
+47d4e3d SystemUI: use primary colors for dark theme where possible [DennySPb]
+5b2e810 SystemUI: Improve Samsung clock layouts [Christian Oder]
+b279420 SystemUI: refactor qs bg color into dedicated color resource [maxwen]
+02cdd44 Introduce bold digital and Samsung like lockscreen clocks [Christian Oder]
+1897616 Keyguard: add binary custom clock face [maxwen]
+a2f52cd base: add more notification channels to blockable [maxwen]
+159e0af SystemUI: tint emergency icon only [Vachounet]
+7ebbb31 base: SystemUI: Disable junky LS clock & slice transition animations [Ido Ben-Hur]
+26e4109 fwb: Intruduce Primary Colors [Marko Man]
+52c3eab SystemUI: adjust powermenu and qs customizer background for black theme consistence [DennySPB]
+86ba121 base: Remove keyguard delay completely [Saikiran]
+777c8cd2 SystemUI: Use AVCProfileMain for screen recorder [Arne Coucheron]
+
+* packages/apps/Settings/CandyShop
+5c37447 Support: add CustomSeekbarPrefs [SpiritCroc]
+8649dcc Implement Aggressive Battery [2/2] [frap129]
+21ecf3f LockscreenCharging: squashed (3/3) based on: [1/2] Settings: show more battery info on lockscreen when charging by yank555-lu [xyyx]
+389982f Add three-fingers-swipe to screenshot [2/2] [kdp162]
+119656e NetworkTraffic: Add Option for Users to select size of Single Traffic (Up/Down) Font Size [2/2] [NoSpamDan]
+3b69b34 Add Network Traffic Layout [2/2] [AnkitGourav]
+c9cc5cd NetworkTraffic: Add Combined & Dynamic Mode [2/2] [AnkitGourav]
+7b7f609 Add network traffic type [2/2] [Jon Haus]
+36ce5ba NetworkTraffic positioning: Adapt to new settings flags [spezi77]
+ffac54c Network traffic location [2/2] [SKULSHADY]
+03006a8 Hide arrows in Network Traffic indicators [2/2] [nico60]
+2087f83 Status bar network traffic [2/2] [ezio84]
+9ebc332 CandyShop: Add QS quick pulldown option [ezio84]
+017251d CandyShop: QS tile title visibility [2/2] [ezio84]
+53be8e3 candyshop: Add QS columns/rows options [ezio84]
+20f9098 candyshop: Losckreen media art [2/2] [ezio84]
+b8671bb Allow hiding notification headers [2/2] [idoybh]
+
+* packages/apps/Updater
+5126f6f Updater: Add menu option to apply a local update package [Kshitij Gupta]
+691066e Only cancel notification if update isn't installed [Luca Stefani]
+
+* system/update_engine
+55cb0c2 Convert superior product variables to soong config variables [aswin7469]
+7da1e0e Allow PREBUILT_DYNAMIC_PARTITIONS to resize partitions. [Christian Oder]
+
+* vendor/candy
+e735d50 Remove deprecated backup overlay [Michael Bestas]
+367b5dd Adapt to 6.0.1_r52 backup whitelist [Abhisek Devkota]
+d1fa1d8 Revert "Revert "vendor: Squashed commit for inline GApps support"" [NoSpamDan]
+6a14d0e Revert "prebuilt: Drop otasigcheck script" [NoSpamDan]
+0480e44 Revert "Revert "vendor: Squashed commit for inline GApps support"" [Dan Cartier]
+4d469c5 Revert "prebuilt: Drop otasigcheck script" [Dan Cartier]
+
+🍬 11-Mar-2021 🍬
+
+* system/core
+56bd12b LockscreenCharging: squashed (2/3) [xyyx]
+
+* vendor/candy
+2ba09b1 Allow A/B OTA downgrades on debuggable builds [Luca Stefani]
+da1daa0 Revert "vendor: Add back the check for AB or A-only for backuptool" [NoSpamDan]
+96d2aed backuptool: Fix path for restore_addon_d [NoSpamDan]
+8ed5ea7 backuptool: Correct supported partitions for addon.d v3 [Alessandro Astone]
+cac7e27 backuptool: Set Candy version from build [NoSpamDan]
+da2e608 backuptool: Support seamless backup and restore to extra partitions [Alessandro Astone]
+91fe92c Revert "vendor: Squashed commit for inline GApps support" [NoSpamDan]
+41b56a4 prebuilt: Drop otasigcheck script [NoSpamDan]
+68daa9b prebuilt: Drop 4 year old fix_permissions script XD [NoSpamDan]
+
+* vendor/gapps
+54e563f Don't build CaptivePortalLoginGoogle [jhenrique09]
+
+🍬 10-Mar-2021 🍬
+
+* art
+4d6e371 Merge tag 'android-11.0.0_r32' of https://android.googlesource.com/platform/art into HEAD [miju12]
+
+* build/make
+3e29573 Merge tag 'android-11.0.0_r32' of https://android.googlesource.com/platform/build into HEAD [miju12]
+
+* candy
+10e3a01 candy: Track our own external_airbnb-lottie [NoSpamDan]
+9ca0aeb remove: Drop redfin-kernel for tag sync [NoSpamDan]
+96da790 candy: Android 11.0.0_r32 into c11 [miju12]
+d16d650 candy: Track our own pixel-sepolicy for battery saver [NoSpamDan]
+
+* frameworks/base
+9f2e27d core: jni: use -O3 [Simao Gomes Viana]
+
+* packages/apps/Launcher3
+9eb17fb Launcher3: Move priv-app perms to TARGET_OUT_SYSTEM_EXT_ETC [doc HD]
+e368eab Launcher3: Add READ_FRAME_BUFFER permission [Pranav Vashi]
+a3be479 Launcher3: Add needed priv app permissions [doc HD]
+1103972 Increase all apps top padding to avoid visual glitch in recents [DennySPB]
+26c80de Launcher3: fix dark primary folder bg color [maxwen]
+19e6d96 Launcher3: add dark primary support [maxwen]
+ccb0e5d Launcher3: Add theme override option in Themes getActivityThemeRes [Amir Zaidi]
+ae60402 Launcher3: Use app opening animation for notification opening [Amir Zaidi]
+f3a7807 Launcher3: Can't search out local app by Chinese [yingrenw]
+4b59927 Launcher3: Use system fonts [Pranav Vashi]
+c5a673a CandyLauncher: exclude from recents [cretin45]
+ff7f822 CandyLauncher: google feed integration [Anay Wadhera]
+2e007f5 Create Candy Launcher [Chris Crump]
+7e2389f Launcher3: Fix launcher preview rendering [Danny Lin]
+445eab9 Launcher3: Bump min SDK to 26 as required for adaptive icons [Bruno Martins]
+11dc1dd Add missing default workspace changes in LauncherFiles [Michael Bestas]
+f2b18ba Launcher3: Add extra privapp permissions xml [Michael Bestas]
+7f93462 Launcher3: Allow enabling icon labels for landscape mode [LuK1337]
+c39e7b8 Launcher3: allow disabling workspace edit [Joey]
+ff1f795 Launcher3: add toggle for desktop and drawer labels [Joey]
+6112669 Don't discard custom grid on config changes [LuK1337]
+4994a4a Specify the component name to start the picker [Luca Stefani]
+a380bbc Specify the wallpaper picker package [Luca Stefani]
+7851ba9 L3: Add 5x6, 5x7 and 6x6 default workspaces [dwardo]
+f40afb3 Replace 4x4 grid option with a 4x5 one [Arne Coucheron]
+5fb30f4 L3: Update default workspace [Bruno Martins]
+b6232a8 Launcher3: No Calendarwidget 4x4 widget displayed [ningl]
+4d04869 l3: disable qsb [kazerine]
+550785e Launcher3: move clear all button to actions view [Vachounet]
+83cfe7e Change icon drawable padding [Arne Coucheron]
+a582e44 DeviceProfile: fix divide by zero [Alexander Martinz]
+180e77d Workspace: Allow resizing any widget [Nebojsa Cvetkovic]
+74c4c32 Launcher3: Stability NullPointer issue [yingrenw]
+feff1b9 Launcher3: Globally disable debug logging [Bruno Martins]
+d16c144 Properly expose GridOptionsProvider [Luca Stefani]
+7a2bfc7 L3: disable blur [kazerine]
+f852d71 launcher3: disable gradient [kazerine]
+
+* packages/apps/Settings
+2f1e3fe  Settings: Add About Phone Candy lottie animation [miju12]
+304893e Enable and set the default account provider. [jhenrique09]
+b1f53d8 Settings: add icons to submenus [rohan]
+2fd7c5f Settings: move app compatibility preference to apps and notifications [rohan]
+101f429 Settings: update lottie animations [rohan]
+6ea13b0 Settings: update some lottie animations [rohan]
+972f0f8 Settings: Lottie Animations [rohan]
+7995ca2 Settings: import airbnb-lottie [rohan]
+287c9eb AmbientDisplay: Add custom pref for devices with custom doze packages [jhenrique09]
+12202d2 Settings: deviceinfo: Move imei information to Sim status [Chris]
+8239c9e Fix mvno data field summary not update issue [Wei Huang]
+3e27929 Fix NPE if default supervisor is not defined [Wang Han]
+2c16b59 hardwareinfo: Hide hardware revision if empty [Arian]
+
+* system/update_engine
+962d275 Pixels: Add Candy ASCII art while flashing. [spezi77]
+13684fb Boost update_attempter thread priority [Harsh Shandilya]
+e2ab8f5 Ignore timestamp check in DeltaPerformer [Surge Raval]
+0a412ac Report more info in sideload UI [Surge Raval]
+cd4e9a1 Add sideload UI and split reporting into thirds [Surge Raval]
+
+* vendor/candy
+a18e438 Merge "overlays: Add some Launcher3 stuff" into c11 [Dan Cartier]
+
+🍬 09-Mar-2021 🍬
+
+* vendor/gapps
+dda06a3 gms: Add TurboAdapter without Google Battery [Dyneteve]
+4097834 gms: Update from RQ2A.210305.006 [Dyneteve]
+8f8d03f Add back TurboAdapter [jhenrique09]
+
+🍬 08-Mar-2021 🍬
+
+* device/google/sunfish
+66d25d5 Update build fingerprint to RQ2A.210305.006 [Josh Chasky]
+41257f9 Merge tag 'android-11.0.0_r32' of https://android.googlesource.com/device/google/sunfish into r11x [Josh Chasky]
+ba56c6e sunfish: Set privapp permissions control to log [NoSpamDan]
+
+* device/google/sunfish-sepolicy
+4eaf27b Merge tag 'android-11.0.0_r32' of https://android.googlesource.com/device/google/sunfish-sepolicy into r11x [Josh Chasky]
+6678fdd Update the bug_map for the denials from shell during PTS [Alex Hong]
+3df1e7c Ignore denials when persist is not yet mounted [Thiébaud Weksteen]
+
+* device/oneplus/sdm845-common
+d8620b3 fajita: Set privapp permissions control to log [NoSpamDan]
+
+* kernel/google/sunfish
+476e08a merge android-11.0.0_r0.64 kernel/msm to sunfish [buffal0b1ll]
+
+* vendor/candy
+f120f4f overlays: Add some Launcher3 stuff [NoSpamDan]
+
+* vendor/google
+9d8c5e0 Sunfish: Update blobs to Android 11.0.0 (RQ2A.210305.006) [Josh Chasky]
+761712d Revert "Add prebuilt power-ext library" *fixed in device tree* [ezio84]
+
+🍬 07-Mar-2021 🍬
+
+* packages/apps/Launcher3
+e160e6b Merge tag android-11.0.0_r32 [miju12]
+
+* vendor/candy
+07418ad packages: Drop Launcher3QuickStep [NoSpamDan]
+660878e vendor: Start adding back some product and system_ext privapp permissions [NoSpamDan]
+
+🍬 06-Mar-2021 🍬
+
+* bionic
+53420fc Merge tag 'android-11.0.0_r32' of https://android.googlesource.com/platform/bionic into HEAD [miju12]
+
+* bootable/recovery
+e1ee99c Merge tag 'android-11.0.0_r32' of https://android.googlesource.com/platform/bootable/recovery into HEAD [miju12]
+
+* build/make
+159a57e kill QuickSearchBox WITH FIRE [miju12]
+
+* build/soong
+b4928cf Merge tag 'android-11.0.0_r32' of https://android.googlesource.com/platform/build/soong into HEAD [miju12]
+
+* development
+8223c66 Merge tag 'android-11.0.0_r32' of https://android.googlesource.com/platform/development into HEAD [miju12]
+
+* frameworks/av
+0165ad0 Merge tag 'android-11.0.0_r32' of https://android.googlesource.com/platform/frameworks/av into HEAD [miju12]
+
+* frameworks/base
+2833cb7 Merge tag 'android-11.0.0_r32' of https://android.googlesource.com/platform/frameworks/base into HEAD [miju12]
+
+* frameworks/native
+508242c Merge tag 'android-11.0.0_r32' of https://android.googlesource.com/platform/frameworks/native into HEAD [miju12]
+
+* frameworks/opt/telephony
+355dea4 Merge tag 'android-11.0.0_r32' of https://android.googlesource.com/platform/frameworks/opt/telephony into HEAD [miju12]
+
+* hardware/interfaces
+7ce3f06 Merge tag 'android-11.0.0_r32' of https://android.googlesource.com/platform/hardware/interfaces into HEAD [miju12]
+
+* packages/apps/ThemePicker
+97da613 Merge tag 'android-11.0.0_r32' of https://android.googlesource.com/platform/packages/apps/ThemePicker into HEAD [miju12]
+
+* packages/apps/WallpaperPicker2
+53c188d Merge tag 'android-11.0.0_r32' of https://android.googlesource.com/platform/packages/apps/WallpaperPicker2 into HEAD [miju12]
+
+* packages/services/Telecomm
+fae0060 Merge tag 'android-11.0.0_r32' of https://android.googlesource.com/platform/packages/services/Telecomm into HEAD [miju12]
+
+* system/core
+66ce78e Merge tag 'android-11.0.0_r32' [Kevin F. Haggerty]
+
+* system/sepolicy
+409709e Merge tag 'android-11.0.0_r32' of https://android.googlesource.com/platform/system/sepolicy into HEAD [miju12]
+
+* system/update_engine
+7920581 Merge tag 'android-11.0.0_r32' of https://android.googlesource.com/platform/system/update_engine into HEAD [miju12]
+
+* system/vold
+748ecf7 Merge tag 'android-11.0.0_r32' into staging/lineage-18.1_merge-android-11.0.0_r32 [Kevin F. Haggerty]
+
+🍬 05-Mar-2021 🍬
+
+* vendor/candy
+b126d26 candy: More checks for copying AB backuptool scripts [Alessandro Astone]
+
+🍬 04-Mar-2021 🍬
+
+* packages/apps/Settings
+4e60e6b Merge tag android-11.0.0_r32 [miju12]
+fb5b657 Merge "Add Dual Channel into Bluetooth Audio Channel Mode developer options menu" into c11 [Mourya Baruah]
+
+* vendor/candy
+bbcbc03 config: Add Launcher3 to PRODUCT_DEXPREOPT_SPEED_APPS [Bruno Martins]
+a5e09a7 config: Add SysUI to PRODUCT_DEXPREOPT_SPEED_APPS [Wei Wang]
+
+* vendor/nxp/opensource/pn5xx/halimpl
+b5a5253 A stack OOB write vuln of nxp nfc hal library [Alisher Alikhodjaev]
+
+* vendor/qcom/opensource/commonsys/packages/apps/Bluetooth
+2592b10 Prevent drawing on top of Bluetooth activities [Jakub Pawlowski]
+
+🍬 03-Mar-2021 🍬
+
