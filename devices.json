@@ -43,5 +43,19 @@
       "date": "2021/02/26",
       "maintainer_name": "nospamdan",
       "xda_thread": ""
-    }
+    },
+    {
+      "device_name": "Lenovo Zuk Z2 Plus",
+      "codename": "z2_plus",
+      "assert": ["z2_plus"],
+      "datetime": 1616300613 ,
+      "filename": "Candy-z2_plus-11.0-OFFICIAL-20210321-0425.zip",
+      "id": "016c0048ae455a111751749f91258382",
+      "romtype": "OFFICIAL",
+      "size": 1288490189 ,
+      "url": "http://candy.hr83.in/11/z2_plus/Candy-z2_plus-11.0-OFFICIAL-20210321-0425.zip",
+      "version": "11.0",
+      "date": "2021/03/21",
+      "maintainer_name": "miju12",
+      "xda_thread": ""
 ]
