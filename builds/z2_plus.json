@@ -1,10 +1,11 @@
-"response": [
+{
+  "response": [
         {
-            "datetime":1616300613,
-            "filename": "Candy-z2_plus-11.0-OFFICIAL-20210321-0425.zip",
-            "id": "016c0048ae455a111751749f91258382",
+            "datetime":1616308748,
+            "filename": "Candy-z2_plus-11.0-OFFICIAL-20210321-0639.zip",
+            "id": "fbac8939bb114e28ebca96212ff9b24b",
             "romtype": "OFFICIAL",
-            "url": "https://candy.hr83.in/11/z2_plus/Candy-z2_plus-11.0-OFFICIAL-20210321-0425.zip",
+            "url": "https://candy.hr83.in/11/z2_plus/Candy-z2_plus-11.0-OFFICIAL-20210321-0639.zip",
             "size":1288490189,
             "version": "11.0"
         }
