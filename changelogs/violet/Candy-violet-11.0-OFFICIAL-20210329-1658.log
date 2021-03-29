@@ -1,0 +1,298 @@
+🍬🍬🍬🍬🍬🍬 CANDY 11 🍬🍬🍬🍬🍬🍬
+
+ CandyRoms Changelog for violet
+
+🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬
+
+🍬 29-Mar-2021 🍬
+
+* frameworks/base
+001f2cb Fix 2tap2wake after Ambient Pulsing on some devices [ezio84]
+c6df956 Show Ambient instead of lockscreen on wake gestures [1/2] [ezio84]
+d86330a  Ambient music ticker: double tap on track title to skip track [Mourya Baruah]
+814af76 SystemUI: Remove GarbageMonitor tile [jhenrique09]
+570db1d base: New VoLTE icon [El Dainosor]
+cebfe8f VoLTE: Add New Minimal Icon [SuperDroidBond]
+0ea956b SystemUI: Add OOS 10 VoLTE icon [1/2] [SKULSHADY]
+ac1461b SystemUI: Add VoLIT icon [1/2] [Stallix]
+661a746 add fod detection overlay Change-Id: I435f1d6f806685356ea438f48ec52d1d8be81b9b [Mourya Baruah]
+31fa884 utils: Add a check for FOD devices [NoSpamDan]
+db12cdb Ambient music: Remove debug messages. [spezi77]
+46caf23 Ambient music: Also shorten the Now Playing title after the song title. [spezi77]
+377067f Ambient music: pulse on new music tracks and Now Playing info [1/2] [ezio84]
+9cb97fa fixup! Add long screenshot chip [Joey Huab]
+4967415 base: Fallback stitchimage's broken value to unknown [ender1324]
+e81793b base: Whitelist stitchimage [jhenrique09]
+be1a03f base: Add missing long screenshot permission [ender1324]
+7228ee7 base: Add long screenshot chip [ender1324]
+d8d546d Ambient music: Format the media title like Elgoog does. Example [spezi77]
+761e87a Ambient music: Show bottom ticker above fod circle if needed. [spezi77]
+7585ec7 KeyguardSliceProvider: Hide song name if TypeClock is in use. Otherwise the layout would be broken [spezi77]
+06cbde5 Ambient music v2: Allow for changing the music ticker position [1/2]. This will add the music ticker to the ambient screen / AoD just like on Pixel devices. It will work with ezio's music ticker and now playing commits for Android R. Other part of the commit is in Settings. [spezi77]
+a94eac4 Port ambient Now Playing container from Pixel [stripped down version] [Joe Maples]
+2ae3741 PermissionHub: Enable it [Raj Jadeja]
+6b61222 Add three more selectable VoWiFi icons [1/2] [blinoff82]
+ca25e0f SystemUI: Add four more selectable VoWiFi icons [1/2] [DennySPb]
+d73ebf7 SystemUI: Improve VoLTE detection logic [Pranav Vashi]
+b545b8d SystemUI: Optional VoWiFi icon [1/2] [DennySPb]
+1398875 SystemUI: support VoWIFI icons [Weijie Wang]
+60d0fe0 SystemUI: Add EMUI VoLTE icon [1/2] [DennySPb]
+15f4d39 Add MIUI 11 VoLTE icon [1/2] [Lup Gabriel]
+e0621d3 SystemUI: add CAF VoLTE HD icon [1/2] [DennySPB]
+4a71fea SystemUI: Add Asus VoLTE Icon [1/2] [PainKiller3]
+bbe82ec VoLTE Icon - User Selectable VoLTE Icon [1/2] [SuperDroidBond]
+2ddefad Add VOLTE icon toggle [1/2] [SagarMakhar]
+b4dbf2e SystemUI: Show 4G instead of LTE switch [1/2] [Alex Cruz]
+e5a5090 base: Fix padding for VoLTE icon [Josh Fox (XlxFoXxlX)]
+
+* packages/apps/Settings
+0dd653c Remove feedback and bug report stuff [ezio84]
+2b139dc Add video preview to Skip track gesture option [Sahul Krishan]
+720c3bc Add Volume rocker skip track to Gestures [ezio84]
+
+* packages/apps/Settings/CandyShop
+9426962 ff [Mourya Baruah]
+5ad244d Add seven more selectable VoWiFi icons [2/2] [niteshkumar2000]
+1f311f6 Optional VoWiFi icon [2/2] [DennySPB]
+78ed041 Statusbar: Add more optional VoLTE icons [DennySPB]
+b796a6a VoLTE Icon - User Selectable VoLTE Icon [2/2] [SuperDroidBond]
+
+🍬 28-Mar-2021 🍬
+
+* frameworks/base
+296362d MobileSignalController fix corresponding to upstream FeatureConnector change [Steven Laver]
+12ededa ImsManager.Connector became FeatureConnector. [Daniel Norman]
+966d325 SystemUI: Enhancement for volte icon [Weijie Wang]
+3e8770e0f SystemUI: Query IMS state after CapabilityCallback is regisered [Qimeng Pan]
+4db7875 SystemUI: Fix HD icon missing [Weijie Wang]
+7200ef6 Adapt to IMS registration changes. [Bill Peckham]
+43fef26 Fix VOLTE icon color on Light statusbar [Adarsh-MR]
+d3cc05f SystemUI: Refactor the feature of volte icon [Weijie Wang]
+5694a3e SystemUI: Fix volte icon doesn't update in real time [Weijie Wang]
+cf25af6 SystemUI: Add new configuration for displaying Volte icon [Weijie Wang]
+263c2f9 base: Let legacy apps scale fully to the display's aspect ratio [rituj]
+6fe570f ScreenOFF volume skiptrack (with remote Spotify support) [ezio84]
+9a89bd3 Fix volume rocker skip track on Ambient Display and Lift to Wake [ezio84]
+11f30e0 Add LineageButtons (volume skip track hooks) [Simon Shields]
+389f7f7 admin: Restore requireSecureKeyguard interface. [Adnan Begovic]
+
+* packages/apps/PermissionController
+01873e6 PermissionHub: Enable it [Raj Jadeja]
+46af2ae PermissionController: Implement getPermissionUsages API [Danny Lin]
+382f39d PermissionController: Remove warning from permission dashboard [Danny Lin]
+8a171a2 Utils: add FAKE_PACKAGE_SIGNATURE to platform permissions [Vachounet]
+
+* packages/apps/Settings
+df59eaf Aosp Ambient music: allow to pulse on new tracks [2/2] [ezio84]
+4ee4e5a Settings: show battery times in summary [maxwen]
+1adf0ef Forward port CM Screen Security settings (2/2) [Michael Bestas]
+58e2abe Settings: Allow to show daily data usage [2/2] [Anushek Prasal]
+455d4d1 Settings: Fix data usage display on mobile panel [maxwen]
+c9aca5a Settings: Add back DataUsageSlice [Anushek Prasal]
+c726d57 Settings: panels: Improvements [Alex]
+1f64329 Settings: panels: Add Bluetooth panel [Joe Maples]
+0831ca1 Settings: panels: Add Mobile Data panel [Joe Maples]
+
+* packages/apps/Settings/CandyShop
+52101fc  StatusBar: VoLTE icon toggle [2/2] [DennySPB]
+68c3426 <StatusBar: 4G instead of LTE option [2/2] [DennySPB]
+
+🍬 27-Mar-2021 🍬
+
+* frameworks/av
+dd141a1 Revert "OMX AAC decode don't support getting DRC parameters" [NoSpamDan]
+
+* frameworks/base
+e1f068a base: fix tapered rect overlay [Anay Wadhera]
+1468ac3 Revert "Adding P20 styles" [Mourya Baruah]
+e61b52f Revert "Remove new styles from AOSP" [Mourya Baruah]
+5b4bff1 Add OnePlus Slate and SamsungOne font styles [1/2] [Pranav Vashi]
+c211179 Add our favourite fonts in AOSP FontEngine [2/2] [SuperDroidBond]
+2674e4e MediaCodecInfo: do not alter performance points for 32-bit processes [Wonsik Kim]
+6b9f15b MediaCodecInfo: limit resolution to 4K for 32-bit processes [Wonsik Kim]
+28bea63 LockPatternUtils: Make settings getter and setters protected [d34d]
+b290591 Forward port CM Screen Security settings (1/2) [Michael Bestas]
+e72d83f SystemUI: Nuke bubble clock [Ido Ben-Hur]
+47df397 SystemUI: Adapt latest clocks to our layout [rohan]
+7207b7b SFUNY Clock: Add proper preview layout [Pranav Vashi]
+cc48b0e DividerLines Clock: Fix margin issue in layout [Pranav Vashi]
+984a8b1 Add time refresh capabilities for bold, digital and Samsung lockscreen clocks [Adhitya Mohan]
+00ee044 SamsungHighlight Clock: Improve layout [Anushek Prasal]
+62f7d68 Add SamsungHighlight clock [El Dainosor]
+f814d19 MNML Clock: Add proper preview layout [Pranav Vashi]
+555f9b6 MNMLBox Clock: Clean up hacky layouts [Pranav Vashi]
+7ef0598 Add MNML based clock desgins [El Dainosor]
+1192b27 Add SFUNY clock [El Dainosor]
+b5f389e DividedLines Clock: Add proper preview layout [Pranav Vashi]
+01a8bec DividerLines Clock: Set 24-hr time format as well [Pranav Vashi]
+1888e99 Add DividedLines Clock [El Dainosor]
+11df845 base: Allow to show daily data usage [1/2] [Anushek Prasal]
+e45d0db SettingsLib: Add method to get daily data usage [AnkitGourav]
+12ee4e4 QS: Add and use Bluetooth Panel instead of full Settings [Joe Maples]
+12cf030 QS: Use Mobile Data panel for CellularTile [Anushek Prasal]
+642ac8b QS: Add and use Mobile Data panel [Joe Maples]
+97ef6d4 QS: Use Settings.Panel intents for WiFi and NFC [Joe Maples]
+4e1cceb DataSwitchTile: collapse notification panel onClick [DennySPB]
+ff0dbf3 SystemUI: DataSwitchTile: Use MD2 drawables [Anushek Prasal]
+c2d49bd base: Introduce DataSwitchTile [Christian Oder]
+d4a43ad Install seccomp filter even if selinux is permissive [Han Wang]
+85c4c95 WifiManager: Add StaState API [Kshitij Gupta]
+52d1144 Fix lockscreen wallpaper not being set if different from the Home one [ezio84]
+4de4e11 Allow to configure or disable lockscreen media art blur [1/2] [ezio84]
+
+🍬 26-Mar-2021 🍬
+
+* device/zuk/msm8996-common
+deeca81 Revert "msm8996-common: update media profiles from walleye-user 11 RP1A.201005.004.A1 6934943 release-keys" [Mourya Baruah]
+
+🍬 25-Mar-2021 🍬
+
+🍬 24-Mar-2021 🍬
+
+🍬 23-Mar-2021 🍬
+
+🍬 22-Mar-2021 🍬
+
+🍬 21-Mar-2021 🍬
+
+* device/zuk/msm8996-common
+f18d055 msm8996-common: Choose between Virtual or External WFD display [Arne Coucheron]
+16828bf msm8996-common: disable HDCP check on wfd [aswin7469]
+2698f97 msm8996-common: edit wfdmmsink to include missing symbols [aswin7469]
+
+🍬 20-Mar-2021 🍬
+
+* device/xiaomi/violet
+268c580 violet: Update graphics blobs to LA.UM.9.1.r1-08600-SMxxx0.0 [Shubham Das]
+47b01b8 violet: Update blobs from davinci-user 11 RKQ1.200826.002 21.2.3 release-keys [Shubham Das]
+
+* frameworks/base
+6d7a1c4 Merge changes from topic "qti-telephony" into c11 [Dan Cartier]
+6aafd37 Merge "base: Forward port 'Swap volume buttons' (1/3)" into c11 [Dan Cartier]
+3859fdc Pulse: correctly stop it on screen OFF events [1/2] [ezio84]
+f64c39f base: Pulse initial checkin for Android 11 [1/4] [bigrushdog]
+
+* kernel/xiaomi/violet
+c6a6ed4 rebrand [Mourya Baruah]
+
+* packages/apps/Settings/CandyShop
+e2c84a7 CandyShop: Swap volume buttons (3/3) [ezio84]
+
+* vendor/xiaomi/violet
+15d1290 Revert "violet: Switch back to stock thermal configuration" [Mourya Baruah]
+
+🍬 19-Mar-2021 🍬
+
+* device/zuk/msm8996-common
+bab24ae Revert "msm8996-common: Add ANT+ back" [Mourya Baruah]
+
+* frameworks/base
+a8fd0c6 Allow to get theme accent color from context [Alex Cruz]
+9bf5d31 TaskHelper: Also add to StatusBarGoogle* [NoSpamDan]
+54217631 Add api to get or kill foreground app [ezio84]
+99fe28d base: Forward port 'Swap volume buttons' (1/3) [nadlabak]
+
+* frameworks/native
+d744c54 native: Forward port 'Swap volume buttons' (2/3) [nadlabak]
+
+* kernel/zuk/msm8996
+18da320 rebrand kernel [Mourya Baruah]
+
+* packages/apps/Settings/CandyShop
+82cc137 CandyShop: Pulse initial checkin for Android 11 [4/4] [ezio84]
+
+* vendor/candy
+80d4dd1 build flipendo(pixel extreme batter) saver for all (requires gapps to be cloned) [Dyneteve]
+858c014 use aosp themepicker and squash of https://github.com/LineageOS/android_vendor_lineage/commits/lineage-18.1/overlay/common/packages/apps/ThemePicker/res/values/override.xml [miju12]
+704b689 Add initial stub apk for themes [luca020400]
+3ccae06 common: Let's get Visible, Visible... [NoSpamDan]
+9175c95 Prebuilt: Remove old, unused Turbo.apk [NoSpamDan]
+
+* vendor/xiaomi/violet
+6390ad8 violet: Update graphics blobs to LA.UM.9.1.r1-08600-SMxxx0.0 [Shubham Das]
+5da1308 violet: Bring back all thermal configurations [Shubham Das]
+87da23b violet: Switch back to stock thermal configuration [Shubham Das]
+7827084 Sync with Dt [Aftab-111]
+dd201e7 violet: Update blobs from davinci-user 11 RKQ1.200826.002 21.2.3 release-keys [Shubham Das]
+
+🍬 18-Mar-2021 🍬
+
+* candy
+6b37221 snippets: Remove PhoneCommon [NoSpamDan]
+
+* device/zuk/msm8996-common
+6f03efb msm8996-common: Don't pin camera app in memory [Danny Lin]
+36a5c8b msm8996-common: cleanup overlays [aswin7469]
+b766378 msm8996-common: remove dirac audio effects [aswin7469]
+3bb4857  msm8996-common: sepolicy: update [aswin7469]
+09e3507 msm8996-common: add vendor.qti.ims.factory to manifest [aswin7469]
+
+🍬 17-Mar-2021 🍬
+
+* frameworks/base
+6cf4af6 Use proper coded alphabet when a contact is written into EF_ADN of USIM. [Umashankar Godachi]
+8711603 Merge commit 'refs/changes/01/4901/1' of ssh://gerrit.candyroms.org:29418/CandyRoms/frameworks_base into c11 [NoSpamDan]
+
+* frameworks/native
+aaeaa06 sf: Exclude VDS use of HWC on non-UM platforms [dianlujitao]
+31f79ee sf: Fix virtual display related issues. [Ramakant Singh]
+
+* frameworks/opt/telephony
+617fe7a Add missing imports. [Anay Wadhera]
+e0a5c8f Revert "SEEMP: framework instrumentation and SMS security" [NoSpamDan]
+08a402d Merge tag 'LA.QSSI.11.0.r1-07000-qssi.0' into telephony. [Christian Oder]
+da0e201 IMS: update ImsPhone to EcbmHandler [Suresh Koleti]
+
+* system/update_engine
+114a6b4 sideload: Fixes for adb sideload branding output [NoSpamDan]
+
+🍬 16-Mar-2021 🍬
+
+* candy
+8e1face candy: Track our own packages_services_Telephony [NoSpamDan]
+d2e746a candy: Track some telephony repos [NoSpamDan]
+
+* device/zuk/msm8996-common
+d70ddbf msm8996-common: Enable the fuse modification by default for better performance [sooti]
+0081c56 msm8996-common: kang Perf blobs from LA.UM.9.6.2.r1-03600-89xx.0 [aswin7469]
+a2d289b msm8996-common: build libstagefright_enc_common [aswin7469]
+
+* device/zuk/z2_plus
+3ec87a2 Update candy.dependencies [Mourya Baruah]
+
+* frameworks/base
+8a72d4c IMS: Add doAnswer API [Ashit Sood]
+4b8c1cc IMS: Allow VT calls when tty-on [Alvin Dey]
+4c852a0 FR30706: Add a playing tone setting. [qiongz]
+a15c2c8 Add vibrating for outgoing call accepted support [Mengjun Leng]
+6c74207 IMS: Add new carrier config. [Sonalika Paul]
+c809961 IMS: Add new Carrier Config. [Sonalika Paul]
+60ec629 Telephony: Rename VoWiFi Emergency notification intent. [Muhammed Siju]
+40c556b VoWifi notification for emergency calls [Sukanya Rajkhowa]
+2e06730 Ims: Add suppport for "Ims Preferred" WFC Preference [Ravi Paluri]
+45b396c Add ICCID into CarrierIdentifier [Mengjun Leng]
+715a222 IMS: Propagate RTT capability of the called party to UI [Benergy Meenan Ravuri]
+8f54584 Telephony: Add DisconnectCause values for clear code [Qiang Chen]
+701694f IMS: Add UT interface to query CF setting for service class. [pengfeix]
+119a40c IMS: Add flag to control reset UT capability [pengfei xiao]
+63963ca Add config to disable CDMA call forward/waiting [pengfeix]
+c101193 SystemUI: Handle cases that we can't address within FODCircleView [Dil3mm4]
+
+* frameworks/opt/net/ims
+9eff797 Merge tag 'LA.QSSI.11.0.r1-07000-qssi.0' of https://source.codeaurora.org/quic/la/platform/frameworks/opt/net/ims into HEAD [Christian Oder]
+
+* kernel/zuk/msm8996
+5936ae3 configs: uprev to popthecorn v3.5 [aswin7469]
+
+* packages/services/Telephony
+1da2ada Compile fixes after qpr1 merge. [Anay Wadhera]
+3e14046 Telephony: Break qti-telephony-framework dependency [maxwen]
+5abea3c Telephony: Support muting by RIL command [Artem Borisov]
+8833616 Telephony: Add ERI configuration for U.S. Cellular [Arne Coucheron]
+ca6d66f Telephony: Mark enhanced_4g_lte_mode_title_variant as untranslatable [Michael Bestas]
+7dd10f5 Telephony: adaptive icon [Asher Simonds]
+97cb141 Merge tag 'LA.QSSI.11.0.r1-07000-qssi.0' into Telephony. [Christian Oder]
+
+* vendor/candy
+b0d3be6 themes: Disable our themes [NoSpamDan]
+
