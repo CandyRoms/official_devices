@@ -1,0 +1,212 @@
+🍬🍬🍬🍬🍬🍬 CANDY 11 🍬🍬🍬🍬🍬🍬
+
+ CandyRoms Changelog for sunfish
+
+🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬
+
+🍬 09-Apr-2021 🍬
+
+* candy
+80f300e candy: Track our own system/vold [NoSpamDan]
+a9d984f candy: Track our own SettingsIntelligence [NoSpamDan]
+
+* packages/apps/SettingsIntelligence
+adf0d27 SettingsIntelligence: Regen database on build version change [Luca Stefani]
+b336ad5 SettingsIntelligence: Match Settings style [Luca Stefani]
+
+* vendor/candy
+590d0ae themes: Switch to our Candy customization package [NoSpamDan]
+6fac877 build flipendo(pixel extreme batter) saver for all (requires gapps to be cloned) [Dyneteve]
+02aa981 vendor: Use aosp themepicker and squash of https://github.com/LineageOS/android_vendor_lineage/commits/lineage-18.1/overlay/common/packages/apps/ThemePicker/res/values/override.xml [NoSpamDan]
+0f2205c Add initial stub apk for themes [luca020400]
+
+🍬 08-Apr-2021 🍬
+
+* device/oneplus/sm8150-common
+b221e34 Automatic translation import [Michael Bestas]
+a2b6608 sm8150-common: Enable ro.audio.monitorRotation [LuK1337]
+113a877 sm8150-common: Set voice call volume steps to 7 [rago]
+3a62f86 sm8150-common: Media volume: from 15 to 25 steps [Jean-Michel Trivi]
+
+* device/qcom/sepolicy-legacy-um
+5561ac6 sepolicy: Include Candy-specific QCOM sepolicy [Pig]
+
+* frameworks/base
+828e226 LockPatternUtils: Make settings getter and setters protected [d34d]
+cd44548 Forward port CM Screen Security settings (1/2) [Michael Bestas]
+b64cda1 SystemUI: Nuke bubble clock [Ido Ben-Hur]
+c1cdc676 SystemUI: Adapt latest clocks to our layout [rohan]
+b5c8064 SFUNY Clock: Add proper preview layout [Pranav Vashi]
+382f1bc DividerLines Clock: Fix margin issue in layout [Pranav Vashi]
+c2bca42 Add time refresh capabilities for bold, digital and Samsung lockscreen clocks [Adhitya Mohan]
+28ba74a SamsungHighlight Clock: Improve layout [Anushek Prasal]
+55b57f3 Add SamsungHighlight clock [El Dainosor]
+b75bc13 MNML Clock: Add proper preview layout [Pranav Vashi]
+d184be2 MNMLBox Clock: Clean up hacky layouts [Pranav Vashi]
+cd13e8b Add MNML based clock desgins [El Dainosor]
+329397c Add SFUNY clock [El Dainosor]
+6561f3e DividedLines Clock: Add proper preview layout [Pranav Vashi]
+d22770a DividerLines Clock: Set 24-hr time format as well [Pranav Vashi]
+8b20c1d Add DividedLines Clock [El Dainosor]
+ffcd701 base: Allow to show daily data usage [1/2] [Anushek Prasal]
+a830ba4 SettingsLib: Add method to get daily data usage [AnkitGourav]
+af0d080 QS: Add and use Bluetooth Panel instead of full Settings [Joe Maples]
+a695efa QS: Use Mobile Data panel for CellularTile [Anushek Prasal]
+5dd0392 QS: Add and use Mobile Data panel [Joe Maples]
+7055212 QS: Use Settings.Panel intents for WiFi and NFC [Joe Maples]
+d5497db DataSwitchTile: collapse notification panel onClick [DennySPB]
+f5746d9 SystemUI: DataSwitchTile: Use MD2 drawables [Anushek Prasal]
+789af02 base: Introduce DataSwitchTile [Christian Oder]
+c84686f Install seccomp filter even if selinux is permissive [Han Wang]
+e021eda WifiManager: Add StaState API [Kshitij Gupta]
+11a4270 Fix lockscreen wallpaper not being set if different from the Home one [ezio84]
+dfb53e7 Allow to configure or disable lockscreen media art blur [1/2] [ezio84]
+201b48a base: Grant SafetyHub some core permissions on first boot. [Joey Huab]
+d8864cd DefaultPermissionGrantPolicy: Silence harmless errors [Pranav Vashi]
+4b16434 Fix Fi permissions [Kshitij Gupta]
+e6a36aa base: grant storage permissions for Updater [Ali B]
+8b1b040 Allow chromium to sign in [Ali B]
+
+* frameworks/opt/net/wifi
+06a79b2 wifi: Add StaState API [Kshitij Gupta]
+
+* hardware/candy/interfaces
+e461333 WifiNanIface: Validate interface before cleanup. [Nate Jiang]
+4ca128a wifi: Update wifi_wait_for_driver_ready return status handling [Veerendranath Jakkam]
+3a5f679 Ringbuffer stops logging after wifi toggle [xshu]
+18d0213 Drop VNDK support from vendor.lineage.power aidl interface [LuK1337]
+19d9822 Add AIDL lineage power HAL [dianlujitao]
+1e52860 Regenerate fastcharge HIDL blueprint [LuK1337]
+33573ac Import Motorola Health HAL [Vachounet]
+bd49bf7 lineage/interfaces: add fastcharge HAL [Francescodario Cuzzocrea]
+79a1f6d Add 'vendor.' prefix to a vendor HAL service name [Jaekyun Seok]
+a442c02 touch: Add keys swap interface [Arian]
+de972d7 trust: set system vintf fragment xml to framework [Michael Benedict]
+36c3fc3 gnss: fix -Wreorder-init-list [Nick Desaulniers]
+fa2e819 interfaces: camera: Implement lockYCbCr stub for Mapper 4.0 [Jason Macnak]
+54e70f6 interfaces: camera: fix two potential null pointer uses [George Burgess IV]
+67e6752 interfaces: Camera: add IAllocator/IMapper 4.0 to camera HIDL [Marissa Wall]
+0f0a082 trust: Include VINTF fragments [Michael Bestas]
+059a678 Remove libhwbinder/libhidltransport deps [dianlujitao]
+3227a6d trust: create service [Joey]
+56a9533 interfaces: Add trust 1.0 HAL [Paul Keith]
+
+🍬 07-Apr-2021 🍬
+
+🍬 06-Apr-2021 🍬
+
+🍬 05-Apr-2021 🍬
+
+* candy
+1d3863e candy: Track our own Contacts [NoSpamDan]
+f0f187a candy: Track our own system_security [NoSpamDan]
+2dd029f candy: Track our own system_netd [NoSpamDan]
+171a390 candy: Track our own TelephonyProvider [NoSpamDan]
+
+🍬 04-Apr-2021 🍬
+
+🍬 03-Apr-2021 🍬
+
+🍬 02-Apr-2021 🍬
+
+🍬 01-Apr-2021 🍬
+
+* kernel/oneplus/sm8150
+7b75a4d qcom: qpnp-fg-gen4: Port external fg changes from SM8150-Q [LuK1337]
+db5f852 arm64: traps: Save panic info [LuK1337]
+b92b9a7 arm64/mmap: Port special_arch_pick_mmap_layout from 8250 kernel [LuK1337]
+10418f2 treewide: Fix opchain include paths [LuK1337]
+3ff3af2 arm64: Include coretech [LuK1337]
+4c068e4 coretech: Add {Kconfig,Makefile} [LuK1337]
+dea0715 defconfig: Enable QCACLD [Luca Stefani]
+1d0ceb8 defconfig: Enable CONFIG_BUILD_ARM64_DT_OVERLAY [Davide Garberi]
+638b331 defconfig: Disable broken options [LuK1337]
+3e6712d defconfig: Extract changes from OOS 11 [LuK1337]
+49e8875 Add toggle for disabling newly added USB devices [Daniel Micay]
+2fc801d input: touchscreen: Expose every possible gesture [dianlujitao]
+c6b6655 arm64: dts: Drop samsung_oneplus_dsc 1080p timings [LuK1337]
+673a1ee Android: Add empty Android.mk file [LuK1337]
+9860f80 scripts/dtc: Update to upstream version v1.4.6-21-g84e414b0b5bc [Rob Herring]
+a729a30 dtc: checks: drop warning for missing PCI bridge bus-range [Rob Herring]
+96971b2 scripts/dtc: Update to upstream version v1.4.6-9-gaadd0b65c987 [Rob Herring]
+2fbdcfc scripts/dtc: Update to upstream version v1.4.5-6-gc1e55a5513e9 [Rob Herring]
+cc7c19f scripts/dtc: Update to upstream version v1.4.5-3-gb1a60033c110 [Rob Herring]
+
+* packages/apps/Contacts
+8c298c2 Contacts: Fix light dropdown lists on dark theme [Hikari-no-Tenshi]
+ac4067c Contacts: Fix light dialogs on dark theme [Hikari-no-Tenshi]
+416d426 Contacts: Fix light popup menu on dark theme [Hikari-no-Tenshi]
+98169c2 Contacts: style fast scroll thumb like in Dialer [maxwen]
+46ea3d8 Contacts: Do not use accent color for dark style [Pranav Vashi]
+d72b6ca Contacts: add dark mode support [Marko Man]
+
+* system/security
+bdd0cd6 keystore: Block key attestation for Google Play Services [Danny Lin]
+
+🍬 31-Mar-2021 🍬
+
+* kernel/oneplus/sm8150
+d6419ec qcacld-3.0: Reverse fw-provided mac addr [Peter Cai]
+7ab4ab8 qcacld-3.0: Disable build tagging. [Alexander Koskovich]
+722c391 qcacld-3.0: Only call hdd_debugfs_process_mib_stats if debugfs is enabled. [Alexander Koskovich]
+2bed1db qcacld-3.0: default_defconfig: Tone down debugging. [Park Ju Hyung]
+d8086fb qcacld-3.0: Fix regulatory domain country names. [Danny Lin]
+ef22650 qcacld-3.0: Nuke rx_wakelock code entirely. [Park Ju Hyung]
+ce87d9a qcacld-3.0: Defer HDD initialization. [Park Ju Hyung]
+3b2aed0 qcacld-3.0: Discard wlan_boot sysfs code on !CONFIG_MODULES. [Park Ju Hyung]
+cef2d12 qcacld-3.0: Initialize variables to avoid errors during compilation. [Park Ju Hyung]
+e542c66 qcacld-3.0: Do not manually re-enable -Wmaybe-uninitialized. [Park Ju Hyung]
+3452202 qcacld-3.0: Always force user build. [Park Ju Hyung]
+f00884d qcacld-3.0: Nuke Kconfig-based configuration entirely. [Park Ju Hyung]
+51d36d2 drivers: staging: Include qcacld-3.0 source [LuK1337]
+18f5bf4 kbuild: Restore techpack support [LuK1337]
+4585279 techpack: makefile: do not export all the variables [Thierry Strudel]
+f0760a2 techpack: audio: Make all sm8150auto drivers built in [LuK1337]
+3b35bcf techpack: audio: Remove redundant bit in Makefile [Peter Cai]
+3756e11 techpack: audio: Build tfa9894 [HolyAngel]
+119c97a techpack: audio: Correct symlinks [Peter Cai]
+79ca1f5 techpack: audio: Remove Android.mk [LuK1337]
+a132e0c kbuild: Don't copy oneplus drivers as we added them to main tree [LuK1337]
+81500a8 Synchronize codes for OnePlus 7 Oxygen OS 11.GM21AA and OnePlus 7Pro Oxygen OS 11.GM21AA and OnePlus 7T Oxygen OS 11.HD01AA and OnePlus 7TPro Oxygen OS 11.HD01AA [yu.huang]
+fc53cbe kernel: Remove panic_flash.c from gitignore [LuK1337]
+a429ca0 Add 'drivers/staging/qcacld-3.0/' from commit '793e8e4a442ee8504ec64d2a714ff411b32c3637' [LuK1337]
+46747b9 Add 'drivers/staging/qca-wifi-host-cmn/' from commit '6fc328c02be00535135458bd906af3999ea16c41' [LuK1337]
+b7f7d7c1 Add 'drivers/staging/fw-api/' from commit '7ca76902726e7c0cd3f74db0280e86edad9c4704' [LuK1337]
+42d994f Add 'techpack/audio/' from commit '0d67fbe1f0d0d7ddc27452073c45a7915b7ab6cb' [LuK1337]
+
+🍬 30-Mar-2021 🍬
+
+* candy
+5674941 candy: Fix typo [NoSpamDan]
+
+* kernel/oneplus/sm8150
+46e7111 Synchronize codes for OnePlus 7 Oxygen OS 11.GM21AA and OnePlus 7Pro Oxygen OS 11.GM21AA and OnePlus 7T Oxygen OS 11.HD01AA and OnePlus 7TPro Oxygen OS 11.HD01AA [yu.huang]
+0d67fbe Synchronize codes for OnePlus 7 Oxygen OS 11.GM21AA and OnePlus 7Pro Oxygen OS 11.GM21AA and OnePlus 7T Oxygen OS 11.HD01AA and OnePlus 7TPro Oxygen OS 11.HD01AA [yu.huang]
+
+🍬 29-Mar-2021 🍬
+
+* candy
+b7bfa70 candy: Track our own vendor/qcom/opensource/data-ipa-cfg-mgr [NoSpamDan]
+
+🍬 28-Mar-2021 🍬
+
+* packages/apps/Nfc
+3a59915 NativeNfcTag: Treat MIFARE_CLASSIC same as NFC_A in getTechExtras() [LuK1337]
+
+* packages/apps/Settings
+1adf0ef Forward port CM Screen Security settings (2/2) [Michael Bestas]
+58e2abe Settings: Allow to show daily data usage [2/2] [Anushek Prasal]
+455d4d1 Settings: Fix data usage display on mobile panel [maxwen]
+c9aca5a Settings: Add back DataUsageSlice [Anushek Prasal]
+c726d57 Settings: panels: Improvements [Alex]
+1f64329 Settings: panels: Add Bluetooth panel [Joe Maples]
+0831ca1 Settings: panels: Add Mobile Data panel [Joe Maples]
+
+🍬 27-Mar-2021 🍬
+
+* candy
+c30f61f candy: Track our own CAF telephony repo [NoSpamDan]
+
+* system/update_engine
+fbdc39a sideload: More branding cleanup [NoSpamDan]
+
