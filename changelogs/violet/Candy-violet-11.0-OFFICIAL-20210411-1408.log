@@ -1,0 +1,486 @@
+🍬🍬🍬🍬🍬🍬 CANDY 11 🍬🍬🍬🍬🍬🍬
+
+ CandyRoms Changelog for violet
+
+🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬
+
+🍬 11-Apr-2021 🍬
+
+* frameworks/base
+9c625bd Make Quick Unlock compatible with long PIN/Password [1/2] [Hikari-no-Tenshi]
+7837db3 Disable PIN entry after successful quick unlock [Veeti Paananen]
+387ce0c Keyguard: Forward port lockscreen quick unlock (1/2) [Matt Mower]
+e53a088 Keyguard: Add option to scramble pin layout when unlocking (2/2) [Adnan]
+5147aa7 Revert "Clock: Introduce 404 IDE Clock" [Mourya Baruah]
+8a6b2c4 Revert "IDEClock: Fix preview not displaying" [Mourya Baruah]
+3c603d5 base: Grant SafetyHub some core permissions on first boot. [Joey Huab]
+11b1882 DefaultPermissionGrantPolicy: Silence harmless errors [Pranav Vashi]
+286189c Fix Fi permissions [Kshitij Gupta]
+1738f6a base: grant storage permissions for Updater [Ali B]
+5a38107 Allow chromium to sign in [Ali B]
+00ac686 Fix Performance issue in Listview issue: https://issuetracker.google.com/issues/183024999 [Tang Ding]
+
+* packages/apps/Settings
+f0bca52 screenlock: Use SwitchPreference from vendor/support [NoSpamDan]
+be3d3da Make Quick Unlock compatible with long PIN/Password [2/2] [Hikari-no-Tenshi]
+1234ec4 Settings: Keyguard: Forward port lockscreen quick unlock (2/2) [Matt Mower]
+e25c460 Settings: Add option to scramble pin layout when unlocking (1/2) [Adnan]
+
+* vendor/support
+5ba22eb support: Add and use SwitchPreference [Anushek Prasal]
+
+* vendor/xiaomi/violet
+cfbd021 violet: Update graphics blobs to LA.UM.9.1.r1-08600-SMxxx0.0 [Shubham Das]
+
+🍬 10-Apr-2021 🍬
+
+* frameworks/av
+c317406 libmedia: Add MediaPlayer() function for backward compatibility [Adithya R]
+445b58c CameraDeviceClient: fix recognition of Y16 format due to unmatching sizes [John Doe]
+7b42fab libcameraservice: Remove restrictions for faceunlock service [jhenrique09]
+f57c665 media: Don't fail AAC decoding if DRC parameter isn't available [Pierre-Hugues Husson]
+
+* frameworks/base
+0ed5bc1 Revert "Pre-emptively take a snapshot when finishing an activity before changing visibility" [Danny Lin]
+2d17e6d LayoutInflater: Opportunistically create views directly for performance [Danny Lin]
+aa98a3d SystemServiceRegistry: Replace ArrayMap with HashMap for performance [Danny Lin]
+2182037 PackageManagerService: Replace ArrayMap with HashMap for performance [Danny Lin]
+6f4aa1d3 InsetsStateController: Replace ArrayMap with HashMap for performance [Danny Lin]
+9049af5 LocalServices: Replace ArrayMap with HashMap for performance [Danny Lin]
+05e9581 ThemedResourceCache: Replace ArrayMap with HashMap for performance [Danny Lin]
+c3e9aad Trace: Disable debug tracing in production builds [Danny Lin]
+3c211a0 statsd: Disable native stats collection service [Danny Lin]
+3f20cdf EventLog: Disable event writing in production builds [Danny Lin]
+1785838 PackageInfo: Optimize ApplicationInfo creation [Danny Lin]
+0852a1f Allow media art with enabled facelock lockscreen bypass [DennySPb]
+b850de3 temp utils [Mourya Baruah]
+c66b472 fwb: Add reloadAssets functions [AgentFabulous]
+
+* frameworks/libs/systemui
+4cbec58 IconLoader: Create new int array for hue calculation if tmp is too small [Amir Zaidi]
+1a58e58 Apply alpha from child icon to adaptive icon wrapper [Amir Zaidi]
+344f373 IconLoader: Add config hint to bypass adaptive icon wrapping [Amir Zaidi]
+
+* frameworks/native
+831c37b SurfaceFlinger: VSyncPredictor should be robust with inconsistent vsyncs [Ady Abraham]
+73eff3d Ensure that expected present time is in the future [Snild Dolkow]
+335e241 SF: handle long waiting Layer sync point [KaiChieh Chuang]
+84beb84 Check for focused window before raising 'no focused window' ANR [Siarhei Vishniakou]
+b180253 Check window token when extending timeout [Siarhei Vishniakou]
+f4c7aee Ensure mNoFocusedWindowTimeoutTime is null when new Focused Window come [dingxiaobo]
+
+* system/iorap
+a1b2ce7 Revert "[LSC] Add LOCAL_LICENSE_KINDS to system/iorap" [DennySPb]
+531f03e Merge commit '06c4822bbaf09ecc9592916a62f86cbff191955e' into HEAD [Mourya Baruah]
+75f09e2 iorap: Increase daemon priority [xNombre]
+06c4822 Merge remote-tracking branch 'aosp/master' into 11 [spezi77]
+0894e78 iorap: Increase daemon priority [xNombre]
+
+* system/netd
+6581ad8 system/netd: Add support for per app network isolation [Sam Mortimer]
+76876c6 system/netd: add missing override keyword [Oliver Scott]
+44f3c69 system/netd: Squash of netd uid bandwidth restriction commits [Uldiniad]
+
+🍬 09-Apr-2021 🍬
+
+* art
+0926c41 Merge tag 'android-11.0.0_r34' of https://android.googlesource.com/platform/art into HEAD [Mourya Baruah]
+
+* build/make
+db9991e Merge tag 'android-11.0.0_r34' of https://android.googlesource.com/platform/build into HEAD [Mourya Baruah]
+
+* candy
+80f300e candy: Track our own system/vold [NoSpamDan]
+a9d984f candy: Track our own SettingsIntelligence [NoSpamDan]
+
+* frameworks/av
+ad631c3 Merge tag 'android-11.0.0_r34' of https://android.googlesource.com/platform/frameworks/av into HEAD [Mourya Baruah]
+
+* frameworks/base
+57f4235 Merge branch 'r34' of https://github.com/miju12/frameworks_base into HEAD [Mourya Baruah]
+253287cb Merge tag 'android-11.0.0_r34' of https://android.googlesource.com/platform/frameworks/base into HEAD [Mourya Baruah]
+
+* frameworks/opt/net/wifi
+37f2ca0 wifi: Add StaState API [Kshitij Gupta]
+
+* hardware/candy/interfaces
+9d5756d Drop VNDK support from vendor.lineage.power aidl interface [LuK1337]
+dd74ac6 Add AIDL lineage power HAL [dianlujitao]
+
+* hardware/interfaces
+963c3e3 Merge tag 'android-11.0.0_r34' of https://android.googlesource.com/platform/hardware/interfaces into HEAD [Mourya Baruah]
+
+* packages/apps/Contacts
+1293977 Merge tag 'android-11.0.0_r34' of https://android.googlesource.com/platform/packages/apps/Contacts into HEAD [Mourya Baruah]
+
+* packages/apps/Settings
+cc3dd5b Merge branch 'r32' of https://github.com/miju12/packages_apps_Settings into HEAD [Mourya Baruah]
+3295275 Merge tag 'android-11.0.0_r34' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD [Mourya Baruah]
+
+* platform_testing
+1b371eb Merge tag 'android-11.0.0_r34' of https://android.googlesource.com/platform/platform_testing into HEAD [Mourya Baruah]
+
+* system/core
+027aa64  Merge tag 'android-11.0.0_r34' Android 11.0.0 release 34 [Kevin F. Haggerty]
+
+* system/netd
+23a9da3 Merge tag 'android-11.0.0_r34' of https://android.googlesource.com/platform/system/netd into HEAD [Mourya Baruah]
+
+🍬 08-Apr-2021 🍬
+
+* frameworks/base
+a5944e8 base: Show and edit Ambient Icons on Lockscreen [1/2] [TikkiTikki]
+7d95a94 base: Introduce Applock [1/3] [rituj]
+c0815f2 cleanup - SystemUI: Allow listening for face only on pin/pass view [jhenrique09]
+ab8d387 SystemUI: Allow listening for face only on pin/pass view [jhenrique09]
+0af0568 SystemUI: Face Unlock animation [Dil3mm4]
+e3b8c4a fixup - base: do not use new lockscreen layout for bypass [jhenrique09]
+a9bdce6 base: do not use new lockscreen layout for bypass [Ethan Halsall]
+7175475 AuthBiometricFingerprintView: Fix indicator text color on dark theme [jhenrique09]
+7947675 fixup - [1/2] Allow using face as auth method for apps [jhenrique09]
+fbd59b0 FaceService: Nuke useless call to getAuthenticatorId [jhenrique09]
+83cd514 [1/2] Allow using face as auth method for apps [jhenrique09]
+9f696ae LockIcon: Don't cache icon when scanning face [jhenrique09]
+fe71995 base: Port face unlock feature [1/2] [jhenrique09]
+983a055 SystemUI: use simple check for isFaceDisabled [Ali B]
+72ac657 AuthContainerView: fix rare SystemUI crash [Simão Gomes Viana]
+939b8f0 Add isFaceAuthEnabledForUser checks in KeyguardLiftController [jie shen]
+f23f662 SystemUI: BiometricPrompt: Adjust layout if FOD is present [rituj]
+042634c0 Toasts: Use a snackbar-like animation [El Dainosor]
+49461a9 [1/2] base: expose auto night mode sunset and sunrise values on API [maxwen]
+7664fb4 IDEClock: Fix preview not displaying [Pranav Vashi]
+3af2149 Clock: Introduce 404 IDE Clock [Akash Srivastava]
+15f289f  PixelPropsUtils: Add more apps [Stallix]
+7d3eec2 fw/b: Add support for per app network isolation [Sam Mortimer]
+dd5b702 fw/b: Squash of app fw restriction commits [Danesh M]
+88788db SystemUI: Enable and fix QS detail view, adapt layout to 11 [eray orçunus]
+39d894f BrightnessController: Fix thread exception [jhenrique09]
+5d56b21 Fix black screen issue due to wallpaper decoding exceptions [Weijie Wang]
+acc31e6 Ambient pulsing: don't show lock icon [Dil3mm4]
+e2e275f DisplayModeDirector: Make sure we apply refresh rate on startup [Ido Ben-Hur]
+41351bf toasts: Use Animation_Toast_Material [Anushek Prasal]
+5a67bba toasts: Improve layout and center-align the content [SKULSHADY]
+bf565844 toasts: Increase elevation to 4 [Joe Maples]
+921585c toasts: Follows theme corner radius [Joe Maples]
+e817931 core: Materialize Toast notifications [Joe Maples]
+a04de65 AutoAODService: Account for disabled doze [Ido Ben-Hur]
+a47d465 AutoAODService: Add support for mixed time & sun modes [1/2] [Ido Ben-Hur]
+cc71c6a base: Allow scheduling always on display [1/2] [Ido Ben-Hur]
+5d54831 wm: Passing a new ArraySet instance to avoid crash [Qiushi.Han]
+6922a38 SoundPool: Fix clang-tidy warning in StreamManager [Adithya R]
+75fd45f Fix NetworkPolicyManagerService deadlock [Zhengyu Zhan]
+cb6e72b Apply bilinear filter for Ninepatch. [Minkyoung Kim]
+6dfa5d8 Check ProjectBackwards property for childrens after children's syncProperties(). [Minkyoung Kim]
+f5e79e3 Fix initialization of USER_ROTATION setting. [Tomasz Wasilczyk]
+2bacc7a Fix guest icon is not clickable after adding user [Artem Radchenko]
+2ad40c5 Fix setType() return value for high angle sensor [Wang Han]
+cf888d6 Fixed Handler Leak on RecyclerView [Jiwon Kim]
+9327c7c Fixed Handler Leak on WrapperInit [hyung4.kim]
+16abc1c Persist screen brightness setting through upgrade [Fiona Campbell]
+80656c1 KernelWakelockReader: provide class level lock when updates staleStats [Michael Sun]
+657316f HwBlob: explicit size check [Steven Moreland]
+1219ac8 AbsSeekBar: Fix growRect computation [Adrian Roos]
+88440fe AbsSeekBarTest: Fix dpToPixel computation [Adrian Roos]
+ed40912 fix broadcast receivers overflow for system_server [Sergii Piatakov]
+24aa667 Add synchronized to make sure data correctness [lucaslin]
+d8cb58c Prevent going through unnecessary networks [Chiachang Wang]
+3d93c77 Use name instead of package name [Zhuying Li]
+53b06d9 UserManagerService: Fix NPE [wangshouchun]
+c832547 Thread.sleep takes milliseconds, not seconds. [Josh Gao]
+80e752d fdtrack: GC before checking fd count. [Josh Gao]
+097e1f7 Move system_server fdtrack implementation to Java. [Josh Gao]
+2f92ecf SystemUI: Disable KeyguardConstants DEBUG [maxwen]
+7444dd8 SystemServer: Only enable fd leak tracker on eng [Simao Gomes Viana]
+6704b76 SystemUI: MediaOutputDialogFactory: accept null package name [daniml3]
+2105def SystemUI: Redraw display cutout on overlay changes [Adithya R]
+afd164d Fix Another SystemUI crash [SuperDroidBond]
+0f9c1f9 Fix SystemUI crash [Ido Ben-Hur]
+7bf2be6 Framelayout: Fix NPE when view is missing [Pranav Vashi]
+f7d8db1 Prevent crash in TTS engine due to improper configuration [Pranav Vashi]
+70d89a1 iorap: Enable by default [Pranav Vashi]
+bbe52ea iorap: Terminate iorapd process when both tracing and prefetching are off. [yawanng]
+f840ee7 Partially revert "Wake up to lock screen when bouncer is visible" [Sultan Alsawaf]
+5da4f1e SystemUI: fix NPE on ExpandableNotificationRow [Chenyang Zhong]
+9d82469 SystemUI: Always disable rotation on lockscreen [jhenrique09]
+163fe42 update april props [Mourya Baruah]
+
+* packages/apps/Settings
+26bfc95 NightDisplay Settings: Use List Preference for NightLight settings [Akash]
+1786342 Settings: QR Scanner pass proper frame Width and Height [hoffc]
+71a9f8d [2/2] Settings: expose auto night mode sunset and sunrise values on API [maxwen]
+02168a3 Settings: Introduce Applock [2/3] [rituj]
+f1005b8 Allow using face as auth method for apps [2/2] [jhenrique09]
+701f8b9 Port faceunlock feature [2/2] [jhenrique09]
+7e66a62 Settings: Update preference videos [Anushek Prasal]
+54f7992 MediaOutputPanel: Handle the case of missing packageName [Arian]
+ab43aa5 DarkMode Settings: Use List Preference rather ugly Drop Down [Pranav Vashi]
+38cdfc1 Settings: Whitelist WRITE_DEVICE_CONFIG permission [saikiran2001]
+0c554cb Settings: Add support for per app network isolation [Sam Mortimer]
+11f9b5d Settings: per-app cellular data, vpn and wifi restrictions [Uldiniad]
+
+🍬 07-Apr-2021 🍬
+
+* frameworks/base
+fdf0e98 Add double tap to sleep gesture [Rashed Abdel-Tawab]
+9187099 SystemUI: Always show LTE+/4G+ when applicable [Henrique Silva]
+697cd77 CarrierConfigManager: enable LTE+ icon by default [xboxfanj]
+6f1edb9 Fix 2tap2wake after Ambient Pulsing on some devices [ezio84]
+c1219eb Show Ambient instead of lockscreen on wake gestures [1/2] [ezio84]
+4683813  Ambient music ticker: double tap on track title to skip track [ezio84]
+a73ba48 SystemUI: Remove GarbageMonitor tile [jhenrique09]
+606412c base: New VoLTE icon [El Dainosor]
+a229960 VoLTE: Add New Minimal Icon [SuperDroidBond]
+d7ab38f SystemUI: Add OOS 10 VoLTE icon [1/2] [SKULSHADY]
+33fe520 SystemUI: Add VoLIT icon [1/2] [Stallix]
+3c824a3 add fod detection overlay Change-Id: I435f1d6f806685356ea438f48ec52d1d8be81b9b [Mourya Baruah]
+ba5ee0d Ambient music: Remove debug messages. [spezi77]
+292a99d Ambient music: Also shorten the Now Playing title after the song title. [spezi77]
+3a03d70 Ambient music: pulse on new music tracks and Now Playing info [1/2] [ezio84]
+c3a56a0 fixup! Add long screenshot chip [Joey Huab]
+f067afa base: Fallback stitchimage's broken value to unknown [ender1324]
+c027e1e base: Whitelist stitchimage [jhenrique09]
+6be1250 base: Add missing long screenshot permission [ender1324]
+36c1c8f base: Add long screenshot chip [ender1324]
+3535d69 Ambient music: Format the media title like Elgoog does. Example [spezi77]
+6af3887 Ambient music: Show bottom ticker above fod circle if needed. [spezi77]
+91bcdb9 KeyguardSliceProvider: Hide song name if TypeClock is in use. Otherwise the layout would be broken [spezi77]
+94c810f Ambient music v2: Allow for changing the music ticker position [1/2]. This will add the music ticker to the ambient screen / AoD just like on Pixel devices. It will work with ezio's music ticker and now playing commits for Android R. Other part of the commit is in Settings. [spezi77]
+b99faa8 Port ambient Now Playing container from Pixel [stripped down version] [Joe Maples]
+a6b4904 PermissionHub: Enable it [Raj Jadeja]
+6761d41 Add three more selectable VoWiFi icons [1/2] [blinoff82]
+267af3d SystemUI: Add four more selectable VoWiFi icons [1/2] [DennySPb]
+3d4e75c SystemUI: Improve VoLTE detection logic [Pranav Vashi]
+428e23f SystemUI: Optional VoWiFi icon [1/2] [DennySPb]
+1fc3854 SystemUI: support VoWIFI icons [Weijie Wang]
+5e75cbb SystemUI: Add EMUI VoLTE icon [1/2] [DennySPb]
+85cb011 Add MIUI 11 VoLTE icon [1/2] [Lup Gabriel]
+46d38ea SystemUI: add CAF VoLTE HD icon [1/2] [DennySPB]
+7712700 SystemUI: Add Asus VoLTE Icon [1/2] [PainKiller3]
+0d9a4b5 VoLTE Icon - User Selectable VoLTE Icon [1/2] [SuperDroidBond]
+9bece6c Add VOLTE icon toggle [1/2] [SagarMakhar]
+cf72e4c SystemUI: Show 4G instead of LTE switch [1/2] [Alex Cruz]
+6bf5560 base: Fix padding for VoLTE icon [Josh Fox (XlxFoXxlX)]
+f89eda8 MobileSignalController fix corresponding to upstream FeatureConnector change [Steven Laver]
+4739e84 ImsManager.Connector became FeatureConnector. [Daniel Norman]
+b740a43 SystemUI: Enhancement for volte icon [Weijie Wang]
+1fca2bd SystemUI: Query IMS state after CapabilityCallback is regisered [Qimeng Pan]
+8a14c61 SystemUI: Fix HD icon missing [Weijie Wang]
+d1976fa Adapt to IMS registration changes. [Bill Peckham]
+18cdc6a Fix VOLTE icon color on Light statusbar [Adarsh-MR]
+9a68f34 SystemUI: Refactor the feature of volte icon [Weijie Wang]
+2c5fd97 SystemUI: Fix volte icon doesn't update in real time [Weijie Wang]
+2e4ae71 SystemUI: Add new configuration for displaying Volte icon [Weijie Wang]
+41cbed6 base: Let legacy apps scale fully to the display's aspect ratio [rituj]
+d6a6d31 ScreenOFF volume skiptrack (with remote Spotify support) [ezio84]
+6d19adc Fix volume rocker skip track on Ambient Display and Lift to Wake [ezio84]
+f795dc0 Add LineageButtons (volume skip track hooks) [Simon Shields]
+fbc33b0 admin: Restore requireSecureKeyguard interface. [Adnan Begovic]
+fac3207 base: fix tapered rect overlay [Anay Wadhera]
+599e699 Revert "Adding P20 styles" [Mourya Baruah]
+283e7c5 Revert "Remove new styles from AOSP" [Mourya Baruah]
+a8a44a1 Add OnePlus Slate and SamsungOne font styles [1/2] [Pranav Vashi]
+6b2e0ad Add our favourite fonts in AOSP FontEngine [2/2] [SuperDroidBond]
+596c02c MediaCodecInfo: do not alter performance points for 32-bit processes [Wonsik Kim]
+4e1d4e3 MediaCodecInfo: limit resolution to 4K for 32-bit processes [Wonsik Kim]
+523fba4 LockPatternUtils: Make settings getter and setters protected [d34d]
+05fe4a2 Forward port CM Screen Security settings (1/2) [Michael Bestas]
+0363c61 SystemUI: Nuke bubble clock [Ido Ben-Hur]
+e3d93f8 SystemUI: Adapt latest clocks to our layout [rohan]
+4902297 SFUNY Clock: Add proper preview layout [Pranav Vashi]
+b074421 DividerLines Clock: Fix margin issue in layout [Pranav Vashi]
+4440c2c Add time refresh capabilities for bold, digital and Samsung lockscreen clocks [Adhitya Mohan]
+93489762 SamsungHighlight Clock: Improve layout [Anushek Prasal]
+8d542f5 Add SamsungHighlight clock [El Dainosor]
+25c5b38 MNML Clock: Add proper preview layout [Pranav Vashi]
+d6f2210 MNMLBox Clock: Clean up hacky layouts [Pranav Vashi]
+74ff0d8 Add MNML based clock desgins [El Dainosor]
+18a8aed Add SFUNY clock [El Dainosor]
+610f96e DividedLines Clock: Add proper preview layout [Pranav Vashi]
+30245a3 DividerLines Clock: Set 24-hr time format as well [Pranav Vashi]
+ed6a88f Add DividedLines Clock [El Dainosor]
+0170a14 base: Allow to show daily data usage [1/2] [Anushek Prasal]
+102aaad SettingsLib: Add method to get daily data usage [AnkitGourav]
+27b9b51 QS: Add and use Bluetooth Panel instead of full Settings [Joe Maples]
+b8d123a QS: Use Mobile Data panel for CellularTile [Anushek Prasal]
+0f13cf7 QS: Add and use Mobile Data panel [Joe Maples]
+9617c58 QS: Use Settings.Panel intents for WiFi and NFC [Joe Maples]
+17b1272 DataSwitchTile: collapse notification panel onClick [DennySPB]
+1264927 SystemUI: DataSwitchTile: Use MD2 drawables [Anushek Prasal]
+046b9be base: Introduce DataSwitchTile [Christian Oder]
+ca4e8d5 Install seccomp filter even if selinux is permissive [Han Wang]
+44209b1 WifiManager: Add StaState API [Kshitij Gupta]
+cda509a Fix lockscreen wallpaper not being set if different from the Home one [ezio84]
+1b9b95b Allow to configure or disable lockscreen media art blur [1/2] [ezio84]
+16c472b Merge tag 'android-11.0.0_r34' of https://android.googlesource.com/platform/frameworks/base into HEAD [Mourya Baruah]
+
+* kernel/xiaomi/violet
+b6b7816 violet-perf_defconfig: Enable KCAL color control [Panchajanya1999]
+ad132ce kcal: color control: upon config change force reprocessing [tbalden]
+f30e0c0 drm/msm/sde: Introduce KCAL color control [Alesaiko]
+4246c3d proc: cmdline: Patch SafetyNet flags [Sultan Alsawaf]
+a25c5af Rebrand Kernel [Aftab-111]
+5b26cb8 Revert "Merge "fs: crypto: support IV_INO_LBLK_32 for legacy (V1) format"" [Aftab-111]
+0b969cc Revert "mmc: Explicitly enable mmc card clocks before programing crypto key" [Aftab-111]
+977971b Revert "mmc: Use mmc host pointed by command queue host" [Aftab-111]
+543605a Merge tag 'LA.UM.9.1.r1-09200-SMxxx0.0' of https://source.codeaurora.org/quic/la/kernel/msm-4.14 into HEAD [Aftab-111]
+
+* packages/apps/Settings
+df7d7eb Double tap to sleep on lockscreen [2/2] [ezio84]
+7f3693a ambient gestures [Mourya Baruah]
+aaa9010 Remove feedback and bug report stuff [ezio84]
+6cf26e1 Add video preview to Skip track gesture option [Sahul Krishan]
+d672d5c Add Volume rocker skip track to Gestures [ezio84]
+bae470f Aosp Ambient music: allow to pulse on new tracks [2/2] [ezio84]
+4a34de6 Forward port CM Screen Security settings (2/2) [Michael Bestas]
+fcbfd4e Settings: Allow to show daily data usage [2/2] [Anushek Prasal]
+dddc059 Settings: Fix data usage display on mobile panel [maxwen]
+fbfbe7c Settings: Add back DataUsageSlice [Anushek Prasal]
+aef8dcd Settings: panels: Improvements [Alex]
+fdd759d Settings: panels: Add Bluetooth panel [Joe Maples]
+284c8f6 Settings: panels: Add Mobile Data panel [Joe Maples]
+5d27bf9 Merge tag 'android-11.0.0_r34' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD [Mourya Baruah]
+
+* packages/apps/Settings/CandyShop
+537e2b9 test [Mourya Baruah]
+
+* vendor/candy
+b78e74b test [Mourya Baruah]
+
+🍬 06-Apr-2021 🍬
+
+* packages/apps/Launcher3
+2ec667c Automatic translation import [Sipun Ku Mahanta]
+4a75f9d Merge tag 'android-11.0.0_r34' of https://android.googlesource.com/platform//packages/apps/Launcher3 into eleven [aswin7469]
+
+🍬 05-Apr-2021 🍬
+
+* candy
+1d3863e candy: Track our own Contacts [NoSpamDan]
+f0f187a candy: Track our own system_security [NoSpamDan]
+2dd029f candy: Track our own system_netd [NoSpamDan]
+171a390 candy: Track our own TelephonyProvider [NoSpamDan]
+
+🍬 04-Apr-2021 🍬
+
+* packages/apps/Launcher3
+6e09c72 Rewrite updating of ReloadingListPreference summary text [Amir Zaidi]
+ed32ec3 Use THREAD_POOL_EXECUTOR for ListPreferences [Amir Zaidi]
+809377e  Remove one level of unnecessary abstraction in ListPreferences [Amir Zaidi]
+fec4c1c Reprogram structure to load list preferences on background thread [Amir Zaidi]
+0a63da3 Load the icon pack setting on a background thread [Amir Zaidi]
+4e9bf66 Launcher3: add a summary for Protected apps [aswin7469]
+5dbf195 Launcher: Fix SQL statement after Protected apps removal [DennySPb]
+bc38168 Launcher: Restore biometric prompt for Hidden Apps [DennySPb]
+93e3935 Launcher: Allow to tap at whole item in Hidden Apps [DennySPb]
+d1816ca Launcher: Remove Protected apps in favour of system AppLock [DennySPb]
+f76abef manifest: move trust activity declaration to quickstep [DennySPb]
+266ce1c Protected Apps: Switch to BiometricPrompt [Luca Stefani]
+4d3abca Protected Apps: prettify app launch dialog [DennySPB]
+4e63fc9 Launcher: implement hidden & protected apps [Joey]
+9b113ea LauncherPreviewRenderer: Fix crash with icon cache [Pranav Vashi]
+fb1bffd PixysLauncher: organise  settings preferences [aswin7469]
+
+🍬 03-Apr-2021 🍬
+
+* packages/apps/Launcher3
+dae8f2c Launcher3: dismiss task from recents when killed [Ali B]
+020c8fe Skip unneded package manager calls when checking QSB availability [ezio84]
+64652a7 Launcher3: Hide app suggestion entry if Personalization Services aren't present [Filippo]
+df9366d Launcher3: Allow changing app suggestion settings. [Alexander Koskovich]
+423cc8b Launcher3: Allow to tweak blur radius on all apps and on overview [El Dainosor]
+c07233b Launcher3: Fix up widget theming [Pranav Vashi]
+a164ebf Launcher3: appinfo_bottom_sheet: Tint Headline text with accent color. [doc HD]
+2e95da0 Launcher3: Fix font family for App Info sheet [Pranav Vashi]
+dcfc325 New Recents: add kill action to app shortcuts popup [ezio84]
+0499161 Fix crash in developer settings and notification dots [DennySPb]
+ed00911 Icon sizes: Lets not get crazy [Alex]
+290e4ea Icon sizes: Add more options [Alex]
+eaa9f25 Add option to change icon size [Gábor Vass]
+0893b46 Switch back to "deprecated" fragment api [DennySPb]
+95a062a Just say "System" instead of "Unknown" for app source [Jyotiraditya]
+703b5e0 Extend notification listener with proxy [Amir Zaidi]
+d30d3d2 Launcher: Fix font family for App Info sheet [Pranav Vashi]
+63f0f70 Launcher: Set icon pack to "Default" if the current icon pack has no icon [Amir Zaidi]
+6606e42 Filter icon packs without icon from selection menu in app info [Amir Zaidi]
+7724138 Fix icon pack calendar using default drawable ID [Amir Zaidi]
+e3d8068 Attempt to open market when clicking on Source in app info [Amir Zaidi]
+8c2b6df Use THREAD_POOL_EXECUTOR for InfoBottomSheet.java [Amir Zaidi]
+bea8199 Extract app metadata in bottom sheet on background thread [Amir Zaidi]
+1939342 Skip wrapping when creating masked icon pack icons [Amir Zaidi]
+028046f Set alpha on AllAppsPagedView when switching to tabs view [Amir Zaidi]
+0b8972f Use package label for icon pack name [Amir Zaidi]
+319aa31 Support OnePlus icon packs [Amir Zaidi]
+202049b fix dark primary folder bg color [maxwen]
+4a9f8c5 Launcher3: add dark primary support [maxwen]
+2e3a341 Launcher3: Add Icon Pack Support from Shade Launcher [Amir Zaidi]
+0585730 Launcher3: Add AppInfo Bottom Sheet from Shade Launcher [Amir Zaidi]
+0ffd0a9 Launcher3: Improve search box's look [Lucchetto]
+2dde623 launcher3: Add app drawer opacity [El Dainosor]
+fde30e2 Launcher3: Add smartspace widget to 2x2 and 3x3 grids [Danny Lin]
+acf71ca Launcher3: Add Smartspace Widget. [Jyotiraditya]
+0347927 Launcher3: allow disabling workspace edit [Joey]
+1e50bdf Launcher3: Allow homescreen rotation [Ali B]
+04a43ce Launcher: Fix gesture navigation fail to move to bottom [Yingren Wang]
+2c48723 Launcher3: add 6x7 default workspace [Andrew Thomas]
+8c35352 Launcher3: Add 5x6 & 6x6  default workspaces [dwardo]
+0c11eef Launcher3: Add 2x2 workspace grid option [Danny Lin]
+53473a7 QsbContainerView: Fix NPE in preview mode [Pranav Vashi]
+c7bfc9e Change icon drawable padding [Arne Coucheron]
+a1e4522 Launcher3: move clear all button to actions view [Vachounet]
+7b2cc46 Launcher3: Use system fonts [Pranav Vashi]
+ffa6c3e Launcher3: Enable share button on recents by default [Adithya R]
+13508cb Launcher3: Fix launcher preview rendering [Danny Lin]
+128f535 Launcher3: Move priv-app perms to TARGET_OUT_SYSTEM_EXT_ETC [doc HD]
+cdf2779 Launcher3: Add READ_FRAME_BUFFER permission [Pranav Vashi]
+423d4bb Launcher3: Add needed priv app permissions [doc HD]
+ad7d8f9 Launcher3: Add extra privapp permissions xml [Michael Bestas]
+13bfb25 Increase all apps top padding to avoid visual glitch in recents [DennySPB]
+e675f3f Launcher3: Add theme override option in Themes getActivityThemeRes [Amir Zaidi]
+6aaeaeb Launcher3: Do not check fast scroll movement to fix unresponsiveness [Amir Zaidi]
+9d3f3c9 manifest: update usage permissions [DennySPB]
+b145c6f Launcher3: Add permission to allow updating database [neobuddy89]
+f5353a3 Launcher3: we never want to disable grid control provider [maxwen]
+3d3dc11 disable hard-wired QuickSearchBox widget [Daniel Micay]
+be30319 Launcher3: Fix swipe down for clear all tasks [doc HD]
+6c401cf Launcher3: add toggle for desktop and drawer labels [Joey]
+bd36afe Launcher3: allow to swipe down on recents view to clear all [Vachounet]
+ba92e07 Launcher3: Add back button in home settings. [Jyotiraditya]
+247c21f Launcher3: Update searchbar radius to match system. [Alex]
+d19f2d2 Settings restart watcher improvements [Ezio Lacandia Bijelkic]
+8907163 Restart with change only on exit [Alex Cruz]
+411665a Move gestures to own category and make gestures optional [DennySPB]
+019a43a Add restart action [DennySPB]
+d72573a Set a toggle to show Search bar on first screen [ElDainosor]
+4792502 Add double tap to sleep gesture [ezio84]
+
+🍬 02-Apr-2021 🍬
+
+🍬 01-Apr-2021 🍬
+
+* system/security
+bdd0cd6 keystore: Block key attestation for Google Play Services [Danny Lin]
+
+* vendor/candy
+6819c36 Revert "overlay: Add Gvisual Mod [3/3]" [Mourya Baruah]
+5545def rework fonts [Mourya Baruah]
+436d43f overlay: Add Gvisual Mod [3/3] - These are quashed commits from @Gnonymous7 as G-VisualMod creator, I intended to create good authorship culture. - PillGesture iOS as default [Gnonymous7]
+
+🍬 31-Mar-2021 🍬
+
+* candy
+5674941 candy: Fix typo [NoSpamDan]
+
+🍬 30-Mar-2021 🍬
+
+🍬 29-Mar-2021 🍬
+
+* candy
+b7bfa70 candy: Track our own vendor/qcom/opensource/data-ipa-cfg-mgr [NoSpamDan]
+
+* packages/apps/Settings/CandyShop
+9426962 ff [Mourya Baruah]
+5ad244d Add seven more selectable VoWiFi icons [2/2] [niteshkumar2000]
+1f311f6 Optional VoWiFi icon [2/2] [DennySPB]
+78ed041 Statusbar: Add more optional VoLTE icons [DennySPB]
+b796a6a VoLTE Icon - User Selectable VoLTE Icon [2/2] [SuperDroidBond]
+
