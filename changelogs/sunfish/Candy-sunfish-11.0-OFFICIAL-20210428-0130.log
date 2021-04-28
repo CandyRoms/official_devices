@@ -1,0 +1,332 @@
+🍬🍬🍬🍬🍬🍬 CANDY 11 🍬🍬🍬🍬🍬🍬
+
+ CandyRoms Changelog for sunfish
+
+🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬
+
+🍬 28-Apr-2021 🍬
+
+* vendor/candy
+a135c8e Revert "build flipendo(pixel extreme batter) saver for all" [NoSpamDan]
+5221c53 vendor: Update to vendor/gapps check [NoSpamDan]
+42826c7 vendor: Remove GAPPS version naming [NoSpamDan]
+
+🍬 27-Apr-2021 🍬
+
+🍬 26-Apr-2021 🍬
+
+* candy
+48fc195 candy: DNM: SEPolicy changes - staging repo [NoSpamDan]
+
+* device/candy/sepolicy
+723c214 contexts: Drop livedisplay [NoSpamDan]
+28c9c04 Merge remote-tracking branch 'los/lineage-18.1' into c11 [NoSpamDan]
+
+* device/google/sunfish
+c3e3456 fixup! sunfish: overlay: Set slotId# of non-removable esim [razorloves]
+cdebad4 sunfish: overlay: Set slotId# of non-removable esim [razorloves]
+
+* device/oneplus/sm8150-common
+f12451a sm8150-common: address remaining denials for eSE [Omkar Chandorkar]
+50b68cd sm8150-common: label eSE prop and address more denials [Omkar Chandorkar]
+
+* device/qcom/sepolicy-legacy-um
+fc6e666 Merge remote-tracking branch 'los/lineage-18.1-legacy-um' into c11 [NoSpamDan]
+
+* device/qcom/sepolicy_vndr
+3d6ff40 sepolicy: Change the path from /data/vendor/log/wifi to /data/vendor/log [Mohammad Asaad Akram]
+7f4351b sepolicy_vndr: Default Modem Manager Policies [Tyler Wear]
+0973890 sepolicy: setting secontext to rtc node [Mohit Aggarwal]
+b9621d1 sepolicy_vndr: Add dontaudit rule for wfd_app [Mahesh Raja Bhogineni]
+26b426a sepolicy_vndr: add access to create file through imsdaemon [Pavan Kumar M]
+b64971a Allow vendor_location_app to bind to gpuservice [haohuang]
+bbc48b8 sepolicy_vndr: Update demura service name [Tharaga Balachandran]
+97b78a7 sepolicy: add sepolicy for hal_graphics_composer_default file [Devanshi Bansal]
+580b402 Merge remote-tracking branch 'los/lineage-18.1' into c11 [NoSpamDan]
+
+* vendor/gapps
+9ee5a85 product: Add GoogleCameara conditionally [NoSpamDan]
+
+* vendor/oneplus
+7873e4a sdm845-common: Fix nfcee namespace errors [NoSpamDan]
+12440ee sdm845-common: HAXXX [LuK1337]
+bc327af sdm845-common: Patch ApduServiceInfo class init in com.nxp.nfc.jar [LuK1337]
+82e8ba9 sdm845-common: Manually patch out libmetricslogger.so dependency [LuK1337]
+a5b4120 sdm845-common: Use libcutils-v29.so for libdpmframework.so [LuK1337]
+a29333b sdm845-common: Disable ELF check for shared library [Anirudh Gupta]
+44bcf6e sdm845-common: Import from Android 10 [Anirudh Gupta]
+
+🍬 25-Apr-2021 🍬
+
+* frameworks/base
+b2629fd configure same GID based APNs as per carrier requirements [Avinash Nalluri]
+
+🍬 24-Apr-2021 🍬
+
+🍬 23-Apr-2021 🍬
+
+* frameworks/base
+41735d2 Merge "TileLayout: Match CandyShop settings for defaults" into c11 [Dan Cartier]
+6e117e9 Merge "fixup! FODCircleView: various improvements." into c11 [Dan Cartier]
+545d32b Merge "FODCircleView: move post hide animate function inside" into c11 [Dan Cartier]
+5f284b6 Merge "VolumeDialogImpl: Don't vibrate when volume dialog is not visible" into c11 [Dan Cartier]
+
+* frameworks/opt/telephony
+ddddbed Merge tag 'LA.QSSI.11.0.r1-09400-qssi.0' into telephony. [Call190Now]
+484e539 RIL: Fix manual network selection with old modem [faust93]
+5a05a0c Update external card state based on current app [NoSpamDan]
+1f03676 Telephony: Add option for using regular poll state for airplane mode [Arne Coucheron]
+332f36d 2G wants proper signal strength too [Arne Coucheron]
+afd3976 Avoid SubscriptionManager#getUriForSubscriptionId calls with invalid subIds [Bruno Martins]
+69d5eff Remove setIsoCountryProperty method along with partially dead code [Bruno Martins]
+374dfe8 telephony: Squashed support for simactivation feature [Bruno Martins]
+53a7a76 Failed to show hold call when user click swap and merge simultaneously [rongmei.li]
+
+* system/netd
+69072e9 netd: restrict DNS names [Eric Chang]
+74556d4 Netd: Add support for quotaReachedAlert event [Pavan Kumar M]
+ad2ac59 system/netd: add missing override keyword [Oliver Scott]
+e76dbd3 netd: Allow devices to force-add directly-connected routes [Lukas0610]
+67f86c8 system/netd: Squash of netd uid bandwidth restriction commits [Uldiniad]
+
+* vendor/codeaurora/telephony
+23bb239 Add APIs to set and query NR config. [qiongz]
+b65839a Keep old APIs for Auto Reject [Pranav Vashi]
+8862b08 IMS: Define constants related to call progress info [Suresh Koleti]
+96c2bd5 IMS: Support Video Customized Ringing Signal and SIP DTMF [pengfeix]
+c63a17a Modify APIs to allow 3rd option for Auto Reject [Wileen Chiu]
+cd077c3 Revert "Revert "Clean up call composer call code"" [NoSpamDan]
+
+* vendor/qcom/opensource/data-ipa-cfg-mgr
+9fb9c8c Merge tag 'LA.UM.9.12.r1-10300-SMxx50.0' into 11.0 [Pranav Vashi]
+a4b7d14 IPACM: fix the MHI icmpv6 exception rule [Michael Adisumarta]
+3451a37 ipacm: make changes to store offload state [Chaitanya Pratapa]
+6bb6545 ipacm: support the mac renew with same IPv4 [Michael Adisumarta]
+74d960e ipacm: add dynamic support for IPA new MTU events [Michael Adisumarta]
+d55608b ipacm: add stringify for coalesce and mtu events [Michael Adisumarta]
+
+🍬 22-Apr-2021 🍬
+
+* device/oneplus/sm8150-common
+f82daf9 sm8150-common: DNM: Permissive for testing [NoSpamDan]
+
+🍬 21-Apr-2021 🍬
+
+* device/oneplus/hotdogb
+345582f hotdogb: partially revert a876bab93b29e8789d42f64df2ff4e74e10f0b90 [Omkar Chandorkar]
+8d92d11 hotdogb: update ALS position [Omkar Chandorkar]
+fd285ec hotdogb: update odm_feature_list from 11.0.0.2 [Omkar Chandorkar]
+2379586 hotdogb: mention blob source [Omkar Chandorkar]
+
+* device/oneplus/sm8150-common
+879858f Revert "sm8150-common: build QTI thermal HAL" [Omkar Chandorkar]
+bcac190 sm8150-common: sepolicy: remove sepol for virtual_ab [Omkar Chandorkar]
+645fbd5 sm8150-common: sepolicy: allow untrusted_app to read vendor_persist_camera_prop [Omkar Chandorkar]
+0936d9f sm8150-common: sepolicy: allow secure_element to read nfc prop [Omkar Chandorkar]
+16a8894 sm8150-common: sepolicy: allow rw_file perms to secure_element hal [Omkar Chandorkar]
+867e742 sm8150-common: remove unused blobs and multilibs [Omkar Chandorkar]
+f92e79b sm8150-common: oneplus-fwk: add mock impl of net.oneplus.odm.OpDeviceManagerInjector [maxwen]
+cdaa015 sm8150-common: update perf stack from LA.UM.9.1.r1-09100-SMxxx0.0 [Omkar Chandorkar]
+f037f02 sm8150-common: enable UXE [Jake Weinstein]
+47f9bf0 sm8150-common: update proprietary-files source [Omkar Chandorkar]
+7b7721a sm8150-common: oneplus-fwk: update from 11.0.0.2 [Omkar Chandorkar]
+5451d73 Revert "sm8150-common: remove unused wkeyota files" [Omkar Chandorkar]
+6308c13 sm8150-common: rootdir: remove logdumpd [Omkar Chandorkar]
+dcaacd0 sm8150-common: Only include bitness of hal impls that is used. [Steven Moreland]
+7cb280a sm8150-common: remove duplicate sensors.ssc.so [Omkar Chandorkar]
+d8112e6 sm8150-common: rootdir: fix permissions for /dev/input/event11 [Omkar Chandorkar]
+
+* frameworks/base
+d6b36dc Merge "PixelPropsUtils: Update fingerprint to April redfin" into c11 [Dan Cartier]
+
+🍬 20-Apr-2021 🍬
+
+* device/oneplus/fajita
+eecf3d7 fajita: Set INCLUDE_GAPPS [NoSpamDan]
+
+* device/oneplus/hotdogb
+b90d2f3 hotdogb: Set INCLUDE_GAPPS [NoSpamDan]
+8b4f4ad hotdogb: Remove vendor, system and flash block size defs [NoSpamDan]
+5b61ced hotdogb: Build GApps unconditionally [NoSpamDan]
+22cdc9e hotdogb: Update fingerprint to April Redfin [NoSpamDan]
+a5099f1 hotdogb: Update dependencies for GApps repo [NoSpamDan]
+cf825d1 hotdogb: Switch to our updated GApps [NoSpamDan]
+2085d68 hotdogb: Remove duplicate FOD color overlay [NoSpamDan]
+aa05374 hotdogb: remove prebuilt oneplus vib hal [Omkar Chandorkar]
+8c781ab hotdogb: import volume tables from frameworks/av [Omkar Chandorkar]
+6532676 hotdogb: overlay: add lower brightness values [Omkar Chandorkar]
+d543d86 overlay: Adjust brightness overlays [Ido Ben-Hur]
+757f17a hotdogb: fix product props [Omkar Chandorkar]
+74aed55 hotdogb: rootdir: enable fbev2 [NoSpamDan]
+
+* device/oneplus/sm8150-common
+9024715 sm8150-common: Update fingerprint location overlay [NoSpamDan]
+
+* device/qcom/sepolicy
+0004e50 Merge tag 'LA.QSSI.11.0.r1-11400-qssi.0' of https://source.codeaurora.org/quic/la/device/qcom/sepolicy into lineage-18.1 [Michael Bestas]
+
+* device/qcom/sepolicy-legacy-um
+bf514b8 common: Allow system_app to read fm_radio_device [Jarl-Penguin]
+3f031ba sdm660: Remove overly broad init rule [Michael Bestas]
+77caf56 Address init denials regarding socket_device [Aayush Gupta]
+04808ca Use set_prop() macro for property sets [Michael Bestas]
+61b6695 sepolicy: Switch to BOARD_VENDOR_SEPOLICY_DIRS [Aayush Gupta]
+72f52b0 legacy-um: qva: Label dpmd in /system/product/ again [Aayush Gupta]
+c589f05 sdm660: Generate contexts for rtc [Aayush Gupta]
+277f836 Label old telephony extension [Michael Bestas]
+14cb6bc Label persist.vendor.bluetooth. properties [Michael Bestas]
+c226356 sepolicy : Add rule to set property for wlan driver/fw ver info [Vinay Gannevaram]
+1f12a66 Allow hal_sensors read vendor_sensors_dbg_prop [Michael Bestas]
+4673819 sepolicy: cnd: Conditionally allow access to wifi_prop [Nolen Johnson]
+0ed559b Sepolicy: add define for lksecapp vbmeta and dtbo [Arthur Shuai]
+e6ac732 sepolicy-legacy-um: Allow Snap to read camera props [Bruno Martins]
+223774b msm8953: Label additional SSR sysfs [Michael Bestas]
+38bbed0 Label persist/rfs recursively [Chirayu Desai]
+830728c Allow vendor_init set vendor_time_service_prop [Michael Bestas]
+ef57b0d sdm660: Label sysfs_uio_file [Michael Bestas]
+32e1a94 sdm660: Label sysfs_ssr_toggle [Michael Bestas]
+85876f8 common: Fix sysfs_socinfo Label for sensors [Max Weffers]
+79bbaeb common: Label persist.vendor.camera.debug.logfile [Michael Bestas]
+f83b482 sepolicy : msm8998: remove regexp for ssr node on sysfs [Shashi Shekar Shankar]
+62662a5 sepolicy: setting secontext to rtc node [Mohit Aggarwal]
+d5b97a9 sepolicy: Add rw permission for i2c touch sys node [Amit P Choudhari]
+457a62f msm8998: Label LED sysfs [Michael Bestas]
+136be27 msm8998: Label usbpd sysfs [Michael Bestas]
+9bcf8e2 sepolicy: allow vold to read persist dirs [jrior001]
+6305336 Import msm8996 policy from lineage-17.1-legacy-um [Michael Bestas]
+e05c326 sepolicy: Allow mm-qcamerad to access v4L "name" node [Bruno Martins]
+30e84cc sepolicy: Fix video4linux "name" node labeling [Bruno Martins]
+2b143f3 Use set_prop() macro for property sets [Michael Bestas]
+a826c0b qcom: Label vendor files with (vendor|system/vendor) instead of vendor [Rashed Abdel-Tawab]
+fdbed5d sepolicy: Label persist partition for all SoCs [Michael Bestas]
+eb83f6b sepolicy: Unlabel aux camera whitelist prop [dianlujitao]
+dc1cf5b sepolicy: Remove rules for non legacy platforms [Michael Bestas]
+1837c80 sepolicy: Include Lineage-specific QCOM sepolicy [Pig]
+7c71fe4 legacy: Fix newline in file_contexts [Volodymyr Zhdanov]
+50983df sepolicy: Update paths for new repository location [Michael Bestas]
+c0ebb88 sepolicy: Remove QCOM guards [Pig]
+
+* device/qcom/sepolicy_vndr
+805006e Merge tag 'LA.UM.9.12.r1-11000-SMxx50.0' of https://source.codeaurora.org/quic/la/device/qcom/sepolicy_vndr into lineage-18.1 [Michael Bestas]
+
+* kernel/oneplus/sm8150
+79d6d6f defconfig: Expand USB HID game controller support [Albert Wang]
+
+* vendor/oneplus
+980506a sm8150-common: remove unused blobs and multilibs [Omkar Chandorkar]
+
+🍬 19-Apr-2021 🍬
+
+* device/oneplus/fajita
+5c604fe fajita: Update fingerprint to April Redfin [NoSpamDan]
+770ebce Revert "Revert "fajita: fod: Don't invoke callbacks when fod circle is not visible"" [NoSpamDan]
+b79100b fajita: Add fingerprint sensor location [NoSpamDan]
+
+* device/oneplus/sdm845-common
+083d9cb sdm845-common: Hide boot_aging partition from fastbootd [LuK1337]
+d254f85 sdm845-common: Build and enable fastbootd [NoSpamDan]
+4b3c1c0 sdm845-common: Align resource ids used in NxpNfcNci.apk with framework.jar [LuK1337]
+01f2229 sdm845-common: Specify vendor.camera.aux.packagelist [NoSpamDan]
+863232a sdm845-common: Build GApps unconditionally [NoSpamDan]
+
+* device/oneplus/sm8150-common
+f2f868e sm8150-common: Remove unused VibratorStrengthPreference [NoSpamDan]
+
+* frameworks/base
+fb99338 PixelPropsUtils: Update fingerprint to April redfin [NoSpamDan]
+e41a3c7 fixup! FODCircleView: various improvements. [Pig]
+36b48ce FODCircleView: move post hide animate function inside [Michael Benedict]
+3826bb5 VolumeDialogImpl: Don't vibrate when volume dialog is not visible [LuK1337]
+a739d40 TileLayout: Match CandyShop settings for defaults [NoSpamDan]
+7ec9426 base: SystemUI: add pref for qs brightness slider position (1/2) [maxwen]
+
+* vendor/oneplus
+2d211ab sm8150-common: update perf stack from LA.UM.9.1.r1-09100-SMxxx0.0 [Omkar Chandorkar]
+
+🍬 18-Apr-2021 🍬
+
+* packages/apps/Settings
+7683aa8 fingerprint: Allow devices to configure sensor location [d34d]
+
+* packages/apps/Settings/CandyShop
+a0afe0a add prefs for qs brightness slider position (2/2) [xyyx]
+
+🍬 17-Apr-2021 🍬
+
+* build/make
+906abf4 Merge tag 'android-11.0.0_r34' into c11 [NoSpamDan]
+
+* frameworks/av
+5a31a0d Merge tag 'android-11.0.0_r34' into c11 [NoSpamDan]
+
+* frameworks/base
+8a20373 Merge tag 'android-11.0.0_r34' into c11 [NoSpamDan]
+
+* kernel/oneplus/sm8150
+70d709b power: smb5: Hardcode current max to 3000000 when DASH charging [LuK1337]
+7c2960a Revert "power: qpnp-smb5: Report TIME_TO_FULL_NOW" [LuK1337]
+3ab790f Revert "power: fg-gen4: Report TIME_TO_FULL_NOW property" [LuK1337]
+
+* packages/apps/Contacts
+7d5030b Merge tag 'android-11.0.0_r34' into c11 [NoSpamDan]
+
+* packages/apps/Launcher3
+3e9c32d 3Merge tag 'android-11.0.0_r34' into c11 [NoSpamDan]
+
+* packages/apps/Settings
+9d6ed46 Merge tag 'android-11.0.0_r34' into c11 [NoSpamDan]
+
+* platform_testing
+fa9929e Merge tag 'android-11.0.0_r34' into c11 [NoSpamDan]
+
+* vendor/oneplus
+5fd0b64 hotdogb: update blobs from OnePlus7TOxygen_14.I.26_OTA_0260_all_2104142319_fc80b426418bd3 [Omkar Chandorkar]
+807631f guacamole: update from OnePlus7ProOxygen_21.P.36_OTA_0360_all_2104141852_885ac6583aa [Omkar Chandorkar]
+8bf4276 sm8150-common: update from OnePlus7ProOxygen_21.P.36_OTA_0360_all_2104141852_885ac6583aa [Omkar Chandorkar]
+cdc56e4 sm8150-common: add back widevine keys [Omkar Chandorkar]
+84629a6 sm8150-common: remove duplicate sensors.ssc.so [Omkar Chandorkar]
+
+🍬 16-Apr-2021 🍬
+
+* device/oneplus/hotdogb
+e62ce92 hotdogb: Change userdata fsync mode to strict for f2fs [Sultan Alsawaf]
+29b17ce Revert "hotdogb: overlay: Set custom corner rounding shape" [Omkar Chandorkar]
+b914a62 hotdogb: rootdir: Modify fstab to allow f2fs userdata to mount [Anirudh Gupta]
+a10bf1b hotdogb: pin vibrator HAL from Q [Omkar Chandorkar]
+0378208 hotdogb: Include stock vibrator HAL [Anirudh Gupta]
+bbd439e hotdogb: overlay: update brightness overlays from OOS11 [Omkar Chandorkar]
+64b8309 hotdogb: overlay: Improve keyguard paddings [LuK1337]
+9e1002d Revert "hotdog: Build fastbootd" [Omkar Chandorkar]
+9c751a1 hotdogb: Remove tri-state calibrate daemon package [LuK1337]
+6dfa829 hotdogb: AB_OTA_UPDATER is BoardConfig variable. [Tao Bao]
+85f35cc hotdogb: overlay: Default to 90Hz refresh rate [Ido Ben-Hur]
+f83937d hotdogb: convert default hotspot ssid to RRO [Omkar Chandorkar]
+1789bc2 hotdogb: Add remaining goodix fod dependencies [LuK1337]
+65073a7 hotdogb: Set custom rounded corners [Filippo]
+0c9f372 hotdogb: Build system_ext [LuK1337]
+f18e09d hotdogb: Import odm_feature_list [LuK1337]
+4df7412 hotdogb: update fstab from OOS11 [Omkar Chandorkar]
+7bfe76a hotdogb: update audio from OOS11 [Omkar Chandorkar]
+5567bdc hotdogb: Update blobs from OOS 11 [LuK1337]
+28c02a7 hotdogb: Align with extraction-utils templates [Bruno Martins]
+45a770f hotdogb: Add product to AVB partition chain [Filippo]
+
+* device/oneplus/sm8150-common
+a14bcdc KeyHandler: Vibrate when switching to and from total silence [Ido Ben-Hur]
+9a9fe92 sm8150-common: DeviceSettings: update vibration patterns after 7b7bc52353a788b57e7fb779cb78f2058aefe3a8 [Omkar Chandorkar]
+8291ff8 sm8150-common: DeviceSettings: remove vibration strength preference [Omkar Chandorkar]
+e88f26e sm8150-common: vibrator: Implement OOS style effects for LED vibrator [LuK1337]
+9d3a471 sm8150-common: Import QTI vibrator HAL [LuK1337]
+7de28e3 sm8150-common: remove unused wkeyota files [Omkar Chandorkar]
+846a56f overlay: Remove the no longer needed bool for dash charging [Ido Ben-Hur]
+7a2da0c sm8150-common: switch a few sections to LA.UM.9.1.r1-09100-SMxxx0.0 [Omkar Chandorkar]
+ce08e7d sm8150-common: cleanup unused blobs [Omkar Chandorkar]
+983a1b9 sm8150-common: BoardConfig: switch to Image.gz-dtb [Omkar Chandorkar]
+33f8c69 Revert "sm8150-common: overlay: SystemUI: enable config_vibrateOnIconAnimation" [Omkar Chandorkar]
+
+🍬 15-Apr-2021 🍬
+
+* vendor/oneplus
+cffa8d6 sm8150-common: remove unused blobs [Omkar Chandorkar]
+0954787 sm8150-common: sync with device tree [Omkar Chandorkar]
+
