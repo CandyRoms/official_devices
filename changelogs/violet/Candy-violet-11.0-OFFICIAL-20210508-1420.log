@@ -1,0 +1,499 @@
+🍬🍬🍬🍬🍬🍬 CANDY 11 🍬🍬🍬🍬🍬🍬
+
+ CandyRoms Changelog for violet
+
+🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬
+
+🍬 08-May-2021 🍬
+
+* device/xiaomi/violet
+9eae74e Revert "[1/3] violet: init: Schedtune cleanup to adapt UCLAMP" [Mourya Baruah]
+b4f5963 Revert "[2/3] violet: powerhint: Schedtune cleanup to adapt UCLAMP" [Mourya Baruah]
+0981ca2 Revert "[3/3] violet: rootdir: Adapt to newer UCLAMP support" [Mourya Baruah]
+7c62781 violet: perf: Enable the pre-rendering feature [Jun Wang]
+41a1b18 violet: Set TARGET_INPUTDISPATCHER_SKIP_EVENT_KEY [ganeshi4u]
+47b04df violet: gps: Lower debug level [Michael Bestas]
+2d3579e violet:Enable usage of dex2oat64 [David Sehr]
+8cc9646 violet: overlay: Don't show Mobile plan preference item [UtsavBalar1231]
+ed3d924 violet: overlay: Enable Auto Power Modes [Sebastian]
+c3ccdf9 violet: configs: audio: add FAST flag to deep_buffer [trpsl]
+6d24ef8 violet: prop: add missing prop of 24-bit audio offload playback [karthik558]
+a44ca46 violet: overlay:  Add proper support for 5GHz hotspot [Martin]
+cf9ebaf violet: wlan: Smarter decisions on whether to use a 2Ghz or 5Ghz AP. [Alex Naidis]
+4e7dade violet: audio: enforce 24-bit audio for offload playback [justinweng]
+b1293db violet: audio: Change mono_speaker to left [Anunay Maheshwari]
+0f74b8a violet: Replace audio@2.0-service with audio.service [Roman Kiryanov]
+a325f75 violet: Set voice call volume steps to 6 [Brock5555]
+61fa8a5 Violet: Adjust Screen Brightness Values To fix the screen flickering issue on minimum brightness while on light theme [aftabashrafi-111]
+77b0604 Register and enable qcrild & data services on boot Fixes lag on getting network service after boot [Brock5555]
+aec0c5d violet:Tweak fling velocity system props [xdevs23]
+64c5dc1 violet:Refined early phase offsets [tangrobin]
+b00d499 violet:Update CarrierConfigs from Oneplus8Pro [SagarMakhar]
+1c008d2 violet: overlay: Set Google autofill service as default [Mourya Baruah]
+a1bd08e violet:  overlay: configure SQLite to operate in MEMORY mode [Jesse Chan]
+0f8de50 violet: adjust zram write back policy [Martin Liu]
+
+* frameworks/base
+5a87c4e Changes to pass API check [Simao Gomes Viana]
+935f193 PhoneWindowManager: Bring back vibrator DOUBLE_CLICK effect [rituj]
+cfaa8c7 VibratorService: Fix double click effect with OnePlus vibrator format [rituj]
+d24bf2d VibratorService: update constant values for OnePlus HAL [rituj]
+d27a5a2 Improve haptics and use VibrationEffect [rituj]
+391f730 VibratorService: implement OnePlus proprietary vibrator format [rituj]
+4dfa666 base: Wi-Fi timeout feature [Oliver Scott]
+e2195ba Fix typos related to sortSelectionIndices [Wang Han]
+7c72bb5 base: Bluetooth timeout feature [Oliver Scott]
+5fa1152 ViewConfiguration: add support for max/min fling velocity sysproperties [Simao Gomes Viana]
+0450683 ViewConfiguration: set scroll friction to 0.006f [Simao Gomes Viana]
+42c7933 Add national roaming for o2 & E-Plus in germany [Simao Gomes Viana]
+aaf1333 TelephonyManager: add some inconsistent methods [Simao Gomes Viana]
+619cdbd Allow faster app switching [Chet Kener]
+6fe9b90 SystemUI: config: change charging thresholds [Simao Gomes Viana]
+e8c4ff5 SystemUI: keyguard: make text below clock smaller [Simao Gomes Viana]
+f987604 Tweak notification lights [Simao Gomes Viana]
+a42b206 misc configuration [Simao Gomes Viana]
+ca72507 core: res: config: brightness tweaks [Simao Gomes Viana]
+3721209 core: res: config: shorten network transition timeout [Simao Gomes Viana]
+8848443 Remove more executable flags for Java source files [Simao Gomes Viana]
+fc883c3 Make the spinners faster [Simao Gomes Viana]
+3788c9c Make spinners even smoother [Simao Gomes Viana]
+4a685f3 AppLock: Call activityStopped when activity has stopped [Rituj Beniwal]
+0472a69 SystemUI: Fix Wakelock issue [Alberto Ponces]
+6f06786 KeyStore: Report rate limited instead of not implemented [Dyneteve]
+beff25a Screenrecord: Save and load set preferences [Ido Ben-Hur]
+
+* packages/apps/Settings
+8c3821a Settings: Integrate Wireless Emergency Broadcasts [Harshith Goka]
+c754392 Settings: Wi-Fi timeout feature [Oliver Scott]
+5b25803 Settings: Bluetooth timeout feature [Oliver Scott]
+
+* packages/apps/Settings/CandyShop
+c3f0a10 Port: Wake on plug [craftyjon]
+
+🍬 07-May-2021 🍬
+
+* device/zuk/msm8996-common
+1f4e815 Revert "Update thermal-engine.conf" [Mourya Baruah]
+
+* frameworks/base
+fd6dc5a Port: Wake on plug [craftyjon]
+
+* system/core
+4070483 Filter out QTI performance spam [DennySPB]
+3fd15da Shut up camera and wcnss debug output [faust93]
+974a395 Filter GalleryDatab* [Simao Gomes Viana]
+42d38d2 Silence spammy logs from camera blobs (AEC_PORT and mm-camera) [Sultanxda]
+969d502 init: ro.build.selinux should be 0 [Park Ju Hyung]
+be2c5e0 init: add several more keys to spoof [Park Ju Hyung]
+01dd4ea init: workaround SafetyNet check [Park Ju Hyung]
+28c50ec init: Weaken property override security for the init extension [Alex Naidis]
+
+* vendor/candy
+1329bbb rework fonts [Mourya Baruah]
+
+🍬 06-May-2021 🍬
+
+* candy
+dc0d560  Merge tag 'android-11.0.0_r37 [Mourya Baruah]
+
+* frameworks/av
+b5fee8d CCodec: workaround for frame drops [Wonsik Kim]
+2de9255 Codec2: Initialize InputSurfaceWrapper::Config structure fields [wangchenyang]
+282823b ACodec: Handle HDR10+ metadata at OutputPortSettingsChangedState [Houxiang Dai]
+98a7f1e CCodec: GraphicBufferSourceWrapper: fix to apply nBufferCountActual for deciding number of inputs [Taehwan Kim]
+8e66af7 CCodec: fix ByteBuffer mode image [Wonsik Kim]
+077dd01 C2AllocatorBlob: allow multiple maps [Wonsik Kim]
+3d01651 omx: calculate nodePrefix only for components listed in IOmx [Lajos Molnar]
+d3fdcd2 CCodec: Increase max linear buffer size for 8K video [Sungtak Lee]
+4ad03e3 C2OMXNode: read delay from component to determine buffer count [Wonsik Kim]
+765dc5f NuPlayerRenderer: Reset negative media time to zero [Paras Nagda]
+050ddf8 ACodec: submit extra output metadata buffers if in low latency mode [Wonsik Kim]
+f860361 OMX Opus decoder omits sample rate / channel count [Ray Essick]
+3dbf554 CCodec: fix underflow issue on handleImageData [Taehwan Kim]
+a90a1ca libmedia: Add MediaPlayer() function for backward compatibility [Adithya R]
+fa23e25 Don't fail AAC decoding if DRC parameter isn't available [Pierre-Hugues Husson]
+49e6d7a Revert "Revert "OMX AAC decode don't support getting DRC parameters"" [Mourya Baruah]
+b0aa433 libcameraservice: Remove restrictions for faceunlock service [jhenrique09]
+
+* frameworks/base
+a65fe1a Revert "SystemUI: Revive navbar layout tuning via sysui_nav_bar tunable" [NoSpamDan]
+649ba71 Revert "base: tuner: fix navbar layout switch and remove old cruft" [NoSpamDan]
+
+* frameworks/native
+8adc7ed gralloc4: fix PlaneLayout encode typecasting [SeYeong Byeon]
+c39a9a3 SurfaceFlinger: VSyncPredictor should be robust with inconsistent vsyncs [Ady Abraham]
+b3d9652 Ensure that expected present time is in the future [Snild Dolkow]
+c5f7ebc SF: handle long waiting Layer sync point [KaiChieh Chuang]
+0950eac Check for focused window before raising 'no focused window' ANR [Siarhei Vishniakou]
+620d299 Check window token when extending timeout [Siarhei Vishniakou]
+ec5e55c Ensure mNoFocusedWindowTimeoutTime is null when new Focused Window come [dingxiaobo]
+
+🍬 05-May-2021 🍬
+
+* art
+c18d154 Merge tag 'android-11.0.0_r37' of https://android.googlesource.com/platform/art into HEAD [Mourya Baruah]
+
+* build/make
+1e818f8 Merge tag 'android-11.0.0_r37' of https://android.googlesource.com/platform/build into HEAD [Mourya Baruah]
+
+* frameworks/av
+1451c9f Merge tag 'android-11.0.0_r37' of https://android.googlesource.com/platform/frameworks/av into HEAD [Mourya Baruah]
+
+* frameworks/base
+fbaaa40 PixelPropsUtils: Update to May 2021 build fingerprint [Mourya Baruah]
+b9efc41 Merge tag 'android-11.0.0_r37' of https://android.googlesource.com/platform/frameworks/base into HEAD [Mourya Baruah]
+f124d73 config: Fix resources tag [NoSpamDan]
+
+* packages/apps/Settings
+2b93539 Merge tag 'android-11.0.0_r37' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD [Mourya Baruah]
+
+🍬 04-May-2021 🍬
+
+* candy
+b3e5af8 remove: Drop sunfish repos [NoSpamDan]
+
+* frameworks/base
+db19dad AuthBiometricsView: Add missing null checks [NoSpamDan]
+239e4fd AuthController: Add null check for mCurrentDialog in onBiometricError() [NoSpamDan]
+fe46ada Fix: "Clear All" recent app screen loop bug [vincent.cw_lee]
+5b21825 No need to 'addChild' when start 'FLAG_ACTIVITY_CLEAR_TOP' Activity. [yangyankai1]
+4a30593 keyguard: Do not trigger a wake up when hiding lockscreen [Arne Coucheron]
+fb616d6 Allow media art with enabled facelock lockscreen bypass [DennySPb]
+e208870 cleanup - SystemUI: Allow listening for face only on pin/pass view [jhenrique09]
+adf964e SystemUI: Allow listening for face only on pin/pass view [jhenrique09]
+97f8fcb SystemUI: Face Unlock animation [Dil3mm4]
+1072215 fixup - base: do not use new lockscreen layout for bypass [jhenrique09]
+a54c10b base: do not use new lockscreen layout for bypass [Ethan Halsall]
+1207524 AuthBiometricFingerprintView: Fix indicator text color on dark theme [jhenrique09]
+7832899 fixup - [1/2] Allow using face as auth method for apps [jhenrique09]
+a5aed6a FaceService: Nuke useless call to getAuthenticatorId [jhenrique09]
+bd5b886 [1/2] Allow using face as auth method for apps [jhenrique09]
+0e915bc LockIcon: Don't cache icon when scanning face [jhenrique09]
+42b49c0 base: Port face unlock feature [1/2] [jhenrique09]
+fbe6d18 SystemUI: use simple check for isFaceDisabled [Ali B]
+fe2aa6a AuthContainerView: fix rare SystemUI crash [Simão Gomes Viana]
+a402e7a Add isFaceAuthEnabledForUser checks in KeyguardLiftController [jie shen]
+48d2186 SystemUI: BiometricPrompt: Adjust layout if FOD is present [rituj]
+468a849 add fod detection overlay [Mourya Baruah]
+ba9251b AutoAODService: Account for disabled doze [Ido Ben-Hur]
+f175c65 AutoAODService: Add support for mixed time & sun modes [1/2] [Ido Ben-Hur]
+d5f98d6 base: Allow scheduling always on display [1/2] [Ido Ben-Hur]
+cc18f76 Add double tap to sleep gesture [Rashed Abdel-Tawab]
+64671fa Fix 2tap2wake after Ambient Pulsing on some devices [ezio84]
+958da28 Show Ambient instead of lockscreen on wake gestures [1/2] [ezio84]
+c5d0d21  Ambient music ticker: double tap on track title to skip track [ezio84]
+5ca4db0 base: Show and edit Ambient Icons on Lockscreen [1/2] [TikkiTikki]
+ab2eb6f Ambient pulsing: don't show lock icon [Dil3mm4]
+ab09f77 DisplayModeDirector: Make sure we apply refresh rate on startup [Ido Ben-Hur]
+0b34c15 Ambient music: Remove debug messages. [spezi77]
+74c5543 Ambient music: Also shorten the Now Playing title after the song title. [spezi77]
+f4b51ff Ambient music: pulse on new music tracks and Now Playing info [1/2] [ezio84]
+2b2ef0b Ambient music: Format the media title like Elgoog does. Example [spezi77]
+e9553b7 Ambient music: Show bottom ticker above fod circle if needed. [spezi77]
+fa0aa23 KeyguardSliceProvider: Hide song name if TypeClock is in use. Otherwise the layout would be broken [spezi77]
+9b96da9 Ambient music v2: Allow for changing the music ticker position [1/2]. This will add the music ticker to the ambient screen / AoD just like on Pixel devices. It will work with ezio's music ticker and now playing commits for Android R. Other part of the commit is in Settings. [spezi77]
+70bfb33 Port ambient Now Playing container from Pixel [stripped down version] [Joe Maples]
+218341f ScreenOFF volume skiptrack (with remote Spotify support) [ezio84]
+b184a86 Fix volume rocker skip track on Ambient Display and Lift to Wake [ezio84]
+7463ebc Add LineageButtons (volume skip track hooks) [Simon Shields]
+89a5360 Merge changes from topic "long-ss" into c11 [Dan Cartier]
+5680e3c Merge changes from topic "toasts" into c11 [Dan Cartier]
+f6b6a77 Merge changes from topic "navbar" into c11 [Dan Cartier]
+0dbf0b6 Merge changes from topic "icons" into c11 [Dan Cartier]
+2189dba Merge changes from topic "net-iso" into c11 [Dan Cartier]
+
+* packages/apps/Settings
+fca5356 Settings: Fix preference for set data warning [NoSpamDan]
+099b9fc Allow using face as auth method for apps [2/2] [jhenrique09]
+1ba5d1e Port faceunlock feature [2/2] [jhenrique09]
+cc428537 Double tap to sleep on lockscreen [2/2] [ezio84]
+a49c8cf  Allow to choose lockscreen or Ambient on wake gestures [2/2] [ezio84]
+20d60a7 Add video preview to Skip track gesture option [Sahul Krishan]
+f3a4a04 Add Volume rocker skip track to Gestures [ezio84]
+d77649d Aosp Ambient music: allow to pulse on new tracks [2/2] [ezio84]
+e9ece04 NightDisplay Settings: Use List Preference for NightLight settings [Akash]
+99cbbbc Settings: QR Scanner pass proper frame Width and Height [hoffc]
+fed89ee [2/2] Settings: expose auto night mode sunset and sunrise values on API [maxwen]
+e9286ac Settings: Update preference videos [Anushek Prasal]
+48b21ba MediaOutputPanel: Handle the case of missing packageName [Arian]
+f055a8d DarkMode Settings: Use List Preference rather ugly Drop Down [Pranav Vashi]
+ec3d781 Merge changes from topic "net-iso" into c11 [Dan Cartier]
+
+* packages/apps/Settings/CandyShop
+7d9e00b lockscreen: Fix AOD schedule summary [NoSpamDan]
+2fc8676 Show and edit Ambient Icons on Lockscreen [2/2] [TikkiTikki]
+5ac0c67 AODSchedule: Add support for mixed time & sun modes [2/2] [idoybh]
+5cbdfd4 CandyShop: Allow scheduling always on display [2/2] [idoybh]
+05743fe Ambient music: Allow for changing the music ticker position [2/2] [spezi77]
+be4a440 Merge "CandyShop: Add 'Invert layout' to navigation bar settings" into c11 [Dan Cartier]
+
+* vendor/candy
+59e50d1 Merge "vendor: Add back FaceUnlock support" into c11 [Dan Cartier]
+
+🍬 03-May-2021 🍬
+
+* candy
+92496c3 candy: Add external stitchimage repo for long ss [NoSpamDan]
+c07dc31 candy: Add face unlock support repos [NoSpamDan]
+
+* frameworks/base
+32a76a1 fixup! Add long screenshot chip [Joey Huab]
+5a4e0ed base: Fallback stitchimage's broken value to unknown [ender1324]
+e9db486 base: Whitelist stitchimage [jhenrique09]
+9262b88 base: Add missing long screenshot permission [ender1324]
+d3dab3a base: Add long screenshot chip [ender1324]
+ed6947b Toasts: Use a snackbar-like animation [El Dainosor]
+d04c5bc [1/2] base: expose auto night mode sunset and sunrise values on API [maxwen]
+01ff096 toasts: Use Animation_Toast_Material [Anushek Prasal]
+1a5b20e toasts: Improve layout and center-align the content [SKULSHADY]
+d633f63 toasts: Increase elevation to 4 [Joe Maples]
+93a71aa toasts: Follows theme corner radius [Joe Maples]
+7ca483d core: Materialize Toast notifications [Joe Maples]
+52aa9b5 SystemUI: Implement burn-in protection for status-bar/nav-bar items [Park Ju Hyung]
+1b41650 fwb: Fix navigation bar button hit testing [SahilSonar]
+c6cbaae SystemUI: Revive navbar layout tuning via sysui_nav_bar tunable [Andy CrossGate Yan]
+bad43deb base: tuner: fix navbar layout switch and remove old cruft [maxwen]
+b25a31c SystemUI: Add navbar layout inversion tuning [LuK1337]
+31708d0 CarrierConfigManager: enable LTE+ icon by default [xboxfanj]
+a54c45b base: New VoLTE icon [El Dainosor]
+6299bd5 VoLTE: Add New Minimal Icon [SuperDroidBond]
+acf4a9a SystemUI: Add OOS 10 VoLTE icon [1/2] [SKULSHADY]
+bcd5419 SystemUI: Add VoLIT icon [1/2] [Stallix]
+553a098 Add three more selectable VoWiFi icons [1/2] [blinoff82]
+d43d016 SystemUI: Add four more selectable VoWiFi icons [1/2] [DennySPb]
+a94e612 SystemUI: Improve VoLTE detection logic [Pranav Vashi]
+c6de05e SystemUI: Optional VoWiFi icon [1/2] [DennySPb]
+f839591 SystemUI: support VoWIFI icons [Weijie Wang]
+a225f19 SystemUI: Add EMUI VoLTE icon [1/2] [DennySPb]
+6cd7e12 Add MIUI 11 VoLTE icon [1/2] [Lup Gabriel]
+61a7619 SystemUI: add CAF VoLTE HD icon [1/2] [DennySPB]
+dc7d65d SystemUI: Add Asus VoLTE Icon [1/2] [PainKiller3]
+6d6a3cc VoLTE Icon - User Selectable VoLTE Icon [1/2] [SuperDroidBond]
+bb1d755 Add VOLTE icon toggle [1/2] [SagarMakhar]
+d3e5d59 SystemUI: Show 4G instead of LTE switch [1/2] [Alex Cruz]
+2afbda6 base: Fix padding for VoLTE icon [Josh Fox (XlxFoXxlX)]
+4b2cecd MobileSignalController fix corresponding to upstream FeatureConnector change [Steven Laver]
+f463141 ImsManager.Connector became FeatureConnector. [Daniel Norman]
+25caf7b SystemUI: Enhancement for volte icon [Weijie Wang]
+5c9155f SystemUI: Query IMS state after CapabilityCallback is regisered [Qimeng Pan]
+7ab2e50 SystemUI: Fix HD icon missing [Weijie Wang]
+953b09f Adapt to IMS registration changes. [Bill Peckham]
+54bb8f6 Fix VOLTE icon color on Light statusbar [Adarsh-MR]
+c30a02a SystemUI: Refactor the feature of volte icon [Weijie Wang]
+3cf5f65 SystemUI: Fix volte icon doesn't update in real time [Weijie Wang]
+8706d2d SystemUI: Add new configuration for displaying Volte icon [Weijie Wang]
+689ebc9 fw/b: Add support for per app network isolation [Sam Mortimer]
+02f38bd fw/b: Squash of app fw restriction commits [Danesh M]
+82dd596 PermissionHub: Enable it [Raj Jadeja]
+deabd6b  PixelPropsUtils: Add more apps [Stallix]
+d5677d5 SystemUI: Remove GarbageMonitor tile [jhenrique09]
+6035b32 base: Let legacy apps scale fully to the display's aspect ratio [rituj]
+741c26a admin: Restore requireSecureKeyguard interface. [Adnan Begovic]
+2719522 base: fix tapered rect overlay [Anay Wadhera]
+1166bc8 Revert "Adding P20 styles" [Mourya Baruah]
+014d241 Revert "Remove new styles from AOSP" [Mourya Baruah]
+140f64c Add OnePlus Slate and SamsungOne font styles [1/2] [Pranav Vashi]
+42f081e Add our favourite fonts in AOSP FontEngine [2/2] [SuperDroidBond]
+e01ca16 MediaCodecInfo: do not alter performance points for 32-bit processes [Wonsik Kim]
+6aa7880 MediaCodecInfo: limit resolution to 4K for 32-bit processes [Wonsik Kim]
+901a2159 SystemUI: Enable and fix QS detail view, adapt layout to 11 [eray orçunus]
+74257de BrightnessController: Fix thread exception [jhenrique09]
+eba2328 Fix black screen issue due to wallpaper decoding exceptions [Weijie Wang]
+080b295 wm: Passing a new ArraySet instance to avoid crash [Qiushi.Han]
+68a408e SoundPool: Fix clang-tidy warning in StreamManager [Adithya R]
+f7fb3f3 Fix NetworkPolicyManagerService deadlock [Zhengyu Zhan]
+0276fd0 Apply bilinear filter for Ninepatch. [Minkyoung Kim]
+37c1555 Check ProjectBackwards property for childrens after children's syncProperties(). [Minkyoung Kim]
+81f0f6f Fix guest icon is not clickable after adding user [Artem Radchenko]
+b9b3c94 Fixed Handler Leak on RecyclerView [Jiwon Kim]
+b68f72b Fixed Handler Leak on WrapperInit [hyung4.kim]
+cc69d25 Persist screen brightness setting through upgrade [Fiona Campbell]
+e8345d0 KernelWakelockReader: provide class level lock when updates staleStats [Michael Sun]
+2c7b816 HwBlob: explicit size check [Steven Moreland]
+32e5ba2 AbsSeekBar: Fix growRect computation [Adrian Roos]
+c98e51b AbsSeekBarTest: Fix dpToPixel computation [Adrian Roos]
+9ffc28b fix broadcast receivers overflow for system_server [Sergii Piatakov]
+a59e211 Add synchronized to make sure data correctness [lucaslin]
+2185502 Prevent going through unnecessary networks [Chiachang Wang]
+23ca711 Use name instead of package name [Zhuying Li]
+31107c5 UserManagerService: Fix NPE [wangshouchun]
+93508d8 Thread.sleep takes milliseconds, not seconds. [Josh Gao]
+3417450 fdtrack: GC before checking fd count. [Josh Gao]
+7f1056d Move system_server fdtrack implementation to Java. [Josh Gao]
+e916099 SystemUI: Disable KeyguardConstants DEBUG [maxwen]
+a5b7a4f SystemServer: Only enable fd leak tracker on eng [Simao Gomes Viana]
+804f34b SystemUI: MediaOutputDialogFactory: accept null package name [daniml3]
+ab22acf Fix Another SystemUI crash [SuperDroidBond]
+b1879cb Fix SystemUI crash [Ido Ben-Hur]
+76941be5 Framelayout: Fix NPE when view is missing [Pranav Vashi]
+4cf69ad Prevent crash in TTS engine due to improper configuration [Pranav Vashi]
+ccccf2e iorap: Enable by default [Pranav Vashi]
+10b997b iorap: Terminate iorapd process when both tracing and prefetching are off. [yawanng]
+6be6f8f Partially revert "Wake up to lock screen when bouncer is visible" [Sultan Alsawaf]
+d0ae4b7 SystemUI: fix NPE on ExpandableNotificationRow [Chenyang Zhong]
+44d8117 SystemUI: Always disable rotation on lockscreen [jhenrique09]
+b865708 Fix Performance issue in Listview issue: https://issuetracker.google.com/issues/183024999 [Tang Ding]
+a89205a Revert "Pre-emptively take a snapshot when finishing an activity before changing visibility" [Danny Lin]
+95e3d4a LayoutInflater: Opportunistically create views directly for performance [Danny Lin]
+80bd2c3 SystemServiceRegistry: Replace ArrayMap with HashMap for performance [Danny Lin]
+69c83a4 PackageManagerService: Replace ArrayMap with HashMap for performance [Danny Lin]
+db6a864 InsetsStateController: Replace ArrayMap with HashMap for performance [Danny Lin]
+a3c309f LocalServices: Replace ArrayMap with HashMap for performance [Danny Lin]
+a1d0083 ThemedResourceCache: Replace ArrayMap with HashMap for performance [Danny Lin]
+5754861 Trace: Disable debug tracing in production builds [Danny Lin]
+01a9597 statsd: Disable native stats collection service [Danny Lin]
+8b8b676 EventLog: Disable event writing in production builds [Danny Lin]
+5dd07e3 PackageInfo: Optimize ApplicationInfo creation [Danny Lin]
+
+* packages/apps/Settings
+1d11e4a Settings: Whitelist WRITE_DEVICE_CONFIG permission [saikiran2001]
+11667f9 Settings: Add support for per app network isolation [Sam Mortimer]
+ecb06bd Settings: per-app cellular data, vpn and wifi restrictions [Uldiniad]
+4d5da79 Remove feedback and bug report stuff [ezio84]
+
+* packages/apps/Settings/CandyShop
+ce01251 CandyShop: Add 'Invert layout' to navigation bar settings [luk1337]
+50ed58c Add seven more selectable VoWiFi icons [2/2] [niteshkumar2000]
+18fe316 Optional VoWiFi icon [2/2] [DennySPB]
+40c8504 Statusbar: Add more optional VoLTE icons [DennySPB]
+050051a VoLTE Icon - User Selectable VoLTE Icon [2/2] [SuperDroidBond]
+bf046b7 StatusBar: VoLTE icon toggle [2/2] [DennySPB]
+
+* vendor/candy
+2fbdb2e vendor: Build StitchImage [jhenrique09]
+06f8fc4 vendor: Add back FaceUnlock support [jhenrique09]
+
+🍬 02-May-2021 🍬
+
+* kernel/zuk/msm8996
+c511be5 Merge tag 'v4.4.258' into HEAD [Mourya Baruah]
+0f7a1f0 Merge tag 'v4.4.257' into HEAD [Mourya Baruah]
+6ff025a Merge tag 'v4.4.256' into HEAD [Mourya Baruah]
+7c06c5d Merge tag 'v4.4.255' into HEAD [Mourya Baruah]
+d4a6cf7 Merge tag 'v4.4.254' into HEAD [Mourya Baruah]
+93d2585 Merge tag 'v4.4.253' into HEAD [Mourya Baruah]
+dd1c4ce Merge tag 'v4.4.252' into HEAD [Mourya Baruah]
+db1f222 Merge tag 'v4.4.251' into HEAD [Mourya Baruah]
+
+🍬 01-May-2021 🍬
+
+* device/zuk/msm8996-common
+f1c6853 Update thermal-engine.conf [Mourya Baruah]
+ca0011e fixes issue with file manager [Mourya Baruah]
+
+* system/netd
+5a24fbb system/netd: Add support for per app network isolation [Sam Mortimer]
+
+🍬 30-Apr-2021 🍬
+
+* candy
+13221a6 Revert "candy: DNM: SEPolicy changes - staging repo" [NoSpamDan]
+fb433d7 candy: Switch to our fork of LOS opensource power HAL [NoSpamDan]
+
+* device/candy/sepolicy
+b768a32 Merge remote-tracking branch 'staging/c11' into c11 [NoSpamDan]
+
+* device/qcom/sepolicy-legacy-um
+e00fd5a remove duplicate attributes [Mourya Baruah]
+
+* frameworks/base
+41562f2 BatteryMeterView: Remove forced battery display option [NoSpamDan]
+4536641 Add config to disallow the battery % option [Evan Laird]
+8c2e2b3 Settings: Remove duplicate BATTERY_STYLE_PORTRAIT [NoSpamDan]
+55f2a6f Battery icon: fix requestLayout() calls spam when in lockscreen [ezio84]
+b482b2f Battery settings: Sync battery icon with status bar [1/2] [Nicolas Dhouailly]
+93de818 Battery icon: fix signal icon padding when using Hidden style [Ezio Lacandia Bijelkic]
+ad7dc02 Battery Styles: Remove unneeded function parameter in BatteryMeterView [Nicolas Dhouailly]
+e30a8e3 Battery options cleanup [1/2] [Ezio Lacandia Bijelkic]
+214acbe Battery Styles: Introduce full circle battery style [Christian Oder]
+7d9d91f Battery Styles: Hide plus when showing battery percentage inside icon [Christian Oder]
+9b97ea2 Battery Styles: Readd dotted Circle to Kotlin impl [Christian Oder]
+0d68fe5 Battery Styles: Show a bolt ⚡ when charging [ezio84]
+fc74844 Battery Styles: Bring back good ol' circle battery style [Luca Stefani]
+754e5d0 Battery Styles: BatteryPercentage: Detect when overlay changes [Henrique Silva]
+b776a86 QuickStatusBarHeader: Allow to show battery percentage [1/2] [Nicolas Dhouailly]
+52b65e6 Merge "configure same GID based APNs as per carrier requirements" into c11 [Dan Cartier]
+8ce767f Hidden gestural bar: fix visual glitches when switching states [ezio84]
+b0cf108 SystemUI: Implement hide gestural navigation hint bar [1/2] [Jesse Chan]
+6d0bb514 configure same GID based APNs as per carrier requirements [Avinash Nalluri]
+
+* packages/apps/Settings
+f7f298d Battery settings: Sync battery icon with status bar [2/2] [Nicolas Dhouailly]
+7329f2e Remove aosp battery percentage option [ezio84]
+
+* packages/apps/Settings/CandyShop
+20e00d3 Battery options cleanup [2/2] [ezio84]
+d754dd1 Add statusbar battery options [TheStrix]
+f628c4d SystemUI: Implement hide gestural navigation hint bar [2/2] [ezio84]
+
+* vendor/candy
+88fc111 Merge "vendor: Update to vendor/gapps check" into c11 [Mourya Baruah]
+e6524b3 Merge "vendor: Remove GAPPS version naming" into c11 [Mourya Baruah]
+6db5be5 vendor: Update to vendor/gapps check [NoSpamDan]
+
+🍬 29-Apr-2021 🍬
+
+🍬 28-Apr-2021 🍬
+
+* frameworks/base
+d14eb97 Merge "base: Introduce Applock [1/3]" into c11 [Mourya Baruah]
+
+* frameworks/opt/telephony
+0606b0c Merge "Merge tag 'LA.QSSI.11.0.r1-09400-qssi.0' into telephony." into c11 [Dan Cartier]
+
+* hardware/candy/interfaces
+1345346 Regenerate fastcharge HIDL blueprint [LuK1337]
+6105b8f Import Motorola Health HAL [Vachounet]
+4d43a28 lineage/interfaces: add fastcharge HAL [Francescodario Cuzzocrea]
+9c77841 Add 'vendor.' prefix to a vendor HAL service name [Jaekyun Seok]
+112a0b2 touch: Add keys swap interface [Arian]
+6a24e4a trust: set system vintf fragment xml to framework [Michael Benedict]
+18f7a9a gnss: fix -Wreorder-init-list [Nick Desaulniers]
+dd847ec interfaces: camera: Implement lockYCbCr stub for Mapper 4.0 [Jason Macnak]
+7740ab7 interfaces: camera: fix two potential null pointer uses [George Burgess IV]
+a353cd6 interfaces: Camera: add IAllocator/IMapper 4.0 to camera HIDL [Marissa Wall]
+bc8798e trust: Include VINTF fragments [Michael Bestas]
+a0c9641 Remove libhwbinder/libhidltransport deps [dianlujitao]
+2f8a372 trust: create service [Joey]
+d6fac7f interfaces: Add trust 1.0 HAL [Paul Keith]
+
+* system/netd
+6f74643 Merge changes from topic "netd" into c11 [Dan Cartier]
+
+* vendor/candy
+42826c7 vendor: Remove GAPPS version naming [NoSpamDan]
+
+* vendor/qcom/opensource/data-ipa-cfg-mgr
+211b2f6 ipacm: add null pointer checks in LanToLan instance [Chaitanya Pratapa]
+
+🍬 27-Apr-2021 🍬
+
+🍬 26-Apr-2021 🍬
+
+* candy
+48fc195 candy: DNM: SEPolicy changes - staging repo [NoSpamDan]
+
+* device/candy/sepolicy
+723c214 contexts: Drop livedisplay [NoSpamDan]
+28c9c04 Merge remote-tracking branch 'los/lineage-18.1' into c11 [NoSpamDan]
+
+* device/qcom/sepolicy-legacy-um
+fc6e666 Merge remote-tracking branch 'los/lineage-18.1-legacy-um' into c11 [NoSpamDan]
+
+* device/qcom/sepolicy_vndr
+3d6ff40 sepolicy: Change the path from /data/vendor/log/wifi to /data/vendor/log [Mohammad Asaad Akram]
+7f4351b sepolicy_vndr: Default Modem Manager Policies [Tyler Wear]
+0973890 sepolicy: setting secontext to rtc node [Mohit Aggarwal]
+b9621d1 sepolicy_vndr: Add dontaudit rule for wfd_app [Mahesh Raja Bhogineni]
+26b426a sepolicy_vndr: add access to create file through imsdaemon [Pavan Kumar M]
+b64971a Allow vendor_location_app to bind to gpuservice [haohuang]
+bbc48b8 sepolicy_vndr: Update demura service name [Tharaga Balachandran]
+97b78a7 sepolicy: add sepolicy for hal_graphics_composer_default file [Devanshi Bansal]
+580b402 Merge remote-tracking branch 'los/lineage-18.1' into c11 [NoSpamDan]
+
+* device/zuk/msm8996-common
+60087fd msm8996-common: Remove soundtrigger [Davide Garberi]
+de596aa msm8996-common: update media configs from dpl_sprout [aswin7469]
+
+🍬 25-Apr-2021 🍬
+
