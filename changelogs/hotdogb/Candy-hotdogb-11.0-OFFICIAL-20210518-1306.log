@@ -1,0 +1,297 @@
+🍬🍬🍬🍬🍬🍬 CANDY 11 🍬🍬🍬🍬🍬🍬
+
+ CandyRoms Changelog for hotdogb
+
+🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬
+
+🍬 18-May-2021 🍬
+
+* frameworks/base
+1e23ce4 Clock: Fix left sb clock jank [NoSpamDan]
+
+* packages/apps/Settings
+47a3157 Battery: Clean up temperature toggle and update [NoSpamDan]
+7d0f8f1 Battery: show battery temp on power summary [DennySPB]
+
+* packages/services/Telecomm
+75e060d Telecomm: Squashed phone_type switch support [Bruno Martins]
+
+🍬 17-May-2021 🍬
+
+* frameworks/base
+4c6b18b Lockscreen: Show regional temperature units based on mcc [NoSpamDan]
+12133f6 Lockscreen: Show regional temperature units based on mcc [NoSpamDan]
+
+* packages/apps/Settings
+3a4f298 Battery: Check mcc value to set C/F units automagically [NoSpamDan]
+31aa8b3 Battery temp: Ensure preference is updated [Alex]
+af3847d Battery stats: Display battery temperature [Alex Cruz]
+
+* packages/apps/Settings/CandyShop
+17467b2 CandyShop: Show selected options in preference screens [NoSpamDan]
+
+🍬 16-May-2021 🍬
+
+* frameworks/base
+acabef3 CandyUtils: Introduce method to determine countries that use Fahrenheit [Alex]
+708c256 Add Flashlight blink on incoming calls [1/3] [PMS22]
+
+* packages/apps/Settings
+99a4b28 settings: Drop unused ColorsPreferenceController [NoSpamDan]
+
+* packages/apps/Settings/CandyShop
+cda781f Shop: Add Flashlight blink on incoming calls [3/3] [PMS22]
+
+* packages/services/Telecomm
+20d400c Telecomm: Add Flashlight blink on incoming calls [2/3] [Shripal17]
+
+🍬 15-May-2021 🍬
+
+* candy
+7928689 candy: Track our own SimpleDeviceConfig [NoSpamDan]
+
+* device/oneplus/sm8150-common
+a9a93e5 sm8150-common: Add WARP charging [NoSpamDan]
+
+* frameworks/base
+794b96b BatteryService: Add missing imports [NoSpamDan]
+a1f3e0f BatteryStatus: Make temp a float value [NoSpamDan]
+6dd7836 BatteryService: Add VOOC charging support [karthick111]
+aa43fa7 BatteryService: Add Warp charging support [Anushek Prasal]
+c9ec043 BatteryService: add dash charging support [thecrazyskull]
+
+* packages/apps/Settings
+0767e8d settings: Add charging strings from frameworks [NoSpamDan]
+115f852 Settings: Display 'Warp charging' for warp charge in battery settings [2/2] [Anushek Prasal]
+
+* packages/apps/Updater
+968deef Updater: Clean up changelog URL [NoSpamDan]
+
+* system/core
+fea239d logd: enable LTO [Tom Cherry]
+4a709a9 fastboot: Add a few missing fastboot commands from help [Luca Stefani]
+2095b94 init.rc: Disable native stats collection service [Danny Lin]
+f22c82d logcat: Mark as recovery_available [Michael Bestas]
+97ad62e fastboot: Don't fail when unable to get boot partition size [Michael Bestas]
+c0e782c init: Set properties to make SafetyNet pass. [Danny Lin]
+dc34227 health: Add CAP_BLOCK_SUSPEND [Subbaraman Narayanamurthy]
+92e9802 healthd: cover devices that have voltage_max file with value of 0 [maxwen]
+e674873 Modifying /dev/memcg permissions. [Karthik Gopalan]
+
+🍬 14-May-2021 🍬
+
+* device/oneplus/sdm845-common
+1b4997b sdm845-common: Add DASH charging support [NoSpamDan]
+
+🍬 13-May-2021 🍬
+
+🍬 12-May-2021 🍬
+
+🍬 11-May-2021 🍬
+
+* device/oneplus/hotdogb
+69e964e hotdogb: Add OP7T OTA assertions [NoSpamDan]
+
+* device/oneplus/sm8150-common
+6bff698 sm8150-common: Some kernel compile tweaks [NoSpamDan]
+
+* frameworks/base
+4f49bd8 PhoneWindowManager: Bring back vibrator DOUBLE_CLICK effect [rituj]
+320f406 VibratorService: Fix double click effect with OnePlus vibrator format [rituj]
+92eee21 VibratorService: update constant values for OnePlus HAL [rituj]
+af685c6 Improve haptics and use VibrationEffect [rituj]
+b87a6e0 VibratorService: implement OnePlus proprietary vibrator format [rituj]
+872d562 base: Wi-Fi timeout feature [Oliver Scott]
+d651326 Fix typos related to sortSelectionIndices [Wang Han]
+04ffc1e base: Bluetooth timeout feature [Oliver Scott]
+370e1ba Changes to pass API check [Simao Gomes Viana]
+852b94f ViewConfiguration: add support for max/min fling velocity sysproperties [Simao Gomes Viana]
+080530f ViewConfiguration: set scroll friction to 0.006f [Simao Gomes Viana]
+f91fb9d Add national roaming for o2 & E-Plus in germany [Simao Gomes Viana]
+006f9d8 TelephonyManager: add some inconsistent methods [Simao Gomes Viana]
+8b6af21 Allow faster app switching [Chet Kener]
+cf63364 SystemUI: config: change charging thresholds [Simao Gomes Viana]
+36c6b5c SystemUI: keyguard: make text below clock smaller [Simao Gomes Viana]
+23393eb Tweak notification lights [Simao Gomes Viana]
+c89a05b misc configuration [Simao Gomes Viana]
+63a540a core: res: config: brightness tweaks [Simao Gomes Viana]
+871e590 core: res: config: shorten network transition timeout [Simao Gomes Viana]
+f1a8342 Remove more executable flags for Java source files [Simao Gomes Viana]
+fc4f779 Make the spinners faster [Simao Gomes Viana]
+7cd1522 Make spinners even smoother [Simao Gomes Viana]
+5946f72 SystemUI: Fix Wakelock issue [Alberto Ponces]
+8186ab6 KeyStore: Report rate limited instead of not implemented [Dyneteve]
+7b653bf Screenrecord: Save and load set preferences [Ido Ben-Hur]
+58e2854 SystemUI: Import TensorFlow Lite model for back gesture [Danny Lin]
+d66639d SystemUI: Add machine learning back gesture provider [Danny Lin]
+e19146da Merge changes from topic "app_lock" into c11 [Dan Cartier]
+
+* packages/apps/Settings
+ff3fa83 Settings: Integrate Wireless Emergency Broadcasts [Harshith Goka]
+12d3ffa Settings: Wi-Fi timeout feature [Oliver Scott]
+41d3fa7 Settings: Bluetooth timeout feature [Oliver Scott]
+
+* vendor/candy
+383e498  SystemUI: Use custom component factory [kdrag0n]
+39da3a1 device_config: Enable maching learning back gesture [Danny Lin]
+2331034 device_config: Update Now Playing database URL [Danny Lin]
+3295251 device_config: Enable cached app freezer on supported devices [Danny Lin]
+e815269 device_config: Overlay base configs for SimpleDeviceConfig [Danny Lin]
+3d9c521 device_config: Allow more cached apps in the background [Danny Lin]
+7b745f8 device_config: Compact cached app heaps in the background [Danny Lin]
+6fc5cae device_config: Specify AiAi feature requirements [Danny Lin]
+07c0a07 device_config: Enable AiAi screen attention service [Danny Lin]
+18c2224 device_config: Reorganize AiAi configs [Danny Lin]
+8e92146 device_config: Update Now Playing database [Danny Lin]
+a4b19cf device_config: Enable Adaptive Sound on Pixel 5 [Danny Lin]
+b56bad7 device_config: Enable privacy indicators [Danny Lin]
+cd85a8f device_config: Explicitly disable unused AiAi features [Danny Lin]
+23c8876 device_config: Update Now Playing database URL [Danny Lin]
+76af78a overlay: Add config keys for SimpleDeviceConfig to provision [Danny Lin]
+40023ac Delegate DeviceConfig permissions to custom provisioning service [kdrag0n]
+92f7018  Build simple DeviceConfig provisioning service [kdrag0n]
+3b2ce5c  wifi: Increase 5 GHz network signal tolerance [kdrag0n]
+
+🍬 10-May-2021 🍬
+
+* device/google/sunfish
+82e26f7 sunfish: Enable DSDS by default [Peter Cai]
+36aeb43 sunfish: Set OPA property to enable google assistant [razorloves]
+
+* kernel/oneplus/sm8150
+929c1f8 fixup! qcacld-3.0: Disable build tagging. [LuK1337]
+
+🍬 09-May-2021 🍬
+
+* bootable/recovery
+2d26b4d roots: Correct mount flags in /etc/fstab [Alessandro Astone]
+8200b12 Add controller support [Aaron Kling]
+55e8152 updater: Do not null terminate mount_flags_list array [Alessandro Astone]
+
+* device/qcom/sepolicy
+f4302d0 Merge tag 'LA.QSSI.11.0.r1-11600-qssi.0' of https://source.codeaurora.org/quic/la/device/qcom/sepolicy into HEAD [Omkar Chandorkar]
+
+* frameworks/base
+d328ff2 AppLock: Call activityStopped when activity has stopped [Rituj Beniwal]
+042cad5 base: Fix Biometric Auth for Applock [Anushek Prasal]
+2d02b4d Navbar: Switch gesture navbar to new navigation bar key event source [Alex]
+03c154c base: Introduce new navigation bar key event source [Carlo Savignano]
+a7fcff8 util: Fix some naming and missing imports [NoSpamDan]
+2b010e4 Add Previous track action to LineageButtons [ezio84]
+f6c0e1d util: Clean up [NoSpamDan]
+ef78372 util: Add missing imports and sort [NoSpamDan]
+2dd1f03 Advanced nav gestures: improve code and fix glitches [ezio84]
+2e6a6b1 Extended swipe: show a double arrow when almost triggered [Nico]
+560c603 Allow back swipe on bottom screen if launcher is showing [ezio84]
+cc71908 Gestures: allow to set back swipe deadzone [1/2] [ezio84]
+0c614ee Custom utils: add action to start assistant [Danny Lin]
+aff2db8 Custom utils: add Power menu action [Danny Lin]
+8f4634d Custom utils: add hush mute action [ezio84]
+0cf20a8 Custom actions Utils: add clear all notifications action [Alex Cruz]
+7c9ed01 ActionUtils: Reverse actions for QS and notification panel [ezio84]
+13c6185 Move launchCamera and launchVoiceSearch actions to custom Utils [1/2] [ezio84]
+bf3df69 Custom Utils: add qs toggle, ringer mode toggle, volume panel toggle [Alex Cruz]
+d34035b Custom actions utils: add expand notifications action [ezio84]
+7874599 ActionUtils: Cleanup screen on action code [Ezio Lacandia Bijelkic]
+37f238d ActionUtils: Add screen on action [Alex]
+b331aae Allow extended/"L" back swipe to trigger actions/app/activities [1/2] [ezio84]
+
+* packages/apps/Settings
+9363211 Allow extended/"L" back swipe to trigger actions/app/activities [2/2] [ezio84]
+855d641 Gestures: allow to set back swipe deadzone [2/2] [ezio84]
+
+* packages/resources/devicesettings
+90a6d5e Turn devicesettings resources into a static library [Pig]
+
+* vendor/candy
+8ee5485 vendor: Rework fonts [Mourya Baruah]
+
+🍬 08-May-2021 🍬
+
+* device/google/sunfish
+9a90312 sunfish: Disable Euicc when GMS and GSF are not installed [Peter Cai]
+
+* device/oneplus/hotdogb
+d1acf1a hotdogb: drop ext4 userdata support [Omkar Chandorkar]
+
+* device/oneplus/sdm845-common
+9c2f571 sdm845-common: Set Google OPA device eligibility [NoSpamDan]
+
+* device/qcom/sepolicy_vndr
+cf86a2b vendor_modprobe: allow modprobe to search debugfs [Biswajit Paul]
+1635a8f sepolicy_vndr: add policy for identity service [Gaurav Kashyap]
+0573fa1 sepolicy: Allow USB HAL to access vendor_sysfs_usb_node [Pratham Pratap]
+12583dc sepolicy: allow sensors hal to read adsrpc properties [Vivek Arugula]
+bf960c7 sepolicy_vndr: Add property to check build codename [Shrikara B]
+
+* system/sepolicy
+cd52ed4 sepolicy: allow update angine and syslog read [Marko Man]
+
+* system/vold
+2e1a21a vold: Build exfatprogs & declare support of exFAT. [Alexander Koskovich]
+
+* vendor/gapps
+e23cbd9 gapps: Update PixelSetupWizard and GoogleWallpaperPicker [NoSpamDan]
+
+🍬 07-May-2021 🍬
+
+* system/core
+4070483 Filter out QTI performance spam [DennySPB]
+3fd15da Shut up camera and wcnss debug output [faust93]
+974a395 Filter GalleryDatab* [Simao Gomes Viana]
+42d38d2 Silence spammy logs from camera blobs (AEC_PORT and mm-camera) [Sultanxda]
+969d502 init: ro.build.selinux should be 0 [Park Ju Hyung]
+be2c5e0 init: add several more keys to spoof [Park Ju Hyung]
+01dd4ea init: workaround SafetyNet check [Park Ju Hyung]
+28c50ec init: Weaken property override security for the init extension [Alex Naidis]
+
+🍬 06-May-2021 🍬
+
+* candy
+dc0d560  Merge tag 'android-11.0.0_r37 [Mourya Baruah]
+
+* frameworks/av
+b0aa433 libcameraservice: Remove restrictions for faceunlock service [jhenrique09]
+
+* frameworks/base
+a65fe1a Revert "SystemUI: Revive navbar layout tuning via sysui_nav_bar tunable" [NoSpamDan]
+649ba71 Revert "base: tuner: fix navbar layout switch and remove old cruft" [NoSpamDan]
+
+* vendor/candy
+1bda9b9 apn: Add Visible Wireless (VZW) [Alessandro Astone]
+
+🍬 05-May-2021 🍬
+
+* build/make
+1e818f8 Merge tag 'android-11.0.0_r37' of https://android.googlesource.com/platform/build into HEAD [Mourya Baruah]
+
+* device/google/sunfish
+eaf02ba add sunfish may security fingerprint [buffal0b1ll]
+0b2612a Merge tag 'android-11.0.0_r37' into HEAD [buffal0b1ll]
+
+* device/oneplus/fajita
+787abea fajita: Update to May fp [NoSpamDan]
+
+* device/oneplus/hotdogb
+cc6e9f8 hotdogb: Update to May fp [NoSpamDan]
+
+* frameworks/av
+1451c9f Merge tag 'android-11.0.0_r37' of https://android.googlesource.com/platform/frameworks/av into HEAD [Mourya Baruah]
+
+* frameworks/base
+fbaaa40 PixelPropsUtils: Update to May 2021 build fingerprint [Mourya Baruah]
+b9efc41 Merge tag 'android-11.0.0_r37' of https://android.googlesource.com/platform/frameworks/base into HEAD [Mourya Baruah]
+f124d73 config: Fix resources tag [NoSpamDan]
+
+* kernel/google/sunfish
+11428d7 Merge tag 'android-11.0.0_r0.80' into HEAD [buffal0b1ll]
+
+* packages/apps/Settings
+2b93539 Merge tag 'android-11.0.0_r37' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD [Mourya Baruah]
+
+* vendor/candy
+320b6d1 Revert "vendor: Add hide notch support [2/3]" [NoSpamDan]
+
+* vendor/google
+9b3080a Update sunfish blobs to may 2021 [buffal0b1ll]
+
