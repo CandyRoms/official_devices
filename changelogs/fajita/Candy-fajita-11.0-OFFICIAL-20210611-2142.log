@@ -1,0 +1,314 @@
+🍬🍬🍬🍬🍬🍬 CANDY 11 🍬🍬🍬🍬🍬🍬
+
+ CandyRoms Changelog for fajita
+
+🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬
+
+🍬 11-Jun-2021 🍬
+
+* device/oneplus/sdm845-common
+6a66171 sdm845-common: Move Snap overlay to overlay-candy [Erfan Abdi]
+
+* device/oneplus/sm8150-common
+d771d6f sm8150-common: Move Snap overlay to overlay-candy [Erfan Abdi]
+04be0c3 sm8150-common: overlay: Don't use openLegacy() for Snap [LuK1337]
+
+* frameworks/base
+e8c06a2 QS: Use Settings.Panel intent for Volume Tile [Joey Huab]
+c3ea4f2 SystemUI: Add tile to show volume panel [stofstik]
+dfeebff SystemUI: Allow devices to configure audio panel location [a.derendyaev]
+b6039d8 base: Allow hiding FOD on doze [1/2] [Ido Ben-Hur]
+721d639 fixup! SystemUI: Fix up right clock handling when showing heads up [Bruno Martins]
+ab9b499 SystemUI: Fix up right clock handling when showing heads up [LuK1337]
+cb948b7 sb-clock: Try to fix left ghost space when using center clock [NoSpamDan]
+f3a3759 Fix config_faceAuthOnlyOnSecurityView config [NoSpamDan]
+7216432 FODCircleView: Rework icon dimming [Hikari-no-Tenshi]
+5e34ff6 [squash]FODCircleView: Hide FOD while going to sleep and make it configurable [TheScarastic]
+4f28b19 FODCircleView: Make sure we hide when keyguard is dismissed [Ido Ben-Hur]
+e85b3a4 FODCircleView: Use a ContentObserver to check screen brightness [Ido Ben-Hur]
+7dab703 FODCircleView: Use Handler for Icon dim color filter [Hikari-no-Tenshi]
+d57bd24 SystemUI: FODCircleView: Animate the icon dim [Ido Ben-Hur]
+7023f4d FODCircleView: Bring back the background [Ido Ben-Hur]
+4b0a855 FODCircleView: Apply color filter to FOD background [Hikari-no-Tenshi]
+96e7e42 FODCircleView: Post calls of main hal functions on background thread [Hikari-no-Tenshi]
+a645f09 FODCircleView: Dim FOD icon [Serhij Kyryljan]
+8f3b988 SystemUI: Don't show FOD icon/pad keyguard if strong auth is required [Dil3mm4]
+a2e2479 FODCircleView: Fix position if cutout is hidden [jhenrique09]
+
+* packages/apps/Settings/CandyShop
+5277501 CandyShop: Allow hiding FOD on doze [2/2] [Ido Ben-Hur]
+
+* packages/apps/Snap
+a0e1297 Automatic translation import [LineageOS Builder]
+0bd28ba Snap: api2: reduce unneeded animations [Timi]
+03475e7 Snap: api2: add QR scanner mode [Timi]
+dd54a7c Snap: api2: update promode icons [Timi]
+d8d21e4 Snap: api2: use nicer icons in settings [Timi]
+6e2cef0 Snap: api2: close mode switcher on promode events [Timi]
+177d895 Snap: api2: close mode switcher on back-keypress [Timi]
+ac3f9f7 Snap: api2: correct format-setting icon [Timi]
+2761d5d Snap: use translucent control background on 16:9 [Timi]
+c84f39f Snap: notify user if HFR will not work [Timi]
+9204372 Snap: api2: use ripple on UI buttons [Timi]
+4afd44c Snap: reorganize api2 layout [Timi]
+f3e5277 Snap: Fix SD card visibility for secondary users [Arne Coucheron]
+3f2d6f5 Snap: Save SDCard photos to legacy path [Kevin F. Haggerty]
+d09fa06 Revert "Snap: Remove saving to sdcard" [Arne Coucheron]
+
+* packages/providers/MediaProvider
+bd3b38f MediaProvider: Fix insert fail while file saved in sdcard [Wang Haijun]
+
+🍬 10-Jun-2021 🍬
+
+🍬 09-Jun-2021 🍬
+
+* device/google/sunfish
+62ce544 sunfish: Allow userdebug builds [NoSpamDan]
+
+* device/oneplus/hotdogb
+af68003 hotdog: overlay: Update config_fodColor [Hikari-no-Tenshi]
+7d2bc93 hotdogb: Update FOD pos [LuK1337]
+94d737b hotdogb: set vendor.product.device [Hikari-no-Tenshi]
+d042f47 hotdogb: import oos changes over volume table [Omkar Chandorkar]
+f677b85 hotdogb: import audio_policy_volumes from fw/av [Omkar Chandorkar]
+31a6671 hotdogb: Remove unwanted brightness overlays [Rituj Beniwal]
+20c3967 hotdogb: revert config_screenBrightnessSettingMinimum [Omkar Chandorkar]
+
+* device/oneplus/sm8150-common
+1d3f126 sm8150-common: Remove USE_XML_AUDIO_POLICY_CONF [Sebastiano Barezzi]
+da6b411 sm8150-common: sensors: Move to AOSP Soong conditionals [LuK1337]
+0b74fe1 sm8150-common: fod: Move to AOSP Soong conditionals [Sebastiano Barezzi]
+
+* frameworks/native
+992f822 PowerManager.h: Define USER_ACTIVITY_FLAG values [Corinna Vinschen]
+
+🍬 08-Jun-2021 🍬
+
+🍬 07-Jun-2021 🍬
+
+* device/oneplus/sm8150-common
+e5f3d75 Revert "Revert "sm8150-common: Add Moto Dolby"" [NoSpamDan]
+34a36d4 Revert "Revert "[SQUASH]sm8150-common: remove QTI Vibrator HAL"" [NoSpamDan]
+8d35201 Revert "sm8150-common: Improve vibration effects and duration based vibration" [NoSpamDan]
+
+* frameworks/native
+015d1b6 Ensure that expected present time is in the future [Snild Dolkow]
+9fae92b SF: handle long waiting Layer sync point [KaiChieh Chuang]
+4923391 DO NOT MERGE Correct physical orientation [liyong]
+e60ac46 input: Adjust priority [Steve Kondik]
+fb7ef4b SurfaceFlingerProperties: Use proper prop scope [Luca Stefani]
+
+* packages/apps/Settings/CandyShop
+750c831 lockscreen: Reorg the categories and prefs [NoSpamDan]
+
+* vendor/oneplus
+e855b76 Revert "Revert "sm8150-common: Add Moto Dolby"" [NoSpamDan]
+1cde3d2 Revert "sm8150-common: add OpSoundTuner and Dolby" [NoSpamDan]
+
+🍬 06-Jun-2021 🍬
+
+🍬 05-Jun-2021 🍬
+
+* packages/apps/Settings
+25d34e5 Settings: Add an option for FOD in FP location overlay. [Marko Man]
+ff6acf4 FingerprintSettings: Don't listen for fingerprint if fod present [jhenrique09]
+695e3a7 Battery: Clean up temperature toggle and update [NoSpamDan]
+2cc4a1c Battery: show battery temp on power summary [DennySPB]
+0a33a31 Battery: Check mcc value to set C/F units automagically [NoSpamDan]
+dd0ed7a Battery temp: Ensure preference is updated [Alex]
+a59307c Battery stats: Display battery temperature [Alex Cruz]
+
+* packages/apps/Settings/CandyShop
+b8a7162 Revert "clock: Switch to SecureSwitchSetting for position and seconds" [NoSpamDan]
+
+🍬 04-Jun-2021 🍬
+
+* device/oneplus/hotdogb
+701d5c6 hotdogb: decommonise vibrator firmware [Omkar Chandorkar]
+5ff4ed0 hotdogb: drop prebuilt vibrator HIDL [Omkar Chandorkar]
+1644f89 hotdogb: Remove unwanted brightness overlays [Rituj Beniwal]
+
+* vendor/oneplus
+49c5b45 sm8150-common: sync with device tree [Omkar Chandorkar]
+b541016 sm8150-common: Add seccomp policy [LuK1337]
+3447e4d sm8150-common: Relocate ^(etc|framework) to system/(etc|framework) [LuK1337]
+dc74dd4 hotdogb: update from OnePlus7TOxygen_14.I.27_OTA_0270_all_2105200102 [Omkar Chandorkar]
+33960c0 {guacamole, hotdogb}: build vibrator service from source [Omkar Chandorkar]
+2aa7630 sm8150-common: Remove stray soc-specific parameter [NoSpamDan]
+fab41f5a sm8150-common: add OpSoundTuner and Dolby [Omkar Chandorkar]
+d63b144 Revert "sm8150-common: Add Moto Dolby" [NoSpamDan]
+1254453 sm8150-common: drop secure_element prebuilt [Omkar Chandorkar]
+5a5056f sm8150-common: update to LA.UM.9.1.r1-09600-SMxxx0.0 [Omkar Chandorkar]
+a6cb735 sm8150-common: update to OnePlus7ProOxygen_21.P.37_OTA_0370_all_2105200027 [Omkar Chandorkar]
+
+🍬 03-Jun-2021 🍬
+
+🍬 02-Jun-2021 🍬
+
+* device/oneplus/hotdogb
+e93acf2 Revert "hotdogb: overlay: set custom FOD pressed icon" [NoSpamDan]
+
+🍬 01-Jun-2021 🍬
+
+* device/oneplus/common
+9e7c6b2 common: move vendor.oneplus.cameraHIDL to vendor.oneplus.hardware.camera [Hikari-no-Tenshi]
+a455ca4 common: interfaces: Regenerate makefiles [LuK1337]
+
+* device/oneplus/hotdogb
+fd083bc hotdogb: Move and update FOD view color [NoSpamDan]
+9663a78 hotdogb: rootdir: enable fbev2 [Omkar Chandorkar]
+44bf7e6 hotdogb: add dolby config [Omkar Chandorkar]
+bdcd7e9 hotdogb: update from OnePlus7TOxygen_14.I.27_OTA_0270_all_2105200102 [Omkar Chandorkar]
+4545d40 hotdogb: Set default Settings.Global.DEVICE_NAME according to OOS [LuK1337]
+422e149 hotdogb: update aapt configs for our dpi [Omkar Chandorkar]
+18afc72 hotdogb: sync overlays with lineageos [LuK1337]
+83b5113 hotdogb: overlay: Use single rounded corner drawable [LuK1337]
+6081ca0 hotdogb: audio: fix inivisble chars in xml header [Omkar Chandorkar]
+f2f4c3c hotdogb: build vibrator service from source [Omkar Chandorkar]
+8cbdbf1 hotdogb: decommonise camera blob [Omkar Chandorkar]
+a9c326e Revert "hotdogb: remove prebuilt oneplus vib hal" [Omkar Chandorkar]
+
+* device/oneplus/sm8150-common
+ba2b4e0 sm8150-common: enable TARGET_HAS_NO_CAMERA_SMOOTH_APIS [Omkar Chandorkar]
+d77b502 sm8150-common: drop secure_element [Omkar Chandorkar]
+b99bcae sm8150-common: sensors: Apply ALS correction to the RAW sensor value [Rituj Beniwal]
+3634cc4 Revert "sm8150-common: Add Moto Dolby" [NoSpamDan]
+
+* frameworks/native
+e37b881 [cleanup] Fix a clang-tidy warning [Yurii Zubrytskyi]
+d95e0af SurfaceFlingerProperties: Use proper prop scope [Luca Stefani]
+
+* system/sepolicy
+394df2d [master] init/ueventd and system_server no longer need access to /dev/hw_random. [Elliott Hughes]
+
+* vendor/oneplus
+1799e2d sm8150-common: update camera blobs [Omkar Chandorkar]
+971bdb3 sm8150-comon: update more blobs to LA.UM.9.1.r1-09200-SMxxx0.0 [Omkar Chandorkar]
+0afddf2 sm8150-common: sync with device tree [Omkar Chandorkar]
+ec6e312 sm8150-common: update to LA.UM.9.1.r1-09200-SMxxx0.0 [Omkar Chandorkar]
+cdc3286 sm8150-common: remove duplicate blob [Omkar Chandorkar]
+972637f sm8150-common: decommonise camera blob [Omkar Chandorkar]
+5d17c80 {guacamole, hotdogb}: add back OnePlus Vibrator HAL [Omkar Chandorkar]
+bab1bb4 sdm845-common: Strip out StatsLog uses from NxpSecureElement.apk [LuK1337]
+
+🍬 31-May-2021 🍬
+
+* device/oneplus/sdm845-common
+0663465 sdm845-common: Pocketmode: Move from LOS to private platform [NoSpamDan]
+0ca9de2 sdm845-common: Import pocketmode app and SELinux rules for it [LuK1337]
+40dd7be sdm845-common: Allow system_app to getattr on sysfs_fpc_proximity [LuK1337]
+7efd259 sdm845-common: Strip out StatsLog uses from NxpSecureElement.apk [LuK1337]
+3a11a84 sdm845-common: libcvface_api: Return non-null handle during tracker creation [LuK1337]
+52637bd sdm845-common: Stub out vendor TelephonyResCommon overlay [LuK1337]
+16048a6 sdm845-common: Restrict aux cameras only to OnePlus Camera [jabashque]
+160224f sdm845-common: doze: Introduce raise to wake gesture [Nauval Rizky]
+855bf00 sdm845-common: doze: Add vector icons [arian]
+2609cef sdm845-common: Set vendor prop for RF version [LuK1337]
+064ac4b sdm845-common: Force disable updatable apexes when override flag is set [LuK1337]
+86a260c sdm845-common: sepolicy: Allow init to setattr sysfs_fod [LuK1337]
+
+* device/oneplus/sm8150-common
+255682d sm8150-common: Update and expand screen-off gestures [Dan Cartier]
+d0dca67 sm8150-common: Update FP location overlay [NoSpamDan]
+
+* kernel/oneplus/sm8150
+e8a6d60 input: oneplus_touchscreen: Allow more touch screen gestures [Dan Cartier]
+
+🍬 30-May-2021 🍬
+
+* device/google/sunfish
+8a35b6e sunfish: Fix formatting in dependencies [NoSpamDan]
+
+* device/oneplus/fajita
+521970b fajita: Update FP location and rename overlay [NoSpamDan]
+
+* kernel/oneplus/sm8150
+1e86561 Revert "drm: allow dc dimming code to run" [Dan Cartier]
+
+🍬 29-May-2021 🍬
+
+* device/oneplus/sm8150-common
+d7616e1 sm8150-common: Improve vibration effects and duration based vibration [Rituj Beniwal]
+a952ed6 Revert "[SQUASH]sm8150-common: remove QTI Vibrator HAL" [Omkar Chandorkar]
+82ad53e Revert "sm8150-common: Tone down CamX and CHIUSECASE logging" [Omkar Chandorkar]
+364a98f sm8150-common: relocate camera prop [Omkar Chandorkar]
+c2e4774 sm8150-common: update to LA.UM.9.1.r1-09600-SMxxx0.0 [Omkar Chandorkar]
+4f06bbc sm8150-common: remove system_properties.xml [Omkar Chandorkar]
+0ef45a3 sm8150-common: update to OnePlus7ProOxygen_21.P.37_OTA_0370_all_2105200027 [Omkar Chandorkar]
+8fec973 [RE-APPLY]sm8150-common: audio: Set proper interface for voice-handset-tmus [LuK1337]
+b31c2e6 sm8150-common: cleanup rootdir scripts [Omkar Chandorkar]
+8130768 sm8150-common: remove 32bit thermal blob [Omkar Chandorkar]
+50c4511 sm8150-common: sepolicy: allow camera to read /dev/adsprpc-smd-secure [Omkar Chandorkar]
+6736b87 sm8150-common: drop prebuilt servicetracker and perf libs [Omkar Chandorkar]
+72a188f sm8150-common: libinit: update model detection [OneNormalUsername]
+a77889d sm8150-common: update camera blobs [Hikari-no-Tenshi]
+60c0f1c sm8150-common: doze: Add drawable icon for AOD [Akash]
+0c00ccf sm8150-common: Only include bitness of hal impls that is used. [Omkar Chandorkar]
+9e6f19b sm8150-common: DeviceSettings: TouchGestures: Add wake device action [Anushek Prasal]
+f633847 sm8150-common: overlay: Don't check proximity sensor before pulsing [Bruno Martins]
+d62f2df sm8150-common: doze: Introduce raise to wake gesture [Nauval Rizky]
+311d6be sm8150-common: sync media props with CAF [Omkar Chandorkar]
+0df354e sm8150-common: sepolicy: cleanup contexts [Omkar Chandorkar]
+90ff7f5 sm8150-common: Add kpti=off to boot command line [Rahul Shahare]
+6f21d04 sm8150-common: doze: reset back to LOS Doze [Omkar Chandorkar]
+c91c735 sm8150-common: cleanup NFC prop and service [Omkar Chandorkar]
+f059c48 sm8150-common: Remove virtual framebuffer. [Alexander Koskovich]
+29994e3 sm8150-common: Simplify AVB flag logic [Nolen Johnson]
+c1f1173 sm8150-comon: update more blobs to LA.UM.9.1.r1-09200-SMxxx0.0 [Omkar Chandorkar]
+b721e67 Revert "sm8150-common: enable WiFi Aware and RTT" [Omkar Chandorkar]
+8a53f52 sm8150-common: configs: Enable Stereo channel support for voip over audio path [Lakshman Chaluvaraju]
+e4a5808 sm8150-common: enable WiFi Aware and RTT [Omkar Chandorkar]
+62f0172 sm8150-common: add & build missing packages [Omkar Chandorkar]
+36dcea3 sm8150-common: audio: Add hotword input for hotword mic concurrency [Jasmine Cha]
+277ec74 sm8150-common: libinit: set vendor props for rf and prj version [Hikari-no-Tenshi]
+3567c39 Revert "sm8150-common: oneplus-fwk: add mock impl of net.oneplus.odm.OpDeviceManagerInjector" [Omkar Chandorkar]
+a908e34 sm8150-common: Set vendor.boot.rf_version=${ro.boot.rf_version} too [LuK1337]
+851936b sm8150-common: Set vendor props for RF and PRJ version [LuK1337]
+c942978 sm8150-common: doze: Fix pickup status for raise to wake [AnierinB]
+1361756 sm8150-common: doze: Tint icons with accent color [AshutoshSundresh]
+9d93b01 sm8150-common: doze: Add drawable icons to doze menus! [Akash]
+777699d sm8150-common: doze: Introduce raise to wake gesture [Nauval Rizky]
+398e518 Revert "sm8150-common: doze: Kill pocket sensor" [Omkar Chandorkar]
+63852c7 Revert "sm8150-common: doze: Add vector icons" [Omkar Chandorkar]
+3db3055 sm8150-common: Cleanup {oemdump, memplus, fsc} stuff [alk3pInjection]
+4be20e5 sm8150-common: wifi: disable firmware log [Park Ju Hyung]
+f7558ff sm8150-common: overlay: set doze auto brightness scale to 80% [John Galt]
+e4c4635 sm8150-common: libinit: update to may coral fp [Omkar Chandorkar]
+ca3503e sm8150-common: overlay: Enable STATE_DOZE_SUSPEND [Arian]
+5f79b96 Revert "sm8150-common: overlay: remove powerDecouple* overlays" [Omkar Chandorkar]
+9583c66 sm8150-common: Tone down CamX and CHIUSECASE logging [trpsl]
+ed52b11 sm8150-common: Always report max cpu freq to unity tasks. [Jimmy Shiu]
+53440ce sm8150-common: fod: rewrite set/restore colour mode [Omkar Chandorkar]
+0f66cb1 sm8150-common: fod: Restore color mode only when fod view was previously shown [Hikari-no-Tenshi]
+e73952a sm8150-common: fod: set/restore colour modes [Marko Man]
+d46e6a5 sm8150-common: add customer display modes [Omkar Chandorkar]
+cd44020 sm8150-common: drop disable_backpressure prop [Omkar Chandorkar]
+20e3b0d sm8150-common: Relocate camera props to vendor.prop [LuK1337]
+25fc772 sm8150-common: update to LA.UM.9.1.r1-09200-SMxxx0.0 [Omkar Chandorkar]
+d3ff659 sm8150-common: switch to OOS volume steps [Omkar Chandorkar]
+450b2ec sm8150-common: overlay: reset CarrierConfig to OOS11 [Omkar Chandorkar]
+fa8fca4 sm8150-common: pin NxpNfcNci to OOS11 [Omkar Chandorkar]
+c858dad sm8150-common: Fix 60000ms offset usage in PowerOffAlarm [luk 1337]
+44c918c sm8150-common: Remove libchrome from PRODUCT_PACKAGES [LuK1337]
+b05070e sm8150-common: Remove fs_config_files from PRODUCT_PACKAGES [LuK1337]
+9200b28 sm8150-common: Kill deprecated/unneeded board flags [Nolen Johnson]
+3880821 sm8150-common: Remove unused power HAL related board config flags [LuK1337]
+b94e559 sm8150-common: Remove unnecessary GPS board config flags [LuK1337]
+98581e1 sm8150-common: Remove flag not applicable to the target devices [Bruno Martins]
+e0b2cf7 sm8150-common: Kill deprecated TARGET_USES_MKE2FS [Nolen Johnson]
+2408b23 sm8150-common: Kill deprecated TARGET_RIL_VARIANT [Nolen Johnson]
+77ca68d KeyHandler: Change priority only slider vib effect to pop [Ido Ben-Hur]
+0221b79 sm8150-common: decommonise camera blob [Omkar Chandorkar]
+aeab2fe sm8150-common: remove duplicate blob [Omkar Chandorkar]
+682cf6f [SQUASH]sm8150-common: remove QTI Vibrator HAL [Omkar Chandorkar]
+1d5a760 sm8150-common: vibrator: update effects from Q vibrator HAL [Omkar Chandorkar]
+f2fae66 sm8150-common: Set gain of vibrator to 0x55 on boot [Alexander Koskovich]
+c1be72b sm8150-common: TouchKeyHandler: use HEAVY_CLICK [Omkar Chandorkar]
+e588785 sm8150-common: touch: Restore proper gesture actions [Anirudh Gupta]
+ffaaa43 sm8150-common: Update blobs from OOS 11.0.1.1 [LuK1337]
+f203350 sm8150-common: remove unnecessary trailing \ [Omkar Chandorkar]
+63d5579 sm8150-common: fod: Return touched z-order only [Art_Chen]
+
+* packages/resources/devicesettings
+d4cb8f0 devicesettings: Add strings for "Disabled" + wake on pick-up [LuK1337]
+
