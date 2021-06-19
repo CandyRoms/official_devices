@@ -1,0 +1,310 @@
+🍬🍬🍬🍬🍬🍬 CANDY 11 🍬🍬🍬🍬🍬🍬
+
+ CandyRoms Changelog for fajita
+
+🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬
+
+🍬 19-Jun-2021 🍬
+
+* device/google/sunfish
+8ca5814 update to june fingerprint RQ3A.210605.005/7349499 [buffal0b1ll]
+4917501 Merge tag android-11.0.0_r38 [buffal0b1ll]
+
+* device/oneplus/sm8150-common
+f4881f8 sm8150-common: Set disable mask layer hint for FOD [NoSpamDan]
+
+* device/qcom/sepolicy
+d0bb491 Merge tag 'LA.QSSI.11.0.r1-12300-qssi.0' of https://source.codeaurora.org/quic/la/device/qcom/sepolicy into HEAD [Bruno Martins]
+
+* frameworks/base
+2b3782d Add broadcast profile id [pramod kotreshappa]
+a49ad04 Bluetooth: Add BC profile entry [Bhakthavatsala Raghavendra]
+86c15c8 Enhanced Attribute protocol support [Subramanian Srinivasan]
+8c68128 Periodic Advertisment Sync Transfer feature support [pramod kotreshappa]
+
+* kernel/google/sunfish
+e5942de -11.0.0_r0.85' into HEAD [buffal0b1ll]
+
+* system/core
+aab935b Add exfat utilities for mkfs and fsck [Daniel Rosenberg]
+
+* vendor/google
+30a7bb0 sunfish: Squashed update for June blobs [buffal0b1ll]
+
+🍬 18-Jun-2021 🍬
+
+🍬 17-Jun-2021 🍬
+
+🍬 16-Jun-2021 🍬
+
+* build/make
+5f15d54 Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/build into c11 [NoSpamDan]
+
+* frameworks/av
+5e5525d Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/frameworks/av into c11 [NoSpamDan]
+
+* frameworks/base
+c764d7c PixelPropsUtils: Update to June 2021 Redfin fingerprint [NoSpamDan]
+fb8cbe5 Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/frameworks/base into c11 [NoSpamDan]
+
+* packages/providers/MediaProvider
+fbfced5 Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/packages/providers/MediaProvider into HEAD [NoSpamDan]
+
+* system/sepolicy
+6d200a6 Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/system/sepolicy into c11 [NoSpamDan]
+
+* vendor/qcom/opensource/commonsys/packages/apps/Bluetooth
+f877649 Merge tag 'LA.QSSI.11.0.r1-12300-qssi.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/packages/apps/Bluetooth into HEAD [Bruno Martins]
+
+* vendor/qcom/opensource/commonsys/system/bt
+e366ce9 Merge tag 'LA.QSSI.11.0.r1-12300-qssi.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/system/bt into HEAD [Bruno Martins]
+
+🍬 15-Jun-2021 🍬
+
+* art
+14de3f5 Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/art into c11 [NoSpamDan]
+
+* bootable/recovery
+dfd535d Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/bootable/recovery into c11 [NoSpamDan]
+
+* build/soong
+86e5230 Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/build/soong into c11 [NoSpamDan]
+
+* frameworks/native
+5b9044e Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/frameworks/native into c11 [NoSpamDan]
+
+* frameworks/opt/net/ims
+f94cae4 Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/frameworks/opt/net/ims into HEAD [NoSpamDan]
+
+* frameworks/opt/net/wifi
+3893ec8 Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/frameworks/opt/net/wifi into c11 [NoSpamDan]
+
+* frameworks/opt/telephony
+cf2148d Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/frameworks/opt/telephony into c11 [NoSpamDan]
+
+* hardware/google/pixel-sepolicy
+6fff978 Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/hardware/google/pixel-sepolicy into HEAD [NoSpamDan]
+
+* hardware/interfaces
+8f04c73 Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/hardware/interfaces into c11 [NoSpamDan]
+
+* packages/apps/Bluetooth
+3a866bd Support for broadcast active api [pramod kotreshappa]
+d67a39d PAST feature implementation [pramod kotreshappa]
+3972050 Enhanced Attribute protocol support [Subramanian Srinivasan]
+ff2243d DeviceGroup: Add Binder method in Bluetooth App [Sravan voleti]
+3d07b05 Periodic Sync Feature implementation [pramod kotreshappa]
+
+* packages/apps/Contacts
+e2c09a4 Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/packages/apps/Contacts into c11 [NoSpamDan]
+
+* packages/apps/Launcher3
+9aa69ae Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/packages/apps/Launcher3 into c11 [NoSpamDan]
+
+* packages/apps/PhoneCommon
+0a955af Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/packages/apps/PhoneCommon into HEAD [NoSpamDan]
+
+* packages/apps/Settings
+5aeea10 Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/packages/apps/Settings into c11 [NoSpamDan]
+
+* packages/apps/ThemePicker
+bac12d3 Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/packages/apps/ThemePicker into c11 [NoSpamDan]
+
+* packages/providers/TelephonyProvider
+b128621 Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/packages/providers/TelephonyProvider into HEAD [NoSpamDan]
+
+* packages/services/Telecomm
+c26b332 Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/packages/services/Telecomm into c11 [NoSpamDan]
+
+* packages/services/Telephony
+d170c61 Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/packages/services/Telephony into c11 [NoSpamDan]
+
+* platform_testing
+2a9dc1d Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/platform_testing into c11 [NoSpamDan]
+
+* system/bt
+be66f8c Add broadcast active api [pramod kotreshappa]
+931e8a7 BLE Broadcast Isochronous channel support [Sunny Kapdi]
+72c7dba DeviceGroup: Add new system API's to support Group UI. [Sravan voleti]
+3d25f6a Enhanced Attribute protocol support [Subramanian Srinivasan]
+b3af820 Periodic Adv Sync Transfer feature support [pramod kotreshappa]
+
+* system/netd
+1949d12 Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/system/netd into c11 [NoSpamDan]
+
+* system/update_engine
+f034a1c Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/system/update_engine into c11 [NoSpamDan]
+
+* vendor/qcom/opensource/commonsys-intf/bluetooth
+d7d16e5 Merge tag 'LA.QSSI.11.0.r1-12300-qssi.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/bluetooth-commonsys-intf into HEAD [Bruno Martins]
+
+* vendor/qcom/opensource/commonsys-intf/display
+244be5c Merge tag 'LA.QSSI.11.0.r1-12300-qssi.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/display-commonsys-intf into HEAD [Bruno Martins]
+
+* vendor/qcom/opensource/commonsys/bluetooth_ext
+7a9e33e Merge tag 'LA.QSSI.11.0.r1-12300-qssi.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/bluetooth_ext into HEAD [Bruno Martins]
+
+* vendor/qcom/opensource/commonsys/packages/apps/Bluetooth
+871f440 Don't print passkey to logcat on non-debug builds [Jakub Pawlowski]
+
+* vendor/qcom/opensource/fm-commonsys
+26ca589 Merge tag 'LA.QSSI.11.0.r1-12300-qssi.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/fm-commonsys into HEAD [Bruno Martins]
+
+* vendor/qcom/opensource/vibrator
+0ba562c Merge tag 'LA.UM.9.12.r1-11500-SMxx50.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/vibrator into HEAD [Bruno Martins]
+
+🍬 14-Jun-2021 🍬
+
+* candy
+86e6a92 candy: Track our own Dialer [NoSpamDan]
+0501305 candy: Track our own MediaProvider [NoSpamDan]
+
+* device/oneplus/hotdogb
+3307b17 hotdogb: Set FOD pressed color to #edf3f0 [NoSpamDan]
+
+* frameworks/base
+8f53f0a QS: Use Settings.Panel intent for Volume Tile [Joey Huab]
+eebf2cd SystemUI: Add tile to show volume panel [stofstik]
+0144357 SystemUI: Allow devices to configure audio panel location [a.derendyaev]
+55ad6b6 base: Allow hiding FOD on doze [1/2] [Ido Ben-Hur]
+7246670 fixup! SystemUI: Fix up right clock handling when showing heads up [Bruno Martins]
+69160fa SystemUI: Fix up right clock handling when showing heads up [LuK1337]
+040df6b sb-clock: Try to fix left ghost space when using center clock [NoSpamDan]
+b1506b3 Fix config_faceAuthOnlyOnSecurityView config [NoSpamDan]
+51e01e7 FODCircleView: Rework icon dimming [Hikari-no-Tenshi]
+bf899ae [squash]FODCircleView: Hide FOD while going to sleep and make it configurable [TheScarastic]
+e0c7a8c FODCircleView: Make sure we hide when keyguard is dismissed [Ido Ben-Hur]
+5b2daa5 FODCircleView: Use a ContentObserver to check screen brightness [Ido Ben-Hur]
+9c1a479 FODCircleView: Use Handler for Icon dim color filter [Hikari-no-Tenshi]
+993adf3 SystemUI: FODCircleView: Animate the icon dim [Ido Ben-Hur]
+
+🍬 13-Jun-2021 🍬
+
+* device/oneplus/hotdogb
+bd03917 hotdogb: build vibrator service from source [Omkar Chandorkar]
+ce2a60b Revert "hotdogb: remove prebuilt oneplus vib hal" [NoSpamDan]
+
+🍬 12-Jun-2021 🍬
+
+* device/oneplus/sdm845-common
+6a66171 sdm845-common: Move Snap overlay to overlay-candy [Erfan Abdi]
+
+* device/oneplus/sm8150-common
+08db885 Revert "overlay: enable InKernelDimming" [Omkar Chandorkar]
+d771d6f sm8150-common: Move Snap overlay to overlay-candy [Erfan Abdi]
+04be0c3 sm8150-common: overlay: Don't use openLegacy() for Snap [LuK1337]
+
+* packages/apps/Settings/CandyShop
+5277501 CandyShop: Allow hiding FOD on doze [2/2] [Ido Ben-Hur]
+
+* packages/apps/Snap
+a0e1297 Automatic translation import [LineageOS Builder]
+0bd28ba Snap: api2: reduce unneeded animations [Timi]
+03475e7 Snap: api2: add QR scanner mode [Timi]
+dd54a7c Snap: api2: update promode icons [Timi]
+d8d21e4 Snap: api2: use nicer icons in settings [Timi]
+6e2cef0 Snap: api2: close mode switcher on promode events [Timi]
+177d895 Snap: api2: close mode switcher on back-keypress [Timi]
+ac3f9f7 Snap: api2: correct format-setting icon [Timi]
+2761d5d Snap: use translucent control background on 16:9 [Timi]
+c84f39f Snap: notify user if HFR will not work [Timi]
+9204372 Snap: api2: use ripple on UI buttons [Timi]
+4afd44c Snap: reorganize api2 layout [Timi]
+f3e5277 Snap: Fix SD card visibility for secondary users [Arne Coucheron]
+3f2d6f5 Snap: Save SDCard photos to legacy path [Kevin F. Haggerty]
+d09fa06 Revert "Snap: Remove saving to sdcard" [Arne Coucheron]
+
+* packages/providers/MediaProvider
+bd3b38f MediaProvider: Fix insert fail while file saved in sdcard [Wang Haijun]
+
+🍬 11-Jun-2021 🍬
+
+* frameworks/base
+7023f4d FODCircleView: Bring back the background [Ido Ben-Hur]
+4b0a855 FODCircleView: Apply color filter to FOD background [Hikari-no-Tenshi]
+96e7e42 FODCircleView: Post calls of main hal functions on background thread [Hikari-no-Tenshi]
+a645f09 FODCircleView: Dim FOD icon [Serhij Kyryljan]
+8f3b988 SystemUI: Don't show FOD icon/pad keyguard if strong auth is required [Dil3mm4]
+a2e2479 FODCircleView: Fix position if cutout is hidden [jhenrique09]
+
+🍬 10-Jun-2021 🍬
+
+* device/oneplus/hotdogb
+7d2bc93 hotdogb: Update FOD pos [LuK1337]
+94d737b hotdogb: set vendor.product.device [Hikari-no-Tenshi]
+d042f47 hotdogb: import oos changes over volume table [Omkar Chandorkar]
+f677b85 hotdogb: import audio_policy_volumes from fw/av [Omkar Chandorkar]
+31a6671 hotdogb: Remove unwanted brightness overlays [Rituj Beniwal]
+20c3967 hotdogb: revert config_screenBrightnessSettingMinimum [Omkar Chandorkar]
+
+🍬 09-Jun-2021 🍬
+
+* device/oneplus/sm8150-common
+1d3f126 sm8150-common: Remove USE_XML_AUDIO_POLICY_CONF [Sebastiano Barezzi]
+da6b411 sm8150-common: sensors: Move to AOSP Soong conditionals [LuK1337]
+0b74fe1 sm8150-common: fod: Move to AOSP Soong conditionals [Sebastiano Barezzi]
+
+* external/perfetto
+37e4120 Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38 [Kevin F. Haggerty]
+
+* frameworks/native
+992f822 PowerManager.h: Define USER_ACTIVITY_FLAG values [Corinna Vinschen]
+
+* packages/apps/Bluetooth
+ec6d0c6 Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38 [Kevin F. Haggerty]
+
+* packages/apps/Nfc
+bf15d03 Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38 [Kevin F. Haggerty]
+
+* system/bt
+ab6648a Merge tag 'android-11.0.0_r38' into staging/lineage-18.1_merge-android-11.0.0_r38 [Kevin F. Haggerty]
+
+* vendor/nxp/opensource/pn5xx/halimpl
+c321f4d An info leak vuln caused by OOB read of nxp nfc hal library [Alisher Alikhodjaev]
+09da474 An integer underflow vuln of nxp nfc hal library [Alisher Alikhodjaev]
+9014967 Multiple vulnerabilities in phNxpNciHal_print_res_status [Alisher Alikhodjaev]
+
+* vendor/qcom/opensource/commonsys/system/bt
+b22df1a Merge 4cbad7db752e2afab165106ef8b73c200de955eb on remote branch [Linux Build Service Account]
+4565c1a RESTRICT AUTOMERGE Contain avrc_ctrl_pars_vendor_cmd OOB write [Chris Manton]
+
+🍬 08-Jun-2021 🍬
+
+* packages/apps/Settings/CandyShop
+750c831 lockscreen: Reorg the categories and prefs [NoSpamDan]
+
+🍬 07-Jun-2021 🍬
+
+* device/oneplus/sm8150-common
+e5f3d75 Revert "Revert "sm8150-common: Add Moto Dolby"" [NoSpamDan]
+34a36d4 Revert "Revert "[SQUASH]sm8150-common: remove QTI Vibrator HAL"" [NoSpamDan]
+8d35201 Revert "sm8150-common: Improve vibration effects and duration based vibration" [NoSpamDan]
+
+* external/exfatprogs
+1d003c3 Merge branch 'master' of github.com:exfatprogs/exfatprogs into HEAD [Luca Stefani]
+
+* frameworks/native
+015d1b6 Ensure that expected present time is in the future [Snild Dolkow]
+9fae92b SF: handle long waiting Layer sync point [KaiChieh Chuang]
+4923391 DO NOT MERGE Correct physical orientation [liyong]
+e60ac46 input: Adjust priority [Steve Kondik]
+fb7ef4b SurfaceFlingerProperties: Use proper prop scope [Luca Stefani]
+
+* vendor/oneplus
+e855b76 Revert "Revert "sm8150-common: Add Moto Dolby"" [NoSpamDan]
+1cde3d2 Revert "sm8150-common: add OpSoundTuner and Dolby" [NoSpamDan]
+
+🍬 06-Jun-2021 🍬
+
+* packages/apps/Settings
+25d34e5 Settings: Add an option for FOD in FP location overlay. [Marko Man]
+ff6acf4 FingerprintSettings: Don't listen for fingerprint if fod present [jhenrique09]
+695e3a7 Battery: Clean up temperature toggle and update [NoSpamDan]
+2cc4a1c Battery: show battery temp on power summary [DennySPB]
+0a33a31 Battery: Check mcc value to set C/F units automagically [NoSpamDan]
+dd0ed7a Battery temp: Ensure preference is updated [Alex]
+a59307c Battery stats: Display battery temperature [Alex Cruz]
+
+* packages/apps/Settings/CandyShop
+b8a7162 Revert "clock: Switch to SecureSwitchSetting for position and seconds" [NoSpamDan]
+
