@@ -1,0 +1,222 @@
+🍬🍬🍬🍬🍬🍬 CANDY 11 🍬🍬🍬🍬🍬🍬
+
+ CandyRoms Changelog for violet
+
+🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬
+
+🍬 24-Jun-2021 🍬
+
+* device/xiaomi/violet
+660dc61 violet: overlay: Sync color modes with sunfish [Adithya R]
+
+🍬 23-Jun-2021 🍬
+
+🍬 22-Jun-2021 🍬
+
+🍬 21-Jun-2021 🍬
+
+🍬 20-Jun-2021 🍬
+
+* system/core
+af55c80 Add exfat utilities for mkfs and fsck [Daniel Rosenberg]
+
+🍬 19-Jun-2021 🍬
+
+* device/qcom/sepolicy
+d0bb491 Merge tag 'LA.QSSI.11.0.r1-12300-qssi.0' of https://source.codeaurora.org/quic/la/device/qcom/sepolicy into HEAD [Bruno Martins]
+
+* frameworks/base
+2b3782d Add broadcast profile id [pramod kotreshappa]
+a49ad04 Bluetooth: Add BC profile entry [Bhakthavatsala Raghavendra]
+86c15c8 Enhanced Attribute protocol support [Subramanian Srinivasan]
+8c68128 Periodic Advertisment Sync Transfer feature support [pramod kotreshappa]
+
+* system/core
+dca18fc Squashed import of adb root patches [LuK1337]
+
+🍬 18-Jun-2021 🍬
+
+🍬 17-Jun-2021 🍬
+
+* frameworks/base
+c764d7c PixelPropsUtils: Update to June 2021 Redfin fingerprint [NoSpamDan]
+fb8cbe5 Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/frameworks/base into c11 [NoSpamDan]
+
+🍬 16-Jun-2021 🍬
+
+* build/make
+5f15d54 Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/build into c11 [NoSpamDan]
+
+* frameworks/av
+5e5525d Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/frameworks/av into c11 [NoSpamDan]
+
+* packages/providers/MediaProvider
+fbfced5 Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/packages/providers/MediaProvider into HEAD [NoSpamDan]
+
+* system/sepolicy
+6d200a6 Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/system/sepolicy into c11 [NoSpamDan]
+
+* vendor/qcom/opensource/commonsys/packages/apps/Bluetooth
+f877649 Merge tag 'LA.QSSI.11.0.r1-12300-qssi.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/packages/apps/Bluetooth into HEAD [Bruno Martins]
+
+* vendor/qcom/opensource/commonsys/system/bt
+e366ce9 Merge tag 'LA.QSSI.11.0.r1-12300-qssi.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/system/bt into HEAD [Bruno Martins]
+
+🍬 15-Jun-2021 🍬
+
+* art
+14de3f5 Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/art into c11 [NoSpamDan]
+
+* bootable/recovery
+dfd535d Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/bootable/recovery into c11 [NoSpamDan]
+
+* build/soong
+86e5230 Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/build/soong into c11 [NoSpamDan]
+
+* frameworks/native
+5b9044e Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/frameworks/native into c11 [NoSpamDan]
+
+* frameworks/opt/net/ims
+f94cae4 Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/frameworks/opt/net/ims into HEAD [NoSpamDan]
+
+* frameworks/opt/net/wifi
+3893ec8 Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/frameworks/opt/net/wifi into c11 [NoSpamDan]
+
+* frameworks/opt/telephony
+cf2148d Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/frameworks/opt/telephony into c11 [NoSpamDan]
+
+* hardware/google/pixel-sepolicy
+6fff978 Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/hardware/google/pixel-sepolicy into HEAD [NoSpamDan]
+
+* hardware/interfaces
+8f04c73 Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/hardware/interfaces into c11 [NoSpamDan]
+
+* packages/apps/Bluetooth
+3a866bd Support for broadcast active api [pramod kotreshappa]
+d67a39d PAST feature implementation [pramod kotreshappa]
+3972050 Enhanced Attribute protocol support [Subramanian Srinivasan]
+ff2243d DeviceGroup: Add Binder method in Bluetooth App [Sravan voleti]
+3d07b05 Periodic Sync Feature implementation [pramod kotreshappa]
+
+* packages/apps/Contacts
+e2c09a4 Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/packages/apps/Contacts into c11 [NoSpamDan]
+
+* packages/apps/Launcher3
+9aa69ae Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/packages/apps/Launcher3 into c11 [NoSpamDan]
+
+* packages/apps/PhoneCommon
+0a955af Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/packages/apps/PhoneCommon into HEAD [NoSpamDan]
+
+* packages/apps/Settings
+5aeea10 Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/packages/apps/Settings into c11 [NoSpamDan]
+
+* packages/apps/ThemePicker
+bac12d3 Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/packages/apps/ThemePicker into c11 [NoSpamDan]
+
+* packages/providers/TelephonyProvider
+b128621 Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/packages/providers/TelephonyProvider into HEAD [NoSpamDan]
+
+* packages/services/Telecomm
+c26b332 Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/packages/services/Telecomm into c11 [NoSpamDan]
+
+* packages/services/Telephony
+d170c61 Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/packages/services/Telephony into c11 [NoSpamDan]
+
+* platform_testing
+2a9dc1d Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/platform_testing into c11 [NoSpamDan]
+
+* system/bt
+be66f8c Add broadcast active api [pramod kotreshappa]
+931e8a7 BLE Broadcast Isochronous channel support [Sunny Kapdi]
+72c7dba DeviceGroup: Add new system API's to support Group UI. [Sravan voleti]
+3d25f6a Enhanced Attribute protocol support [Subramanian Srinivasan]
+b3af820 Periodic Adv Sync Transfer feature support [pramod kotreshappa]
+
+* system/netd
+1949d12 Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/system/netd into c11 [NoSpamDan]
+
+* system/update_engine
+f034a1c Merge tag 'android-11.0.0_r38' of https://android.googlesource.com/platform/system/update_engine into c11 [NoSpamDan]
+
+* vendor/qcom/opensource/commonsys-intf/bluetooth
+d7d16e5 Merge tag 'LA.QSSI.11.0.r1-12300-qssi.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/bluetooth-commonsys-intf into HEAD [Bruno Martins]
+
+* vendor/qcom/opensource/commonsys-intf/display
+244be5c Merge tag 'LA.QSSI.11.0.r1-12300-qssi.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/display-commonsys-intf into HEAD [Bruno Martins]
+
+* vendor/qcom/opensource/commonsys/bluetooth_ext
+7a9e33e Merge tag 'LA.QSSI.11.0.r1-12300-qssi.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/bluetooth_ext into HEAD [Bruno Martins]
+
+* vendor/qcom/opensource/commonsys/packages/apps/Bluetooth
+871f440 Don't print passkey to logcat on non-debug builds [Jakub Pawlowski]
+
+* vendor/qcom/opensource/fm-commonsys
+26ca589 Merge tag 'LA.QSSI.11.0.r1-12300-qssi.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/fm-commonsys into HEAD [Bruno Martins]
+
+* vendor/qcom/opensource/vibrator
+0ba562c Merge tag 'LA.UM.9.12.r1-11500-SMxx50.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/vibrator into HEAD [Bruno Martins]
+
+🍬 14-Jun-2021 🍬
+
+* candy
+86e6a92 candy: Track our own Dialer [NoSpamDan]
+0501305 candy: Track our own MediaProvider [NoSpamDan]
+
+* frameworks/base
+8f53f0a QS: Use Settings.Panel intent for Volume Tile [Joey Huab]
+eebf2cd SystemUI: Add tile to show volume panel [stofstik]
+0144357 SystemUI: Allow devices to configure audio panel location [a.derendyaev]
+55ad6b6 base: Allow hiding FOD on doze [1/2] [Ido Ben-Hur]
+7246670 fixup! SystemUI: Fix up right clock handling when showing heads up [Bruno Martins]
+69160fa SystemUI: Fix up right clock handling when showing heads up [LuK1337]
+040df6b sb-clock: Try to fix left ghost space when using center clock [NoSpamDan]
+b1506b3 Fix config_faceAuthOnlyOnSecurityView config [NoSpamDan]
+51e01e7 FODCircleView: Rework icon dimming [Hikari-no-Tenshi]
+bf899ae [squash]FODCircleView: Hide FOD while going to sleep and make it configurable [TheScarastic]
+e0c7a8c FODCircleView: Make sure we hide when keyguard is dismissed [Ido Ben-Hur]
+5b2daa5 FODCircleView: Use a ContentObserver to check screen brightness [Ido Ben-Hur]
+9c1a479 FODCircleView: Use Handler for Icon dim color filter [Hikari-no-Tenshi]
+993adf3 SystemUI: FODCircleView: Animate the icon dim [Ido Ben-Hur]
+
+* kernel/xiaomi/violet
+ce337af proc: cmdline: Patch SafetyNet flags [Sultan Alsawaf]
+b00fb62 Rebrand Kernel [Aftab-111]
+15f5c20 Revert "mmc: Explicitly enable mmc card clocks before programing crypto key" [Aftab-111]
+
+🍬 13-Jun-2021 🍬
+
+🍬 12-Jun-2021 🍬
+
+* packages/apps/Settings/CandyShop
+5277501 CandyShop: Allow hiding FOD on doze [2/2] [Ido Ben-Hur]
+
+* packages/apps/Snap
+a0e1297 Automatic translation import [LineageOS Builder]
+0bd28ba Snap: api2: reduce unneeded animations [Timi]
+03475e7 Snap: api2: add QR scanner mode [Timi]
+dd54a7c Snap: api2: update promode icons [Timi]
+d8d21e4 Snap: api2: use nicer icons in settings [Timi]
+6e2cef0 Snap: api2: close mode switcher on promode events [Timi]
+177d895 Snap: api2: close mode switcher on back-keypress [Timi]
+ac3f9f7 Snap: api2: correct format-setting icon [Timi]
+2761d5d Snap: use translucent control background on 16:9 [Timi]
+c84f39f Snap: notify user if HFR will not work [Timi]
+9204372 Snap: api2: use ripple on UI buttons [Timi]
+4afd44c Snap: reorganize api2 layout [Timi]
+f3e5277 Snap: Fix SD card visibility for secondary users [Arne Coucheron]
+3f2d6f5 Snap: Save SDCard photos to legacy path [Kevin F. Haggerty]
+d09fa06 Revert "Snap: Remove saving to sdcard" [Arne Coucheron]
+
+* packages/providers/MediaProvider
+bd3b38f MediaProvider: Fix insert fail while file saved in sdcard [Wang Haijun]
+
+🍬 11-Jun-2021 🍬
+
+* frameworks/base
+7023f4d FODCircleView: Bring back the background [Ido Ben-Hur]
+4b0a855 FODCircleView: Apply color filter to FOD background [Hikari-no-Tenshi]
+96e7e42 FODCircleView: Post calls of main hal functions on background thread [Hikari-no-Tenshi]
+a645f09 FODCircleView: Dim FOD icon [Serhij Kyryljan]
+8f3b988 SystemUI: Don't show FOD icon/pad keyguard if strong auth is required [Dil3mm4]
+a2e2479 FODCircleView: Fix position if cutout is hidden [jhenrique09]
+
