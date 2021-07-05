@@ -1,0 +1,130 @@
+🍬🍬🍬🍬🍬🍬 CANDY 11 🍬🍬🍬🍬🍬🍬
+
+ CandyRoms Changelog for hotdogb
+
+🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬
+
+🍬 05-Jul-2021 🍬
+
+* device/google/sunfish
+d88ef80 sunfish: Drop vendor.prop inclusion and add euicc permissions back [NoSpamDan]
+
+* vendor/candy
+b346475 merge-aosp: Change to multiprocessing method for checking cpu_count [NoSpamDan]
+d8bce12 merge-aosp: Add back sys import [NoSpamDan]
+32f6308 candy: merge-aosp: Drop --quiet flag from the sync command [Sourajit Karmakar]
+047fc34 candy: merge-aosp: Drop --force-broken flag from the sync command [Sourajit Karmakar]
+bb3735e candy: merge-aosp: Readd Clang to our script's blocklist [Call190Now]
+ce2cbd4 merge-aosp: format with tool [Anay Wadhera]
+6e83f56 merge-aosp: switch to argparse [Anay Wadhera]
+
+* vendor/gapps
+37a2189 Update gapps to June redfin img [ezio84]
+
+🍬 04-Jul-2021 🍬
+
+🍬 03-Jul-2021 🍬
+
+* device/google/sunfish
+3dccd73 Revert "sunfish: Remove duplicate ims and telephony packages" [NoSpamDan]
+c95c499 3 tweaks to sunfish display cutout: [Evan Laird]
+f806151 rro_overlays: Target correct WiFi package [Lunarixus]
+
+* device/oneplus/sm8150-common
+779decb sm8150-common: Pack libwfdaac_vendor for WFD [Indranil Chakraborty]
+56049bb sm8150-common: Deploy libwfdaac_proprietary for miracast [Lubin Yin]
+f24a28a sm8150-common: Update in pinned files. [Nicolas Geoffray]
+505f1f2 sm8150-common: Update config overlay with new SystemUI location [Jeongik Cha]
+5ebf91d sm8150-common: Pin standard SystemUI instead of Google's [Bruno Martins]
+9f7237d sm8150-common: Update paths to the new ART APEX. [Martin Stjernholm]
+08cc964 sm8150-common: Sync pinner service configs from crosshatch [Rick Yiu]
+c84eea5 sm8150-common: overlay: Set IWLAN data service package name [Bruno Martins]
+9fb2171 Revert "sm8150-common: Reduce keyguard security bottom margin minimum" [NoSpamDan]
+
+🍬 02-Jul-2021 🍬
+
+🍬 01-Jul-2021 🍬
+
+* device/google/sunfish
+bc88373 sunfish: Clean up unneeded trailing bachslashes [NoSpamDan]
+
+🍬 30-Jun-2021 🍬
+
+* system/sepolicy
+a9e1a2a public/file.te: add 'allow proc_net proc:filesystem associate' [Maciej Żenczykowski]
+3d93780 Export missing audio volume properties [Michael Bestas]
+22f9592 Export ro.vendor.product.cpu.abilist* [SzuWei Lin]
+1738c06 Sepolicy for dumsys suspend_control in bugreport [Kalesh Singh]
+992bdca Add ro.cpuvulkan.version to property_contexts [Inseob Kim]
+8def625 Add ro.cdma.home.operator. properties [Inseob Kim]
+f3db8df Allow dumpstate to dump hal_light [Roman Kiryanov]
+cfacd9a Allow dumpstate to get thermal and power hal debug info [TeYuan Wang]
+
+* vendor/qcom/opensource/data-ipa-cfg-mgr
+ca1bb55 Merge remote-tracking branch 'los/lineage-18.1' into HEAD [NoSpamDan]
+
+🍬 29-Jun-2021 🍬
+
+* vendor/google
+e716080 sunfish: Add some missing sysconfigs [NoSpamDan]
+8264574 sunfish: RQ3A.210605.005 [Peter Cai]
+fe7853b sunfish: Squashed update for June blobs [buffal0b1ll]
+
+🍬 28-Jun-2021 🍬
+
+* device/google/sunfish
+46562d3 sunfish: Allow userdebug builds [NoSpamDan]
+
+🍬 27-Jun-2021 🍬
+
+🍬 26-Jun-2021 🍬
+
+* device/oneplus/sm8150-common
+f949f7c Revert "sm8150-common: fod: set/restore colour modes" [NoSpamDan]
+f162609 Revert "sm8150-common: fod: Restore color mode only when fod view was previously shown" [NoSpamDan]
+6ade42f Revert "sm8150-common: fod: rewrite set/restore colour mode" [NoSpamDan]
+
+🍬 25-Jun-2021 🍬
+
+🍬 24-Jun-2021 🍬
+
+* device/google/sunfish
+72eb3cd sunfish: Remove duplicate ims and telephony packages [NoSpamDan]
+
+* vendor/candy
+8b1415e apns: Remove some duplicate entries [NoSpamDan]
+2441a03 apns: Add AT&T 310-280 ids [Alessandro Astone]
+b0f1fd3 apns-conf: Add TPG Singapore configs [Nicholas Lim]
+f0e8d3b apns: Remove T-Mobile UK [Michael W]
+5ee131a vendor: apns: Add LIDL Connect [Michael W]
+671ceb5 apns: Enable IPV6 for China Telecom [zhaoguomanong]
+3f76bf6 apns: Enable IPV6 for China Unicom [sjllls]
+ec17f9f apns: Enable IPV6 for China Mobile [sjllls]
+e92a7f9 apns-conf: Add Kena Mobile entries [Sebastiano Barezzi]
+4fa888e apns-conf: Update PosteMobile entries [Sebastiano Barezzi]
+33a8d7d apns-conf: Add ho.mobile configs [Sebastiano Barezzi]
+3dec851 apns-conf: Update CoopVoce entries [Sebastiano Barezzi]
+b423552 vendor: apns: Add Ting [Michael W]
+c8a1e78 Enable IPV4V6 for APN Yesss [Johannes UNGER]
+97d4dc4 apns: Add Belong [Michael W]
+9db0ff4 apns: Fix giffgaff [Michael W]
+1b3954a apns: Update T-Mobile US to reflect latest carrier changes [Zachariah Anderson]
+3d43559 apn: Add netzclub [115ek]
+d5b4d1d apn: Add MEDIONmobile [115ek]
+afba468 apn: Update Greek APN list [Michael Bestas]
+009099b apns: Update APNs for Euskaltel [althafvly]
+1137e97 Update APNs for O2 Germany & E-Plus [Martin Dünkelmann]
+0c63a54 vendor: apns-conf: Add Hits APN [althafvly]
+9a87c1d vendor: apns-conf: Drop proxy for Movistar [althafvly]
+1d1c692 apn: Update Canadian carriers [Marc Bourgoin]
+
+🍬 23-Jun-2021 🍬
+
+* device/oneplus/sm8150-common
+eafb621 sm8150-common: Reduce keyguard security bottom margin minimum [NoSpamDan]
+
+🍬 22-Jun-2021 🍬
+
+* device/oneplus/hotdogb
+c729148 sm8150-common: Partial revert of fd083bc3b09217fa23cda8bbff415a793b29cf2f [NoSpamDan]
+
