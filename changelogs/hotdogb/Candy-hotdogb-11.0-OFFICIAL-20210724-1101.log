@@ -1,0 +1,102 @@
+🍬🍬🍬🍬🍬🍬 CANDY 11 🍬🍬🍬🍬🍬🍬
+
+ CandyRoms Changelog for hotdogb
+
+🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬
+
+🍬 24-Jul-2021 🍬
+
+* frameworks/base
+d90e807 fwb: FOD fixup [1/2] [NoSpamDan]
+
+* packages/apps/Settings/CandyShop
+cb837a5 CandyShop: FOD fixup [2/2] [NoSpamDan]
+
+🍬 23-Jul-2021 🍬
+
+* frameworks/base
+5898c2b SystemUI: FOD pressed colors [1/2] [Stallix]
+668b538 FOD: Refactor icons and add some new ones [1/2] [Dan Cartier]
+eed2599 fod: Add a Candy dark FOD image [1/2] [Dan Cartier]
+a6bf7b8 FOD: Update to Candy fp icon [Dan Cartier]
+2a082d9 SystemUI: add FOD icon picker and wallpaper based color option [1/2] [00day0]
+
+* packages/apps/Settings/CandyShop
+d8a0417 CandyShop: FOD pressed colors [2/2] [Stallix]
+c4b739e drawable: Add missing fp vector graphic [Dan Cartier]
+abd32d4 FOD: Refactor icons and add some new ones [2/2] [Dan Cartier]
+3c0d742 fod: Add a Candy dark FOD image [2/2] [Dan Cartier]
+e1b197b candy: Add FOD icon picker and wallpaper based color option [2/2] [00day0]
+
+🍬 22-Jul-2021 🍬
+
+* device/oneplus/hotdogb
+6c238bd hotdogb: remove unused multilibs [Omkar Chandorkar]
+95295bf Revert "hotdogb: Update FOD pos" [NoSpamDan]
+b1bc969 hotdogb: overlay: set custom FOD pressed icon  - Copy icon from vivo  - Set FOD colour to transparent so that the image isnt tinted [Omkar Chandorkar]
+26dc34a Revert "sm8150-common: Partial revert of fd083bc3b09217fa23cda8bbff415a793b29cf2f" [NoSpamDan]
+
+* device/oneplus/sm8150-common
+d94d308 sm8150-common: libinit: July time [Omkar Chandorkar]
+24158fa sm8150-common: don't patch 32bit fp blob [Omkar Chandorkar]
+d4a10c7 sm8150-common: Patch fingerprint blobs to different prop [Christian Oder]
+a7ac400 sm8150-common: sed nfcee_access instead of pinning [Omkar Chandorkar]
+eba1e66 DeviceSettings: convert to blueprint [Omkar Chandorkar]
+
+🍬 21-Jul-2021 🍬
+
+🍬 20-Jul-2021 🍬
+
+* device/oneplus/sm8150-common
+1f11850 sm8150-common: Clean up kernel flags [NoSpamDan]
+
+* packages/apps/Settings/CandyShop
+1da4844 Lockscreen: Properly remove the 'FOD on doze' switch [NoSpamDan]
+
+🍬 19-Jul-2021 🍬
+
+* frameworks/base
+7c8ad19 BiometricPrompt: Automatically add padding to incorporate FOD [rituj]
+e98b1fe Revert "SystemUI: BiometricPrompt: Adjust layout if FOD is present" [NoSpamDan]
+
+* kernel/oneplus/sm8150
+7994a49 Revert "Revert "drm: allow dc dimming code to run"" [NoSpamDan]
+
+🍬 18-Jul-2021 🍬
+
+🍬 17-Jul-2021 🍬
+
+🍬 16-Jul-2021 🍬
+
+🍬 15-Jul-2021 🍬
+
+🍬 14-Jul-2021 🍬
+
+🍬 13-Jul-2021 🍬
+
+🍬 12-Jul-2021 🍬
+
+* candy
+81298b1 candy: Fix repo init command (dafuq?) [NoSpamDan]
+
+🍬 11-Jul-2021 🍬
+
+* candy
+4cc8b89 ingredients: Fix missing proton-clamg branch name [NoSpamDan]
+fcdfc22 ingredients: Add clang-proton from kdrag0n [NoSpamDan]
+
+* hardware/interfaces
+8a16ac4 Merge tag 'android-11.0.0_r39' of https://android.googlesource.com/platform/hardware/interfaces into c11 [NoSpamDan]
+
+* packages/apps/Contacts
+3f02592 Merge tag 'android-11.0.0_r39' of https://android.googlesource.com/platform/packages/apps/Contacts into c11 [NoSpamDan]
+
+* packages/providers/MediaProvider
+733ce0f Merge tag 'android-11.0.0_r39' of https://android.googlesource.com/platform/packages/providers/MediaProvider into HEAD [NoSpamDan]
+
+* platform_testing
+de94cc8 Merge tag 'android-11.0.0_r39' of https://android.googlesource.com/platform/platform_testing into c11 [NoSpamDan]
+
+* vendor/google
+e84aebd Sunfish: Update blobs to Android 11.0.0 (RQ3A.210705.001) [Jayant-Deshmukh]
+
