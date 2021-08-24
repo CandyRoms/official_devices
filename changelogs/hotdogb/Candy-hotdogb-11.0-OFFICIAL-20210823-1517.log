@@ -1,0 +1,274 @@
+🍬🍬🍬🍬🍬🍬 CANDY 11 🍬🍬🍬🍬🍬🍬
+
+ CandyRoms Changelog for hotdogb
+
+🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬
+
+🍬 23-Aug-2021 🍬
+
+* device/google/sunfish
+6610d86 Update build fingerprint to RQ3A.210805.001.A1 [Jayant-Deshmukh]
+a6eebca Merge tag 'android-11.0.0_r40' of https://android.googlesource.com/device/google/sunfish into HEAD [Jayant-Deshmukh]
+3046756 sunfish: Enable burn-in protection [Sourajit Karmakar]
+1dc83f4 sunfish: Disable surfaceflinger latching [Sourajit Karmakar]
+4c644dc sunfish: Disable GL backpressure [Sourajit Karmakar]
+a3cdaae Revert "sunfish: audio: remove ma_listener" [Sourajit Karmakar]
+
+* device/oneplus/hotdogb
+51315ef hotdogb: Update to August 2021 fingerprint [NoSpamDan]
+
+* device/oneplus/sm8150-common
+c86bdea sm8150-common: Update vendor security patch level [NoSpamDan]
+
+* frameworks/base
+b9f094d FOD: Convert default and cyan pressed images to PNG [NoSpamDan]
+
+* kernel/google/sunfish
+e50cb19 defconfig: Enable lzma ramdisk [NoSpamDan]
+
+* kernel/oneplus/sm8150
+a70400c Revert "Revert "drm: allow dc dimming code to run"" [NoSpamDan]
+2fab2a0 drm: msm: Refactor fod dimming [Art_Chen]
+9f09bff drm: msm: Rework PLANE_PROP_ALPHA handling [Art_Chen]
+b909179 Revert "drm: allow dc dimming code to run" [Dan Cartier]
+
+* vendor/google
+3012ba7 Update for August sunfish blobs [buffal0b1ll]
+
+🍬 22-Aug-2021 🍬
+
+* build/make
+504871d Merge tag 'android-11.0.0_r40' of https://android.googlesource.com/platform/build into HEAD [NoSpamDan]
+5113961 Version bump to RQ3A.210805.001.A1 [core/build_id.mk] [android-build-team Robot]
+badcd74 Make change and version bump to RQ3A.210805.001 [android-build-team Robot]
+1f9449e Update Security String to 2021-08-05 [Paul Scovanner]
+
+* frameworks/base
+0c91a6c gPixelPropsUtils: Update to August 2021 Redfin fingerprint [NoSpamDan]
+9c0e383 Merge tag 'android-11.0.0_r40' of https://android.googlesource.com/platform/frameworks/base into HEAD [NoSpamDan]
+
+* frameworks/opt/telephony
+db747cd Merge tag 'android-11.0.0_r40' of https://android.googlesource.com/platform/frameworks/opt/telephony into HEAD [NoSpamDan]
+
+🍬 21-Aug-2021 🍬
+
+🍬 20-Aug-2021 🍬
+
+* kernel/oneplus/sm8150
+343b390 Merge branch 'gulch_r_staging' into eleven [John Galt]
+c16740a Merge tag 'LA.UM.9.1.r1-10900.02-SMxxx0.QSSI12.0' of https://source.codeaurora.org/quic/la/kernel/msm-4.14 into gulch_r_staging [John Galt]
+0112510 Merge branch 'gulch_r' into eleven [John Galt]
+4b14121 Revert "block: Use interruptible waits" [John Galt]
+1b2afb4 Revert "blk-mq: Do not wake idle CPUs to queue same-origin requests" [John Galt]
+6ef1bcf Revert "blk-mq: fix mistake" [John Galt]
+
+🍬 19-Aug-2021 🍬
+
+🍬 18-Aug-2021 🍬
+
+* kernel/oneplus/sm8150
+e5088d4 Revert "irq: fix wakeup logging under new s2idle flow" [John Galt]
+4813cbb power/wakelock: Add a timeout to wakelocks globally [Panchajanya1999]
+d9912e3 Revert "qcom/smp2p: reset for dt2w issue" [John Galt]
+1bd8ce3 ARM64: enable GENERIC_FIND_FIRST_BIT [Yury Norov]
+6d76fc6 drm/sde: hardcode for sm8150 v2.0 [Park Ju Hyung]
+43c6240 qcacld-3.0: default_defconfig: Disable WLAN loggings [Panchajanya1999]
+aaf1dfb BACKPORT: loop: change queue block size to match when using DIO [Martijn Coenen]
+777fd73 UPSTREAM: loop: Set correct device size when using LOOP_CONFIGURE [Martijn Coenen]
+3f4dd6e BACKPORT: loop: Fix wrong masking of status flags [Martijn Coenen]
+1a739c9 BACKPORT: loop: Add LOOP_CONFIGURE ioctl [Martijn Coenen]
+a2145fb BACKPORT: loop: Clean up LOOP_SET_STATUS lo_flags handling [Martijn Coenen]
+ec1ca15 BACKPORT: loop: Rework lo_ioctl() __user argument casting [Martijn Coenen]
+e92a167 BACKPORT: loop: Move loop_set_status_from_info() and friends up [Martijn Coenen]
+fc12ad4 BACKPORT: loop: Factor out configuring loop from status [Martijn Coenen]
+120d729 BACKPORT: loop: Remove figure_loop_size() [Martijn Coenen]
+8a473d2 BACKPORT: loop: Refactor loop_set_status() size calculation [Martijn Coenen]
+0f55e5c BACKPORT: loop: Factor out setting loop device size [Martijn Coenen]
+e167e9a BACKPORT: loop: Remove sector_t truncation checks [Martijn Coenen]
+ec9302b BACKPORT: loop: Call loop_config_discard() only after new config is applied [Martijn Coenen]
+0a80c76 workqueue: Respect isolated CPUs when queueing an unbound work [Tal Shorer]
+50f1ec5 compiler_attributes.h: define __no_profile, add to noinstr [Nick Desaulniers]
+23fb20c CFI: Move function_nocfi() into compiler.h [Mark Rutland]
+db49c94 arm64: add __nocfi to functions that jump to a physical address [Sami Tolvanen]
+8de085a arm64: kexec: always reset to EL2 if present [Mark Rutland]
+e36aa8b arm64: use function_nocfi with __pa_symbol [Sami Tolvanen]
+aef4481 arm64: implement function_nocfi [Sami Tolvanen]
+e5176385 Revert "ANDROID: arm64: add __pa_function" [John Galt]
+
+🍬 17-Aug-2021 🍬
+
+* kernel/oneplus/sm8150
+3781ad3 Merge branch 'linux-4.14.y' of https://github.com/jaegeuk/f2fs-stable into gulch_r_staging [John Galt]
+33f7dc8 Revert "arm64/dts/qcom: cleanup overlays, only build production" [John Galt]
+cdcb55e Revert "arm64: crypto: add NEON accelerated XOR implementation" [John Galt]
+b24e198 Revert "arm64/neon: add workaround for ambiguous C99 stdint.h types" [John Galt]
+d32e7c3 Revert "arm64/neon: Disable -Wincompatible-pointer-types when building with Clang" [John Galt]
+f3eefdc qcom/smp2p: reset for dt2w issue [John Galt]
+ee8857d oneplus: touchscreen: Adapt PM QoS usage to incoherent OnePlus code [Sultan Alsawaf]
+931532e Revert "input/oneplus_touchscreen: kill some pm_qos usage" [John Galt]
+6ba91cd disp: msm: sde: add null check for drm file in msm_release [Krishna Manikandan]
+
+🍬 16-Aug-2021 🍬
+
+* kernel/oneplus/sm8150
+8a8e6f0 Merge tag 'v4.14.244' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into gulch_r_staging [John Galt]
+9bc2c9f ipv4/tcp: Force applications to use `TCP_NODELAY` to improve network latency [Panchajanya1999]
+5065e08 Revert "cpufreq_schedutil: bring in some schedhorizon changes" [John Galt]
+2d5e853 Revert "drm/drm_atomic: Fallback to boosting CPU and DDR bus within 3s of last interaction" [John Galt]
+995742b Revert "adreno_tz: Fix GPU target frequency calculation for high refresh rates" [John Galt]
+6ec3600 arm64/dts/sm8150-v2: update gpu bus values for 90hz latency [John Galt]
+a3002b5 treewide: move more selectively to Ofast [John Galt]
+aa67a65 arm64/dts/sm8150: remove cgroup.memory bootargs [John Galt]
+fad6978 slub: remove 'reserved' file from sysfs [Matthew Wilcox]
+a5fe004 slub: remove kmem_cache->reserved [Matthew Wilcox]
+dd09c22 slab,slub: remove rcu_head size checks [Matthew Wilcox]
+7e03964 mm/slub: remove obsolete comment [Canjiang Lu]
+43fe396 slub: make size_from_object() return unsigned int [Alexey Dobriyan]
+06835f2 slub: make slab_index() return unsigned int [Alexey Dobriyan]
+3f5b716 slub: make ->reserved unsigned int [Alexey Dobriyan]
+2b8206c slub: make ->remote_node_defrag_ratio unsigned int [Alexey Dobriyan]
+acd0ae7 mm/compaction: Increase fragmentation index [Tyler Nijmeh]
+eacb0cd mm: Do not periodically flush dirty pages [Tyler Nijmeh]
+b00c952 mm: Do not reserve memory for admins [Tyler Nijmeh]
+241b6ac mm: memcontrol: Disable memory accounting by default [Tyler Nijmeh]
+633fd75 rcu: Eliminate cond_resched_rcu_qs() in favor of cond_resched() [Paul E. McKenney]
+3952bd9 gulch_defconfig: regen [Sai Gurrappadi]
+bd53c6c arm64/checksum: rename do_cum to differentiate different checksum routines [THEBOSS]
+846336e arm64/lib: add accelerated do_csum for arm64 [Signed-off-by: huhai]
+36e1320 rcu: Avoid unnecessary softirq when system is idle [Joel Fernandes (Google)]
+ce0a261 rcu: Fix self-wakeups for grace-period kthread [Neeraj Upadhyay]
+316f6df rcu: Avoid unnecessary softirq when system is idle [Joel Fernandes (Google)]
+255037e rcu: Unconditionally expedite during suspend/hibernate [Paul E. McKenney]
+421c13c rcu: Stop duplicating lockdep checks [THEBOSS]
+de43112 kernel: Drop legacy CAF WALT hooks [Danny Lin]
+d2586eda gulch_defconfig: regenerate [John Galt]
+f36521c sysctl: Introduce compatibility layer to appease OOS when !SCHED_WALT [Adam W. Willis]
+c0045c1 Revert "mm: squash revert recent backports" [John Galt]
+f13209e mm/slab_common: Align all caches' objects to hardware cachelines [Sultan Alsawaf]
+
+🍬 15-Aug-2021 🍬
+
+* kernel/oneplus/sm8150
+162b95d Linux 4.14.244 [Greg Kroah-Hartman]
+1994eac net: xilinx_emaclite: Do not print real IOMEM pointer [YueHaibing]
+517b875 ovl: prevent private clone if bind mount is not allowed [Miklos Szeredi]
+f2fa748 ppp: Fix generating ppp unit id when ifname is not specified [Pali Rohár]
+6589c9c USB:ehci:fix Kunpeng920 ehci hardware problem [Longfang Liu]
+7fdd390 net/qla3xxx: fix schedule while atomic in ql_wait_for_drvr_lock and ql_adapter_reset [Letu Ren]
+56893b8 alpha: Send stop IPI to send to online CPUs [Prarit Bhargava]
+7dc28a8 reiserfs: check directory items on read from disk [Shreyansh Chouhan]
+3593093 reiserfs: add check for root_inode in reiserfs_fill_super [Yu Kuai]
+010594a libata: fix ata_pio_sector for CONFIG_HIGHMEM [Christoph Hellwig]
+da28610 qmi_wwan: add network device usage statistics for qmimux devices [Reinhard Speyerer]
+254f73e perf/x86/amd: Don't touch the AMD64_EVENTSEL_HOSTONLY bit inside the guest [Like Xu]
+ff05681 spi: meson-spicc: fix memory leak in meson_spicc_remove [Dongliang Mu]
+75a8a40 pcmcia: i82092: fix a null pointer dereference bug [Zheyu Ma]
+1ff630a MIPS: Malta: Do not byte-swap accesses to the CBUS UART [Maciej W. Rozycki]
+a4e8e60 serial: 8250: Mask out floating 16/32-bit bus bits [Maciej W. Rozycki]
+db97d2f ext4: fix potential htree corruption when growing large_dir directories [Theodore Ts'o]
+d346d23 pipe: increase minimum default pipe size to 2 pages [Alex Xu (Hello71)]
+78eea0f media: rtl28xxu: fix zero-length control request [Johan Hovold]
+15b70fa staging: rtl8723bs: Fix a resource leak in sd_int_dpc [Xiangyang Zhang]
+7f19241 scripts/tracing: fix the bug that can't parse raw_trace_func [Hui Su]
+18bbb1d usb: otg-fsm: Fix hrtimer list corruption [Dmitry Osipenko]
+ad6a82a usb: gadget: f_hid: idle uses the highest byte for duration [Maxim Devaev]
+9d25976 usb: gadget: f_hid: fixed NULL pointer dereference [Phil Elwell]
+2ef2d25 usb: gadget: f_hid: added GET_IDLE and SET_IDLE handlers [Maxim Devaev]
+4eaa17d USB: serial: ftdi_sio: add device ID for Auto-M3 OP-COM v2 [David Bauer]
+89b2daf USB: serial: ch341: fix character loss at high transfer rates [Willy Tarreau]
+f2fa3de USB: serial: option: add Telit FD980 composition 0x1056 [Daniele Palmas]
+fd82bbd USB: usbtmc: Fix RCU stall warning [Qiang.zhang]
+0782c8c Bluetooth: defer cleanup of resources in hci_unregister_dev() [Tetsuo Handa]
+0efd591 net: vxge: fix use-after-free in vxge_device_unregister [Pavel Skripkin]
+26c54e7 net: fec: fix use-after-free in fec_drv_remove [Pavel Skripkin]
+961f330 net: pegasus: fix uninit-value in get_interrupt_interval [Pavel Skripkin]
+f34f46c bnx2x: fix an error code in bnx2x_nic_load() [Dan Carpenter]
+2a465b7 mips: Fix non-POSIX regexp [H. Nikolaus Schaller]
+f97f6b8 nfp: update ethtool reporting of pauseframe control [Fei Qin]
+4c9ce62 net: natsemi: Fix missing pci_disable_device() in probe and remove [Wang Hai]
+9e38c67 media: videobuf2-core: dequeue if start_streaming fails [Hans Verkuil]
+f27bc70 scsi: sr: Return correct event when media event code is 3 [Li Manyi]
+7d40962 omap5-board-common: remove not physically existing vdds_1v8_main fixed-regulator [H. Nikolaus Schaller]
+a2cbb56 clk: stm32f4: fix post divisor setup for I2S/SAI PLLs [Dario Binacchi]
+f8927c6 ALSA: seq: Fix racy deletion of subscriber [Takashi Iwai]
+b211b2e Revert "ACPICA: Fix memory leak caused by _CID repair function" [Rafael J. Wysocki]
+
+🍬 14-Aug-2021 🍬
+
+🍬 13-Aug-2021 🍬
+
+* device/oneplus/sm8150-common
+9c8f23e sm8150-common: Use Gulch kernel [NoSpamDan]
+
+* kernel/oneplus/sm8150
+2cbc31b f2fs: introduce periodic iostat io latency traces [Daeho Jeong]
+3d777d2 f2fs: fix to keep compatibility of fault injection interface [Chao Yu]
+97420c7 f2fs: support fault injection for f2fs_kmem_cache_alloc() [Chao Yu]
+b426f16 f2fs: compress: allow write compress released file after truncate to zero [Fengnan Chang]
+10a99ee f2fs: compress: do sanity check on cluster [Chao Yu]
+a6704ce f2fs: correct comment in segment.h [Yangtao Li]
+af81cae f2fs: improve sbi status info in debugfs/f2fs/status [Yangtao Li]
+d51a3e6 f2fs: compress: avoid duplicate counting of valid blocks when read compressed file [Fengnan Chang]
+4ba2d98 f2fs: fix to do sanity check for sb/cp fields correctly [Chao Yu]
+8d7ca9f f2fs: avoid unneeded memory allocation in __add_ino_entry() [Chao Yu]
+
+🍬 12-Aug-2021 🍬
+
+* kernel/google/sunfish
+d71429a Merge branch 'linux-4.14.y' of https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git into eleven [Jayant-Deshmukh]
+
+* kernel/oneplus/sm8150
+a69f2b3 usb/gadget: fixup kernel/common mismerge from May [John Galt]
+599dfb3 simple_lmk: Be extra paranoid if tasks can have no pages [Sultan Alsawaf]
+b43cf97 Revert "bdi: Do not use freezable workqueue" [freak07]
+6923d02 char: adsprpc: fix global-out-of-bounds error [Jason Hsu]
+553aa80 Revert "drm_atomic: disable frame commit boosts on AOD" [John Galt]
+cda9602 drm/drm_atomic: Fallback to boosting CPU and DDR bus within 3s of last interaction [Danny Lin]
+e2f975fd Revert "treewide: cleanup unused cpu input boosts" [John Galt]
+dcc0211 gulch_defconfig: reconfigure cpu input boosting [John Galt]
+
+🍬 11-Aug-2021 🍬
+
+* kernel/oneplus/sm8150
+929eadd gulch_defconfig: enable zswap [John Galt]
+00f6ad6 mm/zswap: fix passing zero to 'PTR_ERR' warning [YueHaibing]
+b7fdc93 mm/zswap: make struct kernel_param_ops definitions const [Joe Perches]
+933099c zswap: add bp hints to memory allocations [Park Ju Hyung]
+0ec96a2 zswap: add zswap_compact() [Park Ju Hyung]
+9ef9021 zswap: report total pool size in kb [Park Ju Hyung]
+12696c5 Revert "zswap: use B-tree for search" [John Galt]
+819c82f Revert "zswap: only save zswap header when necessary" [John Galt]
+044d24f zswap: set default parameters [Park Ju Hyung]
+4a7a4bc zswap: add __GFP_HIGHMEM and __GFP_MOVABLE [Park Ju Hyung]
+b368e2d zswap: ignore debugfs_create_dir() return value [Greg Kroah-Hartman]
+c0802aa zswap: re-check zswap_is_full() after do zswap_shrink() [Li Wang]
+1e914e9 mm, swap, frontswap: fix THP swap if frontswap enabled [Huang Ying]
+3721750 zswap: same-filled pages handling [Srividya Desireddy]
+7e78734 zswap: revert back to v4.14 state [Park Ju Hyung]
+536e80b zswap: use B-tree for search [Vitaly Wool]
+6cd2cbc Revert "zswap: Checkout to branch android-4.14 of https://android.googlesource.com/kernel/common" [John Galt]
+45ed98b Revert "zswap: same-filled pages handling" [John Galt]
+af033b5 Revert "mm, swap, frontswap: fix THP swap if frontswap enabled" [John Galt]
+8e39263 Revert "zswap: re-check zswap_is_full() after do zswap_shrink()" [John Galt]
+0db9cb1 Revert "zswap: ignore debugfs_create_dir() return value" [John Galt]
+964669f Revert "mm/zswap: make struct kernel_param_ops definitions const" [John Galt]
+e02f445 Revert "mm/zswap: fix passing zero to 'PTR_ERR' warning" [John Galt]
+e8abe2c msm: kgsl: Remove sysfs entries after releasing memory [Kamal Agrawal]
+6512734 msm: kgsl: Remove debugfs directory inside lock [Kamal Agrawal]
+eb19e7c usb: gadget: f_mtp: Remove pm_qos & lpm dependence [LibXZR]
+0374fb62 binder_alloc: Disable logging [LibXZR]
+2c1ba31 f2fs: Move to late_initcall [LibXZR]
+874cd0e gulch_defconfig: regen [John Galt]
+28a47e6 zram_drv: hardcode to 6144M [John Galt]
+
+🍬 10-Aug-2021 🍬
+
+* kernel/oneplus/sm8150
+84ce0ba cpufreq_schedutil: increase big cluster hold [John Galt]
+918ea7a Revert "mailbox: msm_qmp: Remove IRQF_NO_SUSPEND" [John Galt]
+3b75c5d Revert "soc: qcom: smp2p: Remove IRQF_NO_SUSPEND" [John Galt]
+2f3c0b1 Revert "rpmsg: glink: Remove IRQF_NO_SUSPEND" [John Galt]
+d645fb6 UPSTREAM: sched: Fix out-of-bound access in uclamp [Quentin Perret]
+d5de411 gulch_defconfig: disable msm_performance [John Galt]
+0a4655b arm64: dts: sm8150: update big cluster capacity [John Galt]
+
