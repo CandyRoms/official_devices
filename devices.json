@@ -73,5 +73,33 @@
       "date": "2021/03/24",
       "maintainer_name": "nospamdan",
       "xda_thread": ""
+    },
+ "device_name": "OnePlus 7T",
+      "codename": "hotdogb",
+      "assert": ["hotdogb"],
+      "datetime": 1616619660,
+      "filename": "Candy-hotdogb-11.0-OFFICIAL-20210324-1702.zip",
+      "id": "d3b534096c23b24a7b7bdd920e322446",
+      "romtype": "OFFICIAL",
+      "size": 1395864372,
+      "url": "https://http://candy.hr83.in/11/hotdogb/Candy-hotdogb-11.0-OFFICIAL-20210324-1702.zip",
+      "version": "11.0",
+      "date": "2021/03/24",
+      "maintainer_name": "nospamdan",
+      "xda_thread": ""
+    }
+ "device_name": "Xiaomi Note 10 Pro",
+      "codename": "sweet",
+      "assert": ["sweet"],
+      "datetime": 1630214876,
+      "filename": "Candy-sweet-11.0-OFFICIAL-20210829-1101.zip",
+      "id": "58b91b7869cf7c60824a21add9d56c59",
+      "romtype": "OFFICIAL",
+      "size": 1825361101,
+      "url": "https://http://candy.hr83.in/candy/sweet/Candy-sweet-11.0-OFFICIAL-20210829-1101.zip",
+      "version": "11.0",
+      "date": "2021/08/29",
+      "maintainer_name": "mourya",
+      "xda_thread": ""
     }
 ]
