@@ -74,7 +74,8 @@
       "maintainer_name": "nospamdan",
       "xda_thread": ""
     },
- "device_name": "OnePlus 7T",
+    {
+    "device_name": "OnePlus 7T",
       "codename": "hotdogb",
       "assert": ["hotdogb"],
       "datetime": 1616619660,
@@ -87,8 +88,9 @@
       "date": "2021/03/24",
       "maintainer_name": "nospamdan",
       "xda_thread": ""
-    }
- "device_name": "Xiaomi Note 10 Pro",
+    },
+    {
+      "device_name": "Xiaomi Note 10 Pro",
       "codename": "sweet",
       "assert": ["sweet"],
       "datetime": 1630214876,
