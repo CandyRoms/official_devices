@@ -1,0 +1,80 @@
+🍬🍬🍬🍬🍬🍬 CANDY 11 🍬🍬🍬🍬🍬🍬
+
+ CandyRoms Changelog for sweet
+
+🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬
+
+🍬 29-Aug-2021 🍬
+
+* hardware/qcom-caf/sm8150/display
+5c658e2 sdm: core: allow to set a multiplier for the panel dimensions [daniml3]
+e09e964 sdm: core: allow to skip refresh rate changes [daniml3]
+
+* vendor/candy
+f3d16ea add sweet to offical devices [Mourya Baruah]
+
+🍬 28-Aug-2021 🍬
+
+🍬 27-Aug-2021 🍬
+
+* frameworks/base
+6b28c04 Merge "core: Switch to Hastebin for copying crash logs" into c11 [Dan Cartier]
+
+🍬 26-Aug-2021 🍬
+
+🍬 25-Aug-2021 🍬
+
+* packages/resources/devicesettings
+f20becd Automatic translation import [Michael Bestas]
+
+🍬 24-Aug-2021 🍬
+
+* build/make
+09f5183 Merge tag 'android-11.0.0_r40' of https://android.googlesource.com/platform/build into HEAD [NoSpamDan]
+02ada4c Version bump to RQ3A.210805.001.A1 [core/build_id.mk] [android-build-team Robot]
+421692b Make change and version bump to RQ3A.210805.001 [android-build-team Robot]
+d033ef6 Update Security String to 2021-08-05 [Paul Scovanner]
+
+* candy
+39d35c2 candy: Merge tag 'android-11.0.0_r40' of https://android.googlesource.com/platform/manifest into c11 [NoSpamDan]
+
+🍬 23-Aug-2021 🍬
+
+* frameworks/base
+0c91a6c gPixelPropsUtils: Update to August 2021 Redfin fingerprint [NoSpamDan]
+
+🍬 22-Aug-2021 🍬
+
+* frameworks/base
+9c0e383 Merge tag 'android-11.0.0_r40' of https://android.googlesource.com/platform/frameworks/base into HEAD [NoSpamDan]
+
+* frameworks/opt/telephony
+db747cd Merge tag 'android-11.0.0_r40' of https://android.googlesource.com/platform/frameworks/opt/telephony into HEAD [NoSpamDan]
+
+* packages/apps/Settings
+d90b211 Merge tag 'android-11.0.0_r40' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD [NoSpamDan]
+
+* packages/services/Telephony
+fed70d3 Merge tag 'android-11.0.0_r40' of https://android.googlesource.com/platform/packages/services/Telephony into HEAD [NoSpamDan]
+
+🍬 21-Aug-2021 🍬
+
+* packages/apps/Bluetooth
+de55f17 Automatic translation import [Michael Bestas]
+
+* packages/apps/Nfc
+bd2b598 Automatic translation import [Michael Bestas]
+
+* vendor/qcom/opensource/fm-commonsys
+8920992 Automatic translation import [Michael Bestas]
+
+🍬 20-Aug-2021 🍬
+
+🍬 19-Aug-2021 🍬
+
+🍬 18-Aug-2021 🍬
+
+🍬 17-Aug-2021 🍬
+
+🍬 16-Aug-2021 🍬
+
