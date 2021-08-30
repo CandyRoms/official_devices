@@ -1,0 +1,91 @@
+🍬🍬🍬🍬🍬🍬 CANDY 11 🍬🍬🍬🍬🍬🍬
+
+ CandyRoms Changelog for sweet
+
+🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬
+
+🍬 30-Aug-2021 🍬
+
+* frameworks/base
+45991bf Don't enable extra StrictMode features for userdebug builds [Sultan Alsawaf]
+8a869bd fixup - DisplayPowerController: make brightness ramp rate overlay-able [ritujb]
+7b9adc8 DisplayPowerController: make brightness ramp rate overlay-able [Chenyang Zhong]
+cf77534 AppLock: Update tasks snapshot when needed [jhenrique09]
+9d3c0fe !fixup SystemUI: Fix showing duplicated charging status [Scott Warner]
+5fe1fe8 AlarmManagerService: Avoid to hold wakelock for long time [wutao]
+
+* packages/apps/Settings
+3202f82 Settings: Launch APN settings on main activity stack [Danny Lin]
+e7b71fb Settings: Launch mobile network settings in main activity stack [Danny Lin]
+a6e740d Settinsg: Fix too many receivers Exception [Anita Hemrajani]
+
+🍬 29-Aug-2021 🍬
+
+* hardware/qcom-caf/sm8150/display
+5c658e2 sdm: core: allow to set a multiplier for the panel dimensions [daniml3]
+e09e964 sdm: core: allow to skip refresh rate changes [daniml3]
+
+🍬 28-Aug-2021 🍬
+
+* vendor/candy
+f3d16ea add sweet to offical devices [Mourya Baruah]
+
+🍬 27-Aug-2021 🍬
+
+* frameworks/base
+6b28c04 Merge "core: Switch to Hastebin for copying crash logs" into c11 [Dan Cartier]
+
+🍬 26-Aug-2021 🍬
+
+🍬 25-Aug-2021 🍬
+
+🍬 24-Aug-2021 🍬
+
+* build/make
+09f5183 Merge tag 'android-11.0.0_r40' of https://android.googlesource.com/platform/build into HEAD [NoSpamDan]
+02ada4c Version bump to RQ3A.210805.001.A1 [core/build_id.mk] [android-build-team Robot]
+421692b Make change and version bump to RQ3A.210805.001 [android-build-team Robot]
+d033ef6 Update Security String to 2021-08-05 [Paul Scovanner]
+
+* candy
+39d35c2 candy: Merge tag 'android-11.0.0_r40' of https://android.googlesource.com/platform/manifest into c11 [NoSpamDan]
+
+* packages/resources/devicesettings
+f20becd Automatic translation import [Michael Bestas]
+
+🍬 23-Aug-2021 🍬
+
+🍬 22-Aug-2021 🍬
+
+* frameworks/base
+0c91a6c gPixelPropsUtils: Update to August 2021 Redfin fingerprint [NoSpamDan]
+9c0e383 Merge tag 'android-11.0.0_r40' of https://android.googlesource.com/platform/frameworks/base into HEAD [NoSpamDan]
+
+* frameworks/opt/telephony
+db747cd Merge tag 'android-11.0.0_r40' of https://android.googlesource.com/platform/frameworks/opt/telephony into HEAD [NoSpamDan]
+
+* packages/apps/Settings
+d90b211 Merge tag 'android-11.0.0_r40' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD [NoSpamDan]
+
+* packages/services/Telephony
+fed70d3 Merge tag 'android-11.0.0_r40' of https://android.googlesource.com/platform/packages/services/Telephony into HEAD [NoSpamDan]
+
+🍬 21-Aug-2021 🍬
+
+* packages/apps/Bluetooth
+de55f17 Automatic translation import [Michael Bestas]
+
+* packages/apps/Nfc
+bd2b598 Automatic translation import [Michael Bestas]
+
+* vendor/qcom/opensource/fm-commonsys
+8920992 Automatic translation import [Michael Bestas]
+
+🍬 20-Aug-2021 🍬
+
+🍬 19-Aug-2021 🍬
+
+🍬 18-Aug-2021 🍬
+
+🍬 17-Aug-2021 🍬
+
