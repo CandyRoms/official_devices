@@ -1,13 +1,13 @@
 {
   "response": [
         {
-            "datetime":1630339440,
-            "filename": "Candy-sweet-11.0-OFFICIAL-20210830-2134.zip",
-            "id": "44fcab54d956b831aa679f33db4e8842",
-            "romtype": "OFFICIAL",
-            "url": "https://sourceforge.net/projects/CandyRoms/files/Official/eleven/sweet/Candy-sweet-11.0-OFFICIAL-20210830-2134.zip",
-            "size":1784387196,
-            "version": "11.0"
+            "datetime":1630424482,
+            "filename": "sweet",
+            "id": "cda37a2b622de0612baab1f8cdc67753",
+            "romtype": "sweet",
+            "url": "https://sourceforge.net/projects/CandyRoms/files/Official/eleven/sweet/sweet",
+            "size":1784424322,
+            "version": "sweet.sweet"
         }
     ]
 }
