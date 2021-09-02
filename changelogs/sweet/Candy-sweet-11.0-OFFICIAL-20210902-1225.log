@@ -1,0 +1,158 @@
+🍬🍬🍬🍬🍬🍬 CANDY 11 🍬🍬🍬🍬🍬🍬
+
+ CandyRoms Changelog for sweet
+
+🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬
+
+🍬 02-Sep-2021 🍬
+
+* frameworks/base
+7d4e919 base: Update lmkd diagnostics info [Pranav Vashi]
+3536c75 Camera: Extend face detection [Shuzhen Wang]
+36dc4e5 Use SystemUI reboot view also for OTA uncrypt [Timi Rautamäki]
+f041e6e base: Setup baseline for DiracSound and MiSound lint [Kshitij Gupta]
+151da69 base: Add DiracSound and MiSound to current api [Kshitij Gupta]
+3824e41 base: Add support for MiSound FX [Kshitij Gupta]
+e4a593c base: Add support for DiracSound FX [Kshitij Gupta]
+skipping packages/apps/Camera2
+
+🍬 01-Sep-2021 🍬
+
+* frameworks/av
+fb0b9a8 libmedia: Add MediaPlayer() function for backward compatibility [Adithya R]
+4f6da04 av: camera: catch mad hals that mess up buffer time [maxwen]
+
+* frameworks/base
+2e09db9 DeviceConfig: Add telephony to public namespaces. [spezi77]
+92de73b Add synchronization to all mDeviceBusy state changes. [Johanna Ye]
+334f040 Catch SQLiteFullException in AccountManagerService [huyuxin]
+67c4a7e Camera2: Notify fps as Session Based Parameter [Sauhard Pande]
+6f0522e Allow Seamless rotation while PIP is active [switchtegrax1]
+44eb7ac Fix inconsistency in ringtone list [akansha.shukla]
+1cabecf LockIcon: Fix drawable log warning [Hikari-no-Tenshi]
+c2902a5 Watchdog: run emergency sync before killing system [Simão Gomes Viana]
+dc87ec4 Watchdog: increase default timeout by 30 seconds [Simão Gomes Viana]
+skipping packages/apps/Camera2
+
+* vendor/candy
+f79fd2a vendor: Add soong variable for TARGET_CAMERA_BOOTTIME_TIMESTAMP [jhenrique09]
+
+🍬 31-Aug-2021 🍬
+
+* device/xiaomi/sweet
+b982985 candy-ify [Mourya Baruah]
+
+* frameworks/base
+45991bf Don't enable extra StrictMode features for userdebug builds [Sultan Alsawaf]
+8a869bd fixup - DisplayPowerController: make brightness ramp rate overlay-able [ritujb]
+7b9adc8 DisplayPowerController: make brightness ramp rate overlay-able [Chenyang Zhong]
+cf77534 AppLock: Update tasks snapshot when needed [jhenrique09]
+9d3c0fe !fixup SystemUI: Fix showing duplicated charging status [Scott Warner]
+5fe1fe8 AlarmManagerService: Avoid to hold wakelock for long time [wutao]
+skipping packages/apps/Camera2
+
+* packages/apps/Settings
+3202f82 Settings: Launch APN settings on main activity stack [Danny Lin]
+e7b71fb Settings: Launch mobile network settings in main activity stack [Danny Lin]
+a6e740d Settinsg: Fix too many receivers Exception [Anita Hemrajani]
+
+🍬 30-Aug-2021 🍬
+skipping packages/apps/Camera2
+
+🍬 29-Aug-2021 🍬
+
+* hardware/qcom-caf/sm8150/display
+5c658e2 sdm: core: allow to set a multiplier for the panel dimensions [daniml3]
+e09e964 sdm: core: allow to skip refresh rate changes [daniml3]
+skipping packages/apps/Camera2
+
+* vendor/candy
+f3d16ea add sweet to offical devices [Mourya Baruah]
+
+🍬 28-Aug-2021 🍬
+skipping packages/apps/Camera2
+
+🍬 27-Aug-2021 🍬
+
+* frameworks/base
+6b28c04 Merge "core: Switch to Hastebin for copying crash logs" into c11 [Dan Cartier]
+skipping packages/apps/Camera2
+
+🍬 26-Aug-2021 🍬
+skipping packages/apps/Camera2
+
+🍬 25-Aug-2021 🍬
+skipping packages/apps/Camera2
+
+* packages/resources/devicesettings
+f20becd Automatic translation import [Michael Bestas]
+
+🍬 24-Aug-2021 🍬
+
+* build/make
+09f5183 Merge tag 'android-11.0.0_r40' of https://android.googlesource.com/platform/build into HEAD [NoSpamDan]
+02ada4c Version bump to RQ3A.210805.001.A1 [core/build_id.mk] [android-build-team Robot]
+421692b Make change and version bump to RQ3A.210805.001 [android-build-team Robot]
+d033ef6 Update Security String to 2021-08-05 [Paul Scovanner]
+
+* candy
+39d35c2 candy: Merge tag 'android-11.0.0_r40' of https://android.googlesource.com/platform/manifest into c11 [NoSpamDan]
+
+* device/xiaomi/sweet
+cc87659 sweet: drop fortsense's fingerprint extension [daniml3]
+6d17d4b sweet: drop I/O prefetcher [Bruno Martins]
+7883026 sweet: do not modify the panel dimensions reported by the kernel [daniml3]
+72a95fd sweet: drop vendor.display.skip_refresh_rate_change [daniml3]
+e5892db sweet: override the SetRefreshRate HWC builtin display function [daniml3]
+
+* kernel/xiaomi/sweet
+bce15eb Revert "Revert "ARM64: dts: Correct physical panel dimensions"" [daniml3]
+skipping packages/apps/Camera2
+
+* vendor/xiaomi/sweet
+4bb2fe5 Sync with the device tree [daniml3]
+7c72a2a qdcm: stop setting the default mode to smart_MC1 [daniml3]
+
+🍬 23-Aug-2021 🍬
+skipping packages/apps/Camera2
+
+🍬 22-Aug-2021 🍬
+
+* device/xiaomi/sweet
+b5cfb9e sweet: overlay: lower config_screenBrightnessBacklight to 1 [daniml3]
+a22691a sweet: light: remove the dynamic brightness offset [daniml3]
+af0b851 sweet: qdcm: stop setting the default mode to smart_MC1 [daniml3]
+
+* frameworks/base
+0c91a6c gPixelPropsUtils: Update to August 2021 Redfin fingerprint [NoSpamDan]
+9c0e383 Merge tag 'android-11.0.0_r40' of https://android.googlesource.com/platform/frameworks/base into HEAD [NoSpamDan]
+
+* frameworks/opt/telephony
+db747cd Merge tag 'android-11.0.0_r40' of https://android.googlesource.com/platform/frameworks/opt/telephony into HEAD [NoSpamDan]
+skipping packages/apps/Camera2
+
+* packages/apps/Settings
+d90b211 Merge tag 'android-11.0.0_r40' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD [NoSpamDan]
+
+* packages/services/Telephony
+fed70d3 Merge tag 'android-11.0.0_r40' of https://android.googlesource.com/platform/packages/services/Telephony into HEAD [NoSpamDan]
+
+🍬 21-Aug-2021 🍬
+
+* packages/apps/Bluetooth
+de55f17 Automatic translation import [Michael Bestas]
+skipping packages/apps/Camera2
+
+* packages/apps/Nfc
+bd2b598 Automatic translation import [Michael Bestas]
+
+* vendor/qcom/opensource/fm-commonsys
+8920992 Automatic translation import [Michael Bestas]
+
+🍬 20-Aug-2021 🍬
+
+* device/xiaomi/sweet
+ffc4f40 sweet: set the bootanimation resolution to 1080 [daniml3]
+027bdb4 sweet: overlay: disable proximity check on pulse [Bruno Martins]
+skipping packages/apps/Camera2
+
