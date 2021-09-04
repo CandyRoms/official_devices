@@ -1,0 +1,129 @@
+🍬🍬🍬🍬🍬🍬 CANDY 11 🍬🍬🍬🍬🍬🍬
+
+ CandyRoms Changelog for sweet
+
+🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬
+
+🍬 04-Sep-2021 🍬
+
+* device/xiaomi/sweet
+3b79e36 temp [Mourya Baruah]
+695a440 test [Mourya Baruah]
+fedba7b sweet: do not allow vendor.bluetooth-1-0-qti to use wakelocks [daniml3]
+5365cae sweet: qdcm: remove the ColorGamut of the "none" color mode [daniml3]
+f3cdf31 sweet: make {none, smart_MC, hal_{dci_p3, hdr}} the only color modes [daniml3]
+6eaedec sweet: import stock display calibration config [daniml3]
+
+* frameworks/base
+7e84f96 base: Update lmkd diagnostics info [Pranav Vashi]
+d9d030e Camera: Extend face detection [Shuzhen Wang]
+2645b4a Use SystemUI reboot view also for OTA uncrypt [Timi Rautamäki]
+092102d base: Setup baseline for DiracSound and MiSound lint [Kshitij Gupta]
+4f116c0 base: Add DiracSound and MiSound to current api [Kshitij Gupta]
+799cc40 base: Add support for MiSound FX [Kshitij Gupta]
+a1e45c6 base: Add support for DiracSound FX [Kshitij Gupta]
+9aef9ce DeviceConfig: Add telephony to public namespaces. [spezi77]
+ba01305 Add synchronization to all mDeviceBusy state changes. [Johanna Ye]
+d472c6b Catch SQLiteFullException in AccountManagerService [huyuxin]
+c41a51d Camera2: Notify fps as Session Based Parameter [Sauhard Pande]
+5f366a3 Allow Seamless rotation while PIP is active [switchtegrax1]
+e113ff9 Fix inconsistency in ringtone list [akansha.shukla]
+f440c1f LockIcon: Fix drawable log warning [Hikari-no-Tenshi]
+a56d69a Watchdog: run emergency sync before killing system [Simão Gomes Viana]
+830ef28 Watchdog: increase default timeout by 30 seconds [Simão Gomes Viana]
+b5f273a Don't enable extra StrictMode features for userdebug builds [Sultan Alsawaf]
+931ab3c fixup - DisplayPowerController: make brightness ramp rate overlay-able [ritujb]
+67ab424 DisplayPowerController: make brightness ramp rate overlay-able [Chenyang Zhong]
+150c6bd AppLock: Update tasks snapshot when needed [jhenrique09]
+e82bbac !fixup SystemUI: Fix showing duplicated charging status [Scott Warner]
+b835fd0 AlarmManagerService: Avoid to hold wakelock for long time [wutao]
+
+🍬 03-Sep-2021 🍬
+
+🍬 02-Sep-2021 🍬
+
+* device/xiaomi/violet
+a46f202 violet: media: Override ccodec property in vendor [Pranav Vashi]
+3b74959 violet:  Update display props from stock [Pranav Vashi]
+
+🍬 01-Sep-2021 🍬
+
+* frameworks/av
+fb0b9a8 libmedia: Add MediaPlayer() function for backward compatibility [Adithya R]
+4f6da04 av: camera: catch mad hals that mess up buffer time [maxwen]
+
+* vendor/candy
+f79fd2a vendor: Add soong variable for TARGET_CAMERA_BOOTTIME_TIMESTAMP [jhenrique09]
+
+🍬 31-Aug-2021 🍬
+
+* device/xiaomi/sweet
+b982985 candy-ify [Mourya Baruah]
+
+🍬 30-Aug-2021 🍬
+
+🍬 29-Aug-2021 🍬
+
+* vendor/candy
+f3d16ea add sweet to offical devices [Mourya Baruah]
+
+🍬 28-Aug-2021 🍬
+
+🍬 27-Aug-2021 🍬
+
+* frameworks/base
+6b28c04 Merge "core: Switch to Hastebin for copying crash logs" into c11 [Dan Cartier]
+
+🍬 26-Aug-2021 🍬
+
+🍬 25-Aug-2021 🍬
+
+🍬 24-Aug-2021 🍬
+
+* build/make
+09f5183 Merge tag 'android-11.0.0_r40' of https://android.googlesource.com/platform/build into HEAD [NoSpamDan]
+02ada4c Version bump to RQ3A.210805.001.A1 [core/build_id.mk] [android-build-team Robot]
+421692b Make change and version bump to RQ3A.210805.001 [android-build-team Robot]
+d033ef6 Update Security String to 2021-08-05 [Paul Scovanner]
+
+* candy
+39d35c2 candy: Merge tag 'android-11.0.0_r40' of https://android.googlesource.com/platform/manifest into c11 [NoSpamDan]
+
+* device/xiaomi/sweet
+cc87659 sweet: drop fortsense's fingerprint extension [daniml3]
+6d17d4b sweet: drop I/O prefetcher [Bruno Martins]
+
+* packages/resources/devicesettings
+f20becd Automatic translation import [Michael Bestas]
+
+* vendor/xiaomi/sweet
+4bb2fe5 Sync with the device tree [daniml3]
+
+🍬 23-Aug-2021 🍬
+
+* device/xiaomi/sweet
+7883026 sweet: do not modify the panel dimensions reported by the kernel [daniml3]
+72a95fd sweet: drop vendor.display.skip_refresh_rate_change [daniml3]
+e5892db sweet: override the SetRefreshRate HWC builtin display function [daniml3]
+
+* kernel/xiaomi/sweet
+bce15eb Revert "Revert "ARM64: dts: Correct physical panel dimensions"" [daniml3]
+
+* vendor/xiaomi/sweet
+7c72a2a qdcm: stop setting the default mode to smart_MC1 [daniml3]
+
+🍬 22-Aug-2021 🍬
+
+* frameworks/base
+0c91a6c gPixelPropsUtils: Update to August 2021 Redfin fingerprint [NoSpamDan]
+9c0e383 Merge tag 'android-11.0.0_r40' of https://android.googlesource.com/platform/frameworks/base into HEAD [NoSpamDan]
+
+* frameworks/opt/telephony
+db747cd Merge tag 'android-11.0.0_r40' of https://android.googlesource.com/platform/frameworks/opt/telephony into HEAD [NoSpamDan]
+
+* packages/apps/Settings
+d90b211 Merge tag 'android-11.0.0_r40' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD [NoSpamDan]
+
+* packages/services/Telephony
+fed70d3 Merge tag 'android-11.0.0_r40' of https://android.googlesource.com/platform/packages/services/Telephony into HEAD [NoSpamDan]
+
