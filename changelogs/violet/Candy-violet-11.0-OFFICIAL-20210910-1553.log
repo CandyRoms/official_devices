@@ -1,0 +1,330 @@
+🍬🍬🍬🍬🍬🍬 CANDY 11 🍬🍬🍬🍬🍬🍬
+
+ CandyRoms Changelog for violet
+
+🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬
+
+🍬 10-Sep-2021 🍬
+
+* art
+9e4c8ad Merge tag 'android-11.0.0_r45' of https://android.googlesource.com/platform/art into HEAD [Mourya Baruah]
+
+* bionic
+ec3dcb6 Merge tag 'android-11.0.0_r45' of https://android.googlesource.com/platform/bionic into HEAD [Mourya Baruah]
+
+* bootable/recovery
+d34ec4e Merge tag 'android-11.0.0_r45' of https://android.googlesource.com/platform/bootable/recovery into HEAD [Mourya Baruah]
+
+* build/make
+784d26d Merge tag 'android-11.0.0_r45' of https://android.googlesource.com/platform/build into HEAD [Mourya Baruah]
+
+* build/soong
+dd15ecd Merge tag 'android-11.0.0_r45' of https://android.googlesource.com/platform/build/soong into HEAD [Mourya Baruah]
+
+* development
+e31f8ac Merge tag 'android-11.0.0_r45' of https://android.googlesource.com/platform/development into HEAD [Mourya Baruah]
+
+* frameworks/av
+e209b48 Merge tag 'android-11.0.0_r45' of https://android.googlesource.com/platform/frameworks/av into HEAD [Mourya Baruah]
+
+* frameworks/base
+6e5ac89 Merge tag 'android-11.0.0_r45' of https://android.googlesource.com/platform/frameworks/base into HEAD [Mourya Baruah]
+
+* frameworks/native
+43e41bf Merge tag 'android-11.0.0_r45' of https://android.googlesource.com/platform/frameworks/native into HEAD [Mourya Baruah]
+
+* frameworks/opt/net/ims
+bd298e3 Merge tag 'android-11.0.0_r45' of https://android.googlesource.com/platform/frameworks/opt/net/ims into HEAD [Mourya Baruah]
+
+* frameworks/opt/net/wifi
+9c0e06f Merge tag 'android-11.0.0_r45' of https://android.googlesource.com/platform/frameworks/opt/net/wifi into HEAD [Mourya Baruah]
+
+* frameworks/opt/telephony
+5a794ca Merge tag 'android-11.0.0_r45' of https://android.googlesource.com/platform/frameworks/opt/telephony into HEAD [Mourya Baruah]
+
+* hardware/google/pixel-sepolicy
+c628ffc Merge tag 'android-11.0.0_r45' of https://android.googlesource.com/platform/hardware/google/pixel-sepolicy into HEAD [Mourya Baruah]
+
+* hardware/interfaces
+65cb506 Merge tag 'android-11.0.0_r45' of https://android.googlesource.com/platform/hardware/interfaces into HEAD [Mourya Baruah]
+
+* kernel/xiaomi/sweet
+705d469 Revert "power: smb5: report fast charging when a proprietary charger is attached" [Mourya Baruah]
+
+* packages/apps/Contacts
+f000854 Merge tag 'android-11.0.0_r45' of https://android.googlesource.com/platform/packages/apps/Contacts into HEAD [Mourya Baruah]
+
+* packages/apps/Launcher3
+1c817ac Merge tag 'android-11.0.0_r45' of https://android.googlesource.com/platform/packages/apps/Launcher3 into HEAD [Mourya Baruah]
+
+* packages/apps/PhoneCommon
+324a739 Merge tag 'android-11.0.0_r45' of https://android.googlesource.com/platform/packages/apps/PhoneCommon into HEAD [Mourya Baruah]
+
+* packages/apps/Settings
+6ff9e21 Merge tag 'android-11.0.0_r45' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD [Mourya Baruah]
+
+* packages/apps/SettingsIntelligence
+a15e92c Merge tag 'android-11.0.0_r45' of https://android.googlesource.com/platform/packages/apps/SettingsIntelligence into HEAD [Mourya Baruah]
+
+* packages/apps/ThemePicker
+a3f3228 Merge tag 'android-11.0.0_r45' of https://android.googlesource.com/platform/packages/apps/ThemePicker into HEAD [Mourya Baruah]
+
+* packages/apps/WallpaperPicker2
+921c03d Merge tag 'android-11.0.0_r45' of https://android.googlesource.com/platform/packages/apps/WallpaperPicker2 into HEAD [Mourya Baruah]
+
+* packages/providers/MediaProvider
+7a82e8c Merge tag 'android-11.0.0_r45' of https://android.googlesource.com/platform/packages/providers/MediaProvider into HEAD [Mourya Baruah]
+
+* packages/providers/TelephonyProvider
+00d94fa Merge tag 'android-11.0.0_r45' of https://android.googlesource.com/platform/packages/providers/TelephonyProvider into HEAD [Mourya Baruah]
+
+* packages/services/Telecomm
+76e3344 Merge tag 'android-11.0.0_r45' of https://android.googlesource.com/platform/packages/services/Telecomm into HEAD [Mourya Baruah]
+
+* packages/services/Telephony
+865c3f7 Merge tag 'android-11.0.0_r45' of https://android.googlesource.com/platform/packages/services/Telephony into HEAD [Mourya Baruah]
+
+* platform_testing
+e7d2145 Merge tag 'android-11.0.0_r45' of https://android.googlesource.com/platform/platform_testing into HEAD [Mourya Baruah]
+
+* system/core
+da24d65 Merge tag 'android-11.0.0_r45' of https://android.googlesource.com/platform/system/core into HEAD [Mourya Baruah]
+
+* system/netd
+153b641 Merge tag 'android-11.0.0_r45' of https://android.googlesource.com/platform/system/netd into HEAD [Mourya Baruah]
+
+* system/security
+9e33978 Merge tag 'android-11.0.0_r45' of https://android.googlesource.com/platform/system/security into HEAD [Mourya Baruah]
+
+* system/sepolicy
+342d515 Merge tag 'android-11.0.0_r45' of https://android.googlesource.com/platform/system/sepolicy into HEAD [Mourya Baruah]
+
+* system/update_engine
+7a7cc01 Merge tag 'android-11.0.0_r45' of https://android.googlesource.com/platform/system/update_engine into HEAD [Mourya Baruah]
+
+* system/vold
+774050f Merge tag 'android-11.0.0_r45' of https://android.googlesource.com/platform/system/vold into HEAD [Mourya Baruah]
+
+* tools/metalava
+f51dff1 Merge tag 'android-11.0.0_r45' of https://android.googlesource.com/platform/tools/metalava into HEAD [Mourya Baruah]
+
+🍬 09-Sep-2021 🍬
+
+* system/core
+7397691 core: Add more props for snet spoofing [jhenrique09]
+f7f6bc7 init: Only set safetynet props if not eng build [jhenrique09]
+7696c0d init: Weaken property override security only when spoofing safetynet [jhenrique09]
+462f889 init: add vendor.*  keys to spoof safetynet [Chris Renshaw]
+
+🍬 08-Sep-2021 🍬
+
+* build/make
+98d5b8c Merge tag 'android-11.0.0_r43' of https://android.googlesource.com/platform/build into HEAD [Mourya Baruah]
+
+* frameworks/base
+d277e64 core: Improve HastBin Logs Upload logic [Jyotiraditya Panda]
+06aace2 Merge tag 'android-11.0.0_r43' of https://android.googlesource.com/platform/frameworks/base into HEAD [Mourya Baruah]
+
+* frameworks/native
+e1f415b Merge tag 'android-11.0.0_r43' of https://android.googlesource.com/platform/frameworks/native into HEAD [Mourya Baruah]
+
+* packages/apps/Launcher3
+309feea Merge tag 'android-11.0.0_r43' of https://android.googlesource.com/platform/packages/apps/Launcher3 into HEAD [Mourya Baruah]
+
+* packages/apps/Settings
+bd696e3 Merge tag 'android-11.0.0_r43' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD [Mourya Baruah]
+
+* system/core
+c983a1e Add exfat utilities for mkfs and fsck [Daniel Rosenberg]
+f869cc2 logd: enable LTO [Tom Cherry]
+bf27f81 fastboot: Add a few missing fastboot commands from help [Luca Stefani]
+9d8a4b5 init.rc: Disable native stats collection service [Danny Lin]
+b5bc796 logcat: Mark as recovery_available [Michael Bestas]
+577d50d init: Set properties to make SafetyNet pass. [Danny Lin]
+d343230 health: Add CAP_BLOCK_SUSPEND [Subbaraman Narayanamurthy]
+2538f15 healthd: cover devices that have voltage_max file with value of 0 [maxwen]
+d60468e Modifying /dev/memcg permissions. [Karthik Gopalan]
+f2ef157 Filter out QTI performance spam [DennySPB]
+36a3b78 Shut up camera and wcnss debug output [faust93]
+9ae5597 Filter GalleryDatab* [Simao Gomes Viana]
+c568ca2 Silence spammy logs from camera blobs (AEC_PORT and mm-camera) [Sultanxda]
+150f8fa init: ro.build.selinux should be 0 [Park Ju Hyung]
+ac3d259 init: add several more keys to spoof [Park Ju Hyung]
+847307f init: workaround SafetyNet check [Park Ju Hyung]
+8151647 init: Weaken property override security for the init extension [Alex Naidis]
+55d5cea fastboot: Don't fail when unable to get boot partition size [Michael Bestas]
+6798370 fastboot driver: fix message [Yifan Hong]
+dd5ae22 Adding 'postinstall' root dir unconditionally. [Bowgo Tsai]
+0dfd38d Store result of mount_all for mounted userdata by metadata encryption [Qilin Tan]
+6b76c2b Only store result of mount_all that mounted userdata [Nikita Ioffe]
+488f4d5 fastboot: Bring back legacy A/B support [LuK1337]
+88d6d1f LockscreenCharging: squashed (2/3) [xyyx]
+d1461e0 fastboot: Skip super partition update on devices with dynamic prebuilt images. [Alexander Koskovich]
+af71080 healthd: cover devices that have voltage_max file with value of 0 [maxwen]
+c7c0f7a healthd: allow custom charger images [Scott Mertz]
+b3e3007 liblog: Always report as debuggable when building userdebug/eng [Bruno Martins]
+8b06d87 Allow remounts with Magisk installed [Bruno Martins]
+6135227 adb_root: Make encryption action an argument to mkdir [Paul Crowley]
+7eaede9 Boost init priority before main loop [Wei Wang]
+b11f4ae debuggerd: add Candy version to tombstones [Scott Mertz]
+9e40135 healthd: Add support for HVDCP_3 chargers [Abhijeet Dharmapurikar]
+e86be5f Squashed import of adb root patches [LuK1337]
+c80c712 errno_restorer: Make bool operator explicit [Luca Stefani]
+5ec4685 Remove unneeded optimize_for lite [Luca Stefani]
+619fb12 [cleanup] Fix a clang-tidy warning [Yurii Zubrytskyi]
+fd68e4f adb: Look for shell executable in alternate places [Tom Marshall]
+706407d init: don't skip starting a service with no domain if permissive [William Bellavance]
+90dd43f fastbootd: hacks for legacy [Alessandro Astone]
+eb22f84 fastbootd: usb: fallback to v1 descriptors [Alessandro Astone]
+6e0df2a core: Bring back support for legacy FunctionFS [Arne Coucheron]
+468a423 init: Add activation logs for flattened APEX folders with details [Adrian DC]
+98a5f71 Reboot sequence: Unmount active apexes before unmounting /data [Nikita Ioffe]
+9a4281e init: Sort the list of flattened APEX folders to avoid variations [Adrian DC]
+2a46b0d fs_mgr: autodetect filesystem type [Dan Pasanen]
+9784e1a core: mark libsysutils and libdiskconfig recovery_available [Alessandro]
+45966c4 init: Don't run update_sys_usb_config if /data isn't mounted [Michael Bestas]
+406a19e init: Convert lineage product variables to soong config variables [Pig]
+85e8f7a Camera: Add feature extensions [Sauhard Pande]
+d2faf73 logcat: Map '-C' to 'logcat -v color' [Adnan Begovic]
+9357da4 Add wrapped key support [dianlujitao]
+2983377 healthd: Reinitialize mChargerNames for every battery update [Abhijeet Dharmapurikar]
+7278f1e init: Add vendor-specific initialization hooks. [David Ng]
+bd91edf healthd: Add DASH charger type [Steve Kondik]
+52f1842 ziptool: restore unzip for recovery [Alessandro Astone]
+d1c27b3 fs_mgr: mount: don't set the block device as ro for recovery [Alessandro Astone]
+d934622 Revert "Format formattable partitions if mount fails" [Tom Marshall]
+2e2e82c adb: Add ro.adb.secure.recovery handling [LuK1337]
+fec06bd reboot: allow opting-in to fastbootd [Alessandro Astone]
+
+* system/sepolicy
+7e5c62a Merge tag 'android-11.0.0_r43' of https://android.googlesource.com/platform/system/sepolicy into HEAD [Mourya Baruah]
+
+* vendor/xiaomi/sweet
+fdba17f Add files via upload [Mourya Baruah]
+4079bd1 sweet: use stock libcameraservice [AdarshGrewal]
+
+🍬 07-Sep-2021 🍬
+
+* device/xiaomi/sweet
+5b1ebfb sweet:Force triple frame buffers [kerneltoast]
+9ab630c sweet: Speed profile services and wifi-service to reduce RAM and sto… [mathieuchartier]
+fad019a sweet: : compile hwui for better performance [Mourya Baruah]
+5b53a2d  sweet: Always preopt extracted APKs [mathieuchartier]
+b34cfa4 wifi: Disable WLAN Firmware loggings [Panchajanya1999]
+953746c violet: gps: Lower debug level [Michael Bestas]
+8d23d09 sweet: wifi: Enable QPower and Deep sleep together [Alex Naidis]
+94fe4b5 sweet: config: import stock WCNSS config [AdarshGrewal]
+7e9dac5 sweet: Add BoardConfig flags for display and drm [Pranav Vashi]
+71c58b9  sweet: Enable dpm service [Pranav Vashi]
+8ce4955 sweet: copy missing permissions [Ali Hasan]
+0aa3fd9 sweet: doze: Fix syntax error to allow goToSleep with alarms with a delta time over one minute [MB]
+b5b2b8d sweet: doze: Adapt to get AlarmManager [MB]
+91c59b8 sweet: doze: Ignore check while wakeup by alarm screen [maytinhdibo]
+ebdc31c sweet: doze: Ignore check while wakeup by call [maytinhdibo]
+f6b5668 sweet: doze: Add Pocket Protection Since the ultrasound proximity sensor broke deep sleep and since we don't have a "pocket sensor", drop an "emulated pocket sensor" which combines the use of three sensors, proximity, light and pick-up sensors, to mediate and disable the device after due to accidental touches or due to the ambient display. ** F_TIME could be reduced, in our case our proximity sensor is not totally reliable as it detects proximity in various and not real proximity situations, a reduction under 3s could make it impossible to unlock the device with password pattern etc. [MB]
+034bbc5 sweet: doze: Split XiaomiDoze from Parts [MB]
+9f4e855 sweet: Remove virtual framebuffer. [ZVNexus]
+c595b4f props: whitelist ANX for size stream skip [Abdulwahab Isam]
+4d36b32 sweet: Add kpti=off to boot command line [bibindasb]
+9294b21 sweet: Adjust dex2oat thread count after setup wizard [Kyle Lin]
+437ddc4 sweet: Enable usage of dex2oat64 [David Sehr]
+32f1d69 sweet: Enable Seamless Transfer [Chenyang Zhong]
+4c6ad81 jj [Mourya Baruah]
+
+* kernel/xiaomi/sweet
+a3fad9f mbcache: Speed up cache entry creation [Sultan Alsawaf]
+b30e800 seq_file: account everything to kmemcg [Alexey Dobriyan]
+6a60f6e  defconfig: Disable PAN emulation [Panchajanya1999]
+bdcab83 kbuild: Disable stack conservation for GCC [Sultan Alsawaf]
+84f1078f scripts/kallsyms: set relative_base more effectively [Masahiro Yamada]
+10d59c5 scripts/kallsyms: shrink table before sorting it [Masahiro Yamada]
+df2b8c9 scripts/kallsyms: remove unneeded #ifndef ARRAY_SIZE [Masahiro Yamada]
+27d94f5 net: ipv4: Reduce TCP performance spikes [Panchajanya1999]
+4b9fbf2 qmi_rmnet: Make powersave workqueue unbound and freezable [LibXZR]
+bdcfb92 Revert "dfc: Use alarm timer to trigger powersave work" [LibXZR]
+a619795 schedutil: Avoid dumb priority calculation Why again calculating sched priority while it is already defined before? [Panchajanya1999]
+8d0bb49 msm: camera: Fix memory leak [Demon000]
+4e27cfc drivers: thermal: limits-dcvs: Always build driver [Sultan Alsawaf]
+3a0a608 thermal: Increase thermal trip points to 16 [Angelo G. Del Regno]
+a6057f1 msm: npu_dev: initialize mutex_lock earlier [Yaroslav Furman]
+1634079 power/wakelock: Add a timeout to wakelocks globally [Panchajanya1999]
+fb24250 drivers: platform: msm: sps: Treat SPS_ERR as kernel debug messages [Panchajanya1999]
+4ebd63e drivers: pci-msm: Treat IPA context error messages as debug messages [Panchajanya1999]
+f540fef arm64: debug: Disable JTAG debugging by default [Tyler Nijmeh]
+feb32dd diag: disable DIAG_DEBUG [Park Ju Hyung]
+54d207f Revert "Revert "ARM64: dts: Correct physical panel dimensions"" [daniml3]
+
+🍬 06-Sep-2021 🍬
+
+🍬 05-Sep-2021 🍬
+
+* frameworks/base
+0766793 base: Update lmkd diagnostics info [Pranav Vashi]
+d76c0fa Use SystemUI reboot view also for OTA uncrypt [Timi Rautamäki]
+10407bd base: Setup baseline for DiracSound and MiSound lint [Kshitij Gupta]
+d4f7d5d base: Add DiracSound and MiSound to current api [Kshitij Gupta]
+387039c base: Add support for MiSound FX [Kshitij Gupta]
+6d144c4 base: Add support for DiracSound FX [Kshitij Gupta]
+a82703a DeviceConfig: Add telephony to public namespaces. [spezi77]
+a9076bc Add synchronization to all mDeviceBusy state changes. [Johanna Ye]
+2743f79 Catch SQLiteFullException in AccountManagerService [huyuxin]
+ae10e90 Camera2: Notify fps as Session Based Parameter [Sauhard Pande]
+5d90067 Allow Seamless rotation while PIP is active [switchtegrax1]
+efd8338 Fix inconsistency in ringtone list [akansha.shukla]
+aef5b86 LockIcon: Fix drawable log warning [Hikari-no-Tenshi]
+
+* hardware/qcom-caf/sm8150/display
+b20514f sdm: core: allow to set a multiplier for the panel dimensions [daniml3]
+1ff50f0 sdm: core: allow to skip refresh rate changes [daniml3]
+
+🍬 04-Sep-2021 🍬
+
+* device/xiaomi/sweet
+3b79e36 temp [Mourya Baruah]
+695a440 test [Mourya Baruah]
+fedba7b sweet: do not allow vendor.bluetooth-1-0-qti to use wakelocks [daniml3]
+5365cae sweet: qdcm: remove the ColorGamut of the "none" color mode [daniml3]
+f3cdf31 sweet: make {none, smart_MC, hal_{dci_p3, hdr}} the only color modes [daniml3]
+6eaedec sweet: import stock display calibration config [daniml3]
+
+* frameworks/base
+a56d69a Watchdog: run emergency sync before killing system [Simão Gomes Viana]
+830ef28 Watchdog: increase default timeout by 30 seconds [Simão Gomes Viana]
+b5f273a Don't enable extra StrictMode features for userdebug builds [Sultan Alsawaf]
+931ab3c fixup - DisplayPowerController: make brightness ramp rate overlay-able [ritujb]
+67ab424 DisplayPowerController: make brightness ramp rate overlay-able [Chenyang Zhong]
+150c6bd AppLock: Update tasks snapshot when needed [jhenrique09]
+e82bbac !fixup SystemUI: Fix showing duplicated charging status [Scott Warner]
+b835fd0 AlarmManagerService: Avoid to hold wakelock for long time [wutao]
+
+🍬 03-Sep-2021 🍬
+
+🍬 02-Sep-2021 🍬
+
+* device/xiaomi/violet
+a46f202 violet: media: Override ccodec property in vendor [Pranav Vashi]
+3b74959 violet:  Update display props from stock [Pranav Vashi]
+
+🍬 01-Sep-2021 🍬
+
+* frameworks/av
+fb0b9a8 libmedia: Add MediaPlayer() function for backward compatibility [Adithya R]
+4f6da04 av: camera: catch mad hals that mess up buffer time [maxwen]
+
+* vendor/candy
+f79fd2a vendor: Add soong variable for TARGET_CAMERA_BOOTTIME_TIMESTAMP [jhenrique09]
+
+🍬 31-Aug-2021 🍬
+
+* device/xiaomi/sweet
+b982985 candy-ify [Mourya Baruah]
+
+🍬 30-Aug-2021 🍬
+
+🍬 29-Aug-2021 🍬
+
+🍬 28-Aug-2021 🍬
+
+* vendor/candy
+f3d16ea add sweet to offical devices [Mourya Baruah]
+
