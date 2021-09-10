@@ -2,12 +2,12 @@
     "response": [
         {
             "datetime":1631289139,
-            "filename": "violet",
+            "filename": "Candy-violet-11.0-OFFICIAL-20210910-1553.zip",
             "id": "55376aaa8dde256395a98382998f7d8e",
-            "romtype": "violet",
-            "url": "https://sourceforge.net/projects/CandyRoms/files/Official/eleven/violet/violet",
+            "romtype": "OFFICIAL",
+            "url": "https://sourceforge.net/projects/CandyRoms/files/Official/eleven/violet/Candy-violet-11.0-OFFICIAL-20210910-1553.zip",
             "size":1684644811,
-            "version": "violet.violet"
+            "version": "11.0"
         }
     ]
 }
