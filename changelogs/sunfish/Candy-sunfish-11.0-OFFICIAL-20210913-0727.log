@@ -1,0 +1,281 @@
+🍬🍬🍬🍬🍬🍬 CANDY 11 🍬🍬🍬🍬🍬🍬
+
+ CandyRoms Changelog for sunfish
+
+🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬
+
+🍬 13-Sep-2021 🍬
+
+* device/google/sunfish
+1a68ffc sunfish: Update fp to RQ3A.210905.001 [NoSpamDan]
+
+* device/google/sunfish-sepolicy
+92f11a3 Merge tag 'android-11.0.0_r43' into c11 [NoSpamDan]
+
+* kernel/google/sunfish
+22363fe Merge tag 'android-11.0.0_r0.104' into qca-wfi-host-cmn [Sourajit Karmakar]
+
+* vendor/google
+b2a1dac sunfish: RQ3A.210905.001 Sept 2021 [NoSpamDan]
+
+🍬 12-Sep-2021 🍬
+
+🍬 11-Sep-2021 🍬
+
+🍬 10-Sep-2021 🍬
+
+* device/google/sunfish
+b698715 Merge tag 'android-11.0.0_r43' of https://android.googlesource.com/device/google/sunfish into c11 [NoSpamDan]
+
+* device/oneplus/hotdogb
+ac2cf43 hotdogb: update to 11.0.3.1 [Omkar Chandorkar]
+59b5894 hotdogb: drop fp/desc override [Omkar Chandorkar]
+abcbf34 Revert "hotdogb: Add an empty board-info.txt" [Omkar Chandorkar]
+e23266a hotdogb: overlay: decrease brightness debounce and ramp rates [Rituj Beniwal]
+
+* device/oneplus/sm8150-common
+5e9adfe sm8150-common: DeviceSettings: Fix pick errors [NoSpamDan]
+b3979c4 DeviceSettings: Actually check if FPS overlay service is running [Ido Ben-Hur]
+3e2e8bc sm8150-common: init: Update fingerprint from coral [Ido Ben-Hur]
+a29bfa8 sm8150-common: update to 11.0.3.1 [Omkar Chandorkar]
+c0e6d2b DeviceSettings: Let panel modes scroll [Ido Ben-Hur]
+4431e98 KeyHandler: Cleanup [Ido Ben-Hur]
+e299a5b DeviceSettings: Add sliders for color balance adjustment [NoSpamDan]
+1c9ebbb DeviceSettings: Improve code all across [NoSpamDan]
+6f813ee sm8150-common: libinit: August time [Ido Ben-Hur]
+ae8e81a doze: Fixup switch removal [Ido Ben-Hur]
+b75e8e3 sm8150-common: update to OnePlus7ProOxygen_21.P.38_GLO_0380_2107172338 [Omkar Chandorkar]
+57225d0 sm8150-common: only force hotdogg to single sim [Omkar Chandorkar]
+86aba01 sm8150-common: rootdir:post_boot: inline with LA.UM.9.1.r1-10600-SMxxx0.0 [John Galt]
+f1b0dc3 sm8150-common: sed nfcee_access instead of pinning [Omkar Chandorkar]
+8f90a03 sm8150-common: Call oem_qmi_access_func() on RIL init [LuK1337]
+b606870 sm8150-common: Force DSDS for selected device variants [LuK1337]
+d9c2a04 sm8150-common: rootdir: Strip out unnecessary SKU customization [LuK1337]
+3113c27 sm8150-common: doze: Remove AOD & doze toggles [Ido Ben-Hur]
+
+* frameworks/base
+40df3df core: Spoof model to GMS along with fingerprint [Adithya R]
+851218d core: Spoof build fingerprint for Google Play Services [Danny Lin]
+1d4dd67 display: Add simple RGB color balance transform [Danny Lin]
+93c4a07 Revert "Revert "Detects all activities for whether showing work challenge"" [NoSpamDan]
+
+* kernel/oneplus/sm8150
+ce451f2 gulch_defconfig: regen [John Galt]
+536373c net: Prevent useless userpace spam [DennySPb]
+93fbba0 thermal: qcom: bcl: Return before thermal trip evaluates [Panchajanya1999]
+eec6c76 BACKPORT: lib: string.h: detect intra-object overflow in fortified string funct… …ions [Daniel Axtens]
+d804d34 hwtracing: Add entries from sm8150-coresight [Jebaitedneko]
+
+* vendor/oneplus
+758a403 hotdogb: update to OnePlus7TOxygen_14.O.29_GLO_0290_2108181607 [Omkar Chandorkar]
+1149a37 sm8150-common: update to OnePlus7ProOxygen_21.P.39_GLO_0390_2108161902 [Omkar Chandorkar]
+e89afc3 hotdogb: update to OnePlus7TOxygen_14.O.28_GLO_0280_2107180039 [Omkar Chandorkar]
+599bcdc sm8150-common: update to OnePlus7ProOxygen_21.P.38_GLO_0380_2107172338 [Omkar Chandorkar]
+5605b2a sm8150-common: Patch qcrild to load libril_shim.so first [LuK1337]
+12f73d2 {guacamole/b, hotdog/b}: remove unused multilibs [Omkar Chandorkar]
+bf23927 sm8150-commmon: update to LA.UM.9.1.r1-10200-SMxxx0.0 [Omkar Chandorkar]
+aeee556 {hotdogb}: patch libgf_ud_hal to load a different prop [Omkar Chandorkar]
+278ec61 sm8150-common: add missing nfc blob [Omkar Chandorkar]
+48f9d0d sm8150-common: add hvdcp_opti * fixes init: Command 'enable vendor.hvdcp_opti' action=persist.vendor.hvdcp_opti.start=1 (/vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc:41) took 0ms and failed: Could not enable service: Cannot find '/vendor/bin/hvdcp_opti': No such file or directory [Omkar Chandorkar]
+94c1479 guacamoleb: import from OnePlus7Oxygen_14.P.37_OTA_0370_all_2105200029 [Omkar Chandorkar]
+96f688c {guacamole, hotdog/b}: decommonise vibrator firmware [Omkar Chandorkar]
+
+🍬 09-Sep-2021 🍬
+
+* frameworks/base
+41a0c26 base: Update lmkd diagnostics info [Pranav Vashi]
+6661ca9 Use SystemUI reboot view also for OTA uncrypt [Timi Rautamäki]
+2fce1c6 base: Setup baseline for DiracSound and MiSound lint [Kshitij Gupta]
+e09b473 base: Add DiracSound and MiSound to current api [Kshitij Gupta]
+112951a base: Add support for MiSound FX [Kshitij Gupta]
+373bd963 base: Add support for DiracSound FX [Kshitij Gupta]
+4e6594f DeviceConfig: Add telephony to public namespaces. [spezi77]
+70f3538 Add synchronization to all mDeviceBusy state changes. [Johanna Ye]
+bdfe703 Catch SQLiteFullException in AccountManagerService [huyuxin]
+3340f6f Camera2: Notify fps as Session Based Parameter [Sauhard Pande]
+f9ef4e7 Allow Seamless rotation while PIP is active [switchtegrax1]
+5733707 Fix inconsistency in ringtone list [akansha.shukla]
+9ceebb2 LockIcon: Fix drawable log warning [Hikari-no-Tenshi]
+69d5beb Watchdog: run emergency sync before killing system [Simão Gomes Viana]
+732a68b Watchdog: increase default timeout by 30 seconds [Simão Gomes Viana]
+ff76f0f Don't enable extra StrictMode features for userdebug builds [Sultan Alsawaf]
+4004e26 fixup - DisplayPowerController: make brightness ramp rate overlay-able [ritujb]
+af297af DisplayPowerController: make brightness ramp rate overlay-able [Chenyang Zhong]
+53c2ab4 AppLock: Update tasks snapshot when needed [jhenrique09]
+bf75b81 !fixup SystemUI: Fix showing duplicated charging status [Scott Warner]
+00c9cbc AlarmManagerService: Avoid to hold wakelock for long time [wutao]
+6c7cd5c core: Improve HastBin Logs Upload logic [Jyotiraditya Panda]
+b50284d PixelPropsUtils: Update to September 2021 Redfin fingerprint [NoSpamDan]
+
+🍬 08-Sep-2021 🍬
+
+* build/make
+1ff4a4c Merge tag 'android-11.0.0_r43' of https://android.googlesource.com/platform/build into c11 [NoSpamDan]
+
+* frameworks/base
+608c042 AndroidManifest: Add missing MANAGE_FINGERPRINT permission from [Dil3mm4]
+536a6c2 AuthContainerView: Fix CandyUtils import [NoSpamDan]
+6b6a77f FODCircleView: Directly issue dispatchHide() and dispatchShow() [NoSpamDan]
+dd54de2 FODCircleView: FIx typo [NoSpamDan]
+19c0154 FODCircleView: Get rid of more warnings [Ido Ben-Hur]
+9712ed4 FODCircleView: Ignore assistant UI when showing bouncer [Ido Ben-Hur]
+e56eb53 FODCircleView: Improve the code once again [Ido Ben-Hur]
+50e4b3c FODCircleView: Don't show on top of assistant UI [jhonboy121]
+24c9a4a StatusBar: Fix typo with FODCircleViewImpl [NoSpamDan]
+14d9e63 Merge tag 'android-11.0.0_r43' of https://android.googlesource.com/platform/frameworks/base into c11 [NoSpamDan]
+ce30902 FOD: Convert default and cyan pressed images to PNG [NoSpamDan]
+
+* frameworks/native
+3b15bcb Merge tag 'android-11.0.0_r43' of https://android.googlesource.com/platform/frameworks/native into HEAD [NoSpamDan]
+
+* kernel/oneplus/sm8150
+0f0f16c Merge branch 'gulch_r' into eleven [John Galt]
+3264976 arm64/dts/sm8150-v2: bump big cluster min [John Galt]
+d0ac2ea gulch_defconfig: update cpuset configuration [John Galt]
+bba75c1 Makefile: inlining: close gap with gcc lto [John Galt]
+620b745 sched/core: tune uclamp [John Galt]
+bef464c sched: bump ~41% margin [John Galt]
+b8beca8 Revert "sched/fair: bump capacity margin" [John Galt]
+4129bb8 gulch_defconfig: partial cpu boosting readdition [John Galt]
+bbf7a91 Revert "gulch_defconfig: disable cpu input boosting" [John Galt]
+43bc8cc treewide: cleanup unused cpu input boosts [John Galt]
+8c786f2 Revert "drm/drm_atomic: Fallback to boosting CPU within 3s of last interaction" [John Galt]
+
+* packages/apps/Launcher3
+b9b6a35 Merge tag 'android-11.0.0_r43' of https://android.googlesource.com/platform/packages/apps/Launcher3 into HEAD [NoSpamDan]
+
+* packages/apps/Settings
+c76d89a Merge tag 'android-11.0.0_r43' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD [NoSpamDan]
+
+* system/sepolicy
+7a6450a Merge tag 'android-11.0.0_r43' of https://android.googlesource.com/platform/system/sepolicy into HEAD [NoSpamDan]
+
+🍬 07-Sep-2021 🍬
+
+🍬 06-Sep-2021 🍬
+
+🍬 05-Sep-2021 🍬
+
+🍬 04-Sep-2021 🍬
+
+* kernel/oneplus/sm8150
+abd948c drivers/input: fp_detect: Cleanup and Simplify fp detection logic [Vaisakh Murali]
+0b048ad goodix_fp: get rid of gf_irq_num() [Ivan Vecera]
+8b5cfae goodix_fp: Cleanup & rewire driver for better performance [Vaisakh Murali]
+9568d70 Revert "input: fingerprint: goodix: Clean up" [John Galt]
+4884f2c Revert "drivers/input goodix-fp: Use switch case for detecting key_inputs" [John Galt]
+ef0c91e Revert "drivers/input: fp_detect: Inline sensor_version_get" [John Galt]
+6498a41 Revert "drivers/input: goodix-fp: Inline resume, suspend and cleanup functions" [John Galt]
+32159c1 net-tcp_bbr: v2: Fix missing ECT markings on retransmits for BBRv2 [Adithya Abraham Philip]
+9fac15b net-tcp_bbr: v2: don't assume prior_cwnd was set entering CA_Loss [Neal Cardwell]
+548a467 net-tcp_bbr: v2: remove cycle_rand parameter that is unused in BBRv2 [Neal Cardwell]
+fe17fc8 net-tcp_bbr: v2: remove field bw_rtts that is unused in BBRv2 [Neal Cardwell]
+1d66d8f tcp_westwood : Bump minimum RTT and lower initial RTT duration [Harsh Shandilya]
+b94f31b drivers/input: fp_detect: Cleanup and Simplify fp detection logic [Vaisakh Murali]
+4a3f439 goodix_fp: get rid of gf_irq_num() [Ivan Vecera]
+f11e5eb goodix_fp: Cleanup & rewire driver for better performance [Vaisakh Murali]
+7ade17c Revert "input: fingerprint: goodix: Clean up" [John Galt]
+19279cf Revert "drivers/input goodix-fp: Use switch case for detecting key_inputs" [John Galt]
+2bde627 Revert "drivers/input: fp_detect: Inline sensor_version_get" [John Galt]
+af968ae Revert "drivers/input: goodix-fp: Inline resume, suspend and cleanup functions" [John Galt]
+cb37476 net-tcp_bbr: v2: Fix missing ECT markings on retransmits for BBRv2 [Adithya Abraham Philip]
+e0626d3 net-tcp_bbr: v2: don't assume prior_cwnd was set entering CA_Loss [Neal Cardwell]
+f8cec0c net-tcp_bbr: v2: remove cycle_rand parameter that is unused in BBRv2 [Neal Cardwell]
+e12952a net-tcp_bbr: v2: remove field bw_rtts that is unused in BBRv2 [Neal Cardwell]
+6d3ddf2 tcp_westwood : Bump minimum RTT and lower initial RTT duration [Harsh Shandilya]
+7195d80 Merge branch 'gulch_r' into eleven [John Galt]
+594f62a Merge tag 'v4.14.246' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into gulch_r [John Galt]
+8b7f03c gulch_defconfig: disable cpu input boosting [John Galt]
+2103312 Bluetooth: A2MP: Fix not initializing all members [Luiz Augusto von Dentz]
+257d58f block: blk-crypto: relax alignment requirements for bvecs in bios [Satya Tangirala]
+6cc2790 block: blk-crypto-fallback: handle data unit split across multiple bvecs [Satya Tangirala]
+28a26dd lockref: Limit number of cmpxchg loop retries [Jan Glauber]
+0cd2729 Makefile: Increase clang automatic inline instruction limit to 1000 for LTO [XeonDead]
+64e6966 gulch_defconfig: enable additional inline optimization [John Galt]
+277f8b7 kbuild: Add a config to optimise inlining. [Diab Neiroukh]
+ac6ced6 arm64: bpf: Don't use module memory for the BPF JIT CFI check. [Diab Neiroukh]
+53ab38f locking: rwsem: spin faster [Arjan van de Ven]
+c8c5640 Increase the ext4 default commit age [Arjan van de Ven]
+
+🍬 03-Sep-2021 🍬
+
+* kernel/oneplus/sm8150
+f96eb53 Linux 4.14.246 [Greg Kroah-Hartman]
+4ac0537 Revert "floppy: reintroduce O_NDELAY fix" [Denis Efremov]
+cea9e8e KVM: X86: MMU: Use the correct inherited permissions to get shadow page [Lai Jiangshan]
+3d1c01e KVM: x86/mmu: Treat NX as used (not reserved) for all !TDP shadow MMUs [Sean Christopherson]
+688dffd fbmem: add margin check to fb_check_caps() [George Kennedy]
+3f48831 vt_kdsetmode: extend console locking [Linus Torvalds]
+a2db4a6c net/rds: dma_map_sg is entitled to merge entries [Gerd Rausch]
+cdd9f1f drm/nouveau/disp: power down unused DP links during init [Ben Skeggs]
+5f9d527 drm: Copy drm_wait_vblank to user before returning [Mark Yacoub]
+c6cd645 vringh: Use wiov->used to check for read/write desc order [Neeraj Upadhyay]
+4fbaac3 virtio: Improve vq->broken access to avoid any compiler optimization [Parav Pandit]
+b84caa3 opp: remove WARN when no valid OPPs remain [Michał Mirosław]
+69451fe usb: gadget: u_audio: fix race condition on endpoint stop [Jerome Brunet]
+11f2193 net: marvell: fix MVNETA_TX_IN_PRGRS bit number [Maxim Kiselev]
+076662b xgene-v2: Fix a resource leak in the error handling path of 'xge_probe()' [Christophe JAILLET]
+9927922 ip_gre: add validation for csum_start [Shreyansh Chouhan]
+8265750 e1000e: Fix the max snoop/no-snoop latency for 10M [Sasha Neftin]
+ba86c6a IB/hfi1: Fix possible null-pointer dereference in _extend_sdma_tx_descs() [Tuo Li]
+a58d290e usb: dwc3: gadget: Stop EP0 transfers during pullup disable [Wesley Cheng]
+2474905 usb: dwc3: gadget: Fix dwc3_calc_trbs_left() [Thinh Nguyen]
+13078d2 USB: serial: option: add new VID/PID to support Fibocom FG150 [Zhengjun Zhang]
+86363c3 Revert "USB: serial: ch341: fix character loss at high transfer rates" [Johan Hovold]
+251b1f1 can: usb: esd_usb2: esd_usb2_rx_event(): fix the interchange of the CAN RX and TX error counters [Stefan Mätje]
+c1635ef ARC: Fix CONFIG_STACKDEPOT [Guenter Roeck]
+
+🍬 02-Sep-2021 🍬
+
+* kernel/oneplus/sm8150
+0d95275 arm64: dts: sm8150-v2: update thermal config for recent big cluster change [John Galt]
+a68b695 arm64: dts: sm8150-v2: update thermal config for recent big cluster change [John Galt]
+ce033be Merge branch 'gulch_r' into eleven [John Galt]
+c075ad6 Merge tag 'LA.UM.9.1.r1-11100-SMxxx0.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/data-kernel into gulch_r [John Galt]
+64beb2d Merge tag 'LA.UM.9.1.r1-11100-SMxxx0.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn into gulch_r [John Galt]
+
+🍬 01-Sep-2021 🍬
+
+* kernel/oneplus/sm8150
+4d33da7 Merge tag 'LA.UM.9.1.r1-11100-SMxxx0.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/fw-api into gulch_r [John Galt]
+fd74853 Merge tag 'LA.UM.9.1.r1-11100-SMxxx0.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0 into gulch_r [John Galt]
+69d1a93 Merge tag 'LA.UM.9.1.r1-11100-SMxxx0.0' of https://source.codeaurora.org/quic/la/kernel/msm-4.14 into gulch_r [John Galt]
+f49f11a proc: add seq_put_decimal_ull_width to speed up /proc/pid/smaps [Andrei Vagin]
+3e2b473 proc: replace seq_printf on seq_putc to speed up /proc/pid/smaps [Andrei Vagin]
+2da7269 sched: fair: Fix compilation [celtare21]
+a12556f sched/fair: upadte adjust_cpus_for_packing() [Pavankumar Kondeti]
+07c4d9b sched: improve the scheduler [Abhijeet Dharmapurikar]
+a6019db sched/fair: Refactor packing eligible test [Pavankumar Kondeti]
+9d3c0df sched/fair: Remove a duplicate trace print [Runmin Wang]
+bc88bb8 sched: fair: Utilize more higher capacity cpus in asymmetric systems [Lingutla Chandrasekhar]
+49837a9 Revert "sched/fair: Add overutilization condition to sync wakeup case" [Puja Gupta]
+829343f arm64: dts: qcom: Disable CoreSight DT entries for sdmmagpie, same as previous commit [XeonDead]
+49da7d0 arm64: dts: qcom: Disable CoreSight DT entries for msmnile [Daniel Jacob Chittoor]
+
+🍬 31-Aug-2021 🍬
+
+* device/xiaomi/sweet
+b982985 candy-ify [Mourya Baruah]
+
+* kernel/oneplus/sm8150
+d99f5ff sched: fair: Fix compilation [celtare21]
+86ce3aa sched/fair: upadte adjust_cpus_for_packing() [Pavankumar Kondeti]
+43b3e04 sched: improve the scheduler [Abhijeet Dharmapurikar]
+af8169d sched/fair: Refactor packing eligible test [Pavankumar Kondeti]
+bd54f9b sched/fair: Remove a duplicate trace print [Runmin Wang]
+11c07df sched: fair: Utilize more higher capacity cpus in asymmetric systems [Lingutla Chandrasekhar]
+6c32ff2 Revert "sched/fair: Add overutilization condition to sync wakeup case" [Puja Gupta]
+43c1ce2 arm64: dts: qcom: Disable CoreSight DT entries for sdmmagpie, same as previous commit [XeonDead]
+b679bbd arm64: dts: qcom: Disable CoreSight DT entries for msmnile [Daniel Jacob Chittoor]
+5d7673c Merge branch 'gulch_r' into eleven [John Galt]
+acf55ff gulch_defconfig: bump mmap min addr [John Galt]
+24eeb7f serial: msm_gen_serial: Checkout to latest SMxxx0 tag [atndko]
+6dab396 drm/drm_atomic: Fallback to boosting CPU within 3s of last interaction [Danny Lin]
+e660377 random: move rand_initialize() earlier [Kees Cook]
+2e576a4 devfrew: devdw: Increase polling rate [celtare21]
+3684b76 Revert "sched/fair: Don't let tasks slip away from gold to silver cluster". [Diep Quynh]
+2b32fcc sched: fair: Account PELT estimated utilization on WALT disabled cpu_util_cum. [Diep Quynh]
+b10080c sched: fair: Cover more WALT balancing cases. [Diep Quynh]
+4adc5a6 ANDROID: kbuild: do not merge .section..* into .section in modules [Sami Tolvanen]
+8ed7e3e ANDROID: kbuild: ensure __cfi_check is correctly aligned [Sami Tolvanen]
+
