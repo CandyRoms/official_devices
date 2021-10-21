@@ -1,0 +1,188 @@
+🍬🍬🍬🍬🍬🍬 CANDY 11 🍬🍬🍬🍬🍬🍬
+
+ CandyRoms Changelog for sunfish
+
+🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬
+
+🍬 20-Oct-2021 🍬
+
+🍬 19-Oct-2021 🍬
+
+* candy
+233e7f9 [DNM] Staging repos for Android 11.0.0_r48 [NoSpamDan]
+
+* device/google/sunfish
+491208b sunfish: 11.0.0 (RQ3A.211001.001, Oct 2021) [NoSpamDan]
+
+* frameworks/base
+150a339 PixelPropsUtils: Update to October redfin fingerprint [NoSpamDan]
+
+🍬 18-Oct-2021 🍬
+
+* device/oneplus/sm8150-common
+c25caf7 sm8150-common: init: Update fingerprint from coral [Ido Ben-Hur]
+c0e8afd DeviceSettings: Further improve refresh rate switch [Ido Ben-Hur]
+
+* kernel/oneplus/sm8150
+eef64d1 Merge branch 'gulch_r' into eleven [John Galt]
+
+🍬 17-Oct-2021 🍬
+
+* build/make
+8f3a65e Merge tag 'android-11.0.0_r48' of https://android.googlesource.com/platform/build into c11 [NoSpamDan]
+
+* candy
+f2e6eef candy: Merge tag android-11.0.0_r48 into c11 [NoSpamDan]
+
+* frameworks/base
+0ebbbcd Merge tag 'android-11.0.0_r48' of https://android.googlesource.com/platform/frameworks/base into c11 [NoSpamDan]
+
+* frameworks/opt/telephony
+c28f257 Merge tag 'android-11.0.0_r48' of https://android.googlesource.com/platform/frameworks/opt/telephony into c11 [NoSpamDan]
+
+* packages/apps/Settings
+b8e6c8d Merge tag 'android-11.0.0_r48' of https://android.googlesource.com/platform/packages/apps/Settings into c11 [NoSpamDan]
+
+* system/core
+423b17b init: Add activation logs for flattened APEX folders with details [Adrian DC]
+2a22aa3 init: Sort the list of flattened APEX folders to avoid variations [Adrian DC]
+f620015 [master] Remove special config for /dev/hw_random. [Elliott Hughes]
+e978dbc [master] Let the kernel hwrng thread manage hw_random mixing. [Elliott Hughes]
+924c78a init: set build_tags to release-keys [Omkar Chandorkar]
+6e4d0c1 Use std::shared_ptr in Epoll's callback list. [David Anderson]
+
+* vendor/candy
+81e1511 merge-aosp: Update sample command in help section [NoSpamDan]
+
+🍬 16-Oct-2021 🍬
+
+🍬 15-Oct-2021 🍬
+
+* kernel/oneplus/sm8150
+55ffc3e Revert "Selectively use Ofast on some targets" [John Galt]
+219d577 Revert "treewide: switch more to Ofast" [John Galt]
+7d16082 Revert "ion: build with Ofast" [John Galt]
+9759ead Revert "treewide: move more selectively to Ofast" [John Galt]
+
+🍬 14-Oct-2021 🍬
+
+* kernel/oneplus/sm8150
+5983316 Merge branch 'gulch_r' into eleven [John Galt]
+8a7c53d alarmtimers: Don't fail on wakeup [celtare21]
+
+🍬 13-Oct-2021 🍬
+
+🍬 12-Oct-2021 🍬
+
+* kernel/oneplus/sm8150
+175b871 Merge branch 'gulch_r' into eleven [John Galt]
+84d2450 msm: vidc:  Add CMA support for all the video secure context banks [Sayantan Majumder]
+4bdb0af msm: vidc: Add CMA support for video hardware [Sayantan Majumder]
+afbd780 scsi/ufs: backport UFS TW [John Galt]
+
+🍬 11-Oct-2021 🍬
+
+🍬 10-Oct-2021 🍬
+
+* kernel/oneplus/sm8150
+a1e50d8 Merge tag 'v4.14.250' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into gulch_r [John Galt]
+70af4de Makefile: remove dropped Polly variable [John Galt]
+ed99bf0 Linux 4.14.250 [Greg Kroah-Hartman]
+0135fcb lib/timerqueue: Rely on rbtree semantics for next timer [Davidlohr Bueso]
+b1aa3a1 libata: Add ATA_HORKAGE_NO_NCQ_ON_ATI for Samsung 860 and 870 SSD. [Kate Hsuan]
+423dc3d scsi: ses: Retry failed Send/Receive Diagnostic commands [Wen Xiong]
+4b7f4a0 usb: dwc2: check return value after calling platform_get_resource() [Yang Yingliang]
+02ac2b3 usb: testusb: Fix for showing the connection speed [Faizel K B]
+4e8e642 scsi: sd: Free scsi_disk device via put_device() [Ming Lei]
+c92eb06 ext2: fix sleeping in atomic bugs on error [Dan Carpenter]
+5ca6bd3 sparc64: fix pci_iounmap() when CONFIG_PCI is not set [Linus Torvalds]
+05fca1c xen-netback: correct success/error reporting for the SKB-with-fraglist case [Jan Beulich]
+e8c1982 net: mdio: introduce a shutdown method to mdio device drivers [Vladimir Oltean]
+
+🍬 09-Oct-2021 🍬
+
+🍬 08-Oct-2021 🍬
+
+* kernel/oneplus/sm8150
+f22768f Revert "power: process: Use lesser time to enter sleep" [Panchajanya1999]
+
+🍬 07-Oct-2021 🍬
+
+* kernel/oneplus/sm8150
+756db2b Linux 4.14.249 [Greg Kroah-Hartman]
+babe2c4 cred: allow get_cred() and put_cred() to be given NULL. [NeilBrown]
+c3156fe HID: usbhid: free raw_report buffers in usbhid_stop [Anirudh Rayabharam]
+633bd6d netfilter: ipset: Fix oversized kvmalloc() calls [Jozsef Kadlecsik]
+1c83c38 HID: betop: fix slab-out-of-bounds Write in betop_probe [F.A.Sulaiman]
+3707e37 crypto: ccp - fix resource leaks in ccp_run_aes_gcm_cmd() [Dan Carpenter]
+1a4089d usb: hso: remove the bailout parameter [Dongliang Mu]
+4c0db9c usb: hso: fix error handling code of hso_create_net_device [Dongliang Mu]
+ed26ab7 hso: fix bailout in error case of probe [Oliver Neukum]
+c13d897 arm64: Extend workaround for erratum 1024718 to all versions of Cortex-A55 [Suzuki K Poulose]
+ed6c090 ARM: 9098/1: ftrace: MODULE_PLT: Fix build problem without DYNAMIC_FTRACE [Alex Sverdlin]
+d0db7cf ARM: 9079/1: ftrace: Add MODULE_PLTS support [Alex Sverdlin]
+29a8f3a ARM: 9078/1: Add warn suppress parameter to arm_gen_branch_link() [Alex Sverdlin]
+49229b0 ARM: 9077/1: PLT: Move struct plt_entries definition to header [Alex Sverdlin]
+27e30ed EDAC/synopsys: Fix wrong value type assignment for edac_mode [Sai Krishna Potthuri]
+dfe1064 net: udp: annotate data race around udp_sk(sk)->corkflag [Eric Dumazet]
+7362dd8 ext4: fix potential infinite loop in ext4_dx_readdir() [yangerkun]
+dde4c14 ipack: ipoctal: fix module reference leak [Johan Hovold]
+58e818c ipack: ipoctal: fix missing allocation-failure check [Johan Hovold]
+9314f88 ipack: ipoctal: fix tty-registration error handling [Johan Hovold]
+372f4cc ipack: ipoctal: fix tty registration race [Johan Hovold]
+2725925 ipack: ipoctal: fix stack information leak [Johan Hovold]
+9d76f72 af_unix: fix races in sk_peer_pid and sk_peer_cred accesses [Eric Dumazet]
+a9664da scsi: csiostor: Add module softdep on cxgb4 [Rahul Lakkireddy]
+47aa889 e100: fix buffer overrun in e100_get_regs [Jacob Keller]
+a8c9959 e100: fix length calculation in e100_get_regs_len [Jacob Keller]
+6378e8a hwmon: (tmp421) fix rounding for negative values [Paul Fertser]
+77bc7dc sctp: break out if skb_header_pointer returns NULL in sctp_rcv_ootb [Xin Long]
+ce5f372 mac80211: limit injected vht mcs/nss in ieee80211_parse_tx_radiotap [Lorenzo Bianconi]
+8eb2264 mac80211: Fix ieee80211_amsdu_aggregate frag_tail bug [Chih-Kang Chang]
+fbaeca0 ipvs: check that ip_vs_conn_tab_bits is between 8 and 20 [Andrea Claudi]
+f556e1d mac80211: fix use-after-free in CCMP/GCMP RX [Johannes Berg]
+514643e cpufreq: schedutil: Destroy mutex before kobject_put() frees the memory [James Morse]
+463c467 cpufreq: schedutil: Use kobject release() method to free sugov_tunables [Kevin Hao]
+067c694 tty: Fix out-of-bound vmalloc access in imageblit [Igor Matheus Andrade Torrente]
+40faa4d qnx4: work around gcc false positive warning bug [Linus Torvalds]
+ab9755f xen/balloon: fix balloon kthread freezing [Juergen Gross]
+e21c658 PCI: aardvark: Fix checking for PIO status [Evan Wang]
+538d73d PCI: aardvark: Fix checking for PIO Non-posted Request [Pali Rohár]
+59a446e arm64: dts: marvell: armada-37xx: Extend PCIe MEM space [Pali Rohár]
+89d9390 spi: Fix tegra20 build with CONFIG_PM=n [Linus Torvalds]
+f98836a net: 6pack: Fix tx timeout and slot time [Guenter Roeck]
+2de807c alpha: Declare virt_to_phys and virt_to_bus parameter as pointer to volatile [Guenter Roeck]
+0a52ba7 arm64: Mark __stack_chk_guard as __ro_after_init [Dan Li]
+7596c2b parisc: Use absolute_pointer() to define PAGE0 [Helge Deller]
+0abc724 qnx4: avoid stringop-overread errors [Linus Torvalds]
+57c6e55 sparc: avoid stringop-overread errors [Linus Torvalds]
+d67202e net: i825xx: Use absolute_pointer for memcpy from fixed memory location [Guenter Roeck]
+9e067d4 compiler.h: Introduce absolute_pointer macro [Guenter Roeck]
+c5d5a43 xen/balloon: use a kernel thread instead a workqueue [Juergen Gross]
+e8bbc24 m68k: Double cast io functions to unsigned long [Guenter Roeck]
+3cd5d05 net: stmmac: allow CSR clock of 300MHz [Jesper Nilsson]
+a7d521c net: macb: fix use after free on rmmod [Tong Zhang]
+d56171d blktrace: Fix uaf in blk_trace access after removing by sysfs [Zhihao Cheng]
+9252a5f md: fix a lock order reversal in md_alloc [Christoph Hellwig]
+7d39992 irqchip/gic-v3-its: Fix potential VPE leak on error [Kaige Fu]
+31710ae thermal/core: Potential buffer overflow in thermal_build_list_of_policies() [Dan Carpenter]
+b459917 scsi: iscsi: Adjust iface sysfs attr detection [Baokun Li]
+5dbb823 net/mlx4_en: Don't allow aRFS for encapsulated packets [Aya Levin]
+0c8ff25 bnxt_en: Fix TX timeout when TX ring size is set to the smallest [Michael Chan]
+3bfcd02 net: hso: fix muxed tty registration [Johan Hovold]
+503b2e0 serial: mvebu-uart: fix driver's tx_empty callback [Pali Rohár]
+115b07d mcb: fix error handling in mcb_alloc_bus() [Dan Carpenter]
+dcb8f64 USB: serial: option: add device id for Foxconn T99W265 [Slark Xiao]
+10f36c0 USB: serial: option: remove duplicate USB device ID [Krzysztof Kozlowski]
+92351dc USB: serial: option: add Telit LN920 compositions [Carlo Lobrano]
+6c2cfb7 USB: serial: mos7840: remove duplicated 0xac24 device ID [Krzysztof Kozlowski]
+c09bdd8 Re-enable UAS for LaCie Rugged USB3-FW with fk quirk [Julian Sikorski]
+64062fc staging: greybus: uart: fix tty use after free [Johan Hovold]
+70981ea USB: serial: cp210x: add ID for GW Instek GDM-834x Digital Multimeter [Uwe Brandt]
+6770d71 usb-storage: Add quirk for ScanLogic SL11R-IDE older than 2.6c [Ondrej Zary]
+e316892 xen/x86: fix PV trap handling on secondary processors [Jan Beulich]
+26fe3eb cifs: fix incorrect check for null pointer in header_assemble [Steve French]
+5a2c093 usb: musb: tusb6010: uninitialized data in tusb_fifo_write_unaligned() [Dan Carpenter]
+1e69d3e usb: gadget: r8a66597: fix a loop in set_feature() [Dan Carpenter]
+70b29074 ocfs2: drop acl cache for directories too [Wengang Wang]
+
