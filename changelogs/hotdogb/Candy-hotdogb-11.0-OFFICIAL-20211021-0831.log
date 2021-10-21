@@ -1,0 +1,109 @@
+🍬🍬🍬🍬🍬🍬 CANDY 11 🍬🍬🍬🍬🍬🍬
+
+ CandyRoms Changelog for hotdogb
+
+🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬
+
+🍬 21-Oct-2021 🍬
+
+🍬 20-Oct-2021 🍬
+
+🍬 19-Oct-2021 🍬
+
+* candy
+233e7f9 [DNM] Staging repos for Android 11.0.0_r48 [NoSpamDan]
+
+* device/google/sunfish
+491208b sunfish: 11.0.0 (RQ3A.211001.001, Oct 2021) [NoSpamDan]
+
+* frameworks/base
+150a339 PixelPropsUtils: Update to October redfin fingerprint [NoSpamDan]
+
+🍬 18-Oct-2021 🍬
+
+* kernel/oneplus/sm8150
+eef64d1 Merge branch 'gulch_r' into eleven [John Galt]
+
+🍬 17-Oct-2021 🍬
+
+* build/make
+8f3a65e Merge tag 'android-11.0.0_r48' of https://android.googlesource.com/platform/build into c11 [NoSpamDan]
+
+* candy
+f2e6eef candy: Merge tag android-11.0.0_r48 into c11 [NoSpamDan]
+
+* device/oneplus/sm8150-common
+c25caf7 sm8150-common: init: Update fingerprint from coral [Ido Ben-Hur]
+c0e8afd DeviceSettings: Further improve refresh rate switch [Ido Ben-Hur]
+
+* frameworks/base
+0ebbbcd Merge tag 'android-11.0.0_r48' of https://android.googlesource.com/platform/frameworks/base into c11 [NoSpamDan]
+
+* frameworks/opt/telephony
+c28f257 Merge tag 'android-11.0.0_r48' of https://android.googlesource.com/platform/frameworks/opt/telephony into c11 [NoSpamDan]
+
+* packages/apps/Settings
+b8e6c8d Merge tag 'android-11.0.0_r48' of https://android.googlesource.com/platform/packages/apps/Settings into c11 [NoSpamDan]
+
+* system/core
+423b17b init: Add activation logs for flattened APEX folders with details [Adrian DC]
+2a22aa3 init: Sort the list of flattened APEX folders to avoid variations [Adrian DC]
+f620015 [master] Remove special config for /dev/hw_random. [Elliott Hughes]
+e978dbc [master] Let the kernel hwrng thread manage hw_random mixing. [Elliott Hughes]
+924c78a init: set build_tags to release-keys [Omkar Chandorkar]
+6e4d0c1 Use std::shared_ptr in Epoll's callback list. [David Anderson]
+
+* vendor/candy
+81e1511 merge-aosp: Update sample command in help section [NoSpamDan]
+
+🍬 16-Oct-2021 🍬
+
+🍬 15-Oct-2021 🍬
+
+* kernel/oneplus/sm8150
+55ffc3e Revert "Selectively use Ofast on some targets" [John Galt]
+219d577 Revert "treewide: switch more to Ofast" [John Galt]
+7d16082 Revert "ion: build with Ofast" [John Galt]
+9759ead Revert "treewide: move more selectively to Ofast" [John Galt]
+
+🍬 14-Oct-2021 🍬
+
+🍬 13-Oct-2021 🍬
+
+* kernel/oneplus/sm8150
+5983316 Merge branch 'gulch_r' into eleven [John Galt]
+8a7c53d alarmtimers: Don't fail on wakeup [celtare21]
+
+🍬 12-Oct-2021 🍬
+
+🍬 11-Oct-2021 🍬
+
+* kernel/oneplus/sm8150
+175b871 Merge branch 'gulch_r' into eleven [John Galt]
+84d2450 msm: vidc:  Add CMA support for all the video secure context banks [Sayantan Majumder]
+4bdb0af msm: vidc: Add CMA support for video hardware [Sayantan Majumder]
+afbd780 scsi/ufs: backport UFS TW [John Galt]
+
+🍬 10-Oct-2021 🍬
+
+* kernel/oneplus/sm8150
+a1e50d8 Merge tag 'v4.14.250' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into gulch_r [John Galt]
+70af4de Makefile: remove dropped Polly variable [John Galt]
+
+🍬 09-Oct-2021 🍬
+
+* kernel/oneplus/sm8150
+ed99bf0 Linux 4.14.250 [Greg Kroah-Hartman]
+0135fcb lib/timerqueue: Rely on rbtree semantics for next timer [Davidlohr Bueso]
+b1aa3a1 libata: Add ATA_HORKAGE_NO_NCQ_ON_ATI for Samsung 860 and 870 SSD. [Kate Hsuan]
+423dc3d scsi: ses: Retry failed Send/Receive Diagnostic commands [Wen Xiong]
+4b7f4a0 usb: dwc2: check return value after calling platform_get_resource() [Yang Yingliang]
+02ac2b3 usb: testusb: Fix for showing the connection speed [Faizel K B]
+4e8e642 scsi: sd: Free scsi_disk device via put_device() [Ming Lei]
+c92eb06 ext2: fix sleeping in atomic bugs on error [Dan Carpenter]
+5ca6bd3 sparc64: fix pci_iounmap() when CONFIG_PCI is not set [Linus Torvalds]
+05fca1c xen-netback: correct success/error reporting for the SKB-with-fraglist case [Jan Beulich]
+e8c1982 net: mdio: introduce a shutdown method to mdio device drivers [Vladimir Oltean]
+
+🍬 08-Oct-2021 🍬
+
